@@ -52,7 +52,7 @@ One repository holds both years; GitHub Pages serves them side by side:
 3. *Build › Firestore Database*: create the database (production mode; pick a location near Qatar, e.g. `me-central1` Doha, or `europe-west1`).
 4. *Authentication › Templates*: optionally set the template language to English (UK) and the sender name to "Mr Kenj".
 5. Publish the security rules: paste `firestore.rules` into *Firestore › Rules* and press **Publish**
-   (or `npx firebase-tools login` then `npm run firebase:deploy-rules`).
+   (or `npm run firebase:deploy-rules`, which uses the service-account key in step 6).
 6. *Project settings › Service accounts › Generate new private key*: save the file as
    `private/service-accounts/mr-kenj-guide.json` (never share or commit it), then run:
    ```bash

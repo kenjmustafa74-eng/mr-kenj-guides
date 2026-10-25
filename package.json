@@ -14,7 +14,7 @@
     "start": "node server/index.js",
     "seed:teacher": "node server/seed-teacher.js",
     "firebase:seed": "node tools/firebase/seed.js",
-    "firebase:deploy-rules": "firebase deploy --only firestore:rules --project mr-kenj-guide",
+    "firebase:deploy-rules": "node tools/firebase/deploy-rules.js",
     "test": "node tools/smoke-test.js",
     "test:firebase": "bash tools/firebase/test-all.sh",
     "screenshots": "node tools/screenshots.js",
@@ -30,6 +30,7 @@
     "esbuild": "^0.28.2",
     "firebase": "^13.1.0",
     "firebase-admin": "^14.5.0",
+    "google-auth-library": "^11.3.1",
     "js-yaml": "^5.5.0",
     "lucide-static": "^1.61.0",
     "playwright-core": "^1.64.1"
