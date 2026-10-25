@@ -1,0 +1,317 @@
+id: 3
+title: Poets and Poetry
+icon: "🪶"
+colour: "#6a4c93"
+sbStart: 56
+wbStart: 35
+sbPages: "56–81"
+wbPages: "35–51"
+parts:
+  - code: 3A
+    title: Famous Poets
+  - code: 3B
+    title: Poems That Tell Stories
+overview: >-
+  This unit is about poems and the people who write them. You will read funny poems by an English poet and
+  thoughtful nature poems by an American poet, then enjoy two poems that tell stories. You will use similes,
+  metaphors and personification to write poems of your own.
+objectives:
+  - Explain the difference between structured verse and free verse.
+  - Identify rhyme, rhythm, repetition and stanzas in poems.
+  - Recognise and use similes, metaphors and personification.
+  - Use degrees of comparison correctly, for example 'sad', 'sadder' and 'saddest'.
+  - Spell words with the 'sh' sound written as 'ti', 'ci' and 'ssi'.
+  - Use synonyms and antonyms, and write a free verse poem.
+texts:
+  - title: Poems by a Famous English Poet – Lewis Carroll
+    kind: Short biography and poems
+    pages: "59–60"
+    summary: >-
+      Lewis Carroll was an English writer who loved to entertain children with nonsense and humour.
+      In 'The Crocodile', a crocodile seems to grin in a friendly way, but he is really welcoming little fishes into
+      his jaws. 'The Walrus and the Carpenter' is a funny, rhyming poem about two odd characters walking along a beach.
+  - title: Poems by a Famous American Poet – Emily Dickinson
+    kind: Short biography and poems
+    pages: "62–64"
+    summary: >-
+      Emily Dickinson (1830–1886) lived a quiet life in America and wrote many poems about nature.
+      In 'The Bee Is Not Afraid of Me', nature treats the poet as a friend. 'Autumn' describes the changing season,
+      and 'The Butterfly's Day' is written in free verse, with short lines and dashes.
+  - title: Stone Soup
+    kind: European folktale retold as a narrative poem
+    pages: "71–72"
+    summary: >-
+      A hungry traveller arrives in a village with a big pot and claims he can make soup from a stone. One by one,
+      the curious villagers add vegetables and other ingredients, until there is a delicious soup that everyone
+      shares. The stone was never magic: it was the sharing that made the soup.
+  - title: The Spider and the Fly
+    kind: Traditional narrative poem by Mary Howitt
+    pages: "74–76"
+    summary: >-
+      A cunning spider invites a fly into his parlour. At first the fly refuses, but the spider keeps flattering her,
+      and in the end she forgets her fear and flies in, with a sad result. The lesson is to beware of people who
+      flatter you because they want something.
+vocab:
+  - word: stanza
+    meaning: A group of lines in a poem, like a paragraph in a story.
+    example: The poem has four stanzas.
+  - word: free verse
+    meaning: Poetry that does not follow a fixed pattern of rhyme or rhythm.
+    example: '"The Butterfly''s Day" is written in free verse.'
+  - word: rhythm
+    meaning: The pattern of beats in a line of poetry.
+    example: Clap the rhythm as you read the poem aloud.
+  - word: simile
+    meaning: A comparison that uses 'like' or 'as'.
+    example: She danced like a butterfly.
+  - word: metaphor
+    meaning: A comparison that says something is something else.
+    example: My little brother is my alarm clock.
+  - word: personification
+    meaning: Giving human actions or feelings to something that is not human.
+    example: The wind whispered through the trees.
+  - word: narrative poem
+    meaning: A poem that tells a story, with characters and a plot.
+    example: '"Stone Soup" is a narrative poem.'
+  - word: flatter
+    meaning: To praise someone too much, often to get something from them.
+    example: The spider flattered the fly to trick her.
+  - word: synonym
+    meaning: A word with the same or a similar meaning as another word.
+    example: "'Large' is a synonym of 'big'."
+  - word: antonym
+    meaning: A word with the opposite meaning to another word.
+    example: "'Polite' is an antonym of 'rude'."
+sb:
+  - part: 3A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "56"
+    tip: Talk about how poets and painters are alike. Both create things for other people to enjoy.
+  - part: 3A
+    lesson: Lesson 2
+    title: "Let's Learn: Structured and free verse poems"
+    pages: "57–58"
+    tip: Structured verse has a pattern of rhyme and rhythm. Free verse is more flexible and sounds more like natural speech.
+  - part: 3A
+    lesson: Lesson 3
+    title: "Reading Part 1: Poems by a Famous English Poet – Lewis Carroll"
+    pages: "59–60"
+    tip: Read the poems aloud. Find the rhyming words and count the beats in each line.
+  - part: 3A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Degrees of comparison"
+    pages: "61"
+    tip: There are three degrees, for example 'sharp', 'sharper' and 'sharpest'. Only change the word when you are comparing.
+  - part: 3A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Poems by a Famous American Poet – Emily Dickinson"
+    pages: "62–64"
+    tip: Look for how the poet makes nature seem alive and friendly. Which poem does not rhyme?
+  - part: 3A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Similes, metaphors and personification"
+    pages: "65–66"
+    tip: Similes use 'like' or 'as'. Metaphors say something IS something else. Personification gives human qualities to things.
+  - part: 3A
+    lesson: Lesson 8
+    title: "Word Structure: The 'sh' sound"
+    pages: "67"
+    tip: The 'sh' sound is often spelt 'ti' (action), 'ci' (special) or 'ssi' (mission).
+  - part: 3A
+    lesson: Lesson 9
+    title: "Writing: Use similes, metaphors and personification in a poem"
+    pages: "68"
+    tip: Try at least one simile, one metaphor and one example of personification. Read your poem aloud to check how it sounds.
+  - part: 3B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Structure and features of a narrative poem"
+    pages: "69–70"
+    tip: A narrative poem has a beginning, a climax and an ending, just like a story.
+  - part: 3B
+    lesson: Lesson 11
+    title: "Reading Part 1: Stone Soup"
+    pages: "71–72"
+    tip: Find the rhyming pattern. Lines that rhyme in pairs are written as 'aabb'.
+  - part: 3B
+    lesson: Lesson 12
+    title: "Language Focus – Vocabulary: Synonyms and antonyms"
+    pages: "73"
+    tip: Use synonyms to avoid repeating words, and antonyms to show contrast.
+  - part: 3B
+    lesson: Lesson 13
+    title: "Reading Part 2: The Spider and the Fly and Reading Comprehension"
+    pages: "74–76"
+    tip: Notice every compliment that the spider pays the fly. Why do they work?
+  - part: 3B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: More about degrees of comparison"
+    pages: "77"
+    tip: Some words change completely, for example 'good', 'better' and 'best', or 'bad', 'worse' and 'worst'.
+  - part: 3B
+    lesson: Lesson 15
+    title: "Listening: Nature's Treasures"
+    pages: "78"
+    tip: Listen for the senses the poet uses, such as hearing, touching, seeing and smelling.
+  - part: 3B
+    lesson: Lessons 16–17
+    title: "Writing: A free verse poem about a family meal"
+    pages: "79–80"
+    tip: Write a paragraph first, underline the best details, then turn them into short lines of free verse.
+  - part: 3B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "81"
+    tip: Which poem was your favourite, and why?
+wb:
+  - code: 3A
+    title: "Let's Learn: Structured and free verse poems"
+    pages: "35"
+    steps:
+      - "Question 1: sort the features into structured verse, free verse, or both."
+      - "Question 2: read the poem and answer the questions about its structure."
+    tip: Some features, such as stanzas and figurative language, belong to both kinds of poem.
+  - code: 3B
+    title: "Language Focus: Degrees of comparison"
+    pages: "36"
+    steps:
+      - "Question 1: complete the free verse poem using comparative and superlative forms."
+      - "Question 2: write a paragraph about your home and family using degrees of comparison."
+    tip: Look for the word 'than', which tells you a comparative is needed.
+  - code: 3C
+    title: "Reading Comprehension: Lewis Carroll and Emily Dickinson"
+    pages: "37–38"
+    steps:
+      - "Question 1: answer questions about Lewis Carroll and his two poems."
+      - "Question 2: answer questions about Emily Dickinson and her three poems."
+    tip: Reread the short biographies as well as the poems.
+  - code: 3D
+    title: "Language Focus: Similes, metaphors and personification"
+    pages: "39–40"
+    steps:
+      - "Question 1: complete the similes, using the pictures to help you."
+      - "Question 2: say what is being compared in each metaphor."
+      - "Question 3: find the metaphors and explain their meanings."
+      - "Question 4: complete the personification table."
+    tip: For personification, look at the verb. What human action is the thing doing?
+  - code: 3E
+    title: "Word Structure: The 'sh' sound"
+    pages: "41"
+    steps:
+      - "Question 1: fill the gaps with the correct word that contains the 'sh' sound."
+      - "Question 2: choose one word and write a sentence with it."
+    tip: Say the sentence aloud with your chosen word to check that it makes sense.
+  - code: 3F
+    title: "Writing: Use similes, metaphors and personification in a poem"
+    pages: "42"
+    steps:
+      - Use the template to write your poem.
+      - Label each simile, metaphor and example of personification.
+    tip: Choose comparisons that help the reader to picture the scene.
+  - code: 3G
+    title: "Let's Learn: Structure and features of a narrative poem"
+    pages: "43"
+    steps:
+      - "Question 1a: read the poem and summarise its introduction, climax and ending using the prompts."
+      - "Question 1b: compare your summary with a classmate's."
+    tip: A summary keeps only the most important events.
+  - code: 3H
+    title: "Language Focus: Synonyms and antonyms"
+    pages: "44"
+    steps:
+      - "Question 1: match the synonyms."
+      - "Question 2: match the antonyms."
+      - "Question 3: write sentences using words from the lists."
+    tip: Check each pair. Do the words mean the same or the opposite?
+  - code: 3I
+    title: "Reading Comprehension: Stone Soup and The Spider and the Fly"
+    pages: "45"
+    steps:
+      - "Question 1: write a short summary of 'Stone Soup' using the sentence starters."
+      - "Question 2: put the events of 'The Spider and the Fly' in the correct order."
+    tip: Reread both poems before you begin.
+  - code: 3J
+    title: "Language Focus: More about degrees of comparison"
+    pages: "46"
+    steps:
+      - "Question 1: complete the table, using Student Book page 77 to help you."
+      - "Question 2: fill the gaps with the correct form of the adjective or adverb."
+    tip: Watch out for irregular words, such as 'good', 'better' and 'best'.
+  - code: 3K
+    title: "Writing: A free verse poem about a family meal"
+    pages: "47–48"
+    steps:
+      - Write the final draft of your paragraph about a family meal on the lines.
+      - Underline the details you want to use in your poem.
+      - Turn your paragraph into a free verse poem with short lines and lots of descriptive language.
+    tip: Free verse does not need to rhyme. Make it sound like natural speech.
+  - code: 3L
+    title: What Have I Learnt?
+    pages: "49–50"
+    steps:
+      - "Question 1: read the poem and answer the questions."
+      - "Question 2: find a synonym and an antonym."
+      - "Questions 3–4: write sentences using a comparative and a superlative."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "51"
+    steps:
+      - Write about the poet you found most interesting and the kind of poetry you like best.
+    tip: Rhyming or free verse? There is no wrong answer.
+cards:
+  - front: What is the difference between structured verse and free verse?
+    back: Structured verse follows a pattern of rhyme and rhythm. Free verse has a flexible structure and sounds more like natural speech.
+  - front: Simile or metaphor? 'The classroom was a beehive.'
+    back: A metaphor. It says the classroom IS a beehive, meaning it was busy and noisy.
+  - front: What is personification?
+    back: Giving human actions or feelings to something that is not human, for example 'The kettle shrieked'.
+  - front: What does the rhyme pattern 'aabb' mean?
+    back: Lines rhyme in pairs. Lines 1 and 2 rhyme, then lines 3 and 4 rhyme.
+  - front: What is the message of 'The Spider and the Fly'?
+    back: Do not trust people who flatter you, because they may want something from you.
+  - front: Why was the stone soup so tasty?
+    back: Because each villager added an ingredient. The stone was not magic, and sharing made the soup.
+practice:
+  - q: "'The wind whispered through the trees.' What is this an example of?"
+    options: ["Simile", "Personification", "Rhyme", "Antonym"]
+    answer: 1
+    explain: The wind is given a human action (whispering), so it is personification.
+  - q: Which line is a simile?
+    options: ["The moon was a balloon.", "Time crawled.", "She was as light as a feather.", "The fields begged for rain."]
+    answer: 2
+    explain: A simile compares using 'like' or 'as', as in 'as light as a feather'.
+  - q: A group of lines in a poem is called a...
+    options: ["chapter", "stanza", "caption", "paragraph heading"]
+    answer: 1
+    explain: Poems are divided into stanzas.
+  - q: Which word completes the sentence? 'This is the ___ cake I have ever tasted.'
+    options: ["good", "better", "best", "more good"]
+    answer: 2
+    explain: "We are comparing it with every cake, so we need the superlative: 'best'."
+  - q: Which word has the 'sh' sound spelt 'ci'?
+    options: ["mission", "special", "action", "shelf"]
+    answer: 1
+    explain: "In 'special', the letters 'ci' make the 'sh' sound."
+  - q: What is an antonym of 'cruel'?
+    options: ["mean", "kind", "angry", "harsh"]
+    answer: 1
+    explain: "'Kind' is the opposite of 'cruel'."
+  - q: A narrative poem...
+    options: ["must not rhyme", "tells a story", "is always about nature", "has only one line"]
+    answer: 1
+    explain: Narrative poems tell a story with characters and events.
+  - q: How does the spider persuade the fly to come in?
+    options: ["He threatens her", "He flatters her with compliments", "He offers her money", "He tells her a joke"]
+    answer: 1
+    explain: The spider keeps praising the fly until she forgets her fear.
+basket:
+  - prompt: Catch the similes
+    correct: [as light as a feather, like a butterfly, as busy as a bee, like a lullaby, as cold as ice, like scarecrows, as brave as a lion, as sweet as honey]
+    wrong: [the moon was a balloon, time crawled, the kettle shrieked, I am the sun, the wind whispered, the walls held their breath, he is a star, the sky wept]
+  - prompt: Catch the words with the 'sh' sound spelt ti, ci or ssi
+    correct: [action, special, mission, musician, delicious, passion, caution, social]
+    wrong: [shop, chair, lunch, cheese, catch, ship, wish, think]
+  - prompt: Catch the words that describe features of poems
+    correct: [rhyme, rhythm, stanza, verse, repetition, simile, metaphor, line]
+    wrong: [invoice, diagram, recipe, map, receipt, ticket, timetable, menu]

@@ -1,0 +1,105 @@
+// End-to-end API smoke test against a running server. Usage: BASE=http://localhost:3000 node tools/smoke-test.js
+const fs = require('fs');
+const path = require('path');
+const BASE = process.env.BASE || 'http://localhost:3000';
+const APP = process.env.APP || 'year5';
+
+function client() {
+  let cookie = '';
+  return async (method, p, body) => {
+    const res = await fetch(BASE + p, { method, headers: { ...(body ? { 'Content-Type': 'application/json' } : {}), ...(cookie ? { Cookie: cookie } : {}) }, body: body ? JSON.stringify(body) : undefined });
+    const set = res.headers.get('set-cookie');
+    if (set) cookie = set.split(';')[0];
+    let data = null; try { data = await res.json(); } catch { /* not json */ }
+    return { status: res.status, data };
+  };
+}
+let pass = 0, fail = 0;
+const check = (name, cond, extra = '') => { if (cond) { pass++; console.log(`  ✓ ${name}`); } else { fail++; console.log(`  ✗ ${name} ${extra}`); } };
+
+(async () => {
+  const s = client();
+  const email = `smoke.${Date.now()}@example.com`;
+  console.log('Student');
+  let r = await s('POST', '/api/auth/signup', { name: 'Test Student', email, password: 'short' });
+  check('rejects short password', r.status === 400);
+  r = await s('POST', '/api/auth/signup', { name: 'Test Student', email, password: 'reading-rocks-5' });
+  check('sign up', r.status === 201 && r.data.user.role === 'student');
+  r = await s('POST', '/api/auth/signup', { name: 'Test Student', email, password: 'reading-rocks-5' });
+  check('duplicate email refused', r.status === 409);
+  await s('POST', '/api/auth/signout');
+  r = await s('GET', '/api/me');
+  check('signed out', r.status === 401);
+  r = await s('POST', '/api/auth/signin', { email, password: 'wrong-password' });
+  check('wrong password refused', r.status === 401);
+  r = await s('POST', '/api/auth/signin', { email: email.toUpperCase(), password: 'reading-rocks-5' });
+  check('sign in (email not case-sensitive)', r.status === 200);
+  const content = (await s('GET', '/api/content')).data;
+  check('content has 9 units', content.units.length === 9);
+  check('content has no answer keys', !JSON.stringify(content).includes('Answers will vary'));
+  const u1 = content.units[0];
+  r = await s('PUT', `/api/progress/${u1.sb[0].id}`, { done: true });
+  check('tick Student Book section', r.status === 200);
+  r = await s('PUT', `/api/progress/${u1.wb[0].id}`, { done: true });
+  check('tick Workbook activity', r.status === 200);
+  r = await s('PUT', '/api/progress/not-a-real-id', { done: true });
+  check('unknown activity refused', r.status === 404);
+  const answers = u1.practice.map((q, i) => ({ qid: q.id, choice: i < 6 ? q.options[q.answer] : q.options[(q.answer + 1) % 4] }));
+  r = await s('POST', '/api/quiz', { scope: 'u1', answers });
+  check('unit quiz graded on server (6/8)', r.data && r.data.score === 6 && r.data.total === 8, JSON.stringify(r.data));
+  const mix = content.units.flatMap((u) => u.practice.slice(0, 2)).slice(0, 18).map((q) => ({ qid: q.id, choice: q.options[q.answer] }));
+  r = await s('POST', '/api/quiz', { scope: 'overall', answers: mix });
+  check('Big Quiz graded (18/18)', r.data && r.data.score === 18);
+  r = await s('POST', '/api/quiz', { scope: 'u2', answers: [{ qid: u1.practice[0].id, choice: 'x' }] });
+  check('question from another unit refused', r.status === 400);
+  r = await s('PUT', `/api/cards/${u1.cards[0].id}`, { status: 'known' });
+  check('memory card marked known', r.status === 200);
+  r = await s('POST', '/api/game', { unit: 1, score: 120, level: 3 });
+  check('game score saved', r.data && r.data.best === 120 && r.data.newBest);
+  r = await s('POST', '/api/game', { unit: 1, score: 40, level: 1 });
+  check('best score kept', r.data && r.data.best === 120 && !r.data.newBest && r.data.plays === 2);
+  r = await s('PUT', '/api/summary/1', { mainIdea: 'Traditional tales teach us lessons about life.', learnt: 'A fable has an opening, a climax and a resolution.', favourite: 'Anansi', wonder: 'Who first told these stories?' });
+  check('summary saved', r.status === 200);
+  r = await s('GET', '/api/answers/1/sb');
+  check('answers locked for student', r.status === 403 && r.data.locked);
+  r = await s('GET', '/api/teacher/overview');
+  check('student cannot open teacher dashboard', r.status === 403);
+  const st = (await s('GET', '/api/state')).data;
+  check('state: progress, quiz, cards, game, summary, streak', st.progress.length === 2 && st.quiz.length === 2 && st.cards[u1.cards[0].id] === 'known' && st.games[0].best_score === 120 && st.summaries.length === 1 && st.streak.current === 1);
+
+  console.log('Teacher');
+  const t = client();
+  const file = fs.readFileSync(process.env.TEACHER_FILE || path.join(__dirname, '..', `TEACHER_PASSWORD.${APP}.txt`), 'utf8');
+  const temail = file.match(/Email: (.+)/)[1].trim();
+  const tpass = file.match(/Password: (.+)/)[1].trim();
+  r = await t('POST', '/api/auth/signin', { email: temail, password: tpass });
+  check('teacher sign in', r.status === 200 && r.data.user.role === 'teacher');
+  r = await t('GET', '/api/answers/1/wb');
+  check('teacher can preview locked answers', r.status === 200 && r.data.groups.length > 5);
+  r = await t('PUT', '/api/teacher/unlocks', { unit: 1, section: 'sb', unlocked: true });
+  check('teacher unlocks Unit 1 Student Book answers', r.status === 200 && r.data.unlocks.some((x) => x.unit_id === 1 && x.section === 'sb'));
+  r = await s('GET', '/api/answers/1/sb');
+  check('student now sees Unit 1 Student Book answers', r.status === 200 && r.data.groups[0].parts.length > 0);
+  r = await s('GET', '/api/answers/1/wb');
+  check('Unit 1 Workbook answers still locked', r.status === 403);
+  r = await t('GET', '/api/teacher/overview');
+  const me = r.data.students.find((x) => x.email === email);
+  check('teacher sees the student with progress', !!me && me.overallPct > 0 && me.summaries === 1, JSON.stringify(me && me.units[0]));
+  r = await t('GET', `/api/teacher/students/${me.id}`);
+  check('teacher sees the student summary text', r.data.state.summaries[0].main_idea.startsWith('Traditional tales'));
+  r = await t('PUT', '/api/teacher/unlocks', { unit: 1, section: 'sb', unlocked: false });
+  r = await s('GET', '/api/answers/1/sb');
+  check('teacher locks again', r.status === 403);
+  console.log('Account deletion');
+  const d = client();
+  const demail = `delete.${Date.now()}@example.com`;
+  await d('POST', '/api/auth/signup', { name: 'Delete Me', email: demail, password: 'delete-me-123' });
+  r = await d('POST', '/api/account/delete', { password: 'wrong' });
+  check('wrong password does not delete', r.status === 400);
+  r = await d('POST', '/api/account/delete', { password: 'delete-me-123' });
+  check('student can delete their account', r.status === 200);
+  r = await d('POST', '/api/auth/signin', { email: demail, password: 'delete-me-123' });
+  check('deleted account can no longer sign in', r.status === 401);
+  console.log(`\n${pass} passed, ${fail} failed`);
+  process.exit(fail ? 1 : 0);
+})().catch((e) => { console.error(e); process.exit(1); });

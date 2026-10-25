@@ -1,0 +1,23 @@
+{
+  "id": "year5",
+  "appName": "Mr. Kenj's Guide to Year Five",
+  "shortName": "Kenj Year 5",
+  "yearLabel": "Year 5",
+  "stage": "Stage 5",
+  "teacherName": "Mr Kenj",
+  "school": "Brighton International Academy",
+  "course": "Cambridge Primary English",
+  "books": {
+    "sb": { "name": "Student Book 5", "short": "Student Book" },
+    "wb": { "name": "Workbook 5", "short": "Workbook" }
+  },
+  "publisher": "Marshall Cavendish Education",
+  "bookUrl": "https://www.mceduhub.com",
+  "bookSiteName": "MC EduHub",
+  "themeColour": "#1f4e5f",
+  "backgroundColour": "#f7f4ee",
+  "contentFile": "content/year5.json",
+  "answersFile": "private/year5/answers.json",
+  "timezone": "Asia/Qatar",
+  "overallQuizLength": 20
+}

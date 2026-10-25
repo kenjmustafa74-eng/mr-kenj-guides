@@ -1,0 +1,5249 @@
+{
+ "year": "year5",
+ "builtAt": "2026-10-25T08:36:46.063Z",
+ "units": [
+  {
+   "id": 1,
+   "title": "Stories of Old",
+   "colour": "#b5651d",
+   "sbStart": 1,
+   "wbStart": 1,
+   "sbPages": "1–30",
+   "wbPages": "1–17",
+   "parts": [
+    {
+     "code": "1A",
+     "title": "Once Upon a Time"
+    },
+    {
+     "code": "1B",
+     "title": "Telling Traditional Tales"
+    }
+   ],
+   "overview": "This unit is all about traditional tales: stories that people have told and retold for hundreds of years. You will read fables, where animals teach us a lesson, and folktales, where ordinary people meet tricky problems. By the end, you will write a traditional tale of your own.",
+   "objectives": [
+    "Explain the structure of a fable (opening, climax and resolution) and what a moral is.",
+    "Compare fables and folktales and spot their similarities and differences.",
+    "Write simple and complex sentences, and use commas to separate clauses.",
+    "Work out the meaning of unknown words from context using the IDEAS strategy.",
+    "Spell words with the letter strings ‘ie’ and ‘ou’, and understand common idioms.",
+    "Read a story aloud with expression, and plan, write and improve your own fable or folktale."
+   ],
+   "texts": [
+    {
+     "title": "The Tales of Anansi",
+     "kind": "Fables from West Africa and the Caribbean",
+     "pages": "4–10",
+     "summary": "Anansi is a clever but greedy spider from West African stories. In the first tale, he wants to taste everyone’s cooking, so he ties strands of web from his legs to his friends’ cooking pots. When all the food is ready at the same moment, his legs are pulled in every direction, which explains why spiders have long, thin legs. In the other tales, Anansi tries to keep all the world’s wisdom for himself in a gourd, but his own son shows him a better idea, and the wisdom ends up being shared with everyone."
+    },
+    {
+     "title": "The Man Who Never Lied",
+     "kind": "Folktale from India",
+     "pages": "18–19",
+     "summary": "Madan is famous because he never tells a lie. The king tries to trick him into telling one, but Madan only ever reports exactly what he has seen. In the end, it is the king who looks foolish, and Madan’s honesty is proved."
+    },
+    {
+     "title": "The Fisherman and His Wife",
+     "kind": "Folktale from Germany",
+     "pages": "21–24",
+     "summary": "A poor fisherman catches a magic talking fish and lets it go. His wife makes him ask the fish for one wish after another, each one bigger than the last. Because she is never satisfied, she loses everything she was given. The story is about greed and its consequences."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "fable",
+     "meaning": "A short story, usually with animal characters, that teaches a lesson.",
+     "example": "‘The Tortoise and the Hare’ is a famous fable."
+    },
+    {
+     "word": "moral",
+     "meaning": "The lesson about life that a story teaches.",
+     "example": "The moral of the story is ‘Do not be greedy’."
+    },
+    {
+     "word": "folktale",
+     "meaning": "A traditional story, usually about people, passed down by word of mouth for many years.",
+     "example": "Grandma told us a folktale from her village."
+    },
+    {
+     "word": "climax",
+     "meaning": "The most exciting part of a story, when the problem is at its biggest.",
+     "example": "At the climax, Anansi’s legs were pulled in eight directions."
+    },
+    {
+     "word": "resolution",
+     "meaning": "The end of a story, when the problem is sorted out.",
+     "example": "In the resolution, everyone shared the wisdom."
+    },
+    {
+     "word": "cunning",
+     "meaning": "Clever at getting what you want, often by tricking others.",
+     "example": "The cunning fox fooled the crow."
+    },
+    {
+     "word": "greedy",
+     "meaning": "Wanting much more of something than you need.",
+     "example": "The greedy boy took all the sweets."
+    },
+    {
+     "word": "honest",
+     "meaning": "Always telling the truth.",
+     "example": "Madan was honest, even when the king tried to trick him."
+    },
+    {
+     "word": "complex sentence",
+     "meaning": "A sentence with a main clause and at least one dependent clause.",
+     "example": "When the bell rang, the children lined up quietly."
+    },
+    {
+     "word": "idiom",
+     "meaning": "A group of words whose meaning is different from the meanings of the separate words.",
+     "example": "‘The cherry on the top’ means something that makes a good thing even better."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u1-sb-0",
+     "part": "1A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious",
+     "pages": "1",
+     "tip": "Look closely at the picture and talk about how it links to the title ‘Stories of Old’. Practise the group roles, such as leader, scribe, spokesperson and facilitator."
+    },
+    {
+     "id": "u1-sb-1",
+     "part": "1A",
+     "lesson": "Lesson 1",
+     "title": "Getting Started",
+     "pages": "2",
+     "tip": "Think of a fable you already know. What lesson did it teach?"
+    },
+    {
+     "id": "u1-sb-2",
+     "part": "1A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Structure and features of a fable",
+     "pages": "2–3",
+     "tip": "Learn the three parts of a fable (opening, climax and resolution) and its features, such as animal characters, an outdoor setting and a moral."
+    },
+    {
+     "id": "u1-sb-3",
+     "part": "1A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: The Tales of Anansi",
+     "pages": "4–6",
+     "tip": "As you read, find the opening, the climax and the resolution. Use the Vocabulary and Language Alert boxes to check tricky words."
+    },
+    {
+     "id": "u1-sb-4",
+     "part": "1A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Simple and complex sentences",
+     "pages": "7",
+     "tip": "A simple sentence has one main clause. A complex sentence adds a dependent clause, often starting with ‘when’, ‘as’, ‘because’ or ‘if’."
+    },
+    {
+     "id": "u1-sb-5",
+     "part": "1A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: The Tales of Anansi and Reading Comprehension",
+     "pages": "8–10",
+     "tip": "Compare the two Anansi tales. What does Anansi want, and what lesson does he learn?"
+    },
+    {
+     "id": "u1-sb-6",
+     "part": "1A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Using context to identify unknown words",
+     "pages": "11–12",
+     "tip": "Use IDEAS to work out new words. Infer a meaning, look for a Definition, find an Example, then look for an Antonym and a Synonym."
+    },
+    {
+     "id": "u1-sb-7",
+     "part": "1A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Letter strings ie and ou",
+     "pages": "13",
+     "tip": "Say the words aloud. ‘ie’ can sound like ‘ee’ (piece) or ‘igh’ (cried). ‘ou’ can sound like ‘ow’ (ground) or ‘or’ (pour)."
+    },
+    {
+     "id": "u1-sb-8",
+     "part": "1A",
+     "lesson": "Lesson 9",
+     "title": "Writing: A paragraph",
+     "pages": "14–15",
+     "tip": "Start with a topic sentence, add sentences with details, and finish with a concluding sentence."
+    },
+    {
+     "id": "u1-sb-9",
+     "part": "1B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Fables vs folktales",
+     "pages": "16–17",
+     "tip": "Make a two-column list of how fables and folktales are alike and how they are different."
+    },
+    {
+     "id": "u1-sb-10",
+     "part": "1B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: The Man Who Never Lied",
+     "pages": "18–19",
+     "tip": "Notice how Madan only says exactly what he sees. Why does that make him so hard to trick?"
+    },
+    {
+     "id": "u1-sb-11",
+     "part": "1B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Punctuation: Commas to separate clauses",
+     "pages": "20",
+     "tip": "Use commas around extra information in the middle of a sentence, and before joining words such as ‘so’, ‘but’ and ‘or’."
+    },
+    {
+     "id": "u1-sb-12",
+     "part": "1B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: The Fisherman and His Wife and Reading Comprehension",
+     "pages": "21–24",
+     "tip": "Track each wish the wife makes. How does the fish’s reply change each time?"
+    },
+    {
+     "id": "u1-sb-13",
+     "part": "1B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Vocabulary: Idioms",
+     "pages": "25–26",
+     "tip": "An idiom does not mean exactly what its words say. Think about the whole meaning, not the separate words."
+    },
+    {
+     "id": "u1-sb-14",
+     "part": "1B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Reading aloud",
+     "pages": "27",
+     "tip": "Practise at home. Read slowly and clearly, pause at commas and full stops, and change your voice for different characters."
+    },
+    {
+     "id": "u1-sb-15",
+     "part": "1B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: Your own fable or folktale",
+     "pages": "28–29",
+     "tip": "Plan first. Choose your characters, setting and problem, and decide how the problem will be solved. If you are writing a fable, add a moral."
+    },
+    {
+     "id": "u1-sb-16",
+     "part": "1B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "30",
+     "tip": "Be honest about what you found easy and what you need to practise more."
+    }
+   ],
+   "wb": [
+    {
+     "id": "u1-wb-1A",
+     "code": "1A",
+     "title": "Let’s Learn: Structure and features of fables",
+     "pages": "1–2",
+     "steps": [
+      "Question 1: read the extracts from fables and label each paragraph as the opening, climax or resolution.",
+      "Question 2: decide whether each statement about the moral of a story is true or false.",
+      "Question 3: choose suitable settings for a fable.",
+      "Question 4: tick (✓) the features of a fable and cross (✗) the ones that do not belong."
+     ],
+     "tip": "Look back at Student Book pages 2–3 if you are unsure."
+    },
+    {
+     "id": "u1-wb-1B",
+     "code": "1B",
+     "title": "Language Focus: Simple and complex sentences",
+     "pages": "3",
+     "steps": [
+      "Question 1: decide whether each sentence is simple (S) or complex (C).",
+      "Question 2: underline the main clause in each sentence.",
+      "Question 3: write your own complex sentences using the sentence starters, then underline the dependent clause."
+     ],
+     "tip": "A main clause makes sense on its own. Cover up the rest of the sentence and check."
+    },
+    {
+     "id": "u1-wb-1C",
+     "code": "1C",
+     "title": "Reading Comprehension: The Tales of Anansi",
+     "pages": "4–5",
+     "steps": [
+      "Reread the Anansi tales in your Student Book before you begin.",
+      "Questions 1–4: tick the one correct answer for each multiple-choice question.",
+      "Question 5: answer the questions about how the story begins and what it tells you about Anansi."
+     ],
+     "tip": "Look back at the story to find proof for each answer."
+    },
+    {
+     "id": "u1-wb-1D",
+     "code": "1D",
+     "title": "Language Focus: Using context",
+     "pages": "6",
+     "steps": [
+      "Read the extract and find the underlined word.",
+      "Fill in the IDEAS table (Infer, Define, Example, Antonym, Synonym) using clues in the text.",
+      "Write what you think the word means, then check it in a dictionary."
+     ],
+     "tip": "It is fine to leave a row empty if the text gives no clue for it. Do the table even if you already know the word, because it is good practice."
+    },
+    {
+     "id": "u1-wb-1E",
+     "code": "1E",
+     "title": "Word Structure: Letter strings ie and ou",
+     "pages": "7",
+     "steps": [
+      "Question 1: complete the spelling of each word and use it in a sentence.",
+      "Questions 2–3: sort ‘ie’ words by their sound and add more of your own.",
+      "Questions 4–5: do the same for ‘ou’ words."
+     ],
+     "tip": "Read every word aloud before you decide which sound it makes."
+    },
+    {
+     "id": "u1-wb-1F",
+     "code": "1F",
+     "title": "Writing: A paragraph",
+     "pages": "8–9",
+     "steps": [
+      "Plan your paragraph by writing a topic sentence, supporting sentences and a concluding sentence in full.",
+      "Write your first draft on the lines.",
+      "Read it again, check your spelling and punctuation, and improve it."
+     ],
+     "tip": "Every sentence in a paragraph should be about the same main idea."
+    },
+    {
+     "id": "u1-wb-1G",
+     "code": "1G",
+     "title": "Let’s Learn: Fables vs folktales",
+     "pages": "10",
+     "steps": [
+      "Read the story carefully.",
+      "Question 1a: decide whether the story is a fable or a folktale.",
+      "Question 1b: give reasons for your answer."
+     ],
+     "tip": "Ask yourself whether the main characters are animals or people, and whether there is a moral."
+    },
+    {
+     "id": "u1-wb-1H",
+     "code": "1H",
+     "title": "Language Focus: Commas to separate clauses",
+     "pages": "11",
+     "steps": [
+      "Question 1: underline the clause that adds extra information.",
+      "Question 2: complete the sentences and add the missing commas.",
+      "Question 3: explain why we use commas with clauses."
+     ],
+     "tip": "Read the sentence without the part between the commas. It should still make sense."
+    },
+    {
+     "id": "u1-wb-1I",
+     "code": "1I",
+     "title": "Reading Comprehension: The Man Who Never Lied and The Fisherman and His Wife",
+     "pages": "12",
+     "steps": [
+      "Reread both folktales first.",
+      "Question 1: find answers in ‘The Man Who Never Lied’ and quote from the text.",
+      "Question 2: answer the questions about ‘The Fisherman and His Wife’.",
+      "Question 3: give your own opinion of the stories."
+     ],
+     "tip": "Use ‘because’ to give a reason for your opinion."
+    },
+    {
+     "id": "u1-wb-1J",
+     "code": "1J",
+     "title": "Language Focus: Idioms",
+     "pages": "13",
+     "steps": [
+      "Read each idiom in its sentence. They all come from different countries, and they are all about milk!",
+      "Questions 1–6: choose the figurative meaning of each idiom (A or B)."
+     ],
+     "tip": "Think about what the speaker really means, not what the words literally say."
+    },
+    {
+     "id": "u1-wb-1K",
+     "code": "1K",
+     "title": "Writing: Your own fable or folktale",
+     "pages": "14–15",
+     "steps": [
+      "Use the prompts to make notes about your characters, setting, problem and moral or theme.",
+      "Complete the flowchart and table to plan your plot.",
+      "Write your story, then edit it and write a neat final copy."
+     ],
+     "tip": "Use complex sentences and commas to make your writing flow."
+    },
+    {
+     "id": "u1-wb-1L",
+     "code": "1L",
+     "title": "What Have I Learnt?",
+     "pages": "16",
+     "steps": [
+      "Question 1: fill the gaps in the text with descriptive words.",
+      "Question 2: find the independent and dependent clauses.",
+      "Question 3: find the connective and explain what it shows.",
+      "Question 4: find the idiom and explain what it means."
+     ],
+     "tip": "This shows you what to revise. Make a note of anything you found tricky."
+    },
+    {
+     "id": "u1-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "17",
+     "steps": [
+      "Write about how you felt about this unit, what you enjoyed and what you would like to get better at."
+     ],
+     "tip": "There are no wrong answers in your journal."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u1-c0",
+     "front": "What are the three parts of a fable?",
+     "back": "Opening (characters and setting), climax (the problem at its biggest) and resolution (the problem is solved and the moral is given)."
+    },
+    {
+     "id": "u1-c1",
+     "front": "How is a folktale different from a fable?",
+     "back": "Folktales are mostly about people and do not always have a moral. Fables are mostly about animals and always teach a lesson."
+    },
+    {
+     "id": "u1-c2",
+     "front": "What does the IDEAS strategy stand for?",
+     "back": "Infer, Define, Example, Antonym and Synonym. These are five ways to use context to work out a new word."
+    },
+    {
+     "id": "u1-c3",
+     "front": "Why does Anansi end up with long, thin legs?",
+     "back": "He tied a strand of web to each friend’s pot, and all the food was ready at once, so his legs were pulled in every direction."
+    },
+    {
+     "id": "u1-c4",
+     "front": "What is the lesson of ‘The Fisherman and His Wife’?",
+     "back": "Greed has consequences. The wife kept wanting more and lost everything."
+    },
+    {
+     "id": "u1-c5",
+     "front": "How do you spot a complex sentence?",
+     "back": "It has a main clause plus a dependent clause, often starting with a word like ‘when’, ‘because’, ‘as’ or ‘if’."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u1-q0",
+     "q": "Which of these is a feature of a fable?",
+     "options": [
+      "It always has a happy ending",
+      "It teaches a moral",
+      "It is about real people",
+      "It is set in space"
+     ],
+     "answer": 1,
+     "explain": "Fables teach a moral, which is a lesson about life."
+    },
+    {
+     "id": "u1-q1",
+     "q": "Which part of a story is the climax?",
+     "options": [
+      "The first sentence",
+      "The part where the characters are introduced",
+      "The most exciting part, when the problem is biggest",
+      "The very last word"
+     ],
+     "answer": 2,
+     "explain": "The climax is the turning point, when the problem reaches its most important moment."
+    },
+    {
+     "id": "u1-q2",
+     "q": "Which sentence is a complex sentence?",
+     "options": [
+      "The spider was hungry.",
+      "When the beans were ready, the rabbit tugged the web.",
+      "Anansi walked.",
+      "The monkey laughed loudly."
+     ],
+     "answer": 1,
+     "explain": "It has a main clause (‘the rabbit tugged the web’) and a dependent clause (‘When the beans were ready’)."
+    },
+    {
+     "id": "u1-q3",
+     "q": "Where should the commas go? ‘My cousin who lives in Doha loves folktales.’",
+     "options": [
+      "My cousin, who lives in Doha, loves folktales.",
+      "My, cousin who lives in Doha loves folktales.",
+      "My cousin who lives, in Doha loves, folktales.",
+      "No commas are needed."
+     ],
+     "answer": 0,
+     "explain": "The commas go around the extra information, ‘who lives in Doha’."
+    },
+    {
+     "id": "u1-q4",
+     "q": "Which word has the ‘ie’ letter string making an ‘ee’ sound?",
+     "options": [
+      "cried",
+      "pie",
+      "field",
+      "tied"
+     ],
+     "answer": 2,
+     "explain": "In ‘field’, ‘ie’ sounds like ‘ee’. In the other words, it sounds like ‘igh’."
+    },
+    {
+     "id": "u1-q5",
+     "q": "What does the idiom ‘over the moon’ mean?",
+     "options": [
+      "Very happy",
+      "Very tired",
+      "Lost in space",
+      "Jumping high"
+     ],
+     "answer": 0,
+     "explain": "An idiom has a meaning that is different from its words. ‘Over the moon’ means delighted."
+    },
+    {
+     "id": "u1-q6",
+     "q": "In the IDEAS strategy, what does the ‘A’ stand for?",
+     "options": [
+      "Adverb",
+      "Antonym",
+      "Answer",
+      "Author"
+     ],
+     "answer": 1,
+     "explain": "An antonym is a word with the opposite meaning, and it can help you work out a new word."
+    },
+    {
+     "id": "u1-q7",
+     "q": "Folktales are usually…",
+     "options": [
+      "true news reports",
+      "stories passed down by word of mouth for many generations",
+      "instructions for a game",
+      "poems that must rhyme"
+     ],
+     "answer": 1,
+     "explain": "Folktales are traditional stories that people have told and retold for a very long time."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the words that name parts or features of a fable",
+     "correct": [
+      "opening",
+      "climax",
+      "resolution",
+      "moral",
+      "animals",
+      "lesson",
+      "setting",
+      "characters"
+     ],
+     "wrong": [
+      "recipe",
+      "invoice",
+      "timetable",
+      "receipt",
+      "password",
+      "headline",
+      "chorus",
+      "footnote"
+     ]
+    },
+    {
+     "prompt": "Catch the words with the ‘ie’ or ‘ou’ letter string",
+     "correct": [
+      "piece",
+      "field",
+      "cried",
+      "believe",
+      "ground",
+      "pour",
+      "gourd",
+      "hour"
+     ],
+     "wrong": [
+      "green",
+      "steal",
+      "boat",
+      "rain",
+      "stone",
+      "rope",
+      "flight",
+      "coat"
+     ]
+    },
+    {
+     "prompt": "Catch the words that describe Anansi in the tales",
+     "correct": [
+      "greedy",
+      "cunning",
+      "clever",
+      "lazy",
+      "proud",
+      "boastful",
+      "selfish",
+      "tricky"
+     ],
+     "wrong": [
+      "humble",
+      "generous",
+      "shy",
+      "patient",
+      "honest",
+      "modest",
+      "careful",
+      "quiet"
+     ]
+    }
+   ],
+   "icon": "scroll-text"
+  },
+  {
+   "id": 2,
+   "title": "True Stories About Real People",
+   "colour": "#2e7d6b",
+   "sbStart": 31,
+   "wbStart": 18,
+   "sbPages": "31–55",
+   "wbPages": "18–34",
+   "parts": [
+    {
+     "code": "2A",
+     "title": "The Entertainer"
+    },
+    {
+     "code": "2B",
+     "title": "Great Women"
+    }
+   ],
+   "overview": "In this unit you will read biographies: true stories about the lives of real people. You will meet a famous showman and three remarkable women from history, and you will learn how biographers find out about people’s lives. At the end, you will research and write a short biography of your own.",
+   "objectives": [
+    "Describe the structure and features of a biography, from the introduction to the person’s legacy.",
+    "Use modal verbs such as ‘can’, ‘might’, ‘must’ and ‘should’ correctly.",
+    "Use prefixes and suffixes to make new words and opposites.",
+    "Split long words into syllables and spot silent letters.",
+    "Use comparative and superlative adjectives and adverbs, and use a thesaurus.",
+    "Research, plan and write a short biography using different sources of information."
+   ],
+   "texts": [
+    {
+     "title": "P.T. Barnum and the Greatest Show on Earth",
+     "kind": "Biography",
+     "pages": "34–39",
+     "summary": "Phineas Taylor Barnum (1810–1891) was an American showman. He started a museum full of unusual attractions in New York and later built an enormous travelling circus, known as ‘The Greatest Show on Earth’, which moved from town to town by train. One of his most famous attractions was Jumbo, a giant elephant. Barnum even managed to read his own obituary in a newspaper before he died!"
+    },
+    {
+     "title": "Women Who Mattered",
+     "kind": "Biographies",
+     "pages": "45–46",
+     "summary": "Two short biographies of brave and determined women. Bibi Rajindar Kaur, from Patiala in northern India, led an army to help her family and helped to arrange peace talks. Wang Zhenyi, from China, taught herself astronomy and mathematics at a time when girls could not go to school, and explained eclipses using experiments she set up at home."
+    },
+    {
+     "title": "A Woman of Vision",
+     "kind": "Biography",
+     "pages": "48–50",
+     "summary": "This biography tells the story of Wangari Maathai from Kenya. She saw that forests were being cut down and the land was drying out, so she encouraged women to plant trees, which helped the environment and gave them an income. She became the first African woman to win the Nobel Peace Prize."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "biography",
+     "meaning": "The true story of a person’s life, written by someone else.",
+     "example": "I read a biography of a famous scientist."
+    },
+    {
+     "word": "legacy",
+     "meaning": "Something important that a person leaves behind for the world after they die.",
+     "example": "Her legacy is the millions of trees that she helped to plant."
+    },
+    {
+     "word": "achievement",
+     "meaning": "Something good and difficult that a person has done.",
+     "example": "Winning the prize was her greatest achievement."
+    },
+    {
+     "word": "obituary",
+     "meaning": "A piece of writing about someone’s life, published after they die.",
+     "example": "The newspaper printed an obituary of the famous showman."
+    },
+    {
+     "word": "attraction",
+     "meaning": "A place or thing that people go to see because it is interesting or fun.",
+     "example": "The elephant was the circus’s biggest attraction."
+    },
+    {
+     "word": "astronomy",
+     "meaning": "The study of the stars, planets and space.",
+     "example": "Wang Zhenyi loved astronomy."
+    },
+    {
+     "word": "perseverance",
+     "meaning": "Continuing to try hard, even when something is difficult.",
+     "example": "With perseverance, she learnt to read difficult books."
+    },
+    {
+     "word": "modal verb",
+     "meaning": "A helping verb, such as ‘can’, ‘might’, ‘must’ or ‘should’, that shows how possible or necessary something is.",
+     "example": "You should read every day."
+    },
+    {
+     "word": "thesaurus",
+     "meaning": "A book or website that lists words with similar meanings (synonyms).",
+     "example": "I used a thesaurus to find another word for ‘big’."
+    },
+    {
+     "word": "superlative",
+     "meaning": "The form of an adjective or adverb that shows the most or the least, for example ‘tallest’ or ‘most careful’.",
+     "example": "Jumbo was the biggest elephant in the circus."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u2-sb-0",
+     "part": "2A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious",
+     "pages": "31",
+     "tip": "Talk about where you could find out about a real person’s life, such as books, encyclopaedias and websites."
+    },
+    {
+     "id": "u2-sb-1",
+     "part": "2A",
+     "lesson": "Lesson 1",
+     "title": "Getting Started",
+     "pages": "32",
+     "tip": "Think of a famous person you admire. What would you want to know about their life?"
+    },
+    {
+     "id": "u2-sb-2",
+     "part": "2A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Structure and features of a biography",
+     "pages": "32–33",
+     "tip": "A biography is usually in the past tense and the third person (‘he’, ‘she’, ‘they’). It often has subheadings such as early life, achievements and legacy."
+    },
+    {
+     "id": "u2-sb-3",
+     "part": "2A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: P.T. Barnum and the Greatest Show on Earth",
+     "pages": "34–35",
+     "tip": "Use the map and the dates to follow where Barnum lived and worked."
+    },
+    {
+     "id": "u2-sb-4",
+     "part": "2A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Modal verbs",
+     "pages": "36–37",
+     "tip": "Some modal verbs show that something is certain (‘must’, ‘will’) and others show that it is only possible (‘might’, ‘could’)."
+    },
+    {
+     "id": "u2-sb-5",
+     "part": "2A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: P.T. Barnum and Reading Comprehension",
+     "pages": "38–39",
+     "tip": "Check each feature of a biography against the text. Can you find the dates, the past tense and the legacy?"
+    },
+    {
+     "id": "u2-sb-6",
+     "part": "2A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Using prefixes, suffixes and root words",
+     "pages": "40",
+     "tip": "Prefixes such as ‘un-’, ‘im-’, ‘in-’ and ‘dis-’ can make opposites. The suffix ‘-less’ means ‘without’."
+    },
+    {
+     "id": "u2-sb-7",
+     "part": "2A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Polysyllabic words",
+     "pages": "41",
+     "tip": "Clap the syllables. Each syllable has one vowel sound. Listen for silent letters, as in ‘handkerchief’."
+    },
+    {
+     "id": "u2-sb-8",
+     "part": "2A",
+     "lesson": "Lesson 9",
+     "title": "Writing: A plan for a biography",
+     "pages": "42",
+     "tip": "Choose your subject now. You will research and finish your biography in Part B."
+    },
+    {
+     "id": "u2-sb-9",
+     "part": "2B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Sources of information",
+     "pages": "43–44",
+     "tip": "Biographers use family trees, maps, timelines, interviews and letters. Each one tells you something different."
+    },
+    {
+     "id": "u2-sb-10",
+     "part": "2B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: Women Who Mattered",
+     "pages": "45–46",
+     "tip": "For each woman, note the challenges she faced and what she achieved."
+    },
+    {
+     "id": "u2-sb-11",
+     "part": "2B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Grammar: Comparative and superlative adjectives and adverbs",
+     "pages": "47",
+     "tip": "Use comparatives to compare two things (‘smaller’, ‘more carefully’) and superlatives for three or more (‘smallest’, ‘most carefully’)."
+    },
+    {
+     "id": "u2-sb-12",
+     "part": "2B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: A Woman of Vision and Reading Comprehension",
+     "pages": "48–51",
+     "tip": "Find the reasons why Wangari Maathai thought trees were so important."
+    },
+    {
+     "id": "u2-sb-13",
+     "part": "2B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Vocabulary: Using a thesaurus",
+     "pages": "52",
+     "tip": "A thesaurus gives you choices. Pick the synonym that fits the meaning of your sentence best."
+    },
+    {
+     "id": "u2-sb-14",
+     "part": "2B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Ask and answer questions",
+     "pages": "53",
+     "tip": "Prepare open questions that start with ‘how’, ‘why’ or ‘what’, and listen carefully to the answers."
+    },
+    {
+     "id": "u2-sb-15",
+     "part": "2B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: A short biography",
+     "pages": "54",
+     "tip": "Write an introduction that sums up why your person is important, then follow the order of their life."
+    },
+    {
+     "id": "u2-sb-16",
+     "part": "2B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "55",
+     "tip": "Which biography did you find most interesting, and why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u2-wb-2A",
+     "code": "2A",
+     "title": "Let’s Learn: Structure and features of a biography",
+     "pages": "18",
+     "steps": [
+      "Read the biography of the entertainer Jackie Chan.",
+      "Write the correct structure label (introduction, early life, later life, achievements and legacy) in each frame."
+     ],
+     "tip": "Look at the labelled biography of Florence Nightingale in your Student Book for help."
+    },
+    {
+     "id": "u2-wb-2B",
+     "code": "2B",
+     "title": "Language Focus: Modal verbs",
+     "pages": "19",
+     "steps": [
+      "Question 1: choose the best modal verb to complete each sentence.",
+      "Question 2: write your own sentences using modal verbs."
+     ],
+     "tip": "Read each sentence with your chosen modal verb. Does it sound certain, possible or polite?"
+    },
+    {
+     "id": "u2-wb-2C",
+     "code": "2C",
+     "title": "Reading Comprehension: P.T. Barnum and the Greatest Show on Earth",
+     "pages": "20–21",
+     "steps": [
+      "Questions 1–5: choose the correct answer for each question.",
+      "Questions 6–8: write answers about Barnum’s legacy, his character and his museum."
+     ],
+     "tip": "Use describing words, such as ‘ambitious’ or ‘imaginative’, and give evidence from the text."
+    },
+    {
+     "id": "u2-wb-2D",
+     "code": "2D",
+     "title": "Language Focus: Using prefixes, suffixes and root words",
+     "pages": "22",
+     "steps": [
+      "Question 1: match a prefix or suffix to each root word and write the new word.",
+      "Question 2: write sentences that show the meaning of your new words."
+     ],
+     "tip": "Check that each new word means the opposite of the root word."
+    },
+    {
+     "id": "u2-wb-2E",
+     "code": "2E",
+     "title": "Word Structure: Polysyllabic words",
+     "pages": "23",
+     "steps": [
+      "Question 1: divide each word into syllables, using the vowel sound rule.",
+      "Question 2: find the letter that is often not heard when the word is said aloud."
+     ],
+     "tip": "Say each word slowly, then at normal speed. Which sound disappears?"
+    },
+    {
+     "id": "u2-wb-2F",
+     "code": "2F",
+     "title": "Writing: Research for a biography",
+     "pages": "24–25",
+     "steps": [
+      "Use the template and checklist to collect facts about the person you chose.",
+      "Organise your facts in the mind map."
+     ],
+     "tip": "Write notes, not full sentences, and write down where each fact came from."
+    },
+    {
+     "id": "u2-wb-2G",
+     "code": "2G",
+     "title": "Let’s Learn: Sources of information",
+     "pages": "26–27",
+     "steps": [
+      "Question 1: name each type of source, such as a family tree, map, timeline, interview or letter.",
+      "Question 2: use the information from the sources to write a paragraph about the person."
+     ],
+     "tip": "Combine facts from all the sources, then put them in a sensible order."
+    },
+    {
+     "id": "u2-wb-2H",
+     "code": "2H",
+     "title": "Language Focus: Comparative and superlative adjectives and adverbs",
+     "pages": "28",
+     "steps": [
+      "Question 1: fill in the correct comparative or superlative form.",
+      "Question 2: write your own sentences using comparatives and superlatives."
+     ],
+     "tip": "For short words, add ‘-er’ or ‘-est’. For longer words, use ‘more’ or ‘most’."
+    },
+    {
+     "id": "u2-wb-2I",
+     "code": "2I",
+     "title": "Reading Comprehension: Women Who Mattered and A Woman of Vision",
+     "pages": "29–30",
+     "steps": [
+      "Question 1: complete the table comparing Bibi Rajindar Kaur and Wang Zhenyi.",
+      "Question 2: answer the multiple-choice questions about A Woman of Vision.",
+      "Question 3: answer the questions about Wangari Maathai."
+     ],
+     "tip": "Reread both parts of the text before you start."
+    },
+    {
+     "id": "u2-wb-2J",
+     "code": "2J",
+     "title": "Language Focus: Using a thesaurus",
+     "pages": "31",
+     "steps": [
+      "Question 1: choose the best synonym from the list.",
+      "Question 2: use a thesaurus to find antonyms."
+     ],
+     "tip": "A dictionary can help you check the exact meaning of a synonym."
+    },
+    {
+     "id": "u2-wb-2K",
+     "code": "2K",
+     "title": "Writing: A short biography",
+     "pages": "32",
+     "steps": [
+      "Use the headings in the table to make notes from your research.",
+      "Plan each part of your biography, then write it in full."
+     ],
+     "tip": "Use the past tense and the third person throughout."
+    },
+    {
+     "id": "u2-wb-2L",
+     "code": "2L",
+     "title": "What Have I Learnt?",
+     "pages": "33",
+     "steps": [
+      "Question 1: review the features of biographies.",
+      "Question 2: fill the gaps in the text.",
+      "Question 3: find the language features you have learnt in this unit."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u2-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "34",
+     "steps": [
+      "Write about which biography you enjoyed most and why.",
+      "Write about the legacy you would like to leave behind."
+     ],
+     "tip": "Think big. What difference would you like to make?"
+    }
+   ],
+   "cards": [
+    {
+     "id": "u2-c0",
+     "front": "What are the usual parts of a biography?",
+     "back": "Introduction, early life, later life, achievements and legacy."
+    },
+    {
+     "id": "u2-c1",
+     "front": "Which tense and viewpoint does a biography use?",
+     "back": "The past tense and the third person (‘he’, ‘she’, ‘they’)."
+    },
+    {
+     "id": "u2-c2",
+     "front": "What was ‘The Greatest Show on Earth’?",
+     "back": "P.T. Barnum’s enormous travelling circus, which moved from town to town by train."
+    },
+    {
+     "id": "u2-c3",
+     "front": "Why is Wangari Maathai remembered?",
+     "back": "She encouraged people to plant trees to protect the environment, and she was the first African woman to win the Nobel Peace Prize."
+    },
+    {
+     "id": "u2-c4",
+     "front": "Name four sources of information a biographer might use.",
+     "back": "For example, family trees, maps, timelines, interviews and letters."
+    },
+    {
+     "id": "u2-c5",
+     "front": "When do you use ‘more’ and ‘most’ instead of ‘-er’ and ‘-est’?",
+     "back": "With most longer words, for example ‘more powerful’ and ‘most diligent’."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u2-q0",
+     "q": "A biography is…",
+     "options": [
+      "a made-up story about animals",
+      "the true story of a person’s life written by someone else",
+      "a poem about nature",
+      "a list of instructions"
+     ],
+     "answer": 1,
+     "explain": "A biography tells the true story of a real person’s life."
+    },
+    {
+     "id": "u2-q1",
+     "q": "Which tense are most biographies written in?",
+     "options": [
+      "Future tense",
+      "Present tense",
+      "Past tense",
+      "No tense"
+     ],
+     "answer": 2,
+     "explain": "Biographies describe events that have already happened, so they use the past tense."
+    },
+    {
+     "id": "u2-q2",
+     "q": "What is a person’s ‘legacy’?",
+     "options": [
+      "Their favourite food",
+      "Something important they leave behind for the world",
+      "Their home address",
+      "Their first job"
+     ],
+     "answer": 1,
+     "explain": "A legacy is the lasting difference a person makes."
+    },
+    {
+     "id": "u2-q3",
+     "q": "Which modal verb shows that something is only possible, not certain?",
+     "options": [
+      "must",
+      "will",
+      "might",
+      "shall"
+     ],
+     "answer": 2,
+     "explain": "‘Might’ shows that something is possible, but not certain."
+    },
+    {
+     "id": "u2-q4",
+     "q": "Which prefix makes the opposite of ‘visible’?",
+     "options": [
+      "un-",
+      "in-",
+      "dis-",
+      "re-"
+     ],
+     "answer": 1,
+     "explain": "‘Invisible’ means not able to be seen."
+    },
+    {
+     "id": "u2-q5",
+     "q": "Choose the correct superlative.",
+     "options": [
+      "Jumbo was the most big elephant.",
+      "Jumbo was the bigger elephant of all.",
+      "Jumbo was the biggest elephant of all.",
+      "Jumbo was the more biggest elephant."
+     ],
+     "answer": 2,
+     "explain": "‘Big’ is a short word, so we add ‘-est’ and double the final ‘g’: ‘biggest’."
+    },
+    {
+     "id": "u2-q6",
+     "q": "How many syllables are there in ‘entertainment’?",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+     ],
+     "answer": 2,
+     "explain": "en / ter / tain / ment has four syllables."
+    },
+    {
+     "id": "u2-q7",
+     "q": "What did Wang Zhenyi study, even though girls could not go to school?",
+     "options": [
+      "Cooking",
+      "Astronomy",
+      "Football",
+      "Music only"
+     ],
+     "answer": 1,
+     "explain": "She taught herself astronomy and mathematics and explained eclipses."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the words you would expect in a biography",
+     "correct": [
+      "born",
+      "childhood",
+      "achievements",
+      "legacy",
+      "career",
+      "award",
+      "died",
+      "early life"
+     ],
+     "wrong": [
+      "once upon a time",
+      "dragon",
+      "magic",
+      "spaceship",
+      "recipe",
+      "moral",
+      "chorus",
+      "wizard"
+     ]
+    },
+    {
+     "prompt": "Catch the modal verbs",
+     "correct": [
+      "can",
+      "could",
+      "might",
+      "must",
+      "should",
+      "would",
+      "may",
+      "will"
+     ],
+     "wrong": [
+      "run",
+      "happy",
+      "quickly",
+      "table",
+      "sing",
+      "under",
+      "tall",
+      "jump"
+     ]
+    },
+    {
+     "prompt": "Catch the words that use a prefix or suffix to make an opposite",
+     "correct": [
+      "unfair",
+      "invisible",
+      "impossible",
+      "disagree",
+      "fearless",
+      "careless",
+      "unusual",
+      "hopeless"
+     ],
+     "wrong": [
+      "happy",
+      "careful",
+      "visible",
+      "agree",
+      "possible",
+      "usual",
+      "hopeful",
+      "fair"
+     ]
+    }
+   ],
+   "icon": "book-user"
+  },
+  {
+   "id": 3,
+   "title": "Poets and Poetry",
+   "colour": "#6a4c93",
+   "sbStart": 56,
+   "wbStart": 35,
+   "sbPages": "56–81",
+   "wbPages": "35–51",
+   "parts": [
+    {
+     "code": "3A",
+     "title": "Famous Poets"
+    },
+    {
+     "code": "3B",
+     "title": "Poems That Tell Stories"
+    }
+   ],
+   "overview": "This unit is about poems and the people who write them. You will read funny poems by an English poet and thoughtful nature poems by an American poet, then enjoy two poems that tell stories. You will use similes, metaphors and personification to write poems of your own.",
+   "objectives": [
+    "Explain the difference between structured verse and free verse.",
+    "Identify rhyme, rhythm, repetition and stanzas in poems.",
+    "Recognise and use similes, metaphors and personification.",
+    "Use degrees of comparison correctly, for example ‘sad’, ‘sadder’ and ‘saddest’.",
+    "Spell words with the ‘sh’ sound written as ‘ti’, ‘ci’ and ‘ssi’.",
+    "Use synonyms and antonyms, and write a free verse poem."
+   ],
+   "texts": [
+    {
+     "title": "Poems by a Famous English Poet – Lewis Carroll",
+     "kind": "Short biography and poems",
+     "pages": "59–60",
+     "summary": "Lewis Carroll was an English writer who loved to entertain children with nonsense and humour. In ‘The Crocodile’, a crocodile seems to grin in a friendly way, but he is really welcoming little fishes into his jaws. ‘The Walrus and the Carpenter’ is a funny, rhyming poem about two odd characters walking along a beach."
+    },
+    {
+     "title": "Poems by a Famous American Poet – Emily Dickinson",
+     "kind": "Short biography and poems",
+     "pages": "62–64",
+     "summary": "Emily Dickinson (1830–1886) lived a quiet life in America and wrote many poems about nature. In ‘The Bee Is Not Afraid of Me’, nature treats the poet as a friend. ‘Autumn’ describes the changing season, and ‘The Butterfly’s Day’ is written in free verse, with short lines and dashes."
+    },
+    {
+     "title": "Stone Soup",
+     "kind": "European folktale retold as a narrative poem",
+     "pages": "71–72",
+     "summary": "A hungry traveller arrives in a village with a big pot and claims he can make soup from a stone. One by one, the curious villagers add vegetables and other ingredients, until there is a delicious soup that everyone shares. The stone was never magic: it was the sharing that made the soup."
+    },
+    {
+     "title": "The Spider and the Fly",
+     "kind": "Traditional narrative poem by Mary Howitt",
+     "pages": "74–76",
+     "summary": "A cunning spider invites a fly into his parlour. At first the fly refuses, but the spider keeps flattering her, and in the end she forgets her fear and flies in, with a sad result. The lesson is to beware of people who flatter you because they want something."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "stanza",
+     "meaning": "A group of lines in a poem, like a paragraph in a story.",
+     "example": "The poem has four stanzas."
+    },
+    {
+     "word": "free verse",
+     "meaning": "Poetry that does not follow a fixed pattern of rhyme or rhythm.",
+     "example": "“The Butterfly’s Day” is written in free verse."
+    },
+    {
+     "word": "rhythm",
+     "meaning": "The pattern of beats in a line of poetry.",
+     "example": "Clap the rhythm as you read the poem aloud."
+    },
+    {
+     "word": "simile",
+     "meaning": "A comparison that uses ‘like’ or ‘as’.",
+     "example": "She danced like a butterfly."
+    },
+    {
+     "word": "metaphor",
+     "meaning": "A comparison that says something is something else.",
+     "example": "My little brother is my alarm clock."
+    },
+    {
+     "word": "personification",
+     "meaning": "Giving human actions or feelings to something that is not human.",
+     "example": "The wind whispered through the trees."
+    },
+    {
+     "word": "narrative poem",
+     "meaning": "A poem that tells a story, with characters and a plot.",
+     "example": "“Stone Soup” is a narrative poem."
+    },
+    {
+     "word": "flatter",
+     "meaning": "To praise someone too much, often to get something from them.",
+     "example": "The spider flattered the fly to trick her."
+    },
+    {
+     "word": "synonym",
+     "meaning": "A word with the same or a similar meaning as another word.",
+     "example": "‘Large’ is a synonym of ‘big’."
+    },
+    {
+     "word": "antonym",
+     "meaning": "A word with the opposite meaning to another word.",
+     "example": "‘Polite’ is an antonym of ‘rude’."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u3-sb-0",
+     "part": "3A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "56",
+     "tip": "Talk about how poets and painters are alike. Both create things for other people to enjoy."
+    },
+    {
+     "id": "u3-sb-1",
+     "part": "3A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Structured and free verse poems",
+     "pages": "57–58",
+     "tip": "Structured verse has a pattern of rhyme and rhythm. Free verse is more flexible and sounds more like natural speech."
+    },
+    {
+     "id": "u3-sb-2",
+     "part": "3A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: Poems by a Famous English Poet – Lewis Carroll",
+     "pages": "59–60",
+     "tip": "Read the poems aloud. Find the rhyming words and count the beats in each line."
+    },
+    {
+     "id": "u3-sb-3",
+     "part": "3A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Degrees of comparison",
+     "pages": "61",
+     "tip": "There are three degrees, for example ‘sharp’, ‘sharper’ and ‘sharpest’. Only change the word when you are comparing."
+    },
+    {
+     "id": "u3-sb-4",
+     "part": "3A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: Poems by a Famous American Poet – Emily Dickinson",
+     "pages": "62–64",
+     "tip": "Look for how the poet makes nature seem alive and friendly. Which poem does not rhyme?"
+    },
+    {
+     "id": "u3-sb-5",
+     "part": "3A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Similes, metaphors and personification",
+     "pages": "65–66",
+     "tip": "Similes use ‘like’ or ‘as’. Metaphors say something IS something else. Personification gives human qualities to things."
+    },
+    {
+     "id": "u3-sb-6",
+     "part": "3A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: The ‘sh’ sound",
+     "pages": "67",
+     "tip": "The ‘sh’ sound is often spelt ‘ti’ (action), ‘ci’ (special) or ‘ssi’ (mission)."
+    },
+    {
+     "id": "u3-sb-7",
+     "part": "3A",
+     "lesson": "Lesson 9",
+     "title": "Writing: Use similes, metaphors and personification in a poem",
+     "pages": "68",
+     "tip": "Try at least one simile, one metaphor and one example of personification. Read your poem aloud to check how it sounds."
+    },
+    {
+     "id": "u3-sb-8",
+     "part": "3B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Structure and features of a narrative poem",
+     "pages": "69–70",
+     "tip": "A narrative poem has a beginning, a climax and an ending, just like a story."
+    },
+    {
+     "id": "u3-sb-9",
+     "part": "3B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: Stone Soup",
+     "pages": "71–72",
+     "tip": "Find the rhyming pattern. Lines that rhyme in pairs are written as ‘aabb’."
+    },
+    {
+     "id": "u3-sb-10",
+     "part": "3B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Vocabulary: Synonyms and antonyms",
+     "pages": "73",
+     "tip": "Use synonyms to avoid repeating words, and antonyms to show contrast."
+    },
+    {
+     "id": "u3-sb-11",
+     "part": "3B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: The Spider and the Fly and Reading Comprehension",
+     "pages": "74–76",
+     "tip": "Notice every compliment that the spider pays the fly. Why do they work?"
+    },
+    {
+     "id": "u3-sb-12",
+     "part": "3B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Grammar: More about degrees of comparison",
+     "pages": "77",
+     "tip": "Some words change completely, for example ‘good’, ‘better’ and ‘best’, or ‘bad’, ‘worse’ and ‘worst’."
+    },
+    {
+     "id": "u3-sb-13",
+     "part": "3B",
+     "lesson": "Lesson 15",
+     "title": "Listening: Nature’s Treasures",
+     "pages": "78",
+     "tip": "Listen for the senses the poet uses, such as hearing, touching, seeing and smelling."
+    },
+    {
+     "id": "u3-sb-14",
+     "part": "3B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: A free verse poem about a family meal",
+     "pages": "79–80",
+     "tip": "Write a paragraph first, underline the best details, then turn them into short lines of free verse."
+    },
+    {
+     "id": "u3-sb-15",
+     "part": "3B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "81",
+     "tip": "Which poem was your favourite, and why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u3-wb-3A",
+     "code": "3A",
+     "title": "Let’s Learn: Structured and free verse poems",
+     "pages": "35",
+     "steps": [
+      "Question 1: sort the features into structured verse, free verse, or both.",
+      "Question 2: read the poem and answer the questions about its structure."
+     ],
+     "tip": "Some features, such as stanzas and figurative language, belong to both kinds of poem."
+    },
+    {
+     "id": "u3-wb-3B",
+     "code": "3B",
+     "title": "Language Focus: Degrees of comparison",
+     "pages": "36",
+     "steps": [
+      "Question 1: complete the free verse poem using comparative and superlative forms.",
+      "Question 2: write a paragraph about your home and family using degrees of comparison."
+     ],
+     "tip": "Look for the word ‘than’, which tells you a comparative is needed."
+    },
+    {
+     "id": "u3-wb-3C",
+     "code": "3C",
+     "title": "Reading Comprehension: Lewis Carroll and Emily Dickinson",
+     "pages": "37–38",
+     "steps": [
+      "Question 1: answer questions about Lewis Carroll and his two poems.",
+      "Question 2: answer questions about Emily Dickinson and her three poems."
+     ],
+     "tip": "Reread the short biographies as well as the poems."
+    },
+    {
+     "id": "u3-wb-3D",
+     "code": "3D",
+     "title": "Language Focus: Similes, metaphors and personification",
+     "pages": "39–40",
+     "steps": [
+      "Question 1: complete the similes, using the pictures to help you.",
+      "Question 2: say what is being compared in each metaphor.",
+      "Question 3: find the metaphors and explain their meanings.",
+      "Question 4: complete the personification table."
+     ],
+     "tip": "For personification, look at the verb. What human action is the thing doing?"
+    },
+    {
+     "id": "u3-wb-3E",
+     "code": "3E",
+     "title": "Word Structure: The ‘sh’ sound",
+     "pages": "41",
+     "steps": [
+      "Question 1: fill the gaps with the correct word that contains the ‘sh’ sound.",
+      "Question 2: choose one word and write a sentence with it."
+     ],
+     "tip": "Say the sentence aloud with your chosen word to check that it makes sense."
+    },
+    {
+     "id": "u3-wb-3F",
+     "code": "3F",
+     "title": "Writing: Use similes, metaphors and personification in a poem",
+     "pages": "42",
+     "steps": [
+      "Use the template to write your poem.",
+      "Label each simile, metaphor and example of personification."
+     ],
+     "tip": "Choose comparisons that help the reader to picture the scene."
+    },
+    {
+     "id": "u3-wb-3G",
+     "code": "3G",
+     "title": "Let’s Learn: Structure and features of a narrative poem",
+     "pages": "43",
+     "steps": [
+      "Question 1a: read the poem and summarise its introduction, climax and ending using the prompts.",
+      "Question 1b: compare your summary with a classmate’s."
+     ],
+     "tip": "A summary keeps only the most important events."
+    },
+    {
+     "id": "u3-wb-3H",
+     "code": "3H",
+     "title": "Language Focus: Synonyms and antonyms",
+     "pages": "44",
+     "steps": [
+      "Question 1: match the synonyms.",
+      "Question 2: match the antonyms.",
+      "Question 3: write sentences using words from the lists."
+     ],
+     "tip": "Check each pair. Do the words mean the same or the opposite?"
+    },
+    {
+     "id": "u3-wb-3I",
+     "code": "3I",
+     "title": "Reading Comprehension: Stone Soup and The Spider and the Fly",
+     "pages": "45",
+     "steps": [
+      "Question 1: write a short summary of ‘Stone Soup’ using the sentence starters.",
+      "Question 2: put the events of ‘The Spider and the Fly’ in the correct order."
+     ],
+     "tip": "Reread both poems before you begin."
+    },
+    {
+     "id": "u3-wb-3J",
+     "code": "3J",
+     "title": "Language Focus: More about degrees of comparison",
+     "pages": "46",
+     "steps": [
+      "Question 1: complete the table, using Student Book page 77 to help you.",
+      "Question 2: fill the gaps with the correct form of the adjective or adverb."
+     ],
+     "tip": "Watch out for irregular words, such as ‘good’, ‘better’ and ‘best’."
+    },
+    {
+     "id": "u3-wb-3K",
+     "code": "3K",
+     "title": "Writing: A free verse poem about a family meal",
+     "pages": "47–48",
+     "steps": [
+      "Write the final draft of your paragraph about a family meal on the lines.",
+      "Underline the details you want to use in your poem.",
+      "Turn your paragraph into a free verse poem with short lines and lots of descriptive language."
+     ],
+     "tip": "Free verse does not need to rhyme. Make it sound like natural speech."
+    },
+    {
+     "id": "u3-wb-3L",
+     "code": "3L",
+     "title": "What Have I Learnt?",
+     "pages": "49–50",
+     "steps": [
+      "Question 1: read the poem and answer the questions.",
+      "Question 2: find a synonym and an antonym.",
+      "Questions 3–4: write sentences using a comparative and a superlative."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u3-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "51",
+     "steps": [
+      "Write about the poet you found most interesting and the kind of poetry you like best."
+     ],
+     "tip": "Rhyming or free verse? There is no wrong answer."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u3-c0",
+     "front": "What is the difference between structured verse and free verse?",
+     "back": "Structured verse follows a pattern of rhyme and rhythm. Free verse has a flexible structure and sounds more like natural speech."
+    },
+    {
+     "id": "u3-c1",
+     "front": "Simile or metaphor? ‘The classroom was a beehive.’",
+     "back": "A metaphor. It says the classroom IS a beehive, meaning it was busy and noisy."
+    },
+    {
+     "id": "u3-c2",
+     "front": "What is personification?",
+     "back": "Giving human actions or feelings to something that is not human, for example ‘The kettle shrieked’."
+    },
+    {
+     "id": "u3-c3",
+     "front": "What does the rhyme pattern ‘aabb’ mean?",
+     "back": "Lines rhyme in pairs. Lines 1 and 2 rhyme, then lines 3 and 4 rhyme."
+    },
+    {
+     "id": "u3-c4",
+     "front": "What is the message of ‘The Spider and the Fly’?",
+     "back": "Do not trust people who flatter you, because they may want something from you."
+    },
+    {
+     "id": "u3-c5",
+     "front": "Why was the stone soup so tasty?",
+     "back": "Because each villager added an ingredient. The stone was not magic, and sharing made the soup."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u3-q0",
+     "q": "‘The wind whispered through the trees.’ What is this an example of?",
+     "options": [
+      "Simile",
+      "Personification",
+      "Rhyme",
+      "Antonym"
+     ],
+     "answer": 1,
+     "explain": "The wind is given a human action (whispering), so it is personification."
+    },
+    {
+     "id": "u3-q1",
+     "q": "Which line is a simile?",
+     "options": [
+      "The moon was a balloon.",
+      "Time crawled.",
+      "She was as light as a feather.",
+      "The fields begged for rain."
+     ],
+     "answer": 2,
+     "explain": "A simile compares using ‘like’ or ‘as’, as in ‘as light as a feather’."
+    },
+    {
+     "id": "u3-q2",
+     "q": "A group of lines in a poem is called a…",
+     "options": [
+      "chapter",
+      "stanza",
+      "caption",
+      "paragraph heading"
+     ],
+     "answer": 1,
+     "explain": "Poems are divided into stanzas."
+    },
+    {
+     "id": "u3-q3",
+     "q": "Which word completes the sentence? ‘This is the ___ cake I have ever tasted.’",
+     "options": [
+      "good",
+      "better",
+      "best",
+      "more good"
+     ],
+     "answer": 2,
+     "explain": "We are comparing it with every cake, so we need the superlative: ‘best’."
+    },
+    {
+     "id": "u3-q4",
+     "q": "Which word has the ‘sh’ sound spelt ‘ci’?",
+     "options": [
+      "mission",
+      "special",
+      "action",
+      "shelf"
+     ],
+     "answer": 1,
+     "explain": "In ‘special’, the letters ‘ci’ make the ‘sh’ sound."
+    },
+    {
+     "id": "u3-q5",
+     "q": "What is an antonym of ‘cruel’?",
+     "options": [
+      "mean",
+      "kind",
+      "angry",
+      "harsh"
+     ],
+     "answer": 1,
+     "explain": "‘Kind’ is the opposite of ‘cruel’."
+    },
+    {
+     "id": "u3-q6",
+     "q": "A narrative poem…",
+     "options": [
+      "must not rhyme",
+      "tells a story",
+      "is always about nature",
+      "has only one line"
+     ],
+     "answer": 1,
+     "explain": "Narrative poems tell a story with characters and events."
+    },
+    {
+     "id": "u3-q7",
+     "q": "How does the spider persuade the fly to come in?",
+     "options": [
+      "He threatens her",
+      "He flatters her with compliments",
+      "He offers her money",
+      "He tells her a joke"
+     ],
+     "answer": 1,
+     "explain": "The spider keeps praising the fly until she forgets her fear."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the similes",
+     "correct": [
+      "as light as a feather",
+      "like a butterfly",
+      "as busy as a bee",
+      "like a lullaby",
+      "as cold as ice",
+      "like scarecrows",
+      "as brave as a lion",
+      "as sweet as honey"
+     ],
+     "wrong": [
+      "the moon was a balloon",
+      "time crawled",
+      "the kettle shrieked",
+      "I am the sun",
+      "the wind whispered",
+      "the walls held their breath",
+      "he is a star",
+      "the sky wept"
+     ]
+    },
+    {
+     "prompt": "Catch the words with the ‘sh’ sound spelt ti, ci or ssi",
+     "correct": [
+      "action",
+      "special",
+      "mission",
+      "musician",
+      "delicious",
+      "passion",
+      "caution",
+      "social"
+     ],
+     "wrong": [
+      "shop",
+      "chair",
+      "lunch",
+      "cheese",
+      "catch",
+      "ship",
+      "wish",
+      "think"
+     ]
+    },
+    {
+     "prompt": "Catch the words that describe features of poems",
+     "correct": [
+      "rhyme",
+      "rhythm",
+      "stanza",
+      "verse",
+      "repetition",
+      "simile",
+      "metaphor",
+      "line"
+     ],
+     "wrong": [
+      "invoice",
+      "diagram",
+      "recipe",
+      "map",
+      "receipt",
+      "ticket",
+      "timetable",
+      "menu"
+     ]
+    }
+   ],
+   "icon": "feather"
+  },
+  {
+   "id": 4,
+   "title": "The Workings of Machines",
+   "colour": "#3a6ea5",
+   "sbStart": 82,
+   "wbStart": 52,
+   "sbPages": "82–107",
+   "wbPages": "52–68",
+   "parts": [
+    {
+     "code": "4A",
+     "title": "How Does It Work?"
+    },
+    {
+     "code": "4B",
+     "title": "Pictures Tell More"
+    }
+   ],
+   "overview": "How does a radio turn invisible waves into music and voices? In this unit you will read explanation texts that answer questions like this. You will learn how writers use headings, diagrams and flowcharts to make tricky ideas clear, and you will write your own explanation of how a machine works.",
+   "objectives": [
+    "Identify the features of explanation texts, such as headings, subheadings, diagrams and the present simple tense.",
+    "Use infographics, keys, flowcharts and labelled diagrams to understand information.",
+    "Use countable and uncountable nouns with the right quantifiers, for example ‘fewer’ and ‘less’.",
+    "Find words quickly in alphabetical lists, such as dictionaries and glossaries.",
+    "Tell the difference between homophones, homographs and homonyms.",
+    "Reorder clauses in multi-clause sentences, and use specialised vocabulary in your own explanation."
+   ],
+   "texts": [
+    {
+     "title": "What Makes a Radio Work?",
+     "kind": "Information text with explanation",
+     "pages": "85–91",
+     "summary": "This explanation text tells you about electromagnetic waves, which travel through space, and how they are different from sound waves. It explains frequency (visible light has a higher frequency than radio waves) and shows how devices such as a remote-controlled car use an antenna to receive signals."
+    },
+    {
+     "title": "How Does a Radio Work?",
+     "kind": "Information text with explanation",
+     "pages": "98–102",
+     "summary": "This text follows a message from start to finish. A transmitter turns sound waves into radio waves and sends them out. A receiver with an aerial picks them up, turns them back into sound and makes the sound louder, so that we can hear it. It also explains the two main kinds of radio broadcasting, AM and FM, using a flowchart and labelled pictures."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "explanation text",
+     "meaning": "A non-fiction text that explains how or why something works or happens.",
+     "example": "The explanation text showed how a radio works."
+    },
+    {
+     "word": "transmitter",
+     "meaning": "A device that sends out signals, such as radio waves.",
+     "example": "The radio station’s transmitter sends out the signal."
+    },
+    {
+     "word": "receiver",
+     "meaning": "A device that picks up signals and changes them into something we can use.",
+     "example": "Your radio is a receiver."
+    },
+    {
+     "word": "antenna",
+     "meaning": "A metal rod or wire that sends or receives radio waves (also called an aerial).",
+     "example": "The car’s antenna picked up the signal."
+    },
+    {
+     "word": "frequency",
+     "meaning": "How many times something happens, or how many waves pass a point, in a certain amount of time.",
+     "example": "Visible light has a higher frequency than radio waves."
+    },
+    {
+     "word": "amplify",
+     "meaning": "To make a sound louder.",
+     "example": "The speaker amplifies the music."
+    },
+    {
+     "word": "infographic",
+     "meaning": "A picture, chart or diagram that shows information clearly.",
+     "example": "The flowchart is an infographic."
+    },
+    {
+     "word": "quantifier",
+     "meaning": "A word that tells you how much or how many, such as ‘some’, ‘few’, ‘little’ or ‘enough’.",
+     "example": "There was less snow and fewer people this year."
+    },
+    {
+     "word": "homophone",
+     "meaning": "A word that sounds the same as another word but has a different spelling and meaning.",
+     "example": "‘Right’ and ‘write’ are homophones."
+    },
+    {
+     "word": "glossary",
+     "meaning": "An alphabetical list of special words and their meanings, usually at the back of a book.",
+     "example": "I checked ‘frequency’ in the glossary."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u4-sb-0",
+     "part": "4A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "82–83",
+     "tip": "Talk about what robots and machines can do. Then look at how the example text uses headings, photographs and captions."
+    },
+    {
+     "id": "u4-sb-1",
+     "part": "4A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Features of explanation texts",
+     "pages": "83–84",
+     "tip": "Explanation texts use a clear heading, numbered or ordered paragraphs, labelled diagrams, the present simple tense and connectives."
+    },
+    {
+     "id": "u4-sb-2",
+     "part": "4A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: What Makes a Radio Work?",
+     "pages": "85–86",
+     "tip": "Use the subheadings to predict what each section will explain."
+    },
+    {
+     "id": "u4-sb-3",
+     "part": "4A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Nouns and quantifiers",
+     "pages": "87–88",
+     "tip": "Use ‘fewer’ with things you can count (fewer clothes) and ‘less’ with things you cannot count (less sugar)."
+    },
+    {
+     "id": "u4-sb-4",
+     "part": "4A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: What Makes a Radio Work? and Reading Comprehension",
+     "pages": "89–91",
+     "tip": "Study the diagram of waves. Which waves have a low frequency and which have a high frequency?"
+    },
+    {
+     "id": "u4-sb-5",
+     "part": "4A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Alphabetical lists",
+     "pages": "92",
+     "tip": "Dictionaries, glossaries and thesauruses are all in alphabetical order. Use the second and third letters to find words quickly."
+    },
+    {
+     "id": "u4-sb-6",
+     "part": "4A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Commonly confused words",
+     "pages": "93–94",
+     "tip": "Homophones sound the same but are spelt differently (right and write). Homographs are spelt the same but can have different meanings (lead and lead)."
+    },
+    {
+     "id": "u4-sb-7",
+     "part": "4A",
+     "lesson": "Lesson 9",
+     "title": "Writing: Use a mind map to display information",
+     "pages": "95",
+     "tip": "Put the machine in the middle of your mind map and add branches for its parts, how it works and what it is used for."
+    },
+    {
+     "id": "u4-sb-8",
+     "part": "4B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Infographics and keys in explanation texts",
+     "pages": "96–97",
+     "tip": "Pie charts, bar graphs, line graphs and flowcharts each show information in a different way. A key explains the symbols or colours."
+    },
+    {
+     "id": "u4-sb-9",
+     "part": "4B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: How Does a Radio Work?",
+     "pages": "98–99",
+     "tip": "Follow the message from the transmitter to the receiver."
+    },
+    {
+     "id": "u4-sb-10",
+     "part": "4B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Grammar: Reordering clauses in multi-clause sentences",
+     "pages": "100",
+     "tip": "You can put the dependent clause first or second. If it comes first, add a comma after it."
+    },
+    {
+     "id": "u4-sb-11",
+     "part": "4B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2 and Reading Comprehension",
+     "pages": "101–102",
+     "tip": "Use the flowchart to retell the steps in order. What are input and output?"
+    },
+    {
+     "id": "u4-sb-12",
+     "part": "4B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Vocabulary: Specialised vocabulary",
+     "pages": "103",
+     "tip": "Technical words such as ‘megahertz’ and ‘kilohertz’ have exact meanings. Use the context and a glossary."
+    },
+    {
+     "id": "u4-sb-13",
+     "part": "4B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Produce a radio interview",
+     "pages": "104",
+     "tip": "Plan your questions, speak clearly and use a lively voice, because radio listeners cannot see you."
+    },
+    {
+     "id": "u4-sb-14",
+     "part": "4B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: An explanation about how a machine works",
+     "pages": "105–106",
+     "tip": "Use your mind map. Write in the present simple tense, put the steps in order and add a labelled diagram."
+    },
+    {
+     "id": "u4-sb-15",
+     "part": "4B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "107",
+     "tip": "Which machine would you like to find out more about?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u4-wb-4A",
+     "code": "4A",
+     "title": "Let’s Learn: Features of explanation texts",
+     "pages": "52",
+     "steps": [
+      "Question 1: answer the multiple-choice questions about explanation texts.",
+      "Question 2: decide whether each statement is true or false.",
+      "Question 3: explain how an explanation text is different from a fiction text."
+     ],
+     "tip": "Remember that an explanation text is factual and explains how or why something works."
+    },
+    {
+     "id": "u4-wb-4B",
+     "code": "4B",
+     "title": "Language Focus: Nouns and quantifiers",
+     "pages": "53",
+     "steps": [
+      "Question 1: underline the nouns and sort them into countable and uncountable nouns.",
+      "Question 2: rewrite the sentences using the nouns and the suggested quantifiers."
+     ],
+     "tip": "Ask yourself ‘Can I count it?’ You can count bowls, but you cannot count milk."
+    },
+    {
+     "id": "u4-wb-4C",
+     "code": "4C",
+     "title": "Reading Comprehension: What Makes a Radio Work?",
+     "pages": "54",
+     "steps": [
+      "Question 1: decide whether each statement is true or false.",
+      "Question 2: write three features of radio waves.",
+      "Question 3: complete the flow diagram showing how radio waves become sound.",
+      "Question 4: name some machines that use waves."
+     ],
+     "tip": "Write the steps in a list first, then add the arrows."
+    },
+    {
+     "id": "u4-wb-4D",
+     "code": "4D",
+     "title": "Language Focus: Alphabetical lists",
+     "pages": "55",
+     "steps": [
+      "Question 1: use a dictionary to write the meaning of each word.",
+      "Question 2: find the meaning that matches the part of speech in brackets.",
+      "Question 3: put the words in alphabetical order."
+     ],
+     "tip": "When words start with the same letters, look at the next letter along."
+    },
+    {
+     "id": "u4-wb-4E",
+     "code": "4E",
+     "title": "Word Structure: Commonly confused words",
+     "pages": "56–57",
+     "steps": [
+      "Question 1: write two sentences for each word to show two different meanings.",
+      "Question 2: find the matching homophones in the word search.",
+      "Question 3: use the homophones to complete the sentences."
+     ],
+     "tip": "Check the meaning, not just the sound, before you choose a spelling."
+    },
+    {
+     "id": "u4-wb-4F",
+     "code": "4F",
+     "title": "Writing: Use a mind map to display information",
+     "pages": "58",
+     "steps": [
+      "Research how your chosen machine works.",
+      "Record your information on the mind map template."
+     ],
+     "tip": "Look at the example on Student Book page 95 if you get stuck."
+    },
+    {
+     "id": "u4-wb-4G",
+     "code": "4G",
+     "title": "Let’s Learn: Infographics and keys in explanation texts",
+     "pages": "59",
+     "steps": [
+      "Question 1: study the labelled diagram and the flowchart.",
+      "Question 2: use the information to write a paragraph explaining how the machine works."
+     ],
+     "tip": "Follow the arrows in the flowchart to get the steps in the right order."
+    },
+    {
+     "id": "u4-wb-4H",
+     "code": "4H",
+     "title": "Language Focus: Reordering clauses in multi-clause sentences",
+     "pages": "60",
+     "steps": [
+      "Question 1: choose a dependent clause to complete each complex sentence.",
+      "Question 2: rewrite the sentences with the dependent clause first.",
+      "Question 3: answer the questions about the sentences."
+     ],
+     "tip": "When the dependent clause comes first, remember the comma."
+    },
+    {
+     "id": "u4-wb-4I",
+     "code": "4I",
+     "title": "Reading Comprehension: How Does a Radio Work?",
+     "pages": "61–62",
+     "steps": [
+      "Question 1: label the diagram.",
+      "Question 2: answer the multiple-choice questions about the flowchart.",
+      "Question 3: answer the question about radio, using what you already know."
+     ],
+     "tip": "Reread both parts of the text first."
+    },
+    {
+     "id": "u4-wb-4J",
+     "code": "4J",
+     "title": "Language Focus: Specialised vocabulary",
+     "pages": "63",
+     "steps": [
+      "Question 1: work out the meaning of each technical word.",
+      "Question 2: make your own list of specialised words.",
+      "Question 3: find synonyms for the technical words."
+     ],
+     "tip": "Find each word in the reading text and use the context to help you."
+    },
+    {
+     "id": "u4-wb-4K",
+     "code": "4K",
+     "title": "Writing: An explanation of how a machine works",
+     "pages": "64–65",
+     "steps": [
+      "Use the headings in the tables to make notes.",
+      "Use your mind map and notes to plan each part of your explanation.",
+      "Write your explanation and add a labelled diagram."
+     ],
+     "tip": "Put the steps in the order they happen and use sequence connectives such as ‘first’, ‘then’ and ‘finally’."
+    },
+    {
+     "id": "u4-wb-4L",
+     "code": "4L",
+     "title": "What Have I Learnt?",
+     "pages": "66–67",
+     "steps": [
+      "Question 1: revise complex sentences and write your own.",
+      "Questions 2–3: revise commonly confused words.",
+      "Questions 4–5: review technical terms.",
+      "Question 6: use quantifiers with nouns in sentences."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u4-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "68",
+     "steps": [
+      "Write about a time you found something hard to understand, and whether an infographic would have helped.",
+      "Design an infographic of your own."
+     ],
+     "tip": "Keep your infographic simple and clear."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u4-c0",
+     "front": "Name four features of an explanation text.",
+     "back": "For example, a heading, subheadings, ordered steps, labelled diagrams, the present simple tense and connectives."
+    },
+    {
+     "id": "u4-c1",
+     "front": "What does a transmitter do?",
+     "back": "It changes sound waves into radio waves and sends them out."
+    },
+    {
+     "id": "u4-c2",
+     "front": "What does a receiver do?",
+     "back": "It picks up radio waves with an aerial, changes them back into sound and makes the sound louder."
+    },
+    {
+     "id": "u4-c3",
+     "front": "‘Fewer’ or ‘less’?",
+     "back": "Use ‘fewer’ for things you can count (fewer people) and ‘less’ for things you cannot count (less snow)."
+    },
+    {
+     "id": "u4-c4",
+     "front": "What are AM and FM?",
+     "back": "Two ways of sending radio signals. FM uses a broader range of frequencies than AM."
+    },
+    {
+     "id": "u4-c5",
+     "front": "What is the difference between a homophone and a homograph?",
+     "back": "Homophones sound the same but are spelt differently (right and write). Homographs are spelt the same but have different meanings (lead and lead)."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u4-q0",
+     "q": "Which tense do explanation texts usually use?",
+     "options": [
+      "Past tense",
+      "Present simple tense",
+      "Future tense",
+      "Past perfect tense"
+     ],
+     "answer": 1,
+     "explain": "Explanations describe how things work now, so they use the present simple tense."
+    },
+    {
+     "id": "u4-q1",
+     "q": "Choose the correct sentence.",
+     "options": [
+      "There were less people at the show.",
+      "There were fewer people at the show.",
+      "There were fewest people at the show.",
+      "There were lesser people at the show."
+     ],
+     "answer": 1,
+     "explain": "People can be counted, so we use ‘fewer’."
+    },
+    {
+     "id": "u4-q2",
+     "q": "Which part of a radio system changes sound waves into radio waves?",
+     "options": [
+      "The speaker",
+      "The receiver",
+      "The transmitter",
+      "The battery"
+     ],
+     "answer": 2,
+     "explain": "The transmitter changes the sound into radio waves and sends them out."
+    },
+    {
+     "id": "u4-q3",
+     "q": "Which word comes first in alphabetical order?",
+     "options": [
+      "circus",
+      "circle",
+      "circuit",
+      "circular"
+     ],
+     "answer": 1,
+     "explain": "circl- comes before circu-, so ‘circle’ comes first."
+    },
+    {
+     "id": "u4-q4",
+     "q": "Which pair are homophones?",
+     "options": [
+      "light (not heavy) and light (bright)",
+      "write and right",
+      "big and large",
+      "hot and cold"
+     ],
+     "answer": 1,
+     "explain": "‘Write’ and ‘right’ sound the same but have different spellings and meanings."
+    },
+    {
+     "id": "u4-q5",
+     "q": "What is a flowchart?",
+     "options": [
+      "A diagram showing the steps of a process in order",
+      "A list of words with meanings",
+      "A type of poem",
+      "A photograph with a caption"
+     ],
+     "answer": 0,
+     "explain": "A flowchart uses boxes and arrows to show steps in order."
+    },
+    {
+     "id": "u4-q6",
+     "q": "Which sentence is punctuated correctly?",
+     "options": [
+      "As it was raining we listened to the radio.",
+      "As it was raining, we listened to the radio.",
+      "As, it was raining we listened to the radio.",
+      "As it was raining we, listened to the radio."
+     ],
+     "answer": 1,
+     "explain": "When the dependent clause comes first, put a comma after it."
+    },
+    {
+     "id": "u4-q7",
+     "q": "What does ‘amplify’ mean?",
+     "options": [
+      "To make quieter",
+      "To make louder",
+      "To switch off",
+      "To record"
+     ],
+     "answer": 1,
+     "explain": "To amplify a sound is to make it louder."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the parts of a radio system",
+     "correct": [
+      "transmitter",
+      "receiver",
+      "aerial",
+      "antenna",
+      "speaker",
+      "microphone",
+      "signal",
+      "radio waves"
+     ],
+     "wrong": [
+      "moral",
+      "stanza",
+      "villain",
+      "chorus",
+      "recipe",
+      "folktale",
+      "narrator",
+      "rhyme"
+     ]
+    },
+    {
+     "prompt": "Catch the uncountable nouns",
+     "correct": [
+      "milk",
+      "sugar",
+      "money",
+      "luggage",
+      "porridge",
+      "software",
+      "salt",
+      "snow"
+     ],
+     "wrong": [
+      "bowl",
+      "chef",
+      "computer",
+      "airport",
+      "child",
+      "coin",
+      "suitcase",
+      "apple"
+     ]
+    },
+    {
+     "prompt": "Catch the features of an explanation text",
+     "correct": [
+      "heading",
+      "subheading",
+      "diagram",
+      "label",
+      "flowchart",
+      "caption",
+      "present tense",
+      "connective"
+     ],
+     "wrong": [
+      "once upon a time",
+      "moral",
+      "rhyme",
+      "villain",
+      "dragon",
+      "stanza",
+      "happy ending",
+      "dialogue"
+     ]
+    }
+   ],
+   "icon": "cog"
+  },
+  {
+   "id": 5,
+   "title": "Dangerous Creatures",
+   "colour": "#4f7d2b",
+   "sbStart": 108,
+   "wbStart": 69,
+   "sbPages": "108–135",
+   "wbPages": "69–84",
+   "parts": [
+    {
+     "code": "5A",
+     "title": "Venomous Creatures"
+    },
+    {
+     "code": "5B",
+     "title": "Beware of These Creatures!"
+    }
+   ],
+   "overview": "Snakes, jellyfish and cone snails all belong to ‘The Venom Club’! In this unit you will read magazine-style information texts about venomous creatures on land and in the sea. You will learn how writers choose their tone, how to tell facts from opinions, and how to write a gripping article about a dangerous animal.",
+   "objectives": [
+    "Explain the purpose and tone of information texts, and how tone can be serious or light-hearted.",
+    "Tell the difference between facts and opinions in articles.",
+    "Use adverbs and adverbial phrases of time, frequency, place and manner.",
+    "Use modal verbs to show how possible something is.",
+    "Work out the meaning of homonyms from context, and spot silent vowels in words.",
+    "Choose words with the right shade of meaning, and write an article about a dangerous animal."
+   ],
+   "texts": [
+    {
+     "title": "The Venom Club – Venomous Land Creatures",
+     "kind": "Information text (magazine article)",
+     "pages": "111–116",
+     "summary": "This lively article is about venomous snakes. It explains that snakes are cold-blooded and get their warmth from their surroundings, and it describes their ‘super skills’ under fun subheadings such as Strong Scales, Stealth and Super Senses. There are about 3,500 known species of snake, but only a small number can seriously harm people."
+    },
+    {
+     "title": "The Venom Club – Venomous Sea Creatures",
+     "kind": "Information text (magazine article)",
+     "pages": "123–129",
+     "summary": "This part of the article dives into the ocean to meet the box jellyfish, which has a body shape unlike other jellyfish, and the cone snail, a highly skilled hunter. The writer argues that, although these creatures are dangerous, they are also valuable and need to be protected."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "venomous",
+     "meaning": "Able to inject a poison (venom) by biting or stinging.",
+     "example": "A cone snail is venomous."
+    },
+    {
+     "word": "predator",
+     "meaning": "An animal that hunts and eats other animals.",
+     "example": "The snake is the predator and the frog is its prey."
+    },
+    {
+     "word": "prey",
+     "meaning": "An animal that is hunted and eaten by another animal.",
+     "example": "Mice are prey for many snakes."
+    },
+    {
+     "word": "cold-blooded",
+     "meaning": "Having a body temperature that changes with the temperature around it.",
+     "example": "Snakes are cold-blooded, so they bask in the sun."
+    },
+    {
+     "word": "tone",
+     "meaning": "The feeling or attitude that a piece of writing shows, for example serious or light-hearted.",
+     "example": "The article has a fun, light-hearted tone."
+    },
+    {
+     "word": "fact",
+     "meaning": "Something that can be checked and proved to be true.",
+     "example": "Box jellyfish live in the ocean."
+    },
+    {
+     "word": "opinion",
+     "meaning": "What someone thinks or believes. It cannot be proved.",
+     "example": "I think box jellyfish are amazing."
+    },
+    {
+     "word": "homonym",
+     "meaning": "A word that is spelt and said the same as another word but has a different meaning.",
+     "example": "‘Scales’ can be the plates on a snake’s skin or a machine for weighing."
+    },
+    {
+     "word": "conserve",
+     "meaning": "To protect something so that it is not damaged or lost.",
+     "example": "We must conserve ocean creatures."
+    },
+    {
+     "word": "ambush",
+     "meaning": "To hide and then attack suddenly.",
+     "example": "Many snakes ambush their prey."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u5-sb-0",
+     "part": "5A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "108–109",
+     "tip": "Discuss which creatures are the most dangerous and why. Remember to give reasons for your choice."
+    },
+    {
+     "id": "u5-sb-1",
+     "part": "5A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Purpose and tone of information texts",
+     "pages": "109–110",
+     "tip": "Tone is how a text ‘sounds’. Ask yourself who it is written for and what it wants to do."
+    },
+    {
+     "id": "u5-sb-2",
+     "part": "5A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: The Venom Club",
+     "pages": "111–112",
+     "tip": "Look at the photographs and subheadings first to predict what you will learn."
+    },
+    {
+     "id": "u5-sb-3",
+     "part": "5A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Adverbs and adverbial phrases of time and frequency",
+     "pages": "113",
+     "tip": "Time tells you WHEN (in the daytime). Frequency tells you HOW OFTEN (sometimes, occasionally)."
+    },
+    {
+     "id": "u5-sb-4",
+     "part": "5A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: The Venom Club and Reading Comprehension",
+     "pages": "114–116",
+     "tip": "Notice the mix of formal facts and informal, fun language. Why might the writer do this?"
+    },
+    {
+     "id": "u5-sb-5",
+     "part": "5A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Homonyms and context",
+     "pages": "117",
+     "tip": "Read the whole sentence to decide which meaning of the homonym fits."
+    },
+    {
+     "id": "u5-sb-6",
+     "part": "5A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Silent vowels and syllables",
+     "pages": "118",
+     "tip": "Some vowels are not heard when we speak, as in ‘choc(o)late’ and ‘diff(e)rent’. Say the word slowly to help you spell it."
+    },
+    {
+     "id": "u5-sb-7",
+     "part": "5A",
+     "lesson": "Lesson 9",
+     "title": "Writing: Use shades of meaning",
+     "pages": "119–120",
+     "tip": "Words can be weaker or stronger, for example ‘ambled’, ‘ran’ and ‘stormed’. Choose strong words for drama."
+    },
+    {
+     "id": "u5-sb-8",
+     "part": "5B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Facts and opinions in articles",
+     "pages": "121–122",
+     "tip": "A fact can be checked. An opinion shows what someone thinks or feels."
+    },
+    {
+     "id": "u5-sb-9",
+     "part": "5B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: The Venom Club",
+     "pages": "123–124",
+     "tip": "Why does the writer tell us that jellyfish are important as well as dangerous?"
+    },
+    {
+     "id": "u5-sb-10",
+     "part": "5B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Grammar: Modal verbs of possibility",
+     "pages": "125–126",
+     "tip": "Modal verbs show how likely something is, from ‘will’ (certain) to ‘might’ (possible)."
+    },
+    {
+     "id": "u5-sb-11",
+     "part": "5B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: The Venom Club and Reading Comprehension",
+     "pages": "127–129",
+     "tip": "Find the sentence in the final paragraph that tries to persuade you."
+    },
+    {
+     "id": "u5-sb-12",
+     "part": "5B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Grammar: Adverbs and adverbial phrases of place and manner",
+     "pages": "130",
+     "tip": "Place tells you WHERE (along the ocean floor). Manner tells you HOW (stealthily)."
+    },
+    {
+     "id": "u5-sb-13",
+     "part": "5B",
+     "lesson": "Lesson 15",
+     "title": "Listening and Speaking: Danger in the Desert",
+     "pages": "131",
+     "tip": "Listen for key facts, then work with a partner to plan and present a short summary."
+    },
+    {
+     "id": "u5-sb-14",
+     "part": "5B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: An article about a dangerous animal",
+     "pages": "132–134",
+     "tip": "Mix facts with your opinion, use subheadings and strong words, and choose a tone that suits your readers."
+    },
+    {
+     "id": "u5-sb-15",
+     "part": "5B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "135",
+     "tip": "Which creature surprised you the most, and why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u5-wb-5A",
+     "code": "5A",
+     "title": "Let’s Learn: Purpose and tone of information texts",
+     "pages": "69",
+     "steps": [
+      "Question 1: decide whether each statement about tone is true or false.",
+      "Question 2: write a short information text about the picture, following the guidelines."
+     ],
+     "tip": "Decide on your purpose, your audience and your tone before you start writing."
+    },
+    {
+     "id": "u5-wb-5B",
+     "code": "5B",
+     "title": "Language Focus: Adverbs and adverbial phrases of time and frequency",
+     "pages": "70",
+     "steps": [
+      "Question 1: underline the adverbs and adverbial phrases.",
+      "Question 2: sort them into time and frequency."
+     ],
+     "tip": "Ask ‘When?’ for time and ‘How often?’ for frequency."
+    },
+    {
+     "id": "u5-wb-5C",
+     "code": "5C",
+     "title": "Reading Comprehension: The Venom Club",
+     "pages": "71",
+     "steps": [
+      "Question 1: decide whether each statement is true or false.",
+      "Questions 2–3: find the answers in the text."
+     ],
+     "tip": "Underline the key words in each question, then look for them in the text."
+    },
+    {
+     "id": "u5-wb-5D",
+     "code": "5D",
+     "title": "Language Focus: Homonyms and context",
+     "pages": "72",
+     "steps": [
+      "Question 1: work out the meaning of each underlined word from the sentence.",
+      "Question 2: write sentences using homonyms."
+     ],
+     "tip": "Context means the words around the homonym. They tell you which meaning is right."
+    },
+    {
+     "id": "u5-wb-5E",
+     "code": "5E",
+     "title": "Word Structure: Silent vowels and syllables",
+     "pages": "73",
+     "steps": [
+      "Question 1: say each word aloud and underline the vowel or syllable that is not pronounced.",
+      "Question 2: correct the spelling of the words that have been written the way they sound."
+     ],
+     "tip": "Use a dictionary to check your spellings."
+    },
+    {
+     "id": "u5-wb-5F",
+     "code": "5F",
+     "title": "Writing: Use shades of meaning",
+     "pages": "74",
+     "steps": [
+      "Question 1: find the word that does not belong in each group.",
+      "Question 2: put the words in order from weakest to strongest.",
+      "Question 3: write sentences using the strongest words."
+     ],
+     "tip": "Imagine the words on a scale from gentle to powerful."
+    },
+    {
+     "id": "u5-wb-5G",
+     "code": "5G",
+     "title": "Let’s Learn: Facts and opinions in articles",
+     "pages": "75",
+     "steps": [
+      "Read the article about sharks.",
+      "Decide what the writer thinks about sharks and find words that show it.",
+      "Sort sentences into facts and opinions, then write your own opinion."
+     ],
+     "tip": "Words such as ‘amazing’ and ‘superhero’ usually show an opinion."
+    },
+    {
+     "id": "u5-wb-5H",
+     "code": "5H",
+     "title": "Language Focus: Modal verbs of possibility",
+     "pages": "76",
+     "steps": [
+      "Question 1: choose a suitable modal verb to complete each sentence.",
+      "Question 2: match each sentence to how possible it is."
+     ],
+     "tip": "Think of a scale from certain to possible."
+    },
+    {
+     "id": "u5-wb-5I",
+     "code": "5I",
+     "title": "Reading Comprehension: The Venom Club",
+     "pages": "77–78",
+     "steps": [
+      "Reread Parts 1 and 2 about the sea creatures.",
+      "Question 1: answer the multiple-choice questions.",
+      "Question 2: give three reasons why you found a creature interesting."
+     ],
+     "tip": "Use facts from the text to support your reasons."
+    },
+    {
+     "id": "u5-wb-5J",
+     "code": "5J",
+     "title": "Language Focus: Adverbs and adverbial phrases of place and manner",
+     "pages": "79",
+     "steps": [
+      "Question 1: complete the sentences with adverbs and adverbial phrases from the box.",
+      "Question 2: find the verb that each adverb or adverbial phrase describes."
+     ],
+     "tip": "Ask ‘Where?’ for place and ‘How?’ for manner."
+    },
+    {
+     "id": "u5-wb-5K",
+     "code": "5K",
+     "title": "Writing: An article about a dangerous animal",
+     "pages": "80–81",
+     "steps": [
+      "Choose and research a dangerous animal.",
+      "Use the headings in the table to make notes, decide on your opinion and plan your pictures.",
+      "Write your article with a headline, subheadings, facts and your opinion."
+     ],
+     "tip": "Use strong words from Lesson 9 to make your article exciting."
+    },
+    {
+     "id": "u5-wb-5L",
+     "code": "5L",
+     "title": "What Have I Learnt?",
+     "pages": "82–83",
+     "steps": [
+      "Question 1: change the tone of the sentences.",
+      "Question 2: identify the types of adverbs and adverbial phrases.",
+      "Question 3: choose the correct meaning of each homonym.",
+      "Questions 4–5: use modal verbs and choose strong words."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u5-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "84",
+     "steps": [
+      "Write about whether you enjoy reading and writing information texts, and why."
+     ],
+     "tip": "Be honest. Your journal is for you."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u5-c0",
+     "front": "What is the difference between a fact and an opinion?",
+     "back": "A fact can be checked and proved. An opinion is what someone thinks or feels."
+    },
+    {
+     "id": "u5-c1",
+     "front": "Why do snakes bask in the sun?",
+     "back": "They are cold-blooded, so they get their warmth from their surroundings."
+    },
+    {
+     "id": "u5-c2",
+     "front": "What does ‘tone’ mean in writing?",
+     "back": "The feeling or attitude of a text, for example serious, formal, light-hearted or funny."
+    },
+    {
+     "id": "u5-c3",
+     "front": "Adverbs of time and frequency answer which questions?",
+     "back": "Time answers ‘When?’ (yesterday). Frequency answers ‘How often?’ (sometimes)."
+    },
+    {
+     "id": "u5-c4",
+     "front": "Adverbs of place and manner answer which questions?",
+     "back": "Place answers ‘Where?’ (along the ocean floor). Manner answers ‘How?’ (stealthily)."
+    },
+    {
+     "id": "u5-c5",
+     "front": "Why does the writer say that venomous sea creatures should be protected?",
+     "back": "Because they play a part in keeping the environment in balance."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u5-q0",
+     "q": "Which sentence is an opinion?",
+     "options": [
+      "Box jellyfish live in the ocean.",
+      "Snakes are cold-blooded.",
+      "Sharks are the most amazing creatures ever.",
+      "Cone snails hunt their prey."
+     ],
+     "answer": 2,
+     "explain": "‘Most amazing’ shows what the writer thinks, so it is an opinion."
+    },
+    {
+     "id": "u5-q1",
+     "q": "‘Occasionally, snakes are active at night.’ What kind of adverb is ‘occasionally’?",
+     "options": [
+      "Place",
+      "Manner",
+      "Frequency",
+      "Time"
+     ],
+     "answer": 2,
+     "explain": "It tells you how often, so it is an adverb of frequency."
+    },
+    {
+     "id": "u5-q2",
+     "q": "‘The cone snail moved stealthily.’ What kind of adverb is ‘stealthily’?",
+     "options": [
+      "Manner",
+      "Place",
+      "Time",
+      "Frequency"
+     ],
+     "answer": 0,
+     "explain": "It tells you HOW the snail moved, so it is an adverb of manner."
+    },
+    {
+     "id": "u5-q3",
+     "q": "Which word is the strongest?",
+     "options": [
+      "tired",
+      "sleepy",
+      "exhausted",
+      "fatigued"
+     ],
+     "answer": 2,
+     "explain": "‘Exhausted’ is the strongest shade of meaning."
+    },
+    {
+     "id": "u5-q4",
+     "q": "Which modal verb shows the most certainty?",
+     "options": [
+      "might",
+      "could",
+      "will",
+      "may"
+     ],
+     "answer": 2,
+     "explain": "‘Will’ shows that something is certain to happen."
+    },
+    {
+     "id": "u5-q5",
+     "q": "Which word has a silent vowel when we say it?",
+     "options": [
+      "cat",
+      "chocolate",
+      "dog",
+      "sun"
+     ],
+     "answer": 1,
+     "explain": "Most people say ‘choc-late’, so the second ‘o’ is not heard."
+    },
+    {
+     "id": "u5-q6",
+     "q": "What is a predator?",
+     "options": [
+      "An animal that is hunted",
+      "An animal that hunts other animals",
+      "A plant",
+      "A type of shell"
+     ],
+     "answer": 1,
+     "explain": "A predator hunts and eats other animals, which are its prey."
+    },
+    {
+     "id": "u5-q7",
+     "q": "‘The snake shed its scales.’ Which meaning of ‘scales’ is used here?",
+     "options": [
+      "A machine for weighing",
+      "Small flat plates covering the skin",
+      "Musical notes going up and down",
+      "Sizes on a map"
+     ],
+     "answer": 1,
+     "explain": "The context (snake, shed) tells us that scales are the plates on its skin."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the venomous creatures",
+     "correct": [
+      "cobra",
+      "rattlesnake",
+      "box jellyfish",
+      "cone snail",
+      "coral snake",
+      "viper",
+      "stonefish",
+      "scorpion"
+     ],
+     "wrong": [
+      "goldfish",
+      "rabbit",
+      "parrot",
+      "sheep",
+      "giraffe",
+      "hamster",
+      "dolphin",
+      "penguin"
+     ]
+    },
+    {
+     "prompt": "Catch the adverbs and adverbial phrases of frequency",
+     "correct": [
+      "sometimes",
+      "often",
+      "occasionally",
+      "rarely",
+      "always",
+      "never",
+      "every day",
+      "usually"
+     ],
+     "wrong": [
+      "yesterday",
+      "quickly",
+      "under the rock",
+      "tomorrow",
+      "stealthily",
+      "at night",
+      "here",
+      "carefully"
+     ]
+    },
+    {
+     "prompt": "Catch the words that show an opinion",
+     "correct": [
+      "amazing",
+      "wonderful",
+      "terrifying",
+      "beautiful",
+      "the best",
+      "fantastic",
+      "horrible",
+      "incredible"
+     ],
+     "wrong": [
+      "venom",
+      "ocean",
+      "scales",
+      "tentacles",
+      "species",
+      "prey",
+      "shell",
+      "desert"
+     ]
+    }
+   ],
+   "icon": "snail"
+  },
+  {
+   "id": 6,
+   "title": "What a Classic!",
+   "colour": "#8c3b3b",
+   "sbStart": 136,
+   "wbStart": 85,
+   "sbPages": "136–162",
+   "wbPages": "85–101",
+   "parts": [
+    {
+     "code": "6A",
+     "title": "A Classic Novel"
+    },
+    {
+     "code": "6B",
+     "title": "What’s the Angle?"
+    }
+   ],
+   "overview": "Why do people still read stories that were written nearly 200 years ago? In this unit you will read extracts from Charles Dickens’s famous novel Oliver Twist. You will learn what makes a book a ‘classic’, how stories can be told from different viewpoints, and how to write direct and reported speech correctly.",
+   "objectives": [
+    "Explain what makes literature a classic.",
+    "Identify first-person and third-person viewpoints in stories.",
+    "Change direct speech into reported speech, and punctuate both correctly.",
+    "Use personal and possessive pronouns correctly.",
+    "Use apostrophes for possession and for contractions.",
+    "Apply spelling rules, such as ‘i before e except after c’, and write a diary entry from a character’s viewpoint."
+   ],
+   "texts": [
+    {
+     "title": "Oliver Twist: The Workhouse",
+     "kind": "Extract from a classic novel by Charles Dickens",
+     "pages": "139–145",
+     "summary": "Oliver is an orphan who lives in a workhouse, where the boys are given only a small bowl of thin porridge called gruel. The hungry boys decide that someone must ask for more, and Oliver is chosen. When he walks up to the master and asks for more, the adults are shocked, and Oliver is treated as if he has committed a crime."
+    },
+    {
+     "title": "Oliver Twist: The Artful Dodger",
+     "kind": "Extract from a classic novel by Charles Dickens",
+     "pages": "151–152",
+     "summary": "After a week of walking, a tired and hungry Oliver reaches a small town on the way to London. There he meets a confident boy called the Artful Dodger, who buys him food and offers to take him to a man in London who will give him somewhere to sleep."
+    },
+    {
+     "title": "Oliver Twist: Oliver Got Caught!",
+     "kind": "Extract from a classic novel by Charles Dickens",
+     "pages": "155–157",
+     "summary": "Oliver watches in horror as the Dodger steals a gentleman’s handkerchief at a bookstall. Confused and frightened, Oliver runs away, so the crowd chases him, shouting ‘Stop, thief!’ Oliver is blamed for a crime that he did not commit."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "classic",
+     "meaning": "A book that has been admired for a long time because it is very well written and its ideas still matter today.",
+     "example": "Oliver Twist is a classic novel."
+    },
+    {
+     "word": "workhouse",
+     "meaning": "In the past, a place where very poor people lived and had to work in return for food and a bed.",
+     "example": "Oliver grew up in a workhouse."
+    },
+    {
+     "word": "gruel",
+     "meaning": "A thin, watery porridge.",
+     "example": "The boys ate one small bowl of gruel."
+    },
+    {
+     "word": "viewpoint",
+     "meaning": "The position from which a story is told. In the first person, the narrator says ‘I’. In the third person, the narrator says ‘he’, ‘she’ or ‘they’.",
+     "example": "Oliver Twist is told in the third person."
+    },
+    {
+     "word": "direct speech",
+     "meaning": "The exact words that someone says, written inside inverted commas.",
+     "example": "“I want some more,” said Oliver."
+    },
+    {
+     "word": "reported speech",
+     "meaning": "Telling what someone said without using their exact words.",
+     "example": "Oliver said that he wanted some more."
+    },
+    {
+     "word": "possessive pronoun",
+     "meaning": "A word that shows who owns something, such as ‘mine’, ‘yours’, ‘his’, ‘hers’, ‘ours’ and ‘theirs’.",
+     "example": "That bowl is mine."
+    },
+    {
+     "word": "apostrophe",
+     "meaning": "A punctuation mark (’) that shows possession (Oliver’s bowl) or missing letters (didn’t).",
+     "example": "The boy’s feet were sore."
+    },
+    {
+     "word": "contraction",
+     "meaning": "Two words shortened into one, with an apostrophe where the letters are missing.",
+     "example": "‘Do not’ becomes ‘don’t’."
+    },
+    {
+     "word": "diary entry",
+     "meaning": "A personal piece of writing about what happened on a particular day and how the writer felt.",
+     "example": "Oliver wrote a diary entry about the day he was blamed."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u6-sb-0",
+     "part": "6A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious",
+     "pages": "136",
+     "tip": "Talk about the difference between ‘classic’ and ‘modern’. What classic things can you think of?"
+    },
+    {
+     "id": "u6-sb-1",
+     "part": "6A",
+     "lesson": "Lesson 2",
+     "title": "Getting Started and Let’s Learn: What makes literature a classic?",
+     "pages": "137–138",
+     "tip": "Classics were written long ago, are very well written and have ideas that still matter to readers today."
+    },
+    {
+     "id": "u6-sb-2",
+     "part": "6A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: Oliver Twist – The Workhouse",
+     "pages": "139–140",
+     "tip": "Old-fashioned words such as ‘porringer’ and ‘countenance’ are tricky. Use the context and the Vocabulary boxes."
+    },
+    {
+     "id": "u6-sb-3",
+     "part": "6A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Direct and reported speech",
+     "pages": "141–143",
+     "tip": "In reported speech, the tense moves back, pronouns change and there are no inverted commas."
+    },
+    {
+     "id": "u6-sb-4",
+     "part": "6A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: Oliver Twist – The Workhouse and Reading Comprehension",
+     "pages": "144–145",
+     "tip": "How do the adults react when Oliver asks for more? Find the words that show their shock."
+    },
+    {
+     "id": "u6-sb-5",
+     "part": "6A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Punctuation: Punctuation in direct and reported speech",
+     "pages": "146",
+     "tip": "Put the spoken words and their punctuation inside the inverted commas."
+    },
+    {
+     "id": "u6-sb-6",
+     "part": "6A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Spelling rules",
+     "pages": "147",
+     "tip": "Revise ‘i before e except after c’, dropping the silent ‘e’, doubling consonants, changing ‘y’ to ‘i’, and ‘ck’ and ‘tch’."
+    },
+    {
+     "id": "u6-sb-7",
+     "part": "6A",
+     "lesson": "Lesson 9",
+     "title": "Writing: A classic in modern language",
+     "pages": "148",
+     "tip": "Retell the workhouse scene in today’s language, but keep the same events and feelings."
+    },
+    {
+     "id": "u6-sb-8",
+     "part": "6B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Viewpoints in stories",
+     "pages": "149–150",
+     "tip": "Look at the pronouns. ‘I’ means first person. Characters’ names with ‘he’ or ‘she’ usually mean third person."
+    },
+    {
+     "id": "u6-sb-9",
+     "part": "6B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: Oliver Twist – The Artful Dodger",
+     "pages": "151–152",
+     "tip": "What clues tell you how far Oliver has walked and how he feels?"
+    },
+    {
+     "id": "u6-sb-10",
+     "part": "6B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Grammar: Personal and possessive pronouns",
+     "pages": "153–154",
+     "tip": "Personal pronouns replace names (he, they). Possessive pronouns show ownership (mine, ours)."
+    },
+    {
+     "id": "u6-sb-11",
+     "part": "6B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: Oliver Twist – Oliver Got Caught! and Reading Comprehension",
+     "pages": "155–157",
+     "tip": "Why does Oliver run, and why does the crowd think he is the thief?"
+    },
+    {
+     "id": "u6-sb-12",
+     "part": "6B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Punctuation: Apostrophes",
+     "pages": "158",
+     "tip": "For one owner, add ’s (the boy’s). For plural owners ending in s, add just the apostrophe (the boys’)."
+    },
+    {
+     "id": "u6-sb-13",
+     "part": "6B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Acting out a scene",
+     "pages": "159",
+     "tip": "Use your voice, face and body to show how your character feels."
+    },
+    {
+     "id": "u6-sb-14",
+     "part": "6B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: A diary entry to express a viewpoint",
+     "pages": "160–161",
+     "tip": "Write as Oliver in the first person. Include the date, what happened and how you felt."
+    },
+    {
+     "id": "u6-sb-15",
+     "part": "6B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "162",
+     "tip": "Would you like to read the whole of Oliver Twist one day? Why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u6-wb-6A",
+     "code": "6A",
+     "title": "Let’s Learn: What makes literature a classic?",
+     "pages": "85",
+     "steps": [
+      "Question 1: choose features of classic literature from the box and write them in the right place.",
+      "Question 2: think of a book you have read recently and decide whether it could be a classic."
+     ],
+     "tip": "Give reasons for your decision."
+    },
+    {
+     "id": "u6-wb-6B",
+     "code": "6B",
+     "title": "Language Focus: Direct and reported speech",
+     "pages": "86",
+     "steps": [
+      "Question 1: tick the things that change when direct speech becomes reported speech.",
+      "Question 2: rewrite the direct speech sentences as reported speech."
+     ],
+     "tip": "Time words, pointer words (this and that), tenses and pronouns usually change."
+    },
+    {
+     "id": "u6-wb-6C",
+     "code": "6C",
+     "title": "Reading Comprehension: The Workhouse",
+     "pages": "87",
+     "steps": [
+      "Questions 1–3: find the answers in the text and quote from it.",
+      "Question 4: imagine you are Oliver and describe how you would feel."
+     ],
+     "tip": "Copy quotations exactly and put them inside inverted commas."
+    },
+    {
+     "id": "u6-wb-6D",
+     "code": "6D",
+     "title": "Language Focus: Punctuation in direct and reported speech",
+     "pages": "88",
+     "steps": [
+      "Question 1: correct the punctuation in the sentences.",
+      "Question 2: rewrite the sentences as direct speech with the correct punctuation."
+     ],
+     "tip": "Start a new line each time a new person speaks."
+    },
+    {
+     "id": "u6-wb-6E",
+     "code": "6E",
+     "title": "Word Structure: Spelling rules",
+     "pages": "89–90",
+     "steps": [
+      "Question 1: complete each word with ‘ie’ or ‘ei’.",
+      "Question 2: complete the sentences with the correct form of the word in brackets.",
+      "Questions 3–5: complete the rhyme with ‘ck’ words, complete the sentences with the correct word forms, and finish the words with ‘ch’ or ‘tch’."
+     ],
+     "tip": "Remember ‘i before e except after c’, but watch out for exceptions such as ‘weird’ and ‘foreign’."
+    },
+    {
+     "id": "u6-wb-6F",
+     "code": "6F",
+     "title": "Writing: A classic in modern language",
+     "pages": "91",
+     "steps": [
+      "Use the questions to make notes about the workhouse scene.",
+      "Rewrite the scene in modern language.",
+      "Edit your work and write a neat copy."
+     ],
+     "tip": "Keep the same events and feelings, but use words that people use today."
+    },
+    {
+     "id": "u6-wb-6G",
+     "code": "6G",
+     "title": "Let’s Learn: Viewpoints in stories",
+     "pages": "92",
+     "steps": [
+      "Question 1: read the extract and choose the viewpoint it is written in.",
+      "Question 2: retell the events from a character’s viewpoint."
+     ],
+     "tip": "When you write in the first person, use ‘I’ and share the character’s thoughts."
+    },
+    {
+     "id": "u6-wb-6H",
+     "code": "6H",
+     "title": "Language Focus: Personal and possessive pronouns",
+     "pages": "93",
+     "steps": [
+      "Question 1: sort the pronouns into personal and possessive pronouns.",
+      "Question 2: circle the best pronoun to complete each sentence."
+     ],
+     "tip": "Check who or what the pronoun refers to."
+    },
+    {
+     "id": "u6-wb-6I",
+     "code": "6I",
+     "title": "Reading Comprehension: The Artful Dodger and Oliver Got Caught!",
+     "pages": "94–95",
+     "steps": [
+      "Reread both extracts.",
+      "Question 1: decide whether each statement is true or false.",
+      "Question 2: answer the longer comprehension questions."
+     ],
+     "tip": "Use evidence from the text in your answers."
+    },
+    {
+     "id": "u6-wb-6J",
+     "code": "6J",
+     "title": "Language Focus: Apostrophes",
+     "pages": "96",
+     "steps": [
+      "Question 1: add the missing apostrophes.",
+      "Question 2: make contractions using apostrophes.",
+      "Question 3: find the mistakes and correct them."
+     ],
+     "tip": "‘Its’ (belonging to it) has no apostrophe. ‘It’s’ means ‘it is’."
+    },
+    {
+     "id": "u6-wb-6K",
+     "code": "6K",
+     "title": "Writing: A diary entry to express a viewpoint",
+     "pages": "97–98",
+     "steps": [
+      "Use the headings and boxes to plan your diary entry as Oliver.",
+      "Write your first draft.",
+      "Check that you have a date and used the first person, the past tense and your feelings, then write a neat copy."
+     ],
+     "tip": "A diary is personal, so show Oliver’s thoughts and feelings."
+    },
+    {
+     "id": "u6-wb-6L",
+     "code": "6L",
+     "title": "What Have I Learnt?",
+     "pages": "99–100",
+     "steps": [
+      "Question 1: write a dialogue in direct speech and then in reported speech.",
+      "Question 2: find and correct the spelling mistakes.",
+      "Question 3: find and correct the punctuation mistakes.",
+      "Question 4: answer the questions about the text."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u6-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "101",
+     "steps": [
+      "Write about which extract from Oliver Twist you enjoyed most, and why.",
+      "Imagine you could meet Oliver. Write the questions you would ask him."
+     ],
+     "tip": "Use details from the extracts to explain your choice."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u6-c0",
+     "front": "What makes a book a classic?",
+     "back": "It was written some time ago, it is very well written, and its characters and ideas still matter to readers today."
+    },
+    {
+     "id": "u6-c1",
+     "front": "Who wrote Oliver Twist?",
+     "back": "Charles Dickens."
+    },
+    {
+     "id": "u6-c2",
+     "front": "Why does Oliver get into trouble in the workhouse?",
+     "back": "He asks for more food, and the people in charge are shocked."
+    },
+    {
+     "id": "u6-c3",
+     "front": "Change to reported speech: ‘I am hungry,’ said Oliver.",
+     "back": "Oliver said that he was hungry."
+    },
+    {
+     "id": "u6-c4",
+     "front": "‘The boy’s bowls’ or ‘the boys’ bowls’?",
+     "back": "‘The boy’s bowls’ belong to one boy. ‘The boys’ bowls’ belong to more than one boy."
+    },
+    {
+     "id": "u6-c5",
+     "front": "How can you tell a story is in the first person?",
+     "back": "The narrator uses ‘I’ and ‘me’ and tells their own story."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u6-q0",
+     "q": "Which sentence is reported speech?",
+     "options": [
+      "“I want some more,” said Oliver.",
+      "Oliver said that he wanted some more.",
+      "“More!” shouted Oliver.",
+      "Oliver: I want more."
+     ],
+     "answer": 1,
+     "explain": "Reported speech tells us what was said without the exact words or inverted commas."
+    },
+    {
+     "id": "u6-q1",
+     "q": "Which sentence is punctuated correctly?",
+     "options": [
+      "“Please, sir, I want some more” said Oliver.",
+      "“Please, sir, I want some more,” said Oliver.",
+      "“Please, sir, I want some more”, said Oliver.",
+      "Please, sir, I want some more, said Oliver."
+     ],
+     "answer": 1,
+     "explain": "The comma goes inside the inverted commas, before ‘said’."
+    },
+    {
+     "id": "u6-q2",
+     "q": "Which word follows the rule ‘i before e except after c’?",
+     "options": [
+      "recieve",
+      "receive",
+      "beleive",
+      "peice"
+     ],
+     "answer": 1,
+     "explain": "After ‘c’, we write ‘ei’, so ‘receive’ is correct."
+    },
+    {
+     "id": "u6-q3",
+     "q": "Which is a possessive pronoun?",
+     "options": [
+      "he",
+      "they",
+      "ours",
+      "we"
+     ],
+     "answer": 2,
+     "explain": "‘Ours’ shows that something belongs to us."
+    },
+    {
+     "id": "u6-q4",
+     "q": "Which sentence uses the apostrophe correctly?",
+     "options": [
+      "The dog wagged it’s tail.",
+      "The dog wagged its tail.",
+      "The dog wagged its’ tail.",
+      "The dogs’ wagged its tail."
+     ],
+     "answer": 1,
+     "explain": "‘Its’ shows possession and never has an apostrophe. ‘It’s’ means ‘it is’."
+    },
+    {
+     "id": "u6-q5",
+     "q": "‘I walked to London and my feet were bleeding.’ Which viewpoint is this?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No viewpoint"
+     ],
+     "answer": 0,
+     "explain": "The narrator uses ‘I’ and ‘my’, so it is the first person."
+    },
+    {
+     "id": "u6-q6",
+     "q": "Who buys Oliver food and offers to take him to London?",
+     "options": [
+      "Mr Bumble",
+      "The Artful Dodger",
+      "The master",
+      "The gentleman at the bookstall"
+     ],
+     "answer": 1,
+     "explain": "The Artful Dodger buys Oliver food and offers to take him to a man in London."
+    },
+    {
+     "id": "u6-q7",
+     "q": "What is the contraction of ‘they have’?",
+     "options": [
+      "they’v",
+      "theyve",
+      "they’ve",
+      "the’ve"
+     ],
+     "answer": 2,
+     "explain": "The apostrophe replaces the missing letters ‘ha’."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the possessive pronouns",
+     "correct": [
+      "mine",
+      "yours",
+      "his",
+      "hers",
+      "ours",
+      "theirs",
+      "its",
+      "whose"
+     ],
+     "wrong": [
+      "I",
+      "me",
+      "they",
+      "we",
+      "she",
+      "him",
+      "us",
+      "them"
+     ]
+    },
+    {
+     "prompt": "Catch the correctly spelt words",
+     "correct": [
+      "receive",
+      "believe",
+      "piece",
+      "field",
+      "achieve",
+      "ceiling",
+      "thief",
+      "chief"
+     ],
+     "wrong": [
+      "recieve",
+      "beleive",
+      "peice",
+      "feild",
+      "acheive",
+      "cieling",
+      "theif",
+      "cheif"
+     ]
+    },
+    {
+     "prompt": "Catch the characters and places from Oliver Twist",
+     "correct": [
+      "Oliver",
+      "Artful Dodger",
+      "Mr Bumble",
+      "Mr Limbkins",
+      "workhouse",
+      "London",
+      "the master",
+      "gruel"
+     ],
+     "wrong": [
+      "Anansi",
+      "Mowgli",
+      "Jumbo",
+      "Shere Khan",
+      "Madan",
+      "Baloo",
+      "Sigo",
+      "Bagheera"
+     ]
+    }
+   ],
+   "icon": "book-open-text"
+  },
+  {
+   "id": 7,
+   "title": "What an Act!",
+   "colour": "#a0522d",
+   "sbStart": 163,
+   "wbStart": 102,
+   "sbPages": "163–189",
+   "wbPages": "102–119",
+   "parts": [
+    {
+     "code": "7A",
+     "title": "Action on Stage"
+    },
+    {
+     "code": "7B",
+     "title": "Dramatic Flair"
+    }
+   ],
+   "overview": "Lights, curtain, action! In this unit you will read play scripts: a short play based on Oliver Twist and a play based on a Native American folktale. You will learn how play scripts are different from stories, how writers use stage directions and dramatic conventions, and how to write and perform a one-act play of your own.",
+   "objectives": [
+    "Compare play scripts with narratives.",
+    "Identify dramatic conventions, such as dialogue, a narrator, asides, costumes, scenery, props, lighting and sound effects.",
+    "Use relative pronouns and relative clauses (‘who’, ‘whom’, ‘whose’, ‘which’ and ‘that’).",
+    "Use roots, prefixes and suffixes to work out word meanings.",
+    "Spell words with stressed and unstressed vowel sounds.",
+    "Use figurative language and modal verbs, and write a play script with dialogue and stage directions."
+   ],
+   "texts": [
+    {
+     "title": "Oliver Twist",
+     "kind": "Play script based on the classic novel",
+     "pages": "166–171",
+     "summary": "The workhouse scene from Oliver Twist is turned into a short play. A narrator sets the scene, stage directions tell the actors what to do, and the hungry boys push Oliver to ask for more. When he does, Mr Bumble and Mr Limbkins are outraged."
+    },
+    {
+     "title": "Mooin: The Bear’s Child",
+     "kind": "Play script (adapted from a Native American folktale)",
+     "pages": "177–184",
+     "summary": "Sigo’s cruel stepfather takes him hunting against his mother’s wishes, then tricks him into a cave and traps him there. Glooscap, the Great Chief, punishes the stepfather and calls the forest animals to help. Only Mooinsk, the mother bear, is strong enough to move the rock. Sigo lives with the bears and learns the forest’s secrets. In the end he returns to his human mother and takes the name Mooin."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "play script",
+     "meaning": "The written text of a play, with the characters’ lines and stage directions.",
+     "example": "We read the play script aloud in groups."
+    },
+    {
+     "word": "stage directions",
+     "meaning": "Instructions in a play script, usually in brackets, that tell actors how to move or speak, or describe lighting and sound.",
+     "example": "(Oliver walks slowly to the master.)"
+    },
+    {
+     "word": "dialogue",
+     "meaning": "The words that the characters speak to each other.",
+     "example": "The dialogue is short and lively."
+    },
+    {
+     "word": "narrator",
+     "meaning": "A person who tells the audience what is happening.",
+     "example": "The narrator introduces the setting."
+    },
+    {
+     "word": "aside",
+     "meaning": "Words a character says to the audience that the other characters on stage do not hear.",
+     "example": "The stepfather tells the audience his plan in an aside."
+    },
+    {
+     "word": "props",
+     "meaning": "Objects that actors use on stage.",
+     "example": "The bowls and spoons are props."
+    },
+    {
+     "word": "scenery",
+     "meaning": "The painted background and objects that show where a scene takes place.",
+     "example": "The scenery showed a dark forest."
+    },
+    {
+     "word": "offstage",
+     "meaning": "At the side of the stage, where the audience cannot see.",
+     "example": "A loud noise came from offstage."
+    },
+    {
+     "word": "relative pronoun",
+     "meaning": "A word such as ‘who’, ‘whom’, ‘whose’, ‘which’ or ‘that’ that starts a clause giving more information.",
+     "example": "The actor who played Oliver was excellent."
+    },
+    {
+     "word": "act",
+     "meaning": "One of the main parts that a play is divided into. Each act can contain several scenes.",
+     "example": "There is a break at the end of Act 1."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u7-sb-0",
+     "part": "7A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "163–164",
+     "tip": "Talk about theatres and what actors do to prepare for a play."
+    },
+    {
+     "id": "u7-sb-1",
+     "part": "7A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Play scripts vs narratives",
+     "pages": "164",
+     "tip": "Play scripts have stage directions, acts and scenes, and a list of characters. Narratives have chapters and description."
+    },
+    {
+     "id": "u7-sb-2",
+     "part": "7A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: Oliver Twist (play script)",
+     "pages": "166–167",
+     "tip": "Read the stage directions carefully. They tell you how the characters feel and move."
+    },
+    {
+     "id": "u7-sb-3",
+     "part": "7A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Relative pronouns and relative clauses",
+     "pages": "168–169",
+     "tip": "Use ‘who’ for people, ‘which’ for things, ‘whose’ for ownership and ‘whom’ for the person something is done to."
+    },
+    {
+     "id": "u7-sb-4",
+     "part": "7A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: Oliver Twist (play script) and Reading Comprehension",
+     "pages": "170–171",
+     "tip": "Notice how short each character’s lines are. How does this keep the action moving?"
+    },
+    {
+     "id": "u7-sb-5",
+     "part": "7A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Roots, suffixes and prefixes",
+     "pages": "172",
+     "tip": "Roots carry meaning. ‘Tele’ means far, ‘graph’ means writing or drawing, and ‘bio’ means life."
+    },
+    {
+     "id": "u7-sb-6",
+     "part": "7A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Stressed and unstressed vowel sounds",
+     "pages": "173",
+     "tip": "Unstressed vowels often sound like ‘uh’, as in ‘hist(o)ry’. Say the word in an exaggerated way to help you spell it."
+    },
+    {
+     "id": "u7-sb-7",
+     "part": "7A",
+     "lesson": "Lesson 9",
+     "title": "Writing: Dialogue and stage directions",
+     "pages": "174",
+     "tip": "Write the character’s name, then their words. Put stage directions in brackets."
+    },
+    {
+     "id": "u7-sb-8",
+     "part": "7B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Dramatic conventions in play scripts",
+     "pages": "175–176",
+     "tip": "Dramatic conventions, such as asides, lighting and sound effects, help to make a play believable and exciting."
+    },
+    {
+     "id": "u7-sb-9",
+     "part": "7B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: Mooin: The Bear’s Child",
+     "pages": "177–180",
+     "tip": "Look for the aside. Who is the character speaking to?"
+    },
+    {
+     "id": "u7-sb-10",
+     "part": "7B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Vocabulary: Figurative language",
+     "pages": "181",
+     "tip": "Find similes, metaphors and personification in sentences about the play."
+    },
+    {
+     "id": "u7-sb-11",
+     "part": "7B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: Mooin: The Bear’s Child and Reading Comprehension",
+     "pages": "182–184",
+     "tip": "How do the offstage noises and lighting build tension?"
+    },
+    {
+     "id": "u7-sb-12",
+     "part": "7B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Grammar: More about modal verbs",
+     "pages": "185",
+     "tip": "Modal verbs can be used to make polite requests, for example ‘Could I…?’ and ‘May I…?’"
+    },
+    {
+     "id": "u7-sb-13",
+     "part": "7B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Presenting a play",
+     "pages": "186",
+     "tip": "Learn your lines, face the audience, project your voice and stay in character."
+    },
+    {
+     "id": "u7-sb-14",
+     "part": "7B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: Play script for a one-act play",
+     "pages": "187–188",
+     "tip": "Plan the characters, setting and plot. Then write the dialogue and helpful stage directions."
+    },
+    {
+     "id": "u7-sb-15",
+     "part": "7B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "189",
+     "tip": "Did you prefer reading or performing plays? Why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u7-wb-7A",
+     "code": "7A",
+     "title": "Let’s Learn: Play scripts vs narratives",
+     "pages": "102",
+     "steps": [
+      "Question 1: read the same story written as a narrative and as a play.",
+      "Question 2: compare them and explain how they are different."
+     ],
+     "tip": "Look at what the narrative tells you that the play has to show in other ways."
+    },
+    {
+     "id": "u7-wb-7B",
+     "code": "7B",
+     "title": "Language Focus: Relative pronouns",
+     "pages": "103",
+     "steps": [
+      "Join the pairs of sentences using a suitable relative pronoun."
+     ],
+     "tip": "Use commas around a relative clause that adds extra information."
+    },
+    {
+     "id": "u7-wb-7C",
+     "code": "7C",
+     "title": "Reading Comprehension: Oliver Twist (play script)",
+     "pages": "104–105",
+     "steps": [
+      "Question 1: find the answers in the play script and quote from it.",
+      "Question 2: rewrite Part 2 as a scene in a story, then give your own opinion about Oliver asking for more food."
+     ],
+     "tip": "When you change a play into a narrative, turn stage directions into description."
+    },
+    {
+     "id": "u7-wb-7D",
+     "code": "7D",
+     "title": "Language Focus: Roots, suffixes and prefixes",
+     "pages": "106",
+     "steps": [
+      "Question 1: build words using the suffixes.",
+      "Question 2: work out the meanings of words from their roots and affixes."
+     ],
+     "tip": "Check your answers in a dictionary if you have time."
+    },
+    {
+     "id": "u7-wb-7E",
+     "code": "7E",
+     "title": "Word Structure: Stressed and unstressed vowel sounds",
+     "pages": "107",
+     "steps": [
+      "Question 1: underline the stressed vowel sounds and circle the unstressed ones.",
+      "Question 2: circle the word parts with an ‘ee’ sound and underline those with an ‘uh’ sound."
+     ],
+     "tip": "Clap the syllables. The stressed syllable is the one you say most strongly."
+    },
+    {
+     "id": "u7-wb-7F",
+     "code": "7F",
+     "title": "Writing: Dialogue and stage directions",
+     "pages": "108",
+     "steps": [
+      "Use the template to write the rest of the play.",
+      "Check that your dialogue is laid out correctly and that the stage directions are in brackets."
+     ],
+     "tip": "Keep the dialogue short and punchy."
+    },
+    {
+     "id": "u7-wb-7G",
+     "code": "7G",
+     "title": "Let’s Learn: Dramatic conventions in play scripts",
+     "pages": "109",
+     "steps": [
+      "Complete the paragraphs by filling in the correct dramatic conventions."
+     ],
+     "tip": "The words you need include ‘aside’, ‘props’, ‘scenery’ and ‘sound effects’."
+    },
+    {
+     "id": "u7-wb-7H",
+     "code": "7H",
+     "title": "Language Focus: Figurative language",
+     "pages": "110–111",
+     "steps": [
+      "Question 1: read the text and underline the figurative language.",
+      "Question 2: sort the examples into similes and personification.",
+      "Question 3: decide what kind of figurative language the final example is."
+     ],
+     "tip": "Similes use ‘like’ or ‘as’. Personification gives human actions to objects."
+    },
+    {
+     "id": "u7-wb-7I",
+     "code": "7I",
+     "title": "Reading Comprehension: Mooin: The Bear’s Child",
+     "pages": "112–113",
+     "steps": [
+      "Reread Parts 1 and 2 of the play.",
+      "Answer the questions, including summarising what happens to the stepfather and how Sigo escapes.",
+      "Find a synonym, then give your own opinions with reasons."
+     ],
+     "tip": "Keep your summaries short. Include only the main events."
+    },
+    {
+     "id": "u7-wb-7J",
+     "code": "7J",
+     "title": "Language Focus: More about modal verbs",
+     "pages": "114",
+     "steps": [
+      "Question 1: complete the sentences using the modal verbs provided.",
+      "Question 2: complete the requests with suitable modal verbs."
+     ],
+     "tip": "For polite requests, use ‘could’, ‘may’ or ‘would’."
+    },
+    {
+     "id": "u7-wb-7K",
+     "code": "7K",
+     "title": "Writing: Play script for a one-act play",
+     "pages": "115–116",
+     "steps": [
+      "Use the headings and boxes in the table to plan your play.",
+      "Write your first draft with dialogue and stage directions.",
+      "Edit your play, fix any problems and write a neat copy."
+     ],
+     "tip": "Read your play aloud with friends to check that it works."
+    },
+    {
+     "id": "u7-wb-7L",
+     "code": "7L",
+     "title": "What Have I Learnt?",
+     "pages": "117–118",
+     "steps": [
+      "Question 1: write three differences between play scripts and narratives.",
+      "Question 2: revise relative pronouns, modal verbs, figurative language and play script features.",
+      "Questions 3–5: revise vowel sounds and spelling."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u7-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "119",
+     "steps": [
+      "Write about which play script you preferred, and why."
+     ],
+     "tip": "Think about the characters, the story and how it would look on stage."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u7-c0",
+     "front": "Name three features of a play script.",
+     "back": "For example, a list of characters, dialogue, stage directions in brackets, and acts and scenes."
+    },
+    {
+     "id": "u7-c1",
+     "front": "What is an aside?",
+     "back": "Words a character says to the audience that the other characters on stage cannot hear."
+    },
+    {
+     "id": "u7-c2",
+     "front": "What are props?",
+     "back": "Objects that actors use on stage, such as bowls, spoons or a lantern."
+    },
+    {
+     "id": "u7-c3",
+     "front": "When do you use ‘whose’?",
+     "back": "To show ownership, for example ‘The boy whose bowl it was licked it clean.’"
+    },
+    {
+     "id": "u7-c4",
+     "front": "Who frees Sigo from the cave?",
+     "back": "Mooinsk, the mother bear, moves the heavy rock."
+    },
+    {
+     "id": "u7-c5",
+     "front": "What does the root ‘tele’ mean?",
+     "back": "Far, as in ‘telephone’, ‘telescope’ and ‘television’."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u7-q0",
+     "q": "In a play script, stage directions are usually written…",
+     "options": [
+      "in inverted commas",
+      "in brackets",
+      "in capital letters only",
+      "at the end of the play"
+     ],
+     "answer": 1,
+     "explain": "Stage directions usually go in brackets so that they are not read aloud as dialogue."
+    },
+    {
+     "id": "u7-q1",
+     "q": "Which relative pronoun completes the sentence? ‘The actor ___ played Oliver was brilliant.’",
+     "options": [
+      "which",
+      "who",
+      "whose",
+      "where"
+     ],
+     "answer": 1,
+     "explain": "We use ‘who’ for people."
+    },
+    {
+     "id": "u7-q2",
+     "q": "What is an aside?",
+     "options": [
+      "A costume",
+      "A secret comment to the audience",
+      "The end of a play",
+      "A type of scenery"
+     ],
+     "answer": 1,
+     "explain": "In an aside, a character speaks to the audience and the other characters do not hear it."
+    },
+    {
+     "id": "u7-q3",
+     "q": "Which word contains the root ‘graph’ (writing or drawing)?",
+     "options": [
+      "telephone",
+      "autograph",
+      "biology",
+      "vivid"
+     ],
+     "answer": 1,
+     "explain": "An autograph is a person’s own signature, so it is a kind of writing."
+    },
+    {
+     "id": "u7-q4",
+     "q": "‘The cave swallowed the light.’ What is this?",
+     "options": [
+      "Simile",
+      "Personification",
+      "Rhyme",
+      "Stage direction"
+     ],
+     "answer": 1,
+     "explain": "The cave is given a human action (swallowing), so it is personification."
+    },
+    {
+     "id": "u7-q5",
+     "q": "Which sentence is a polite request?",
+     "options": [
+      "Give me that.",
+      "Could I borrow your script, please?",
+      "I will take it.",
+      "You must go."
+     ],
+     "answer": 1,
+     "explain": "‘Could I…?’ is a polite way to ask."
+    },
+    {
+     "id": "u7-q6",
+     "q": "Which of these is NOT a feature of a play script?",
+     "options": [
+      "Stage directions",
+      "Chapters",
+      "Acts and scenes",
+      "A list of characters"
+     ],
+     "answer": 1,
+     "explain": "Chapters belong to narratives such as novels, not play scripts."
+    },
+    {
+     "id": "u7-q7",
+     "q": "‘Offstage’ means…",
+     "options": [
+      "in the middle of the stage",
+      "at the side of the stage where the audience cannot see",
+      "in the audience",
+      "on the roof"
+     ],
+     "answer": 1,
+     "explain": "Offstage is out of the audience’s sight."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the dramatic conventions",
+     "correct": [
+      "dialogue",
+      "narrator",
+      "aside",
+      "costumes",
+      "scenery",
+      "props",
+      "stage lights",
+      "sound effects"
+     ],
+     "wrong": [
+      "glossary",
+      "footnote",
+      "index",
+      "chapter",
+      "contents page",
+      "timeline",
+      "headline",
+      "bibliography"
+     ]
+    },
+    {
+     "prompt": "Catch the relative pronouns",
+     "correct": [
+      "who",
+      "whom",
+      "whose",
+      "which",
+      "that"
+     ],
+     "wrong": [
+      "and",
+      "but",
+      "because",
+      "when",
+      "if",
+      "so",
+      "or",
+      "although"
+     ]
+    },
+    {
+     "prompt": "Catch the words built from the root ‘graph’ or ‘tele’",
+     "correct": [
+      "autograph",
+      "biography",
+      "paragraph",
+      "photograph",
+      "telephone",
+      "telescope",
+      "television",
+      "geography"
+     ],
+     "wrong": [
+      "biology",
+      "vivid",
+      "actor",
+      "curtain",
+      "stage",
+      "music",
+      "theatre",
+      "audience"
+     ]
+    }
+   ],
+   "icon": "drama"
+  },
+  {
+   "id": 8,
+   "title": "At the Movies",
+   "colour": "#2f4858",
+   "sbStart": 190,
+   "wbStart": 120,
+   "sbPages": "190–218",
+   "wbPages": "120–135",
+   "parts": [
+    {
+     "code": "8A",
+     "title": "Camera Ready!"
+    },
+    {
+     "code": "8B",
+     "title": "Behind the Scenes"
+    }
+   ],
+   "overview": "How does a story in a book become a film? In this unit you will read an extract from The Jungle Book and then see a scene from the same story written as a film script. You will learn the language of film-making, retell a story from a different viewpoint and write a film script for a brand-new scene.",
+   "objectives": [
+    "Compare novels and films, and how each one tells a story.",
+    "Identify the features of a film script, such as shots, camera directions and sound.",
+    "Use abstract nouns, and join sentences with coordinating and subordinating connectives.",
+    "Use the present perfect and past perfect verb forms.",
+    "Spell adjectives ending in ‘-able’ and ‘-ible’.",
+    "Choose powerful words and phrases, and write a film script for a new scene."
+   ],
+   "texts": [
+    {
+     "title": "Mowgli’s Brothers",
+     "kind": "Extract from The Jungle Book by Rudyard Kipling",
+     "pages": "193–200",
+     "summary": "Father Wolf and Mother Wolf hear that Shere Khan, the tiger, is hunting near their home. A small human baby wanders into their den, and Mother Wolf protects him from Shere Khan and names him Mowgli. At the meeting of the wolf pack, Baloo the bear and Bagheera the panther speak up for Mowgli, so that he can stay and grow up in the jungle."
+    },
+    {
+     "title": "The Defeat of Shere Khan",
+     "kind": "Film script based on The Jungle Book",
+     "pages": "208–214",
+     "summary": "In this action-packed film scene, an older Mowgli faces Shere Khan. Baloo fights bravely to protect him, and vultures carry Mowgli away from danger. When a tree catches fire, Mowgli ties a burning branch to Shere Khan’s tail, and the frightened tiger runs off into the jungle."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "film script",
+     "meaning": "The written plan of a film, with dialogue, actions and directions for the camera and sound.",
+     "example": "The film script tells the camera to zoom in on Mowgli."
+    },
+    {
+     "word": "storyboard",
+     "meaning": "A series of drawings that shows each shot of a film in order.",
+     "example": "We drew a storyboard before writing our script."
+    },
+    {
+     "word": "shot",
+     "meaning": "One continuous piece of filming from one camera position.",
+     "example": "The first shot shows the tall grass at the edge of the jungle."
+    },
+    {
+     "word": "zoom",
+     "meaning": "To make the camera image move closer to, or further away from, something.",
+     "example": "The camera zooms in on the tiger’s eyes."
+    },
+    {
+     "word": "soundtrack",
+     "meaning": "The music and sounds that you hear in a film.",
+     "example": "The soundtrack got louder as the tiger came closer."
+    },
+    {
+     "word": "abstract noun",
+     "meaning": "A noun for an idea, feeling or quality that you cannot see or touch.",
+     "example": "Mother Wolf showed great courage."
+    },
+    {
+     "word": "connective",
+     "meaning": "A word that joins clauses or sentences, such as ‘and’, ‘but’, ‘because’ or ‘although’.",
+     "example": "Mowgli was small, but he was fearless."
+    },
+    {
+     "word": "man-cub",
+     "meaning": "The name the animals give to Mowgli, because he is a human child.",
+     "example": "“The man-cub is mine!” growled Shere Khan."
+    },
+    {
+     "word": "arrogant",
+     "meaning": "Behaving as if you are better or more important than other people.",
+     "example": "Shere Khan was arrogant and did not ask permission to hunt."
+    },
+    {
+     "word": "past perfect",
+     "meaning": "A verb form using ‘had’ that shows one past action happened before another.",
+     "example": "Mowgli had left before the tiger arrived."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u8-sb-0",
+     "part": "8A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "190–191",
+     "tip": "Talk about going to the cinema and what makes a film enjoyable."
+    },
+    {
+     "id": "u8-sb-1",
+     "part": "8A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Novels vs films",
+     "pages": "191–192",
+     "tip": "A novel uses words for everything. A film can show the setting, sounds and expressions on screen."
+    },
+    {
+     "id": "u8-sb-2",
+     "part": "8A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: Mowgli’s Brothers",
+     "pages": "193–195",
+     "tip": "Notice how each character reacts to the ‘man-cub’. Who wants to protect him, and who wants him as prey?"
+    },
+    {
+     "id": "u8-sb-3",
+     "part": "8A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: Abstract nouns",
+     "pages": "196–197",
+     "tip": "Many abstract nouns end in suffixes such as ‘-tion’, ‘-ment’, ‘-ance’ and ‘-ism’ (decision, amazement, importance, heroism)."
+    },
+    {
+     "id": "u8-sb-4",
+     "part": "8A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: Mowgli’s Brothers and Reading Comprehension",
+     "pages": "198–200",
+     "tip": "What do Baloo and Bagheera do to help Mowgli join the pack?"
+    },
+    {
+     "id": "u8-sb-5",
+     "part": "8A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Grammar: Joining sentences",
+     "pages": "201–202",
+     "tip": "Coordinating connectives (and, but, so) join clauses of equal importance. Subordinating connectives (when, because, although) add a dependent clause."
+    },
+    {
+     "id": "u8-sb-6",
+     "part": "8A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Suffixes -able and -ible",
+     "pages": "203",
+     "tip": "If the root is a whole word, ‘-able’ is more common (comfortable). If it is not a whole word, ‘-ible’ is more common (horrible). Check in a dictionary."
+    },
+    {
+     "id": "u8-sb-7",
+     "part": "8A",
+     "lesson": "Lesson 9",
+     "title": "Writing: A story retold from a different viewpoint",
+     "pages": "204–205",
+     "tip": "Choose a character and retell the events as that character, using ‘I’ and showing their thoughts and feelings."
+    },
+    {
+     "id": "u8-sb-8",
+     "part": "8B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Features of a film script",
+     "pages": "206–207",
+     "tip": "Film scripts include shots, camera directions (pan and zoom), the setting, sound and dialogue."
+    },
+    {
+     "id": "u8-sb-9",
+     "part": "8B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: The Defeat of Shere Khan",
+     "pages": "208–210",
+     "tip": "Picture each shot as you read. What would the camera show?"
+    },
+    {
+     "id": "u8-sb-10",
+     "part": "8B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Grammar: Verb forms: Present perfect and past perfect",
+     "pages": "211",
+     "tip": "Present perfect uses ‘has’ or ‘have’ (has spoken). Past perfect uses ‘had’ (had spoken)."
+    },
+    {
+     "id": "u8-sb-11",
+     "part": "8B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: The Defeat of Shere Khan and Reading Comprehension",
+     "pages": "212–214",
+     "tip": "Put the action in order. Which event is the turning point?"
+    },
+    {
+     "id": "u8-sb-12",
+     "part": "8B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Vocabulary: Choosing the right words and phrases",
+     "pages": "215",
+     "tip": "Replace general words with precise ones, for example ‘furious’ instead of ‘angry’ or ‘sprinted’ instead of ‘ran fast’."
+    },
+    {
+     "id": "u8-sb-13",
+     "part": "8B",
+     "lesson": "Lesson 15",
+     "title": "Listening: Behind the scenes",
+     "pages": "216",
+     "tip": "Listen for the different jobs that people do to make a film."
+    },
+    {
+     "id": "u8-sb-14",
+     "part": "8B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: A film script for a new scene",
+     "pages": "217",
+     "tip": "Plan with a storyboard first, then write the script with shots, camera directions, sound and dialogue."
+    },
+    {
+     "id": "u8-sb-15",
+     "part": "8B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "218",
+     "tip": "Would you rather read the book or watch the film? Why?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u8-wb-8A",
+     "code": "8A",
+     "title": "Let’s Learn: Novels vs films",
+     "pages": "120",
+     "steps": [
+      "Question 1: identify some of the features of films.",
+      "Question 2: give your own opinions about novels and films."
+     ],
+     "tip": "Give a reason for each opinion."
+    },
+    {
+     "id": "u8-wb-8B",
+     "code": "8B",
+     "title": "Language Focus: Abstract nouns",
+     "pages": "121",
+     "steps": [
+      "Question 1: find the concrete and abstract nouns in the short text.",
+      "Question 2: write your own sentences with abstract nouns.",
+      "Questions 3–4: identify the suffixes that form abstract nouns."
+     ],
+     "tip": "If you can see or touch it, it is concrete. If it is an idea or a feeling, it is abstract."
+    },
+    {
+     "id": "u8-wb-8C",
+     "code": "8C",
+     "title": "Reading Comprehension: Mowgli’s Brothers",
+     "pages": "122–123",
+     "steps": [
+      "Questions 1–2: match each name to the animal and to the character’s qualities.",
+      "Questions 3–5: find the answers in the text.",
+      "Question 6: imagine what Mowgli would need to learn to survive in the jungle."
+     ],
+     "tip": "Reread the extract before you start."
+    },
+    {
+     "id": "u8-wb-8D",
+     "code": "8D",
+     "title": "Language Focus: Joining sentences",
+     "pages": "124",
+     "steps": [
+      "Question 1: write the connectives from memory and say how they join clauses.",
+      "Question 2: choose a connective to complete each sentence, then underline the independent clause."
+     ],
+     "tip": "Coordinating connectives join equal clauses. Subordinating connectives add a dependent clause."
+    },
+    {
+     "id": "u8-wb-8E",
+     "code": "8E",
+     "title": "Word Structure: Suffixes -able and -ible",
+     "pages": "125",
+     "steps": [
+      "Question 1: add the correct suffix to each word.",
+      "Question 2: choose five of the adjectives and write a sentence with each."
+     ],
+     "tip": "Some words do not follow the rules, so check in a dictionary."
+    },
+    {
+     "id": "u8-wb-8F",
+     "code": "8F",
+     "title": "Writing: A story retold from a different viewpoint",
+     "pages": "126",
+     "steps": [
+      "Use the template to write the neat copy of your story.",
+      "Check that you have used the first person all the way through."
+     ],
+     "tip": "Show the character’s thoughts and feelings, not just what happened."
+    },
+    {
+     "id": "u8-wb-8G",
+     "code": "8G",
+     "title": "Let’s Learn: Features of a film script",
+     "pages": "127",
+     "steps": [
+      "Question 1: unscramble the film words and match them to their definitions.",
+      "Question 2: compare film scripts with play scripts."
+     ],
+     "tip": "The words include ‘shot’, ‘pan’, ‘zoom’, ‘soundtrack’, ‘storyboard’ and ‘script’."
+    },
+    {
+     "id": "u8-wb-8H",
+     "code": "8H",
+     "title": "Language Focus: Verb forms: Present perfect and past perfect",
+     "pages": "128",
+     "steps": [
+      "Question 1: complete the sentences with the present perfect.",
+      "Question 2: complete the sentences with the past perfect.",
+      "Question 3: choose the correct form for each sentence."
+     ],
+     "tip": "Use ‘has’ or ‘have’ for the present perfect and ‘had’ for the past perfect."
+    },
+    {
+     "id": "u8-wb-8I",
+     "code": "8I",
+     "title": "Reading Comprehension: The Defeat of Shere Khan",
+     "pages": "129–130",
+     "steps": [
+      "Question 1: decide whether each statement is true or false.",
+      "Question 2: describe the setting of each shot.",
+      "Questions 3–5: summarise the ending, describe the characters and predict what happens next."
+     ],
+     "tip": "Look at the shot directions to find the setting."
+    },
+    {
+     "id": "u8-wb-8J",
+     "code": "8J",
+     "title": "Language Focus: Choosing the right words and phrases",
+     "pages": "131",
+     "steps": [
+      "Read the story. The weaker words are in brackets.",
+      "Replace each one with a stronger word from the word box.",
+      "Read your new story aloud."
+     ],
+     "tip": "Choose words that help the reader see and feel the action."
+    },
+    {
+     "id": "u8-wb-8K",
+     "code": "8K",
+     "title": "Writing: A film script for a new scene",
+     "pages": "132–133",
+     "steps": [
+      "Plan your scene as a storyboard in the table, with simple drawings and notes.",
+      "Write your film script with shots, camera directions, sound and dialogue."
+     ],
+     "tip": "Stick figures are fine. The storyboard is a plan, not a work of art."
+    },
+    {
+     "id": "u8-wb-8L",
+     "code": "8L",
+     "title": "What Have I Learnt?",
+     "pages": "134–135",
+     "steps": [
+      "Question 1: answer the questions about abstract nouns.",
+      "Question 2: use connectives to join sentences.",
+      "Question 3: identify and use the suffixes ‘-able’ and ‘-ible’."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u8-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "135",
+     "steps": [
+      "Write about whether you enjoyed the stories in this unit, and why.",
+      "Would you like to be friends with Mowgli? Explain your answer."
+     ],
+     "tip": "There is no right answer. Explain your thinking."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u8-c0",
+     "front": "Who are Baloo, Bagheera and Shere Khan?",
+     "back": "Baloo is a bear, Bagheera is a panther and Shere Khan is a tiger."
+    },
+    {
+     "id": "u8-c1",
+     "front": "What is a storyboard?",
+     "back": "A series of drawings that shows each shot of a film in order, used to plan the film."
+    },
+    {
+     "id": "u8-c2",
+     "front": "What does ‘pan’ mean in a film script?",
+     "back": "To move the camera slowly across a scene from side to side."
+    },
+    {
+     "id": "u8-c3",
+     "front": "Concrete or abstract? ‘courage’",
+     "back": "Abstract, because you cannot see or touch it. It is a quality."
+    },
+    {
+     "id": "u8-c4",
+     "front": "How did Mowgli defeat Shere Khan in the film script?",
+     "back": "He tied a burning branch to Shere Khan’s tail, and the frightened tiger ran away."
+    },
+    {
+     "id": "u8-c5",
+     "front": "Present perfect or past perfect? ‘She had finished her script.’",
+     "back": "Past perfect, because it uses ‘had’."
+    }
+   ],
+   "practice": [
+    {
+     "id": "u8-q0",
+     "q": "Which is an abstract noun?",
+     "options": [
+      "tiger",
+      "branch",
+      "courage",
+      "jungle"
+     ],
+     "answer": 2,
+     "explain": "Courage is a quality that you cannot see or touch."
+    },
+    {
+     "id": "u8-q1",
+     "q": "Which sentence uses the past perfect?",
+     "options": [
+      "Mowgli runs fast.",
+      "Mowgli has run fast.",
+      "Mowgli had run before the fire started.",
+      "Mowgli will run."
+     ],
+     "answer": 2,
+     "explain": "The past perfect uses ‘had’ plus the past participle."
+    },
+    {
+     "id": "u8-q2",
+     "q": "Choose the correct spelling.",
+     "options": [
+      "comfortible",
+      "comfortable",
+      "comfterble",
+      "comfortabel"
+     ],
+     "answer": 1,
+     "explain": "‘Comfort’ is a whole word, so it takes ‘-able’."
+    },
+    {
+     "id": "u8-q3",
+     "q": "Which connective is subordinating?",
+     "options": [
+      "and",
+      "but",
+      "although",
+      "or"
+     ],
+     "answer": 2,
+     "explain": "‘Although’ adds a dependent clause."
+    },
+    {
+     "id": "u8-q4",
+     "q": "What is a ‘shot’ in a film?",
+     "options": [
+      "A piece of filming from one camera position",
+      "A type of music",
+      "An actor’s costume",
+      "The title of the film"
+     ],
+     "answer": 0,
+     "explain": "A shot is one continuous piece of filming from one camera position."
+    },
+    {
+     "id": "u8-q5",
+     "q": "Who speaks up for Mowgli at the wolf pack meeting?",
+     "options": [
+      "Shere Khan and Tabaqui",
+      "Baloo and Bagheera",
+      "Only Akela",
+      "The vultures"
+     ],
+     "answer": 1,
+     "explain": "Baloo and Bagheera both support Mowgli joining the pack."
+    },
+    {
+     "id": "u8-q6",
+     "q": "Which word is the most powerful way to say ‘ran fast’?",
+     "options": [
+      "walked",
+      "sprinted",
+      "moved",
+      "went"
+     ],
+     "answer": 1,
+     "explain": "‘Sprinted’ is precise and powerful."
+    },
+    {
+     "id": "u8-q7",
+     "q": "Which is a feature of a film script but NOT usually of a novel?",
+     "options": [
+      "Characters",
+      "Camera directions",
+      "A setting",
+      "A plot"
+     ],
+     "answer": 1,
+     "explain": "Only film scripts include directions for the camera."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the abstract nouns",
+     "correct": [
+      "courage",
+      "fear",
+      "hunger",
+      "permission",
+      "happiness",
+      "wisdom",
+      "power",
+      "displeasure"
+     ],
+     "wrong": [
+      "tiger",
+      "bone",
+      "cave",
+      "jungle",
+      "wolf",
+      "river",
+      "branch",
+      "tail"
+     ]
+    },
+    {
+     "prompt": "Catch the film-making words",
+     "correct": [
+      "shot",
+      "pan",
+      "zoom",
+      "storyboard",
+      "soundtrack",
+      "script",
+      "camera",
+      "director"
+     ],
+     "wrong": [
+      "stanza",
+      "moral",
+      "glossary",
+      "quantifier",
+      "chorus",
+      "obituary",
+      "aside",
+      "receipt"
+     ]
+    },
+    {
+     "prompt": "Catch the correctly spelt -able and -ible words",
+     "correct": [
+      "comfortable",
+      "invisible",
+      "horrible",
+      "flexible",
+      "enjoyable",
+      "reliable",
+      "sensible",
+      "reversible"
+     ],
+     "wrong": [
+      "comfortible",
+      "invisable",
+      "horrable",
+      "flexable",
+      "enjoyible",
+      "reliible",
+      "sensable",
+      "reversable"
+     ]
+    }
+   ],
+   "icon": "clapperboard"
+  },
+  {
+   "id": 9,
+   "title": "The Art of Persuasion",
+   "colour": "#7a5c2e",
+   "sbStart": 219,
+   "wbStart": 136,
+   "sbPages": "219–245",
+   "wbPages": "136–153",
+   "parts": [
+    {
+     "code": "9A",
+     "title": "It’s Compelling!"
+    },
+    {
+     "code": "9B",
+     "title": "Convince Me"
+    }
+   ],
+   "overview": "How do you change someone’s mind? In this unit you will read persuasive commentaries about languages that are disappearing, a persuasive article about plastic in our oceans, and letters written to convince people to act. You will learn the tricks that persuasive writers use and write a persuasive letter of your own.",
+   "objectives": [
+    "Identify the features of a persuasive commentary and a persuasive letter.",
+    "Use persuasive words and phrases to express opinions and give reasons.",
+    "Use relative pronouns and relative clauses to add information.",
+    "Choose between formal and informal register for different audiences.",
+    "Add suffixes to root words to make new words.",
+    "Use adverbs and adverbial phrases to link ideas, and write a persuasive letter."
+   ],
+   "texts": [
+    {
+     "title": "Disappearing Languages",
+     "kind": "Persuasive commentary",
+     "pages": "222–224",
+     "summary": "About 7,000 languages are spoken in the world today, but around half of them could disappear. The writer explains why this happens and why it matters: languages carry special knowledge about places, nature and culture. The commentary asks questions, gives answers and suggests ways to save these languages."
+    },
+    {
+     "title": "The Basque Language Revival",
+     "kind": "Persuasive commentary",
+     "pages": "226–228",
+     "summary": "Basque is a very old language spoken in a region of Spain and France. It was once discouraged, but people kept it alive through conversation, songs and poems. Today it is taught from preschool to university, and technology and games help young people to use it. The writer calls this work a shining example."
+    },
+    {
+     "title": "Danger in Our Oceans",
+     "kind": "Persuasive article",
+     "pages": "235–236",
+     "summary": "Plastic is made of strong chains of molecules, so it takes a very long time to break down. Instead, it breaks into tiny pieces called microplastics, which harm sea creatures and can even end up in our food. The writer argues that we all need to take responsibility."
+    },
+    {
+     "title": "Letters to Convince You",
+     "kind": "A persuasive email and a persuasive letter",
+     "pages": "238–240",
+     "summary": "Two young writers try to persuade others to cut down on single-use plastic. One writes a formal email asking for reusable cups instead of plastic ones. The other writes a chatty, informal letter to a friend, suggesting packed lunches in reusable containers instead of fast-food packaging."
+    }
+   ],
+   "vocab": [
+    {
+     "word": "persuade",
+     "meaning": "To make someone agree with you or do something by giving them good reasons.",
+     "example": "She persuaded the class to recycle more."
+    },
+    {
+     "word": "commentary",
+     "meaning": "A piece of writing that gives the writer’s opinion and explanation about an issue.",
+     "example": "The commentary argued that we should save small languages."
+    },
+    {
+     "word": "opinion",
+     "meaning": "What someone thinks or believes about something.",
+     "example": "In my opinion, every school should have recycling bins."
+    },
+    {
+     "word": "register",
+     "meaning": "How formal or informal language is, depending on who you are talking or writing to.",
+     "example": "Use a formal register in a letter to the head teacher."
+    },
+    {
+     "word": "dominant",
+     "meaning": "The most powerful or important.",
+     "example": "A dominant language can take over smaller ones."
+    },
+    {
+     "word": "indigenous",
+     "meaning": "Belonging to a place from the very beginning, before others arrived.",
+     "example": "Basque is an indigenous language of the region."
+    },
+    {
+     "word": "single-use",
+     "meaning": "Made to be used only once and then thrown away.",
+     "example": "Single-use plastic cups cause pollution."
+    },
+    {
+     "word": "decompose",
+     "meaning": "To break down naturally over time.",
+     "example": "Leaves decompose, but plastic takes hundreds of years."
+    },
+    {
+     "word": "microplastics",
+     "meaning": "Tiny pieces of plastic that come from larger plastic breaking down.",
+     "example": "Fish can swallow microplastics."
+    },
+    {
+     "word": "debris",
+     "meaning": "Scattered rubbish or broken pieces.",
+     "example": "Plastic debris washed up on the beach."
+    }
+   ],
+   "sb": [
+    {
+     "id": "u9-sb-0",
+     "part": "9A",
+     "lesson": "Lesson 1",
+     "title": "Be Curious and Getting Started",
+     "pages": "219–220",
+     "tip": "Talk about times when you have tried to persuade someone. What worked?"
+    },
+    {
+     "id": "u9-sb-1",
+     "part": "9A",
+     "lesson": "Lesson 2",
+     "title": "Let’s Learn: Features of a persuasive commentary",
+     "pages": "220–221",
+     "tip": "A persuasive commentary highlights a problem, gives accurate information, suggests a solution and tries to convince the reader."
+    },
+    {
+     "id": "u9-sb-2",
+     "part": "9A",
+     "lesson": "Lesson 3",
+     "title": "Reading Part 1: Disappearing Languages",
+     "pages": "222–224",
+     "tip": "Notice how the subheadings are written as questions. How does this draw you in?"
+    },
+    {
+     "id": "u9-sb-3",
+     "part": "9A",
+     "lesson": "Lesson 4",
+     "title": "Language Focus – Grammar: More on relative pronouns and clauses",
+     "pages": "225",
+     "tip": "‘Who’ and ‘whom’ are for people, ‘which’ and ‘that’ are for things, and ‘whose’ shows ownership."
+    },
+    {
+     "id": "u9-sb-4",
+     "part": "9A",
+     "lesson": "Lessons 5–6",
+     "title": "Reading Part 2: The Basque Language Revival and Reading Comprehension",
+     "pages": "226–228",
+     "tip": "Compare the two texts. Which is more persuasive, and why?"
+    },
+    {
+     "id": "u9-sb-5",
+     "part": "9A",
+     "lesson": "Lesson 7",
+     "title": "Language Focus – Vocabulary: Persuasive words and phrases",
+     "pages": "229",
+     "tip": "Phrases such as ‘I strongly believe’, ‘Surely’ and ‘It is vital that’ make your opinion sound confident."
+    },
+    {
+     "id": "u9-sb-6",
+     "part": "9A",
+     "lesson": "Lesson 8",
+     "title": "Word Structure: Adding suffixes to root words",
+     "pages": "230",
+     "tip": "Watch the spelling rules. Sometimes you drop the ‘e’, double a letter or change ‘y’ to ‘i’."
+    },
+    {
+     "id": "u9-sb-7",
+     "part": "9A",
+     "lesson": "Lesson 9",
+     "title": "Writing: A persuasive commentary",
+     "pages": "231–232",
+     "tip": "Plan an introduction, three paragraphs each with a reason, and a strong conclusion."
+    },
+    {
+     "id": "u9-sb-8",
+     "part": "9B",
+     "lesson": "Lesson 10",
+     "title": "Getting Started and Let’s Learn: Features of a persuasive letter",
+     "pages": "233–234",
+     "tip": "Persuasive letters use a suitable greeting, a clear structure, strong verbs and emotive words."
+    },
+    {
+     "id": "u9-sb-9",
+     "part": "9B",
+     "lesson": "Lesson 11",
+     "title": "Reading Part 1: Danger in Our Oceans",
+     "pages": "235–236",
+     "tip": "Find the facts about plastic that the writer uses to make the argument stronger."
+    },
+    {
+     "id": "u9-sb-10",
+     "part": "9B",
+     "lesson": "Lesson 12",
+     "title": "Language Focus – Vocabulary: Register – Formal and informal language",
+     "pages": "237",
+     "tip": "Formal language avoids contractions and slang. Informal language is chatty and friendly."
+    },
+    {
+     "id": "u9-sb-11",
+     "part": "9B",
+     "lesson": "Lesson 13",
+     "title": "Reading Part 2: Letters to Convince You and Reading Comprehension",
+     "pages": "238–240",
+     "tip": "Compare the formal email with the informal letter. What makes each one formal or informal?"
+    },
+    {
+     "id": "u9-sb-12",
+     "part": "9B",
+     "lesson": "Lesson 14",
+     "title": "Language Focus – Grammar: More about adverbs and adverbial phrases",
+     "pages": "241",
+     "tip": "Adverbs such as ‘firstly’, ‘in addition’ and ‘finally’ help to organise your argument."
+    },
+    {
+     "id": "u9-sb-13",
+     "part": "9B",
+     "lesson": "Lesson 15",
+     "title": "Speaking: Give a presentation",
+     "pages": "242",
+     "tip": "Think about your audience. Speak clearly, make eye contact and give strong reasons."
+    },
+    {
+     "id": "u9-sb-14",
+     "part": "9B",
+     "lesson": "Lessons 16–17",
+     "title": "Writing: A persuasive letter",
+     "pages": "243–244",
+     "tip": "Choose the right register for your reader, give at least three reasons and end with a clear call to action."
+    },
+    {
+     "id": "u9-sb-15",
+     "part": "9B",
+     "lesson": "Lesson 18",
+     "title": "Unit Self-reflection",
+     "pages": "245",
+     "tip": "Which persuasive technique do you think is the most powerful?"
+    }
+   ],
+   "wb": [
+    {
+     "id": "u9-wb-9A",
+     "code": "9A",
+     "title": "Let’s Learn: Features of a persuasive commentary",
+     "pages": "136",
+     "steps": [
+      "Question 1: match the labels (A–F) to the sections of the text. You can use a label more than once.",
+      "Question 2: underline the words that describe a persuasive commentary."
+     ],
+     "tip": "Look back at the Let’s Learn feature in your Student Book."
+    },
+    {
+     "id": "u9-wb-9B",
+     "code": "9B",
+     "title": "Language Focus: More on relative pronouns and clauses",
+     "pages": "137",
+     "steps": [
+      "Question 1: find the main clause, the relative clause and the relative pronoun.",
+      "Question 2: write your own relative clauses to complete the sentences."
+     ],
+     "tip": "Use commas around a relative clause that adds extra information."
+    },
+    {
+     "id": "u9-wb-9C",
+     "code": "9C",
+     "title": "Reading Comprehension: Disappearing Languages and The Basque Language Revival",
+     "pages": "138–139",
+     "steps": [
+      "Question 1: answer the questions about Disappearing Languages.",
+      "Questions 2–3: answer the questions about The Basque Language Revival and give your opinion."
+     ],
+     "tip": "Support your opinion with reasons from the text."
+    },
+    {
+     "id": "u9-wb-9D",
+     "code": "9D",
+     "title": "Language Focus: Persuasive words and phrases",
+     "pages": "140",
+     "steps": [
+      "Choose a topic and write your opinion about it, using persuasive phrases from the table."
+     ],
+     "tip": "Give a reason for every opinion."
+    },
+    {
+     "id": "u9-wb-9E",
+     "code": "9E",
+     "title": "Word Structure: Adding suffixes to root words",
+     "pages": "141",
+     "steps": [
+      "Question 1: add suffixes to the root words so that they make sense in the sentences.",
+      "Question 2: make as many words as you can by adding suffixes to each root word."
+     ],
+     "tip": "Check your spellings in a dictionary."
+    },
+    {
+     "id": "u9-wb-9F",
+     "code": "9F",
+     "title": "Writing: A persuasive commentary",
+     "pages": "142–143",
+     "steps": [
+      "Use the template to plan a title, an introduction, three paragraphs with reasons and a conclusion.",
+      "Write your commentary from your plan."
+     ],
+     "tip": "Make your first sentence grab the reader’s attention."
+    },
+    {
+     "id": "u9-wb-9G",
+     "code": "9G",
+     "title": "Let’s Learn: Features of persuasive letters",
+     "pages": "144–145",
+     "steps": [
+      "Question 1: label the paragraphs of the letter as the introduction, body or conclusion.",
+      "Question 2: answer the questions about the letter’s arguments."
+     ],
+     "tip": "Look for the writer’s reasons and what the writer asks the reader to do."
+    },
+    {
+     "id": "u9-wb-9H",
+     "code": "9H",
+     "title": "Language Focus: Register – Formal and informal language",
+     "pages": "146",
+     "steps": [
+      "Question 1: decide whether each sentence is formal or informal.",
+      "Question 2: work out who might say each sentence and where.",
+      "Question 3: decide which register suits the situation."
+     ],
+     "tip": "Think about who is speaking and who is listening."
+    },
+    {
+     "id": "u9-wb-9I",
+     "code": "9I",
+     "title": "Reading Comprehension: Danger in Our Oceans and Letters to Convince You",
+     "pages": "147–148",
+     "steps": [
+      "Question 1: answer the questions about Danger in Our Oceans.",
+      "Question 2: answer the multiple-choice questions about the letters.",
+      "Question 3: suggest the benefits of bringing packed lunches."
+     ],
+     "tip": "Some answers are in the text and some need you to think beyond it."
+    },
+    {
+     "id": "u9-wb-9J",
+     "code": "9J",
+     "title": "Language Focus: More about adverbs and adverbial phrases",
+     "pages": "149",
+     "steps": [
+      "Question 1: fill the gaps with adverbs and adverbial phrases from the box.",
+      "Questions 2–3: decide what each adverb or adverbial phrase tells you (how, when, where, why or how long)."
+     ],
+     "tip": "Ask the question words to check each adverb’s job."
+    },
+    {
+     "id": "u9-wb-9K",
+     "code": "9K",
+     "title": "Writing: A persuasive letter",
+     "pages": "150–151",
+     "steps": [
+      "Use the headings to make notes for your letter.",
+      "Plan each part of your letter using the template.",
+      "Write your letter in the right register, then edit it."
+     ],
+     "tip": "Instead of only saying ‘I don’t like plastic’, explain how it makes you feel and why it matters."
+    },
+    {
+     "id": "u9-wb-9L",
+     "code": "9L",
+     "title": "What Have I Learnt?",
+     "pages": "152",
+     "steps": [
+      "Answer the review questions on persuasive texts and the language you have learnt."
+     ],
+     "tip": "Look back at the Language Focus pages if you get stuck."
+    },
+    {
+     "id": "u9-wb-journal",
+     "code": "J",
+     "title": "My Journal",
+     "pages": "153",
+     "steps": [
+      "Write about which text you enjoyed most in this unit, and why."
+     ],
+     "tip": "Think about how the writer persuaded you."
+    }
+   ],
+   "cards": [
+    {
+     "id": "u9-c0",
+     "front": "What does a persuasive commentary do?",
+     "back": "It highlights a problem, gives accurate information, suggests a solution and tries to convince the reader."
+    },
+    {
+     "id": "u9-c1",
+     "front": "Formal or informal? ‘Hi there, buddy! Want to try packed lunches with me?’",
+     "back": "Informal. It uses a chatty greeting and a short, friendly question."
+    },
+    {
+     "id": "u9-c2",
+     "front": "Why do languages disappear?",
+     "back": "For example, parents want children to learn a dominant language for jobs, and some societies have stopped people using their own languages."
+    },
+    {
+     "id": "u9-c3",
+     "front": "Why is plastic dangerous for sea creatures?",
+     "back": "It does not decompose naturally. It breaks into microplastics that animals swallow and that can clog their digestive systems."
+    },
+    {
+     "id": "u9-c4",
+     "front": "Name three persuasive phrases.",
+     "back": "For example, ‘I strongly believe’, ‘It is vital that’ and ‘Surely everyone agrees’."
+    },
+    {
+     "id": "u9-c5",
+     "front": "Which relative pronoun shows ownership?",
+     "back": "‘Whose’, for example ‘The student whose family is from Korea won the quiz.’"
+    }
+   ],
+   "practice": [
+    {
+     "id": "u9-q0",
+     "q": "What is the main purpose of a persuasive text?",
+     "options": [
+      "To entertain with a story",
+      "To convince the reader to agree or act",
+      "To give instructions",
+      "To describe a person’s life"
+     ],
+     "answer": 1,
+     "explain": "Persuasive texts try to change what the reader thinks or does."
+    },
+    {
+     "id": "u9-q1",
+     "q": "Which sentence is formal?",
+     "options": [
+      "Hey, wanna come?",
+      "That’s gr8!",
+      "I am writing to express my concern.",
+      "No way, mate!"
+     ],
+     "answer": 2,
+     "explain": "Formal language uses full words and no slang."
+    },
+    {
+     "id": "u9-q2",
+     "q": "Which is a persuasive phrase?",
+     "options": [
+      "Once upon a time",
+      "It is vital that we act now",
+      "First, mix the flour",
+      "The end"
+     ],
+     "answer": 1,
+     "explain": "‘It is vital that’ sounds urgent and confident."
+    },
+    {
+     "id": "u9-q3",
+     "q": "Choose the correct relative pronoun. ‘The app ___ helps you learn Japanese is fun.’",
+     "options": [
+      "who",
+      "that",
+      "whose",
+      "whom"
+     ],
+     "answer": 1,
+     "explain": "We use ‘that’ or ‘which’ for things."
+    },
+    {
+     "id": "u9-q4",
+     "q": "What does ‘single-use’ mean?",
+     "options": [
+      "Used only once and then thrown away",
+      "Used by one person",
+      "Very strong",
+      "Made of metal"
+     ],
+     "answer": 0,
+     "explain": "Single-use items are thrown away after one use."
+    },
+    {
+     "id": "u9-q5",
+     "q": "Add a suffix to ‘hope’ to mean ‘without hope’.",
+     "options": [
+      "hopeful",
+      "hoping",
+      "hopeless",
+      "hoped"
+     ],
+     "answer": 2,
+     "explain": "The suffix ‘-less’ means ‘without’."
+    },
+    {
+     "id": "u9-q6",
+     "q": "Which word helps to organise an argument in order?",
+     "options": [
+      "Firstly",
+      "Quickly",
+      "Loudly",
+      "Yesterday"
+     ],
+     "answer": 0,
+     "explain": "‘Firstly’ introduces the first point in a sequence."
+    },
+    {
+     "id": "u9-q7",
+     "q": "In ‘Danger in Our Oceans’, what are microplastics?",
+     "options": [
+      "Very small fish",
+      "Tiny pieces of broken-down plastic",
+      "A type of seaweed",
+      "Plastic bottles"
+     ],
+     "answer": 1,
+     "explain": "Microplastics are tiny pieces that come from larger plastic breaking down."
+    }
+   ],
+   "basket": [
+    {
+     "prompt": "Catch the persuasive words and phrases",
+     "correct": [
+      "surely",
+      "I strongly believe",
+      "it is vital",
+      "must",
+      "everyone agrees",
+      "clearly",
+      "we should",
+      "imagine"
+     ],
+     "wrong": [
+      "once upon a time",
+      "stage left",
+      "zoom in",
+      "chapter one",
+      "the end",
+      "ingredients",
+      "stanza",
+      "caption"
+     ]
+    },
+    {
+     "prompt": "Catch the words that sound formal",
+     "correct": [
+      "furthermore",
+      "therefore",
+      "sincerely",
+      "request",
+      "concern",
+      "however",
+      "regards",
+      "consequently"
+     ],
+     "wrong": [
+      "gr8",
+      "hiya",
+      "wanna",
+      "cool",
+      "gonna",
+      "mate",
+      "yeah",
+      "awesome"
+     ]
+    },
+    {
+     "prompt": "Catch the words made by adding a suffix",
+     "correct": [
+      "helpful",
+      "hopeless",
+      "movement",
+      "persuasive",
+      "readable",
+      "friendship",
+      "teaching",
+      "government"
+     ],
+     "wrong": [
+      "help",
+      "hope",
+      "move",
+      "read",
+      "friend",
+      "teach",
+      "govern",
+      "care"
+     ]
+    }
+   ],
+   "icon": "megaphone"
+  }
+ ]
+}

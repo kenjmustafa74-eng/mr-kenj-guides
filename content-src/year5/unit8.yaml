@@ -1,0 +1,306 @@
+id: 8
+title: At the Movies
+icon: "🎬"
+colour: "#2f4858"
+sbStart: 190
+wbStart: 120
+sbPages: "190–218"
+wbPages: "120–135"
+parts:
+  - code: 8A
+    title: Camera Ready!
+  - code: 8B
+    title: Behind the Scenes
+overview: >-
+  How does a story in a book become a film? In this unit you will read an extract from The Jungle Book and then
+  see a scene from the same story written as a film script. You will learn the language of film-making, retell
+  a story from a different viewpoint and write a film script for a brand-new scene.
+objectives:
+  - Compare novels and films, and how each one tells a story.
+  - Identify the features of a film script, such as shots, camera directions and sound.
+  - Use abstract nouns, and join sentences with coordinating and subordinating connectives.
+  - Use the present perfect and past perfect verb forms.
+  - Spell adjectives ending in '-able' and '-ible'.
+  - Choose powerful words and phrases, and write a film script for a new scene.
+texts:
+  - title: "Mowgli's Brothers"
+    kind: Extract from The Jungle Book by Rudyard Kipling
+    pages: "193–200"
+    summary: >-
+      Father Wolf and Mother Wolf hear that Shere Khan, the tiger, is hunting near their home. A small human baby
+      wanders into their den, and Mother Wolf protects him from Shere Khan and names him Mowgli. At the meeting of
+      the wolf pack, Baloo the bear and Bagheera the panther speak up for Mowgli, so that he can stay and grow up in
+      the jungle.
+  - title: The Defeat of Shere Khan
+    kind: Film script based on The Jungle Book
+    pages: "208–214"
+    summary: >-
+      In this action-packed film scene, an older Mowgli faces Shere Khan. Baloo fights bravely to protect him, and
+      vultures carry Mowgli away from danger. When a tree catches fire, Mowgli ties a burning branch to Shere Khan's
+      tail, and the frightened tiger runs off into the jungle.
+vocab:
+  - word: film script
+    meaning: The written plan of a film, with dialogue, actions and directions for the camera and sound.
+    example: The film script tells the camera to zoom in on Mowgli.
+  - word: storyboard
+    meaning: A series of drawings that shows each shot of a film in order.
+    example: We drew a storyboard before writing our script.
+  - word: shot
+    meaning: One continuous piece of filming from one camera position.
+    example: The first shot shows the tall grass at the edge of the jungle.
+  - word: zoom
+    meaning: To make the camera image move closer to, or further away from, something.
+    example: The camera zooms in on the tiger's eyes.
+  - word: soundtrack
+    meaning: The music and sounds that you hear in a film.
+    example: The soundtrack got louder as the tiger came closer.
+  - word: abstract noun
+    meaning: A noun for an idea, feeling or quality that you cannot see or touch.
+    example: Mother Wolf showed great courage.
+  - word: connective
+    meaning: A word that joins clauses or sentences, such as 'and', 'but', 'because' or 'although'.
+    example: Mowgli was small, but he was fearless.
+  - word: man-cub
+    meaning: The name the animals give to Mowgli, because he is a human child.
+    example: '"The man-cub is mine!" growled Shere Khan.'
+  - word: arrogant
+    meaning: Behaving as if you are better or more important than other people.
+    example: Shere Khan was arrogant and did not ask permission to hunt.
+  - word: past perfect
+    meaning: A verb form using 'had' that shows one past action happened before another.
+    example: Mowgli had left before the tiger arrived.
+sb:
+  - part: 8A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "190–191"
+    tip: Talk about going to the cinema and what makes a film enjoyable.
+  - part: 8A
+    lesson: Lesson 2
+    title: "Let's Learn: Novels vs films"
+    pages: "191–192"
+    tip: A novel uses words for everything. A film can show the setting, sounds and expressions on screen.
+  - part: 8A
+    lesson: Lesson 3
+    title: "Reading Part 1: Mowgli's Brothers"
+    pages: "193–195"
+    tip: Notice how each character reacts to the 'man-cub'. Who wants to protect him, and who wants him as prey?
+  - part: 8A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Abstract nouns"
+    pages: "196–197"
+    tip: Many abstract nouns end in suffixes such as '-tion', '-ment', '-ance' and '-ism' (decision, amazement, importance, heroism).
+  - part: 8A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Mowgli's Brothers and Reading Comprehension"
+    pages: "198–200"
+    tip: What do Baloo and Bagheera do to help Mowgli join the pack?
+  - part: 8A
+    lesson: Lesson 7
+    title: "Language Focus – Grammar: Joining sentences"
+    pages: "201–202"
+    tip: Coordinating connectives (and, but, so) join clauses of equal importance. Subordinating connectives (when, because, although) add a dependent clause.
+  - part: 8A
+    lesson: Lesson 8
+    title: "Word Structure: Suffixes -able and -ible"
+    pages: "203"
+    tip: If the root is a whole word, '-able' is more common (comfortable). If it is not a whole word, '-ible' is more common (horrible). Check in a dictionary.
+  - part: 8A
+    lesson: Lesson 9
+    title: "Writing: A story retold from a different viewpoint"
+    pages: "204–205"
+    tip: Choose a character and retell the events as that character, using 'I' and showing their thoughts and feelings.
+  - part: 8B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Features of a film script"
+    pages: "206–207"
+    tip: Film scripts include shots, camera directions (pan and zoom), the setting, sound and dialogue.
+  - part: 8B
+    lesson: Lesson 11
+    title: "Reading Part 1: The Defeat of Shere Khan"
+    pages: "208–210"
+    tip: Picture each shot as you read. What would the camera show?
+  - part: 8B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Verb forms: Present perfect and past perfect"
+    pages: "211"
+    tip: Present perfect uses 'has' or 'have' (has spoken). Past perfect uses 'had' (had spoken).
+  - part: 8B
+    lesson: Lesson 13
+    title: "Reading Part 2: The Defeat of Shere Khan and Reading Comprehension"
+    pages: "212–214"
+    tip: Put the action in order. Which event is the turning point?
+  - part: 8B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Choosing the right words and phrases"
+    pages: "215"
+    tip: Replace general words with precise ones, for example 'furious' instead of 'angry' or 'sprinted' instead of 'ran fast'.
+  - part: 8B
+    lesson: Lesson 15
+    title: "Listening: Behind the scenes"
+    pages: "216"
+    tip: Listen for the different jobs that people do to make a film.
+  - part: 8B
+    lesson: Lessons 16–17
+    title: "Writing: A film script for a new scene"
+    pages: "217"
+    tip: Plan with a storyboard first, then write the script with shots, camera directions, sound and dialogue.
+  - part: 8B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "218"
+    tip: Would you rather read the book or watch the film? Why?
+wb:
+  - code: 8A
+    title: "Let's Learn: Novels vs films"
+    pages: "120"
+    steps:
+      - "Question 1: identify some of the features of films."
+      - "Question 2: give your own opinions about novels and films."
+    tip: Give a reason for each opinion.
+  - code: 8B
+    title: "Language Focus: Abstract nouns"
+    pages: "121"
+    steps:
+      - "Question 1: find the concrete and abstract nouns in the short text."
+      - "Question 2: write your own sentences with abstract nouns."
+      - "Questions 3–4: identify the suffixes that form abstract nouns."
+    tip: If you can see or touch it, it is concrete. If it is an idea or a feeling, it is abstract.
+  - code: 8C
+    title: "Reading Comprehension: Mowgli's Brothers"
+    pages: "122–123"
+    steps:
+      - "Questions 1–2: match each name to the animal and to the character's qualities."
+      - "Questions 3–5: find the answers in the text."
+      - "Question 6: imagine what Mowgli would need to learn to survive in the jungle."
+    tip: Reread the extract before you start.
+  - code: 8D
+    title: "Language Focus: Joining sentences"
+    pages: "124"
+    steps:
+      - "Question 1: write the connectives from memory and say how they join clauses."
+      - "Question 2: choose a connective to complete each sentence, then underline the independent clause."
+    tip: Coordinating connectives join equal clauses. Subordinating connectives add a dependent clause.
+  - code: 8E
+    title: "Word Structure: Suffixes -able and -ible"
+    pages: "125"
+    steps:
+      - "Question 1: add the correct suffix to each word."
+      - "Question 2: choose five of the adjectives and write a sentence with each."
+    tip: Some words do not follow the rules, so check in a dictionary.
+  - code: 8F
+    title: "Writing: A story retold from a different viewpoint"
+    pages: "126"
+    steps:
+      - Use the template to write the neat copy of your story.
+      - Check that you have used the first person all the way through.
+    tip: Show the character's thoughts and feelings, not just what happened.
+  - code: 8G
+    title: "Let's Learn: Features of a film script"
+    pages: "127"
+    steps:
+      - "Question 1: unscramble the film words and match them to their definitions."
+      - "Question 2: compare film scripts with play scripts."
+    tip: The words include 'shot', 'pan', 'zoom', 'soundtrack', 'storyboard' and 'script'.
+  - code: 8H
+    title: "Language Focus: Verb forms: Present perfect and past perfect"
+    pages: "128"
+    steps:
+      - "Question 1: complete the sentences with the present perfect."
+      - "Question 2: complete the sentences with the past perfect."
+      - "Question 3: choose the correct form for each sentence."
+    tip: Use 'has' or 'have' for the present perfect and 'had' for the past perfect.
+  - code: 8I
+    title: "Reading Comprehension: The Defeat of Shere Khan"
+    pages: "129–130"
+    steps:
+      - "Question 1: decide whether each statement is true or false."
+      - "Question 2: describe the setting of each shot."
+      - "Questions 3–5: summarise the ending, describe the characters and predict what happens next."
+    tip: Look at the shot directions to find the setting.
+  - code: 8J
+    title: "Language Focus: Choosing the right words and phrases"
+    pages: "131"
+    steps:
+      - Read the story. The weaker words are in brackets.
+      - Replace each one with a stronger word from the word box.
+      - Read your new story aloud.
+    tip: Choose words that help the reader see and feel the action.
+  - code: 8K
+    title: "Writing: A film script for a new scene"
+    pages: "132–133"
+    steps:
+      - Plan your scene as a storyboard in the table, with simple drawings and notes.
+      - Write your film script with shots, camera directions, sound and dialogue.
+    tip: Stick figures are fine. The storyboard is a plan, not a work of art.
+  - code: 8L
+    title: What Have I Learnt?
+    pages: "134–135"
+    steps:
+      - "Question 1: answer the questions about abstract nouns."
+      - "Question 2: use connectives to join sentences."
+      - "Question 3: identify and use the suffixes '-able' and '-ible'."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "135"
+    steps:
+      - Write about whether you enjoyed the stories in this unit, and why.
+      - Would you like to be friends with Mowgli? Explain your answer.
+    tip: There is no right answer. Explain your thinking.
+cards:
+  - front: Who are Baloo, Bagheera and Shere Khan?
+    back: Baloo is a bear, Bagheera is a panther and Shere Khan is a tiger.
+  - front: What is a storyboard?
+    back: A series of drawings that shows each shot of a film in order, used to plan the film.
+  - front: What does 'pan' mean in a film script?
+    back: To move the camera slowly across a scene from side to side.
+  - front: Concrete or abstract? 'courage'
+    back: Abstract, because you cannot see or touch it. It is a quality.
+  - front: How did Mowgli defeat Shere Khan in the film script?
+    back: He tied a burning branch to Shere Khan's tail, and the frightened tiger ran away.
+  - front: Present perfect or past perfect? 'She had finished her script.'
+    back: Past perfect, because it uses 'had'.
+practice:
+  - q: Which is an abstract noun?
+    options: ["tiger", "branch", "courage", "jungle"]
+    answer: 2
+    explain: Courage is a quality that you cannot see or touch.
+  - q: Which sentence uses the past perfect?
+    options: ["Mowgli runs fast.", "Mowgli has run fast.", "Mowgli had run before the fire started.", "Mowgli will run."]
+    answer: 2
+    explain: The past perfect uses 'had' plus the past participle.
+  - q: Choose the correct spelling.
+    options: ["comfortible", "comfortable", "comfterble", "comfortabel"]
+    answer: 1
+    explain: "'Comfort' is a whole word, so it takes '-able'."
+  - q: Which connective is subordinating?
+    options: ["and", "but", "although", "or"]
+    answer: 2
+    explain: "'Although' adds a dependent clause."
+  - q: What is a 'shot' in a film?
+    options: ["A piece of filming from one camera position", "A type of music", "An actor's costume", "The title of the film"]
+    answer: 0
+    explain: A shot is one continuous piece of filming from one camera position.
+  - q: Who speaks up for Mowgli at the wolf pack meeting?
+    options: ["Shere Khan and Tabaqui", "Baloo and Bagheera", "Only Akela", "The vultures"]
+    answer: 1
+    explain: Baloo and Bagheera both support Mowgli joining the pack.
+  - q: Which word is the most powerful way to say 'ran fast'?
+    options: ["walked", "sprinted", "moved", "went"]
+    answer: 1
+    explain: "'Sprinted' is precise and powerful."
+  - q: Which is a feature of a film script but NOT usually of a novel?
+    options: ["Characters", "Camera directions", "A setting", "A plot"]
+    answer: 1
+    explain: Only film scripts include directions for the camera.
+basket:
+  - prompt: Catch the abstract nouns
+    correct: [courage, fear, hunger, permission, happiness, wisdom, power, displeasure]
+    wrong: [tiger, bone, cave, jungle, wolf, river, branch, tail]
+  - prompt: Catch the film-making words
+    correct: [shot, pan, zoom, storyboard, soundtrack, script, camera, director]
+    wrong: [stanza, moral, glossary, quantifier, chorus, obituary, aside, receipt]
+  - prompt: Catch the correctly spelt -able and -ible words
+    correct: [comfortable, invisible, horrible, flexible, enjoyable, reliable, sensible, reversible]
+    wrong: [comfortible, invisable, horrable, flexable, enjoyible, reliible, sensable, reversable]

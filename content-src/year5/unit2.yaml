@@ -1,0 +1,315 @@
+id: 2
+title: True Stories About Real People
+icon: "📖"
+colour: "#2e7d6b"
+sbStart: 31
+wbStart: 18
+sbPages: "31–55"
+wbPages: "18–34"
+parts:
+  - code: 2A
+    title: The Entertainer
+  - code: 2B
+    title: Great Women
+overview: >-
+  In this unit you will read biographies: true stories about the lives of real people. You will meet a famous
+  showman and three remarkable women from history, and you will learn how biographers find out about people's lives.
+  At the end, you will research and write a short biography of your own.
+objectives:
+  - Describe the structure and features of a biography, from the introduction to the person's legacy.
+  - Use modal verbs such as 'can', 'might', 'must' and 'should' correctly.
+  - Use prefixes and suffixes to make new words and opposites.
+  - Split long words into syllables and spot silent letters.
+  - Use comparative and superlative adjectives and adverbs, and use a thesaurus.
+  - Research, plan and write a short biography using different sources of information.
+texts:
+  - title: P.T. Barnum and the Greatest Show on Earth
+    kind: Biography
+    pages: "34–39"
+    summary: >-
+      Phineas Taylor Barnum (1810–1891) was an American showman. He started a museum full of unusual attractions
+      in New York and later built an enormous travelling circus, known as 'The Greatest Show on Earth', which moved
+      from town to town by train. One of his most famous attractions was Jumbo, a giant elephant. Barnum even
+      managed to read his own obituary in a newspaper before he died!
+  - title: Women Who Mattered
+    kind: Biographies
+    pages: "45–46"
+    summary: >-
+      Two short biographies of brave and determined women. Bibi Rajindar Kaur, from Patiala in northern India,
+      led an army to help her family and helped to arrange peace talks. Wang Zhenyi, from China, taught herself
+      astronomy and mathematics at a time when girls could not go to school, and explained eclipses using
+      experiments she set up at home.
+  - title: A Woman of Vision
+    kind: Biography
+    pages: "48–50"
+    summary: >-
+      This biography tells the story of Wangari Maathai from Kenya. She saw that forests were being cut down and
+      the land was drying out, so she encouraged women to plant trees, which helped the environment and gave them
+      an income. She became the first African woman to win the Nobel Peace Prize.
+vocab:
+  - word: biography
+    meaning: The true story of a person's life, written by someone else.
+    example: I read a biography of a famous scientist.
+  - word: legacy
+    meaning: Something important that a person leaves behind for the world after they die.
+    example: Her legacy is the millions of trees that she helped to plant.
+  - word: achievement
+    meaning: Something good and difficult that a person has done.
+    example: Winning the prize was her greatest achievement.
+  - word: obituary
+    meaning: A piece of writing about someone's life, published after they die.
+    example: The newspaper printed an obituary of the famous showman.
+  - word: attraction
+    meaning: A place or thing that people go to see because it is interesting or fun.
+    example: The elephant was the circus's biggest attraction.
+  - word: astronomy
+    meaning: The study of the stars, planets and space.
+    example: Wang Zhenyi loved astronomy.
+  - word: perseverance
+    meaning: Continuing to try hard, even when something is difficult.
+    example: With perseverance, she learnt to read difficult books.
+  - word: modal verb
+    meaning: A helping verb, such as 'can', 'might', 'must' or 'should', that shows how possible or necessary something is.
+    example: You should read every day.
+  - word: thesaurus
+    meaning: A book or website that lists words with similar meanings (synonyms).
+    example: I used a thesaurus to find another word for 'big'.
+  - word: superlative
+    meaning: The form of an adjective or adverb that shows the most or the least, for example 'tallest' or 'most careful'.
+    example: Jumbo was the biggest elephant in the circus.
+sb:
+  - part: 2A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "31"
+    tip: Talk about where you could find out about a real person's life, such as books, encyclopaedias and websites.
+  - part: 2A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "32"
+    tip: Think of a famous person you admire. What would you want to know about their life?
+  - part: 2A
+    lesson: Lesson 2
+    title: "Let's Learn: Structure and features of a biography"
+    pages: "32–33"
+    tip: A biography is usually in the past tense and the third person ('he', 'she', 'they'). It often has subheadings such as early life, achievements and legacy.
+  - part: 2A
+    lesson: Lesson 3
+    title: "Reading Part 1: P.T. Barnum and the Greatest Show on Earth"
+    pages: "34–35"
+    tip: Use the map and the dates to follow where Barnum lived and worked.
+  - part: 2A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Modal verbs"
+    pages: "36–37"
+    tip: Some modal verbs show that something is certain ('must', 'will') and others show that it is only possible ('might', 'could').
+  - part: 2A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: P.T. Barnum and Reading Comprehension"
+    pages: "38–39"
+    tip: Check each feature of a biography against the text. Can you find the dates, the past tense and the legacy?
+  - part: 2A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Using prefixes, suffixes and root words"
+    pages: "40"
+    tip: Prefixes such as 'un-', 'im-', 'in-' and 'dis-' can make opposites. The suffix '-less' means 'without'.
+  - part: 2A
+    lesson: Lesson 8
+    title: "Word Structure: Polysyllabic words"
+    pages: "41"
+    tip: Clap the syllables. Each syllable has one vowel sound. Listen for silent letters, as in 'handkerchief'.
+  - part: 2A
+    lesson: Lesson 9
+    title: "Writing: A plan for a biography"
+    pages: "42"
+    tip: Choose your subject now. You will research and finish your biography in Part B.
+  - part: 2B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Sources of information"
+    pages: "43–44"
+    tip: Biographers use family trees, maps, timelines, interviews and letters. Each one tells you something different.
+  - part: 2B
+    lesson: Lesson 11
+    title: "Reading Part 1: Women Who Mattered"
+    pages: "45–46"
+    tip: For each woman, note the challenges she faced and what she achieved.
+  - part: 2B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Comparative and superlative adjectives and adverbs"
+    pages: "47"
+    tip: Use comparatives to compare two things ('smaller', 'more carefully') and superlatives for three or more ('smallest', 'most carefully').
+  - part: 2B
+    lesson: Lesson 13
+    title: "Reading Part 2: A Woman of Vision and Reading Comprehension"
+    pages: "48–51"
+    tip: Find the reasons why Wangari Maathai thought trees were so important.
+  - part: 2B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Using a thesaurus"
+    pages: "52"
+    tip: A thesaurus gives you choices. Pick the synonym that fits the meaning of your sentence best.
+  - part: 2B
+    lesson: Lesson 15
+    title: "Speaking: Ask and answer questions"
+    pages: "53"
+    tip: Prepare open questions that start with 'how', 'why' or 'what', and listen carefully to the answers.
+  - part: 2B
+    lesson: Lessons 16–17
+    title: "Writing: A short biography"
+    pages: "54"
+    tip: Write an introduction that sums up why your person is important, then follow the order of their life.
+  - part: 2B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "55"
+    tip: Which biography did you find most interesting, and why?
+wb:
+  - code: 2A
+    title: "Let's Learn: Structure and features of a biography"
+    pages: "18"
+    steps:
+      - Read the biography of the entertainer Jackie Chan.
+      - Write the correct structure label (introduction, early life, later life, achievements and legacy) in each frame.
+    tip: Look at the labelled biography of Florence Nightingale in your Student Book for help.
+  - code: 2B
+    title: "Language Focus: Modal verbs"
+    pages: "19"
+    steps:
+      - "Question 1: choose the best modal verb to complete each sentence."
+      - "Question 2: write your own sentences using modal verbs."
+    tip: Read each sentence with your chosen modal verb. Does it sound certain, possible or polite?
+  - code: 2C
+    title: "Reading Comprehension: P.T. Barnum and the Greatest Show on Earth"
+    pages: "20–21"
+    steps:
+      - "Questions 1–5: choose the correct answer for each question."
+      - "Questions 6–8: write answers about Barnum's legacy, his character and his museum."
+    tip: Use describing words, such as 'ambitious' or 'imaginative', and give evidence from the text.
+  - code: 2D
+    title: "Language Focus: Using prefixes, suffixes and root words"
+    pages: "22"
+    steps:
+      - "Question 1: match a prefix or suffix to each root word and write the new word."
+      - "Question 2: write sentences that show the meaning of your new words."
+    tip: Check that each new word means the opposite of the root word.
+  - code: 2E
+    title: "Word Structure: Polysyllabic words"
+    pages: "23"
+    steps:
+      - "Question 1: divide each word into syllables, using the vowel sound rule."
+      - "Question 2: find the letter that is often not heard when the word is said aloud."
+    tip: Say each word slowly, then at normal speed. Which sound disappears?
+  - code: 2F
+    title: "Writing: Research for a biography"
+    pages: "24–25"
+    steps:
+      - Use the template and checklist to collect facts about the person you chose.
+      - Organise your facts in the mind map.
+    tip: Write notes, not full sentences, and write down where each fact came from.
+  - code: 2G
+    title: "Let's Learn: Sources of information"
+    pages: "26–27"
+    steps:
+      - "Question 1: name each type of source, such as a family tree, map, timeline, interview or letter."
+      - "Question 2: use the information from the sources to write a paragraph about the person."
+    tip: Combine facts from all the sources, then put them in a sensible order.
+  - code: 2H
+    title: "Language Focus: Comparative and superlative adjectives and adverbs"
+    pages: "28"
+    steps:
+      - "Question 1: fill in the correct comparative or superlative form."
+      - "Question 2: write your own sentences using comparatives and superlatives."
+    tip: For short words, add '-er' or '-est'. For longer words, use 'more' or 'most'.
+  - code: 2I
+    title: "Reading Comprehension: Women Who Mattered and A Woman of Vision"
+    pages: "29–30"
+    steps:
+      - "Question 1: complete the table comparing Bibi Rajindar Kaur and Wang Zhenyi."
+      - "Question 2: answer the multiple-choice questions about A Woman of Vision."
+      - "Question 3: answer the questions about Wangari Maathai."
+    tip: Reread both parts of the text before you start.
+  - code: 2J
+    title: "Language Focus: Using a thesaurus"
+    pages: "31"
+    steps:
+      - "Question 1: choose the best synonym from the list."
+      - "Question 2: use a thesaurus to find antonyms."
+    tip: A dictionary can help you check the exact meaning of a synonym.
+  - code: 2K
+    title: "Writing: A short biography"
+    pages: "32"
+    steps:
+      - Use the headings in the table to make notes from your research.
+      - Plan each part of your biography, then write it in full.
+    tip: Use the past tense and the third person throughout.
+  - code: 2L
+    title: What Have I Learnt?
+    pages: "33"
+    steps:
+      - "Question 1: review the features of biographies."
+      - "Question 2: fill the gaps in the text."
+      - "Question 3: find the language features you have learnt in this unit."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "34"
+    steps:
+      - Write about which biography you enjoyed most and why.
+      - Write about the legacy you would like to leave behind.
+    tip: Think big. What difference would you like to make?
+cards:
+  - front: What are the usual parts of a biography?
+    back: Introduction, early life, later life, achievements and legacy.
+  - front: Which tense and viewpoint does a biography use?
+    back: The past tense and the third person ('he', 'she', 'they').
+  - front: What was 'The Greatest Show on Earth'?
+    back: P.T. Barnum's enormous travelling circus, which moved from town to town by train.
+  - front: Why is Wangari Maathai remembered?
+    back: She encouraged people to plant trees to protect the environment, and she was the first African woman to win the Nobel Peace Prize.
+  - front: Name four sources of information a biographer might use.
+    back: For example, family trees, maps, timelines, interviews and letters.
+  - front: When do you use 'more' and 'most' instead of '-er' and '-est'?
+    back: With most longer words, for example 'more powerful' and 'most diligent'.
+practice:
+  - q: A biography is...
+    options: ["a made-up story about animals", "the true story of a person's life written by someone else", "a poem about nature", "a list of instructions"]
+    answer: 1
+    explain: A biography tells the true story of a real person's life.
+  - q: Which tense are most biographies written in?
+    options: ["Future tense", "Present tense", "Past tense", "No tense"]
+    answer: 2
+    explain: Biographies describe events that have already happened, so they use the past tense.
+  - q: "What is a person's 'legacy'?"
+    options: ["Their favourite food", "Something important they leave behind for the world", "Their home address", "Their first job"]
+    answer: 1
+    explain: A legacy is the lasting difference a person makes.
+  - q: Which modal verb shows that something is only possible, not certain?
+    options: ["must", "will", "might", "shall"]
+    answer: 2
+    explain: "'Might' shows that something is possible, but not certain."
+  - q: Which prefix makes the opposite of 'visible'?
+    options: ["un-", "in-", "dis-", "re-"]
+    answer: 1
+    explain: "'Invisible' means not able to be seen."
+  - q: Choose the correct superlative.
+    options: ["Jumbo was the most big elephant.", "Jumbo was the bigger elephant of all.", "Jumbo was the biggest elephant of all.", "Jumbo was the more biggest elephant."]
+    answer: 2
+    explain: "'Big' is a short word, so we add '-est' and double the final 'g': 'biggest'."
+  - q: How many syllables are there in 'entertainment'?
+    options: ["Two", "Three", "Four", "Five"]
+    answer: 2
+    explain: "en / ter / tain / ment has four syllables."
+  - q: What did Wang Zhenyi study, even though girls could not go to school?
+    options: ["Cooking", "Astronomy", "Football", "Music only"]
+    answer: 1
+    explain: She taught herself astronomy and mathematics and explained eclipses.
+basket:
+  - prompt: Catch the words you would expect in a biography
+    correct: [born, childhood, achievements, legacy, career, award, died, early life]
+    wrong: [once upon a time, dragon, magic, spaceship, recipe, moral, chorus, wizard]
+  - prompt: Catch the modal verbs
+    correct: [can, could, might, must, should, would, may, will]
+    wrong: [run, happy, quickly, table, sing, under, tall, jump]
+  - prompt: Catch the words that use a prefix or suffix to make an opposite
+    correct: [unfair, invisible, impossible, disagree, fearless, careless, unusual, hopeless]
+    wrong: [happy, careful, visible, agree, possible, usual, hopeful, fair]

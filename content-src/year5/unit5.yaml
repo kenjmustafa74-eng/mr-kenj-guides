@@ -1,0 +1,305 @@
+id: 5
+title: Dangerous Creatures
+icon: "🐍"
+colour: "#4f7d2b"
+sbStart: 108
+wbStart: 69
+sbPages: "108–135"
+wbPages: "69–84"
+parts:
+  - code: 5A
+    title: Venomous Creatures
+  - code: 5B
+    title: Beware of These Creatures!
+overview: >-
+  Snakes, jellyfish and cone snails all belong to 'The Venom Club'! In this unit you will read magazine-style
+  information texts about venomous creatures on land and in the sea. You will learn how writers choose their tone,
+  how to tell facts from opinions, and how to write a gripping article about a dangerous animal.
+objectives:
+  - Explain the purpose and tone of information texts, and how tone can be serious or light-hearted.
+  - Tell the difference between facts and opinions in articles.
+  - Use adverbs and adverbial phrases of time, frequency, place and manner.
+  - Use modal verbs to show how possible something is.
+  - Work out the meaning of homonyms from context, and spot silent vowels in words.
+  - Choose words with the right shade of meaning, and write an article about a dangerous animal.
+texts:
+  - title: "The Venom Club – Venomous Land Creatures"
+    kind: Information text (magazine article)
+    pages: "111–116"
+    summary: >-
+      This lively article is about venomous snakes. It explains that snakes are cold-blooded and get their warmth
+      from their surroundings, and it describes their 'super skills' under fun subheadings such as Strong Scales,
+      Stealth and Super Senses. There are about 3,500 known species of snake, but only a small number can seriously
+      harm people.
+  - title: "The Venom Club – Venomous Sea Creatures"
+    kind: Information text (magazine article)
+    pages: "123–129"
+    summary: >-
+      This part of the article dives into the ocean to meet the box jellyfish, which has a body shape unlike other
+      jellyfish, and the cone snail, a highly skilled hunter. The writer argues that, although these creatures are
+      dangerous, they are also valuable and need to be protected.
+vocab:
+  - word: venomous
+    meaning: Able to inject a poison (venom) by biting or stinging.
+    example: A cone snail is venomous.
+  - word: predator
+    meaning: An animal that hunts and eats other animals.
+    example: The snake is the predator and the frog is its prey.
+  - word: prey
+    meaning: An animal that is hunted and eaten by another animal.
+    example: Mice are prey for many snakes.
+  - word: cold-blooded
+    meaning: Having a body temperature that changes with the temperature around it.
+    example: Snakes are cold-blooded, so they bask in the sun.
+  - word: tone
+    meaning: The feeling or attitude that a piece of writing shows, for example serious or light-hearted.
+    example: The article has a fun, light-hearted tone.
+  - word: fact
+    meaning: Something that can be checked and proved to be true.
+    example: Box jellyfish live in the ocean.
+  - word: opinion
+    meaning: What someone thinks or believes. It cannot be proved.
+    example: I think box jellyfish are amazing.
+  - word: homonym
+    meaning: A word that is spelt and said the same as another word but has a different meaning.
+    example: "'Scales' can be the plates on a snake's skin or a machine for weighing."
+  - word: conserve
+    meaning: To protect something so that it is not damaged or lost.
+    example: We must conserve ocean creatures.
+  - word: ambush
+    meaning: To hide and then attack suddenly.
+    example: Many snakes ambush their prey.
+sb:
+  - part: 5A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "108–109"
+    tip: Discuss which creatures are the most dangerous and why. Remember to give reasons for your choice.
+  - part: 5A
+    lesson: Lesson 2
+    title: "Let's Learn: Purpose and tone of information texts"
+    pages: "109–110"
+    tip: Tone is how a text 'sounds'. Ask yourself who it is written for and what it wants to do.
+  - part: 5A
+    lesson: Lesson 3
+    title: "Reading Part 1: The Venom Club"
+    pages: "111–112"
+    tip: Look at the photographs and subheadings first to predict what you will learn.
+  - part: 5A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Adverbs and adverbial phrases of time and frequency"
+    pages: "113"
+    tip: Time tells you WHEN (in the daytime). Frequency tells you HOW OFTEN (sometimes, occasionally).
+  - part: 5A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: The Venom Club and Reading Comprehension"
+    pages: "114–116"
+    tip: Notice the mix of formal facts and informal, fun language. Why might the writer do this?
+  - part: 5A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Homonyms and context"
+    pages: "117"
+    tip: Read the whole sentence to decide which meaning of the homonym fits.
+  - part: 5A
+    lesson: Lesson 8
+    title: "Word Structure: Silent vowels and syllables"
+    pages: "118"
+    tip: Some vowels are not heard when we speak, as in 'choc(o)late' and 'diff(e)rent'. Say the word slowly to help you spell it.
+  - part: 5A
+    lesson: Lesson 9
+    title: "Writing: Use shades of meaning"
+    pages: "119–120"
+    tip: Words can be weaker or stronger, for example 'ambled', 'ran' and 'stormed'. Choose strong words for drama.
+  - part: 5B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Facts and opinions in articles"
+    pages: "121–122"
+    tip: A fact can be checked. An opinion shows what someone thinks or feels.
+  - part: 5B
+    lesson: Lesson 11
+    title: "Reading Part 1: The Venom Club"
+    pages: "123–124"
+    tip: Why does the writer tell us that jellyfish are important as well as dangerous?
+  - part: 5B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Modal verbs of possibility"
+    pages: "125–126"
+    tip: Modal verbs show how likely something is, from 'will' (certain) to 'might' (possible).
+  - part: 5B
+    lesson: Lesson 13
+    title: "Reading Part 2: The Venom Club and Reading Comprehension"
+    pages: "127–129"
+    tip: Find the sentence in the final paragraph that tries to persuade you.
+  - part: 5B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: Adverbs and adverbial phrases of place and manner"
+    pages: "130"
+    tip: Place tells you WHERE (along the ocean floor). Manner tells you HOW (stealthily).
+  - part: 5B
+    lesson: Lesson 15
+    title: "Listening and Speaking: Danger in the Desert"
+    pages: "131"
+    tip: Listen for key facts, then work with a partner to plan and present a short summary.
+  - part: 5B
+    lesson: Lessons 16–17
+    title: "Writing: An article about a dangerous animal"
+    pages: "132–134"
+    tip: Mix facts with your opinion, use subheadings and strong words, and choose a tone that suits your readers.
+  - part: 5B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "135"
+    tip: Which creature surprised you the most, and why?
+wb:
+  - code: 5A
+    title: "Let's Learn: Purpose and tone of information texts"
+    pages: "69"
+    steps:
+      - "Question 1: decide whether each statement about tone is true or false."
+      - "Question 2: write a short information text about the picture, following the guidelines."
+    tip: Decide on your purpose, your audience and your tone before you start writing.
+  - code: 5B
+    title: "Language Focus: Adverbs and adverbial phrases of time and frequency"
+    pages: "70"
+    steps:
+      - "Question 1: underline the adverbs and adverbial phrases."
+      - "Question 2: sort them into time and frequency."
+    tip: Ask 'When?' for time and 'How often?' for frequency.
+  - code: 5C
+    title: "Reading Comprehension: The Venom Club"
+    pages: "71"
+    steps:
+      - "Question 1: decide whether each statement is true or false."
+      - "Questions 2–3: find the answers in the text."
+    tip: Underline the key words in each question, then look for them in the text.
+  - code: 5D
+    title: "Language Focus: Homonyms and context"
+    pages: "72"
+    steps:
+      - "Question 1: work out the meaning of each underlined word from the sentence."
+      - "Question 2: write sentences using homonyms."
+    tip: Context means the words around the homonym. They tell you which meaning is right.
+  - code: 5E
+    title: "Word Structure: Silent vowels and syllables"
+    pages: "73"
+    steps:
+      - "Question 1: say each word aloud and underline the vowel or syllable that is not pronounced."
+      - "Question 2: correct the spelling of the words that have been written the way they sound."
+    tip: Use a dictionary to check your spellings.
+  - code: 5F
+    title: "Writing: Use shades of meaning"
+    pages: "74"
+    steps:
+      - "Question 1: find the word that does not belong in each group."
+      - "Question 2: put the words in order from weakest to strongest."
+      - "Question 3: write sentences using the strongest words."
+    tip: Imagine the words on a scale from gentle to powerful.
+  - code: 5G
+    title: "Let's Learn: Facts and opinions in articles"
+    pages: "75"
+    steps:
+      - Read the article about sharks.
+      - Decide what the writer thinks about sharks and find words that show it.
+      - Sort sentences into facts and opinions, then write your own opinion.
+    tip: Words such as 'amazing' and 'superhero' usually show an opinion.
+  - code: 5H
+    title: "Language Focus: Modal verbs of possibility"
+    pages: "76"
+    steps:
+      - "Question 1: choose a suitable modal verb to complete each sentence."
+      - "Question 2: match each sentence to how possible it is."
+    tip: Think of a scale from certain to possible.
+  - code: 5I
+    title: "Reading Comprehension: The Venom Club"
+    pages: "77–78"
+    steps:
+      - Reread Parts 1 and 2 about the sea creatures.
+      - "Question 1: answer the multiple-choice questions."
+      - "Question 2: give three reasons why you found a creature interesting."
+    tip: Use facts from the text to support your reasons.
+  - code: 5J
+    title: "Language Focus: Adverbs and adverbial phrases of place and manner"
+    pages: "79"
+    steps:
+      - "Question 1: complete the sentences with adverbs and adverbial phrases from the box."
+      - "Question 2: find the verb that each adverb or adverbial phrase describes."
+    tip: Ask 'Where?' for place and 'How?' for manner.
+  - code: 5K
+    title: "Writing: An article about a dangerous animal"
+    pages: "80–81"
+    steps:
+      - Choose and research a dangerous animal.
+      - Use the headings in the table to make notes, decide on your opinion and plan your pictures.
+      - Write your article with a headline, subheadings, facts and your opinion.
+    tip: Use strong words from Lesson 9 to make your article exciting.
+  - code: 5L
+    title: What Have I Learnt?
+    pages: "82–83"
+    steps:
+      - "Question 1: change the tone of the sentences."
+      - "Question 2: identify the types of adverbs and adverbial phrases."
+      - "Question 3: choose the correct meaning of each homonym."
+      - "Questions 4–5: use modal verbs and choose strong words."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "84"
+    steps:
+      - Write about whether you enjoy reading and writing information texts, and why.
+    tip: Be honest. Your journal is for you.
+cards:
+  - front: What is the difference between a fact and an opinion?
+    back: A fact can be checked and proved. An opinion is what someone thinks or feels.
+  - front: Why do snakes bask in the sun?
+    back: They are cold-blooded, so they get their warmth from their surroundings.
+  - front: What does 'tone' mean in writing?
+    back: The feeling or attitude of a text, for example serious, formal, light-hearted or funny.
+  - front: Adverbs of time and frequency answer which questions?
+    back: Time answers 'When?' (yesterday). Frequency answers 'How often?' (sometimes).
+  - front: Adverbs of place and manner answer which questions?
+    back: Place answers 'Where?' (along the ocean floor). Manner answers 'How?' (stealthily).
+  - front: Why does the writer say that venomous sea creatures should be protected?
+    back: Because they play a part in keeping the environment in balance.
+practice:
+  - q: Which sentence is an opinion?
+    options: ["Box jellyfish live in the ocean.", "Snakes are cold-blooded.", "Sharks are the most amazing creatures ever.", "Cone snails hunt their prey."]
+    answer: 2
+    explain: "'Most amazing' shows what the writer thinks, so it is an opinion."
+  - q: "'Occasionally, snakes are active at night.' What kind of adverb is 'occasionally'?"
+    options: ["Place", "Manner", "Frequency", "Time"]
+    answer: 2
+    explain: It tells you how often, so it is an adverb of frequency.
+  - q: "'The cone snail moved stealthily.' What kind of adverb is 'stealthily'?"
+    options: ["Manner", "Place", "Time", "Frequency"]
+    answer: 0
+    explain: It tells you HOW the snail moved, so it is an adverb of manner.
+  - q: Which word is the strongest?
+    options: ["tired", "sleepy", "exhausted", "fatigued"]
+    answer: 2
+    explain: "'Exhausted' is the strongest shade of meaning."
+  - q: Which modal verb shows the most certainty?
+    options: ["might", "could", "will", "may"]
+    answer: 2
+    explain: "'Will' shows that something is certain to happen."
+  - q: Which word has a silent vowel when we say it?
+    options: ["cat", "chocolate", "dog", "sun"]
+    answer: 1
+    explain: Most people say 'choc-late', so the second 'o' is not heard.
+  - q: What is a predator?
+    options: ["An animal that is hunted", "An animal that hunts other animals", "A plant", "A type of shell"]
+    answer: 1
+    explain: A predator hunts and eats other animals, which are its prey.
+  - q: "'The snake shed its scales.' Which meaning of 'scales' is used here?"
+    options: ["A machine for weighing", "Small flat plates covering the skin", "Musical notes going up and down", "Sizes on a map"]
+    answer: 1
+    explain: The context (snake, shed) tells us that scales are the plates on its skin.
+basket:
+  - prompt: Catch the venomous creatures
+    correct: [cobra, rattlesnake, box jellyfish, cone snail, coral snake, viper, stonefish, scorpion]
+    wrong: [goldfish, rabbit, parrot, sheep, giraffe, hamster, dolphin, penguin]
+  - prompt: Catch the adverbs and adverbial phrases of frequency
+    correct: [sometimes, often, occasionally, rarely, always, never, every day, usually]
+    wrong: [yesterday, quickly, under the rock, tomorrow, stealthily, at night, here, carefully]
+  - prompt: Catch the words that show an opinion
+    correct: [amazing, wonderful, terrifying, beautiful, the best, fantastic, horrible, incredible]
+    wrong: [venom, ocean, scales, tentacles, species, prey, shell, desert]

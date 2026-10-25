@@ -1,0 +1,310 @@
+id: 4
+title: The Workings of Machines
+icon: "⚙️"
+colour: "#3a6ea5"
+sbStart: 82
+wbStart: 52
+sbPages: "82–107"
+wbPages: "52–68"
+parts:
+  - code: 4A
+    title: How Does It Work?
+  - code: 4B
+    title: Pictures Tell More
+overview: >-
+  How does a radio turn invisible waves into music and voices? In this unit you will read explanation texts that
+  answer questions like this. You will learn how writers use headings, diagrams and flowcharts to make tricky ideas
+  clear, and you will write your own explanation of how a machine works.
+objectives:
+  - Identify the features of explanation texts, such as headings, subheadings, diagrams and the present simple tense.
+  - Use infographics, keys, flowcharts and labelled diagrams to understand information.
+  - Use countable and uncountable nouns with the right quantifiers, for example 'fewer' and 'less'.
+  - Find words quickly in alphabetical lists, such as dictionaries and glossaries.
+  - Tell the difference between homophones, homographs and homonyms.
+  - Reorder clauses in multi-clause sentences, and use specialised vocabulary in your own explanation.
+texts:
+  - title: What Makes a Radio Work?
+    kind: Information text with explanation
+    pages: "85–91"
+    summary: >-
+      This explanation text tells you about electromagnetic waves, which travel through space, and how they are
+      different from sound waves. It explains frequency (visible light has a higher frequency than radio waves)
+      and shows how devices such as a remote-controlled car use an antenna to receive signals.
+  - title: How Does a Radio Work?
+    kind: Information text with explanation
+    pages: "98–102"
+    summary: >-
+      This text follows a message from start to finish. A transmitter turns sound waves into radio waves and sends
+      them out. A receiver with an aerial picks them up, turns them back into sound and makes the sound louder, so
+      that we can hear it. It also explains the two main kinds of radio broadcasting, AM and FM, using a flowchart and labelled pictures.
+vocab:
+  - word: explanation text
+    meaning: A non-fiction text that explains how or why something works or happens.
+    example: The explanation text showed how a radio works.
+  - word: transmitter
+    meaning: A device that sends out signals, such as radio waves.
+    example: The radio station's transmitter sends out the signal.
+  - word: receiver
+    meaning: A device that picks up signals and changes them into something we can use.
+    example: Your radio is a receiver.
+  - word: antenna
+    meaning: A metal rod or wire that sends or receives radio waves (also called an aerial).
+    example: The car's antenna picked up the signal.
+  - word: frequency
+    meaning: How many times something happens, or how many waves pass a point, in a certain amount of time.
+    example: Visible light has a higher frequency than radio waves.
+  - word: amplify
+    meaning: To make a sound louder.
+    example: The speaker amplifies the music.
+  - word: infographic
+    meaning: A picture, chart or diagram that shows information clearly.
+    example: The flowchart is an infographic.
+  - word: quantifier
+    meaning: A word that tells you how much or how many, such as 'some', 'few', 'little' or 'enough'.
+    example: There was less snow and fewer people this year.
+  - word: homophone
+    meaning: A word that sounds the same as another word but has a different spelling and meaning.
+    example: "'Right' and 'write' are homophones."
+  - word: glossary
+    meaning: An alphabetical list of special words and their meanings, usually at the back of a book.
+    example: I checked 'frequency' in the glossary.
+sb:
+  - part: 4A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "82–83"
+    tip: Talk about what robots and machines can do. Then look at how the example text uses headings, photographs and captions.
+  - part: 4A
+    lesson: Lesson 2
+    title: "Let's Learn: Features of explanation texts"
+    pages: "83–84"
+    tip: Explanation texts use a clear heading, numbered or ordered paragraphs, labelled diagrams, the present simple tense and connectives.
+  - part: 4A
+    lesson: Lesson 3
+    title: "Reading Part 1: What Makes a Radio Work?"
+    pages: "85–86"
+    tip: Use the subheadings to predict what each section will explain.
+  - part: 4A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Nouns and quantifiers"
+    pages: "87–88"
+    tip: Use 'fewer' with things you can count (fewer clothes) and 'less' with things you cannot count (less sugar).
+  - part: 4A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: What Makes a Radio Work? and Reading Comprehension"
+    pages: "89–91"
+    tip: Study the diagram of waves. Which waves have a low frequency and which have a high frequency?
+  - part: 4A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Alphabetical lists"
+    pages: "92"
+    tip: Dictionaries, glossaries and thesauruses are all in alphabetical order. Use the second and third letters to find words quickly.
+  - part: 4A
+    lesson: Lesson 8
+    title: "Word Structure: Commonly confused words"
+    pages: "93–94"
+    tip: Homophones sound the same but are spelt differently (right and write). Homographs are spelt the same but can have different meanings (lead and lead).
+  - part: 4A
+    lesson: Lesson 9
+    title: "Writing: Use a mind map to display information"
+    pages: "95"
+    tip: Put the machine in the middle of your mind map and add branches for its parts, how it works and what it is used for.
+  - part: 4B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Infographics and keys in explanation texts"
+    pages: "96–97"
+    tip: Pie charts, bar graphs, line graphs and flowcharts each show information in a different way. A key explains the symbols or colours.
+  - part: 4B
+    lesson: Lesson 11
+    title: "Reading Part 1: How Does a Radio Work?"
+    pages: "98–99"
+    tip: Follow the message from the transmitter to the receiver.
+  - part: 4B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Reordering clauses in multi-clause sentences"
+    pages: "100"
+    tip: You can put the dependent clause first or second. If it comes first, add a comma after it.
+  - part: 4B
+    lesson: Lesson 13
+    title: "Reading Part 2 and Reading Comprehension"
+    pages: "101–102"
+    tip: Use the flowchart to retell the steps in order. What are input and output?
+  - part: 4B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Specialised vocabulary"
+    pages: "103"
+    tip: Technical words such as 'megahertz' and 'kilohertz' have exact meanings. Use the context and a glossary.
+  - part: 4B
+    lesson: Lesson 15
+    title: "Speaking: Produce a radio interview"
+    pages: "104"
+    tip: Plan your questions, speak clearly and use a lively voice, because radio listeners cannot see you.
+  - part: 4B
+    lesson: Lessons 16–17
+    title: "Writing: An explanation about how a machine works"
+    pages: "105–106"
+    tip: Use your mind map. Write in the present simple tense, put the steps in order and add a labelled diagram.
+  - part: 4B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "107"
+    tip: Which machine would you like to find out more about?
+wb:
+  - code: 4A
+    title: "Let's Learn: Features of explanation texts"
+    pages: "52"
+    steps:
+      - "Question 1: answer the multiple-choice questions about explanation texts."
+      - "Question 2: decide whether each statement is true or false."
+      - "Question 3: explain how an explanation text is different from a fiction text."
+    tip: Remember that an explanation text is factual and explains how or why something works.
+  - code: 4B
+    title: "Language Focus: Nouns and quantifiers"
+    pages: "53"
+    steps:
+      - "Question 1: underline the nouns and sort them into countable and uncountable nouns."
+      - "Question 2: rewrite the sentences using the nouns and the suggested quantifiers."
+    tip: Ask yourself 'Can I count it?' You can count bowls, but you cannot count milk.
+  - code: 4C
+    title: "Reading Comprehension: What Makes a Radio Work?"
+    pages: "54"
+    steps:
+      - "Question 1: decide whether each statement is true or false."
+      - "Question 2: write three features of radio waves."
+      - "Question 3: complete the flow diagram showing how radio waves become sound."
+      - "Question 4: name some machines that use waves."
+    tip: Write the steps in a list first, then add the arrows.
+  - code: 4D
+    title: "Language Focus: Alphabetical lists"
+    pages: "55"
+    steps:
+      - "Question 1: use a dictionary to write the meaning of each word."
+      - "Question 2: find the meaning that matches the part of speech in brackets."
+      - "Question 3: put the words in alphabetical order."
+    tip: When words start with the same letters, look at the next letter along.
+  - code: 4E
+    title: "Word Structure: Commonly confused words"
+    pages: "56–57"
+    steps:
+      - "Question 1: write two sentences for each word to show two different meanings."
+      - "Question 2: find the matching homophones in the word search."
+      - "Question 3: use the homophones to complete the sentences."
+    tip: Check the meaning, not just the sound, before you choose a spelling.
+  - code: 4F
+    title: "Writing: Use a mind map to display information"
+    pages: "58"
+    steps:
+      - Research how your chosen machine works.
+      - Record your information on the mind map template.
+    tip: Look at the example on Student Book page 95 if you get stuck.
+  - code: 4G
+    title: "Let's Learn: Infographics and keys in explanation texts"
+    pages: "59"
+    steps:
+      - "Question 1: study the labelled diagram and the flowchart."
+      - "Question 2: use the information to write a paragraph explaining how the machine works."
+    tip: Follow the arrows in the flowchart to get the steps in the right order.
+  - code: 4H
+    title: "Language Focus: Reordering clauses in multi-clause sentences"
+    pages: "60"
+    steps:
+      - "Question 1: choose a dependent clause to complete each complex sentence."
+      - "Question 2: rewrite the sentences with the dependent clause first."
+      - "Question 3: answer the questions about the sentences."
+    tip: When the dependent clause comes first, remember the comma.
+  - code: 4I
+    title: "Reading Comprehension: How Does a Radio Work?"
+    pages: "61–62"
+    steps:
+      - "Question 1: label the diagram."
+      - "Question 2: answer the multiple-choice questions about the flowchart."
+      - "Question 3: answer the question about radio, using what you already know."
+    tip: Reread both parts of the text first.
+  - code: 4J
+    title: "Language Focus: Specialised vocabulary"
+    pages: "63"
+    steps:
+      - "Question 1: work out the meaning of each technical word."
+      - "Question 2: make your own list of specialised words."
+      - "Question 3: find synonyms for the technical words."
+    tip: Find each word in the reading text and use the context to help you.
+  - code: 4K
+    title: "Writing: An explanation of how a machine works"
+    pages: "64–65"
+    steps:
+      - Use the headings in the tables to make notes.
+      - Use your mind map and notes to plan each part of your explanation.
+      - Write your explanation and add a labelled diagram.
+    tip: Put the steps in the order they happen and use sequence connectives such as 'first', 'then' and 'finally'.
+  - code: 4L
+    title: What Have I Learnt?
+    pages: "66–67"
+    steps:
+      - "Question 1: revise complex sentences and write your own."
+      - "Questions 2–3: revise commonly confused words."
+      - "Questions 4–5: review technical terms."
+      - "Question 6: use quantifiers with nouns in sentences."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "68"
+    steps:
+      - Write about a time you found something hard to understand, and whether an infographic would have helped.
+      - Design an infographic of your own.
+    tip: Keep your infographic simple and clear.
+cards:
+  - front: Name four features of an explanation text.
+    back: For example, a heading, subheadings, ordered steps, labelled diagrams, the present simple tense and connectives.
+  - front: What does a transmitter do?
+    back: It changes sound waves into radio waves and sends them out.
+  - front: What does a receiver do?
+    back: It picks up radio waves with an aerial, changes them back into sound and makes the sound louder.
+  - front: "'Fewer' or 'less'?"
+    back: Use 'fewer' for things you can count (fewer people) and 'less' for things you cannot count (less snow).
+  - front: What are AM and FM?
+    back: Two ways of sending radio signals. FM uses a broader range of frequencies than AM.
+  - front: What is the difference between a homophone and a homograph?
+    back: Homophones sound the same but are spelt differently (right and write). Homographs are spelt the same but have different meanings (lead and lead).
+practice:
+  - q: Which tense do explanation texts usually use?
+    options: ["Past tense", "Present simple tense", "Future tense", "Past perfect tense"]
+    answer: 1
+    explain: Explanations describe how things work now, so they use the present simple tense.
+  - q: Choose the correct sentence.
+    options: ["There were less people at the show.", "There were fewer people at the show.", "There were fewest people at the show.", "There were lesser people at the show."]
+    answer: 1
+    explain: People can be counted, so we use 'fewer'.
+  - q: Which part of a radio system changes sound waves into radio waves?
+    options: ["The speaker", "The receiver", "The transmitter", "The battery"]
+    answer: 2
+    explain: The transmitter changes the sound into radio waves and sends them out.
+  - q: Which word comes first in alphabetical order?
+    options: ["circus", "circle", "circuit", "circular"]
+    answer: 1
+    explain: "circl- comes before circu-, so 'circle' comes first."
+  - q: Which pair are homophones?
+    options: ["light (not heavy) and light (bright)", "write and right", "big and large", "hot and cold"]
+    answer: 1
+    explain: "'Write' and 'right' sound the same but have different spellings and meanings."
+  - q: What is a flowchart?
+    options: ["A diagram showing the steps of a process in order", "A list of words with meanings", "A type of poem", "A photograph with a caption"]
+    answer: 0
+    explain: A flowchart uses boxes and arrows to show steps in order.
+  - q: Which sentence is punctuated correctly?
+    options: ["As it was raining we listened to the radio.", "As it was raining, we listened to the radio.", "As, it was raining we listened to the radio.", "As it was raining we, listened to the radio."]
+    answer: 1
+    explain: When the dependent clause comes first, put a comma after it.
+  - q: "What does 'amplify' mean?"
+    options: ["To make quieter", "To make louder", "To switch off", "To record"]
+    answer: 1
+    explain: To amplify a sound is to make it louder.
+basket:
+  - prompt: Catch the parts of a radio system
+    correct: [transmitter, receiver, aerial, antenna, speaker, microphone, signal, radio waves]
+    wrong: [moral, stanza, villain, chorus, recipe, folktale, narrator, rhyme]
+  - prompt: Catch the uncountable nouns
+    correct: [milk, sugar, money, luggage, porridge, software, salt, snow]
+    wrong: [bowl, chef, computer, airport, child, coin, suitcase, apple]
+  - prompt: Catch the features of an explanation text
+    correct: [heading, subheading, diagram, label, flowchart, caption, present tense, connective]
+    wrong: [once upon a time, moral, rhyme, villain, dragon, stanza, happy ending, dialogue]

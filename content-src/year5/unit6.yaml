@@ -1,0 +1,313 @@
+id: 6
+title: What a Classic!
+icon: "🎩"
+colour: "#8c3b3b"
+sbStart: 136
+wbStart: 85
+sbPages: "136–162"
+wbPages: "85–101"
+parts:
+  - code: 6A
+    title: A Classic Novel
+  - code: 6B
+    title: What's the Angle?
+overview: >-
+  Why do people still read stories that were written nearly 200 years ago? In this unit you will read extracts from
+  Charles Dickens's famous novel Oliver Twist. You will learn what makes a book a 'classic', how stories can be
+  told from different viewpoints, and how to write direct and reported speech correctly.
+objectives:
+  - Explain what makes literature a classic.
+  - Identify first-person and third-person viewpoints in stories.
+  - Change direct speech into reported speech, and punctuate both correctly.
+  - Use personal and possessive pronouns correctly.
+  - Use apostrophes for possession and for contractions.
+  - Apply spelling rules, such as 'i before e except after c', and write a diary entry from a character's viewpoint.
+texts:
+  - title: "Oliver Twist: The Workhouse"
+    kind: Extract from a classic novel by Charles Dickens
+    pages: "139–145"
+    summary: >-
+      Oliver is an orphan who lives in a workhouse, where the boys are given only a small bowl of thin porridge
+      called gruel. The hungry boys decide that someone must ask for more, and Oliver is chosen. When he walks up
+      to the master and asks for more, the adults are shocked, and Oliver is treated as if he has committed a crime.
+  - title: "Oliver Twist: The Artful Dodger"
+    kind: Extract from a classic novel by Charles Dickens
+    pages: "151–152"
+    summary: >-
+      After a week of walking, a tired and hungry Oliver reaches a small town on the way to London. There he meets a confident boy
+      called the Artful Dodger, who buys him food and offers to take him to a man in London who will give him
+      somewhere to sleep.
+  - title: "Oliver Twist: Oliver Got Caught!"
+    kind: Extract from a classic novel by Charles Dickens
+    pages: "155–157"
+    summary: >-
+      Oliver watches in horror as the Dodger steals a gentleman's handkerchief at a bookstall. Confused and
+      frightened, Oliver runs away, so the crowd chases him, shouting 'Stop, thief!' Oliver is blamed for a crime
+      that he did not commit.
+vocab:
+  - word: classic
+    meaning: A book that has been admired for a long time because it is very well written and its ideas still matter today.
+    example: Oliver Twist is a classic novel.
+  - word: workhouse
+    meaning: In the past, a place where very poor people lived and had to work in return for food and a bed.
+    example: Oliver grew up in a workhouse.
+  - word: gruel
+    meaning: A thin, watery porridge.
+    example: The boys ate one small bowl of gruel.
+  - word: viewpoint
+    meaning: The position from which a story is told. In the first person, the narrator says 'I'. In the third person, the narrator says 'he', 'she' or 'they'.
+    example: Oliver Twist is told in the third person.
+  - word: direct speech
+    meaning: The exact words that someone says, written inside inverted commas.
+    example: '"I want some more," said Oliver.'
+  - word: reported speech
+    meaning: Telling what someone said without using their exact words.
+    example: Oliver said that he wanted some more.
+  - word: possessive pronoun
+    meaning: A word that shows who owns something, such as 'mine', 'yours', 'his', 'hers', 'ours' and 'theirs'.
+    example: That bowl is mine.
+  - word: apostrophe
+    meaning: A punctuation mark (’) that shows possession (Oliver's bowl) or missing letters (didn't).
+    example: The boy's feet were sore.
+  - word: contraction
+    meaning: Two words shortened into one, with an apostrophe where the letters are missing.
+    example: "'Do not' becomes 'don't'."
+  - word: diary entry
+    meaning: A personal piece of writing about what happened on a particular day and how the writer felt.
+    example: Oliver wrote a diary entry about the day he was blamed.
+sb:
+  - part: 6A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "136"
+    tip: Talk about the difference between 'classic' and 'modern'. What classic things can you think of?
+  - part: 6A
+    lesson: Lesson 2
+    title: "Getting Started and Let's Learn: What makes literature a classic?"
+    pages: "137–138"
+    tip: Classics were written long ago, are very well written and have ideas that still matter to readers today.
+  - part: 6A
+    lesson: Lesson 3
+    title: "Reading Part 1: Oliver Twist – The Workhouse"
+    pages: "139–140"
+    tip: Old-fashioned words such as 'porringer' and 'countenance' are tricky. Use the context and the Vocabulary boxes.
+  - part: 6A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Direct and reported speech"
+    pages: "141–143"
+    tip: In reported speech, the tense moves back, pronouns change and there are no inverted commas.
+  - part: 6A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Oliver Twist – The Workhouse and Reading Comprehension"
+    pages: "144–145"
+    tip: How do the adults react when Oliver asks for more? Find the words that show their shock.
+  - part: 6A
+    lesson: Lesson 7
+    title: "Language Focus – Punctuation: Punctuation in direct and reported speech"
+    pages: "146"
+    tip: Put the spoken words and their punctuation inside the inverted commas.
+  - part: 6A
+    lesson: Lesson 8
+    title: "Word Structure: Spelling rules"
+    pages: "147"
+    tip: Revise 'i before e except after c', dropping the silent 'e', doubling consonants, changing 'y' to 'i', and 'ck' and 'tch'.
+  - part: 6A
+    lesson: Lesson 9
+    title: "Writing: A classic in modern language"
+    pages: "148"
+    tip: Retell the workhouse scene in today's language, but keep the same events and feelings.
+  - part: 6B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Viewpoints in stories"
+    pages: "149–150"
+    tip: Look at the pronouns. 'I' means first person. Characters' names with 'he' or 'she' usually mean third person.
+  - part: 6B
+    lesson: Lesson 11
+    title: "Reading Part 1: Oliver Twist – The Artful Dodger"
+    pages: "151–152"
+    tip: What clues tell you how far Oliver has walked and how he feels?
+  - part: 6B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Personal and possessive pronouns"
+    pages: "153–154"
+    tip: Personal pronouns replace names (he, they). Possessive pronouns show ownership (mine, ours).
+  - part: 6B
+    lesson: Lesson 13
+    title: "Reading Part 2: Oliver Twist – Oliver Got Caught! and Reading Comprehension"
+    pages: "155–157"
+    tip: Why does Oliver run, and why does the crowd think he is the thief?
+  - part: 6B
+    lesson: Lesson 14
+    title: "Language Focus – Punctuation: Apostrophes"
+    pages: "158"
+    tip: For one owner, add 's (the boy's). For plural owners ending in s, add just the apostrophe (the boys').
+  - part: 6B
+    lesson: Lesson 15
+    title: "Speaking: Acting out a scene"
+    pages: "159"
+    tip: Use your voice, face and body to show how your character feels.
+  - part: 6B
+    lesson: Lessons 16–17
+    title: "Writing: A diary entry to express a viewpoint"
+    pages: "160–161"
+    tip: Write as Oliver in the first person. Include the date, what happened and how you felt.
+  - part: 6B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "162"
+    tip: Would you like to read the whole of Oliver Twist one day? Why?
+wb:
+  - code: 6A
+    title: "Let's Learn: What makes literature a classic?"
+    pages: "85"
+    steps:
+      - "Question 1: choose features of classic literature from the box and write them in the right place."
+      - "Question 2: think of a book you have read recently and decide whether it could be a classic."
+    tip: Give reasons for your decision.
+  - code: 6B
+    title: "Language Focus: Direct and reported speech"
+    pages: "86"
+    steps:
+      - "Question 1: tick the things that change when direct speech becomes reported speech."
+      - "Question 2: rewrite the direct speech sentences as reported speech."
+    tip: Time words, pointer words (this and that), tenses and pronouns usually change.
+  - code: 6C
+    title: "Reading Comprehension: The Workhouse"
+    pages: "87"
+    steps:
+      - "Questions 1–3: find the answers in the text and quote from it."
+      - "Question 4: imagine you are Oliver and describe how you would feel."
+    tip: Copy quotations exactly and put them inside inverted commas.
+  - code: 6D
+    title: "Language Focus: Punctuation in direct and reported speech"
+    pages: "88"
+    steps:
+      - "Question 1: correct the punctuation in the sentences."
+      - "Question 2: rewrite the sentences as direct speech with the correct punctuation."
+    tip: Start a new line each time a new person speaks.
+  - code: 6E
+    title: "Word Structure: Spelling rules"
+    pages: "89–90"
+    steps:
+      - "Question 1: complete each word with 'ie' or 'ei'."
+      - "Question 2: complete the sentences with the correct form of the word in brackets."
+      - "Questions 3–5: complete the rhyme with 'ck' words, complete the sentences with the correct word forms, and finish the words with 'ch' or 'tch'."
+    tip: Remember 'i before e except after c', but watch out for exceptions such as 'weird' and 'foreign'.
+  - code: 6F
+    title: "Writing: A classic in modern language"
+    pages: "91"
+    steps:
+      - Use the questions to make notes about the workhouse scene.
+      - Rewrite the scene in modern language.
+      - Edit your work and write a neat copy.
+    tip: Keep the same events and feelings, but use words that people use today.
+  - code: 6G
+    title: "Let's Learn: Viewpoints in stories"
+    pages: "92"
+    steps:
+      - "Question 1: read the extract and choose the viewpoint it is written in."
+      - "Question 2: retell the events from a character's viewpoint."
+    tip: When you write in the first person, use 'I' and share the character's thoughts.
+  - code: 6H
+    title: "Language Focus: Personal and possessive pronouns"
+    pages: "93"
+    steps:
+      - "Question 1: sort the pronouns into personal and possessive pronouns."
+      - "Question 2: circle the best pronoun to complete each sentence."
+    tip: Check who or what the pronoun refers to.
+  - code: 6I
+    title: "Reading Comprehension: The Artful Dodger and Oliver Got Caught!"
+    pages: "94–95"
+    steps:
+      - Reread both extracts.
+      - "Question 1: decide whether each statement is true or false."
+      - "Question 2: answer the longer comprehension questions."
+    tip: Use evidence from the text in your answers.
+  - code: 6J
+    title: "Language Focus: Apostrophes"
+    pages: "96"
+    steps:
+      - "Question 1: add the missing apostrophes."
+      - "Question 2: make contractions using apostrophes."
+      - "Question 3: find the mistakes and correct them."
+    tip: "'Its' (belonging to it) has no apostrophe. 'It's' means 'it is'."
+  - code: 6K
+    title: "Writing: A diary entry to express a viewpoint"
+    pages: "97–98"
+    steps:
+      - Use the headings and boxes to plan your diary entry as Oliver.
+      - Write your first draft.
+      - Check that you have a date and used the first person, the past tense and your feelings, then write a neat copy.
+    tip: A diary is personal, so show Oliver's thoughts and feelings.
+  - code: 6L
+    title: What Have I Learnt?
+    pages: "99–100"
+    steps:
+      - "Question 1: write a dialogue in direct speech and then in reported speech."
+      - "Question 2: find and correct the spelling mistakes."
+      - "Question 3: find and correct the punctuation mistakes."
+      - "Question 4: answer the questions about the text."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "101"
+    steps:
+      - Write about which extract from Oliver Twist you enjoyed most, and why.
+      - Imagine you could meet Oliver. Write the questions you would ask him.
+    tip: Use details from the extracts to explain your choice.
+cards:
+  - front: What makes a book a classic?
+    back: It was written some time ago, it is very well written, and its characters and ideas still matter to readers today.
+  - front: Who wrote Oliver Twist?
+    back: Charles Dickens.
+  - front: Why does Oliver get into trouble in the workhouse?
+    back: He asks for more food, and the people in charge are shocked.
+  - front: "Change to reported speech: 'I am hungry,' said Oliver."
+    back: Oliver said that he was hungry.
+  - front: "'The boy's bowls' or 'the boys' bowls'?"
+    back: "'The boy's bowls' belong to one boy. 'The boys' bowls' belong to more than one boy."
+  - front: How can you tell a story is in the first person?
+    back: The narrator uses 'I' and 'me' and tells their own story.
+practice:
+  - q: Which sentence is reported speech?
+    options: ["\"I want some more,\" said Oliver.", "Oliver said that he wanted some more.", "\"More!\" shouted Oliver.", "Oliver: I want more."]
+    answer: 1
+    explain: Reported speech tells us what was said without the exact words or inverted commas.
+  - q: Which sentence is punctuated correctly?
+    options: ["\"Please, sir, I want some more\" said Oliver.", "\"Please, sir, I want some more,\" said Oliver.", "\"Please, sir, I want some more\", said Oliver.", "Please, sir, I want some more, said Oliver."]
+    answer: 1
+    explain: The comma goes inside the inverted commas, before 'said'.
+  - q: Which word follows the rule 'i before e except after c'?
+    options: ["recieve", "receive", "beleive", "peice"]
+    answer: 1
+    explain: After 'c', we write 'ei', so 'receive' is correct.
+  - q: Which is a possessive pronoun?
+    options: ["he", "they", "ours", "we"]
+    answer: 2
+    explain: "'Ours' shows that something belongs to us."
+  - q: Which sentence uses the apostrophe correctly?
+    options: ["The dog wagged it's tail.", "The dog wagged its tail.", "The dog wagged its' tail.", "The dogs' wagged its tail."]
+    answer: 1
+    explain: "'Its' shows possession and never has an apostrophe. 'It's' means 'it is'."
+  - q: "'I walked to London and my feet were bleeding.' Which viewpoint is this?"
+    options: ["First person", "Second person", "Third person", "No viewpoint"]
+    answer: 0
+    explain: The narrator uses 'I' and 'my', so it is the first person.
+  - q: Who buys Oliver food and offers to take him to London?
+    options: ["Mr Bumble", "The Artful Dodger", "The master", "The gentleman at the bookstall"]
+    answer: 1
+    explain: The Artful Dodger buys Oliver food and offers to take him to a man in London.
+  - q: What is the contraction of 'they have'?
+    options: ["they'v", "theyve", "they've", "the've"]
+    answer: 2
+    explain: The apostrophe replaces the missing letters 'ha'.
+basket:
+  - prompt: Catch the possessive pronouns
+    correct: [mine, yours, his, hers, ours, theirs, its, whose]
+    wrong: [I, me, they, we, she, him, us, them]
+  - prompt: Catch the correctly spelt words
+    correct: [receive, believe, piece, field, achieve, ceiling, thief, chief]
+    wrong: [recieve, beleive, peice, feild, acheive, cieling, theif, cheif]
+  - prompt: Catch the characters and places from Oliver Twist
+    correct: [Oliver, Artful Dodger, Mr Bumble, Mr Limbkins, workhouse, London, the master, gruel]
+    wrong: [Anansi, Mowgli, Jumbo, Shere Khan, Madan, Baloo, Sigo, Bagheera]

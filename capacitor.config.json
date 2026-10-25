@@ -1,0 +1,9 @@
+{
+  "appId": "com.brightonacademy.kenjguide.year5",
+  "appName": "Mr. Kenj's Guide to Year Five",
+  "webDir": "public",
+  "server": {
+    "url": "https://REPLACE-WITH-YOUR-HOSTED-ADDRESS",
+    "cleartext": false
+  }
+}

@@ -1,0 +1,301 @@
+id: 7
+title: What an Act!
+icon: "🎭"
+colour: "#a0522d"
+sbStart: 163
+wbStart: 102
+sbPages: "163–189"
+wbPages: "102–119"
+parts:
+  - code: 7A
+    title: Action on Stage
+  - code: 7B
+    title: Dramatic Flair
+overview: >-
+  Lights, curtain, action! In this unit you will read play scripts: a short play based on Oliver Twist and a play
+  based on a Native American folktale. You will learn how play scripts are different from stories, how writers use
+  stage directions and dramatic conventions, and how to write and perform a one-act play of your own.
+objectives:
+  - Compare play scripts with narratives.
+  - Identify dramatic conventions, such as dialogue, a narrator, asides, costumes, scenery, props, lighting and sound effects.
+  - Use relative pronouns and relative clauses ('who', 'whom', 'whose', 'which' and 'that').
+  - Use roots, prefixes and suffixes to work out word meanings.
+  - Spell words with stressed and unstressed vowel sounds.
+  - Use figurative language and modal verbs, and write a play script with dialogue and stage directions.
+texts:
+  - title: Oliver Twist
+    kind: Play script based on the classic novel
+    pages: "166–171"
+    summary: >-
+      The workhouse scene from Oliver Twist is turned into a short play. A narrator sets the scene, stage directions
+      tell the actors what to do, and the hungry boys push Oliver to ask for more. When he does, Mr Bumble and
+      Mr Limbkins are outraged.
+  - title: "Mooin: The Bear's Child"
+    kind: Play script (adapted from a Native American folktale)
+    pages: "177–184"
+    summary: >-
+      Sigo's cruel stepfather takes him hunting against his mother's wishes, then tricks him into a cave and traps
+      him there. Glooscap, the Great Chief, punishes the stepfather and calls the forest animals to help. Only
+      Mooinsk, the mother bear, is strong enough to move the rock. Sigo lives with the bears and learns the forest's
+      secrets. In the end he returns to his human mother and takes the name Mooin.
+vocab:
+  - word: play script
+    meaning: The written text of a play, with the characters' lines and stage directions.
+    example: We read the play script aloud in groups.
+  - word: stage directions
+    meaning: Instructions in a play script, usually in brackets, that tell actors how to move or speak, or describe lighting and sound.
+    example: (Oliver walks slowly to the master.)
+  - word: dialogue
+    meaning: The words that the characters speak to each other.
+    example: The dialogue is short and lively.
+  - word: narrator
+    meaning: A person who tells the audience what is happening.
+    example: The narrator introduces the setting.
+  - word: aside
+    meaning: Words a character says to the audience that the other characters on stage do not hear.
+    example: The stepfather tells the audience his plan in an aside.
+  - word: props
+    meaning: Objects that actors use on stage.
+    example: The bowls and spoons are props.
+  - word: scenery
+    meaning: The painted background and objects that show where a scene takes place.
+    example: The scenery showed a dark forest.
+  - word: offstage
+    meaning: At the side of the stage, where the audience cannot see.
+    example: A loud noise came from offstage.
+  - word: relative pronoun
+    meaning: A word such as 'who', 'whom', 'whose', 'which' or 'that' that starts a clause giving more information.
+    example: The actor who played Oliver was excellent.
+  - word: act
+    meaning: One of the main parts that a play is divided into. Each act can contain several scenes.
+    example: There is a break at the end of Act 1.
+sb:
+  - part: 7A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "163–164"
+    tip: Talk about theatres and what actors do to prepare for a play.
+  - part: 7A
+    lesson: Lesson 2
+    title: "Let's Learn: Play scripts vs narratives"
+    pages: "164"
+    tip: Play scripts have stage directions, acts and scenes, and a list of characters. Narratives have chapters and description.
+  - part: 7A
+    lesson: Lesson 3
+    title: "Reading Part 1: Oliver Twist (play script)"
+    pages: "166–167"
+    tip: Read the stage directions carefully. They tell you how the characters feel and move.
+  - part: 7A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Relative pronouns and relative clauses"
+    pages: "168–169"
+    tip: Use 'who' for people, 'which' for things, 'whose' for ownership and 'whom' for the person something is done to.
+  - part: 7A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Oliver Twist (play script) and Reading Comprehension"
+    pages: "170–171"
+    tip: Notice how short each character's lines are. How does this keep the action moving?
+  - part: 7A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Roots, suffixes and prefixes"
+    pages: "172"
+    tip: Roots carry meaning. 'Tele' means far, 'graph' means writing or drawing, and 'bio' means life.
+  - part: 7A
+    lesson: Lesson 8
+    title: "Word Structure: Stressed and unstressed vowel sounds"
+    pages: "173"
+    tip: Unstressed vowels often sound like 'uh', as in 'hist(o)ry'. Say the word in an exaggerated way to help you spell it.
+  - part: 7A
+    lesson: Lesson 9
+    title: "Writing: Dialogue and stage directions"
+    pages: "174"
+    tip: Write the character's name, then their words. Put stage directions in brackets.
+  - part: 7B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Dramatic conventions in play scripts"
+    pages: "175–176"
+    tip: Dramatic conventions, such as asides, lighting and sound effects, help to make a play believable and exciting.
+  - part: 7B
+    lesson: Lesson 11
+    title: "Reading Part 1: Mooin: The Bear's Child"
+    pages: "177–180"
+    tip: Look for the aside. Who is the character speaking to?
+  - part: 7B
+    lesson: Lesson 12
+    title: "Language Focus – Vocabulary: Figurative language"
+    pages: "181"
+    tip: Find similes, metaphors and personification in sentences about the play.
+  - part: 7B
+    lesson: Lesson 13
+    title: "Reading Part 2: Mooin: The Bear's Child and Reading Comprehension"
+    pages: "182–184"
+    tip: How do the offstage noises and lighting build tension?
+  - part: 7B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: More about modal verbs"
+    pages: "185"
+    tip: Modal verbs can be used to make polite requests, for example 'Could I…?' and 'May I…?'
+  - part: 7B
+    lesson: Lesson 15
+    title: "Speaking: Presenting a play"
+    pages: "186"
+    tip: Learn your lines, face the audience, project your voice and stay in character.
+  - part: 7B
+    lesson: Lessons 16–17
+    title: "Writing: Play script for a one-act play"
+    pages: "187–188"
+    tip: Plan the characters, setting and plot. Then write the dialogue and helpful stage directions.
+  - part: 7B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "189"
+    tip: Did you prefer reading or performing plays? Why?
+wb:
+  - code: 7A
+    title: "Let's Learn: Play scripts vs narratives"
+    pages: "102"
+    steps:
+      - "Question 1: read the same story written as a narrative and as a play."
+      - "Question 2: compare them and explain how they are different."
+    tip: Look at what the narrative tells you that the play has to show in other ways.
+  - code: 7B
+    title: "Language Focus: Relative pronouns"
+    pages: "103"
+    steps:
+      - Join the pairs of sentences using a suitable relative pronoun.
+    tip: Use commas around a relative clause that adds extra information.
+  - code: 7C
+    title: "Reading Comprehension: Oliver Twist (play script)"
+    pages: "104–105"
+    steps:
+      - "Question 1: find the answers in the play script and quote from it."
+      - "Question 2: rewrite Part 2 as a scene in a story, then give your own opinion about Oliver asking for more food."
+    tip: When you change a play into a narrative, turn stage directions into description.
+  - code: 7D
+    title: "Language Focus: Roots, suffixes and prefixes"
+    pages: "106"
+    steps:
+      - "Question 1: build words using the suffixes."
+      - "Question 2: work out the meanings of words from their roots and affixes."
+    tip: Check your answers in a dictionary if you have time.
+  - code: 7E
+    title: "Word Structure: Stressed and unstressed vowel sounds"
+    pages: "107"
+    steps:
+      - "Question 1: underline the stressed vowel sounds and circle the unstressed ones."
+      - "Question 2: circle the word parts with an 'ee' sound and underline those with an 'uh' sound."
+    tip: Clap the syllables. The stressed syllable is the one you say most strongly.
+  - code: 7F
+    title: "Writing: Dialogue and stage directions"
+    pages: "108"
+    steps:
+      - Use the template to write the rest of the play.
+      - Check that your dialogue is laid out correctly and that the stage directions are in brackets.
+    tip: Keep the dialogue short and punchy.
+  - code: 7G
+    title: "Let's Learn: Dramatic conventions in play scripts"
+    pages: "109"
+    steps:
+      - Complete the paragraphs by filling in the correct dramatic conventions.
+    tip: The words you need include 'aside', 'props', 'scenery' and 'sound effects'.
+  - code: 7H
+    title: "Language Focus: Figurative language"
+    pages: "110–111"
+    steps:
+      - "Question 1: read the text and underline the figurative language."
+      - "Question 2: sort the examples into similes and personification."
+      - "Question 3: decide what kind of figurative language the final example is."
+    tip: Similes use 'like' or 'as'. Personification gives human actions to objects.
+  - code: 7I
+    title: "Reading Comprehension: Mooin: The Bear's Child"
+    pages: "112–113"
+    steps:
+      - Reread Parts 1 and 2 of the play.
+      - Answer the questions, including summarising what happens to the stepfather and how Sigo escapes.
+      - Find a synonym, then give your own opinions with reasons.
+    tip: Keep your summaries short. Include only the main events.
+  - code: 7J
+    title: "Language Focus: More about modal verbs"
+    pages: "114"
+    steps:
+      - "Question 1: complete the sentences using the modal verbs provided."
+      - "Question 2: complete the requests with suitable modal verbs."
+    tip: For polite requests, use 'could', 'may' or 'would'.
+  - code: 7K
+    title: "Writing: Play script for a one-act play"
+    pages: "115–116"
+    steps:
+      - Use the headings and boxes in the table to plan your play.
+      - Write your first draft with dialogue and stage directions.
+      - Edit your play, fix any problems and write a neat copy.
+    tip: Read your play aloud with friends to check that it works.
+  - code: 7L
+    title: What Have I Learnt?
+    pages: "117–118"
+    steps:
+      - "Question 1: write three differences between play scripts and narratives."
+      - "Question 2: revise relative pronouns, modal verbs, figurative language and play script features."
+      - "Questions 3–5: revise vowel sounds and spelling."
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "119"
+    steps:
+      - Write about which play script you preferred, and why.
+    tip: Think about the characters, the story and how it would look on stage.
+cards:
+  - front: Name three features of a play script.
+    back: For example, a list of characters, dialogue, stage directions in brackets, and acts and scenes.
+  - front: What is an aside?
+    back: Words a character says to the audience that the other characters on stage cannot hear.
+  - front: What are props?
+    back: Objects that actors use on stage, such as bowls, spoons or a lantern.
+  - front: When do you use 'whose'?
+    back: To show ownership, for example 'The boy whose bowl it was licked it clean.'
+  - front: Who frees Sigo from the cave?
+    back: Mooinsk, the mother bear, moves the heavy rock.
+  - front: What does the root 'tele' mean?
+    back: Far, as in 'telephone', 'telescope' and 'television'.
+practice:
+  - q: In a play script, stage directions are usually written...
+    options: ["in inverted commas", "in brackets", "in capital letters only", "at the end of the play"]
+    answer: 1
+    explain: Stage directions usually go in brackets so that they are not read aloud as dialogue.
+  - q: Which relative pronoun completes the sentence? 'The actor ___ played Oliver was brilliant.'
+    options: ["which", "who", "whose", "where"]
+    answer: 1
+    explain: "We use 'who' for people."
+  - q: What is an aside?
+    options: ["A costume", "A secret comment to the audience", "The end of a play", "A type of scenery"]
+    answer: 1
+    explain: In an aside, a character speaks to the audience and the other characters do not hear it.
+  - q: Which word contains the root 'graph' (writing or drawing)?
+    options: ["telephone", "autograph", "biology", "vivid"]
+    answer: 1
+    explain: An autograph is a person's own signature, so it is a kind of writing.
+  - q: "'The cave swallowed the light.' What is this?"
+    options: ["Simile", "Personification", "Rhyme", "Stage direction"]
+    answer: 1
+    explain: The cave is given a human action (swallowing), so it is personification.
+  - q: Which sentence is a polite request?
+    options: ["Give me that.", "Could I borrow your script, please?", "I will take it.", "You must go."]
+    answer: 1
+    explain: "'Could I...?' is a polite way to ask."
+  - q: Which of these is NOT a feature of a play script?
+    options: ["Stage directions", "Chapters", "Acts and scenes", "A list of characters"]
+    answer: 1
+    explain: Chapters belong to narratives such as novels, not play scripts.
+  - q: "'Offstage' means..."
+    options: ["in the middle of the stage", "at the side of the stage where the audience cannot see", "in the audience", "on the roof"]
+    answer: 1
+    explain: Offstage is out of the audience's sight.
+basket:
+  - prompt: Catch the dramatic conventions
+    correct: [dialogue, narrator, aside, costumes, scenery, props, stage lights, sound effects]
+    wrong: [glossary, footnote, index, chapter, contents page, timeline, headline, bibliography]
+  - prompt: Catch the relative pronouns
+    correct: [who, whom, whose, which, that]
+    wrong: [and, but, because, when, if, so, or, although]
+  - prompt: Catch the words built from the root 'graph' or 'tele'
+    correct: [autograph, biography, paragraph, photograph, telephone, telescope, television, geography]
+    wrong: [biology, vivid, actor, curtain, stage, music, theatre, audience]

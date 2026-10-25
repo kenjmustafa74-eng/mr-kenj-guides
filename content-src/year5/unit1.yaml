@@ -1,0 +1,326 @@
+id: 1
+title: Stories of Old
+icon: "📜"
+colour: "#b5651d"
+sbStart: 1
+wbStart: 1
+sbPages: "1–30"
+wbPages: "1–17"
+parts:
+  - code: 1A
+    title: Once Upon a Time
+  - code: 1B
+    title: Telling Traditional Tales
+overview: >-
+  This unit is all about traditional tales: stories that people have told and retold for hundreds of years.
+  You will read fables, where animals teach us a lesson, and folktales, where ordinary people meet tricky problems.
+  By the end, you will write a traditional tale of your own.
+objectives:
+  - Explain the structure of a fable (opening, climax and resolution) and what a moral is.
+  - Compare fables and folktales and spot their similarities and differences.
+  - Write simple and complex sentences, and use commas to separate clauses.
+  - Work out the meaning of unknown words from context using the IDEAS strategy.
+  - Spell words with the letter strings 'ie' and 'ou', and understand common idioms.
+  - Read a story aloud with expression, and plan, write and improve your own fable or folktale.
+texts:
+  - title: The Tales of Anansi
+    kind: Fables from West Africa and the Caribbean
+    pages: "4–10"
+    summary: >-
+      Anansi is a clever but greedy spider from West African stories. In the first tale, he wants to taste
+      everyone's cooking, so he ties strands of web from his legs to his friends' cooking pots. When all the
+      food is ready at the same moment, his legs are pulled in every direction, which explains why spiders
+      have long, thin legs. In the other tales, Anansi tries to keep all the world's wisdom for himself in a
+      gourd, but his own son shows him a better idea, and the wisdom ends up being shared with everyone.
+  - title: The Man Who Never Lied
+    kind: Folktale from India
+    pages: "18–19"
+    summary: >-
+      Madan is famous because he never tells a lie. The king tries to trick him into telling one, but Madan
+      only ever reports exactly what he has seen. In the end, it is the king who looks foolish, and Madan's
+      honesty is proved.
+  - title: The Fisherman and His Wife
+    kind: Folktale from Germany
+    pages: "21–24"
+    summary: >-
+      A poor fisherman catches a magic talking fish and lets it go. His wife makes him ask the fish for one wish
+      after another, each one bigger than the last. Because she is never satisfied, she loses everything she was
+      given. The story is about greed and its consequences.
+vocab:
+  - word: fable
+    meaning: A short story, usually with animal characters, that teaches a lesson.
+    example: "'The Tortoise and the Hare' is a famous fable."
+  - word: moral
+    meaning: The lesson about life that a story teaches.
+    example: "The moral of the story is 'Do not be greedy'."
+  - word: folktale
+    meaning: A traditional story, usually about people, passed down by word of mouth for many years.
+    example: Grandma told us a folktale from her village.
+  - word: climax
+    meaning: The most exciting part of a story, when the problem is at its biggest.
+    example: At the climax, Anansi's legs were pulled in eight directions.
+  - word: resolution
+    meaning: The end of a story, when the problem is sorted out.
+    example: In the resolution, everyone shared the wisdom.
+  - word: cunning
+    meaning: Clever at getting what you want, often by tricking others.
+    example: The cunning fox fooled the crow.
+  - word: greedy
+    meaning: Wanting much more of something than you need.
+    example: The greedy boy took all the sweets.
+  - word: honest
+    meaning: Always telling the truth.
+    example: Madan was honest, even when the king tried to trick him.
+  - word: complex sentence
+    meaning: A sentence with a main clause and at least one dependent clause.
+    example: When the bell rang, the children lined up quietly.
+  - word: idiom
+    meaning: A group of words whose meaning is different from the meanings of the separate words.
+    example: "'The cherry on the top' means something that makes a good thing even better."
+sb:
+  - part: 1A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "1"
+    tip: Look closely at the picture and talk about how it links to the title 'Stories of Old'. Practise the group roles, such as leader, scribe, spokesperson and facilitator.
+  - part: 1A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "2"
+    tip: Think of a fable you already know. What lesson did it teach?
+  - part: 1A
+    lesson: Lesson 2
+    title: "Let's Learn: Structure and features of a fable"
+    pages: "2–3"
+    tip: Learn the three parts of a fable (opening, climax and resolution) and its features, such as animal characters, an outdoor setting and a moral.
+  - part: 1A
+    lesson: Lesson 3
+    title: "Reading Part 1: The Tales of Anansi"
+    pages: "4–6"
+    tip: As you read, find the opening, the climax and the resolution. Use the Vocabulary and Language Alert boxes to check tricky words.
+  - part: 1A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Simple and complex sentences"
+    pages: "7"
+    tip: A simple sentence has one main clause. A complex sentence adds a dependent clause, often starting with 'when', 'as', 'because' or 'if'.
+  - part: 1A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: The Tales of Anansi and Reading Comprehension"
+    pages: "8–10"
+    tip: Compare the two Anansi tales. What does Anansi want, and what lesson does he learn?
+  - part: 1A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Using context to identify unknown words"
+    pages: "11–12"
+    tip: Use IDEAS to work out new words. Infer a meaning, look for a Definition, find an Example, then look for an Antonym and a Synonym.
+  - part: 1A
+    lesson: Lesson 8
+    title: "Word Structure: Letter strings ie and ou"
+    pages: "13"
+    tip: Say the words aloud. 'ie' can sound like 'ee' (piece) or 'igh' (cried). 'ou' can sound like 'ow' (ground) or 'or' (pour).
+  - part: 1A
+    lesson: Lesson 9
+    title: "Writing: A paragraph"
+    pages: "14–15"
+    tip: Start with a topic sentence, add sentences with details, and finish with a concluding sentence.
+  - part: 1B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Fables vs folktales"
+    pages: "16–17"
+    tip: Make a two-column list of how fables and folktales are alike and how they are different.
+  - part: 1B
+    lesson: Lesson 11
+    title: "Reading Part 1: The Man Who Never Lied"
+    pages: "18–19"
+    tip: Notice how Madan only says exactly what he sees. Why does that make him so hard to trick?
+  - part: 1B
+    lesson: Lesson 12
+    title: "Language Focus – Punctuation: Commas to separate clauses"
+    pages: "20"
+    tip: Use commas around extra information in the middle of a sentence, and before joining words such as 'so', 'but' and 'or'.
+  - part: 1B
+    lesson: Lesson 13
+    title: "Reading Part 2: The Fisherman and His Wife and Reading Comprehension"
+    pages: "21–24"
+    tip: Track each wish the wife makes. How does the fish's reply change each time?
+  - part: 1B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Idioms"
+    pages: "25–26"
+    tip: An idiom does not mean exactly what its words say. Think about the whole meaning, not the separate words.
+  - part: 1B
+    lesson: Lesson 15
+    title: "Speaking: Reading aloud"
+    pages: "27"
+    tip: Practise at home. Read slowly and clearly, pause at commas and full stops, and change your voice for different characters.
+  - part: 1B
+    lesson: Lessons 16–17
+    title: "Writing: Your own fable or folktale"
+    pages: "28–29"
+    tip: Plan first. Choose your characters, setting and problem, and decide how the problem will be solved. If you are writing a fable, add a moral.
+  - part: 1B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "30"
+    tip: Be honest about what you found easy and what you need to practise more.
+wb:
+  - code: 1A
+    title: "Let's Learn: Structure and features of fables"
+    pages: "1–2"
+    steps:
+      - "Question 1: read the extracts from fables and label each paragraph as the opening, climax or resolution."
+      - "Question 2: decide whether each statement about the moral of a story is true or false."
+      - "Question 3: choose suitable settings for a fable."
+      - "Question 4: tick (✓) the features of a fable and cross (✗) the ones that do not belong."
+    tip: Look back at Student Book pages 2–3 if you are unsure.
+  - code: 1B
+    title: "Language Focus: Simple and complex sentences"
+    pages: "3"
+    steps:
+      - "Question 1: decide whether each sentence is simple (S) or complex (C)."
+      - "Question 2: underline the main clause in each sentence."
+      - "Question 3: write your own complex sentences using the sentence starters, then underline the dependent clause."
+    tip: A main clause makes sense on its own. Cover up the rest of the sentence and check.
+  - code: 1C
+    title: "Reading Comprehension: The Tales of Anansi"
+    pages: "4–5"
+    steps:
+      - Reread the Anansi tales in your Student Book before you begin.
+      - "Questions 1–4: tick the one correct answer for each multiple-choice question."
+      - "Question 5: answer the questions about how the story begins and what it tells you about Anansi."
+    tip: Look back at the story to find proof for each answer.
+  - code: 1D
+    title: "Language Focus: Using context"
+    pages: "6"
+    steps:
+      - Read the extract and find the underlined word.
+      - Fill in the IDEAS table (Infer, Define, Example, Antonym, Synonym) using clues in the text.
+      - Write what you think the word means, then check it in a dictionary.
+    tip: It is fine to leave a row empty if the text gives no clue for it. Do the table even if you already know the word, because it is good practice.
+  - code: 1E
+    title: "Word Structure: Letter strings ie and ou"
+    pages: "7"
+    steps:
+      - "Question 1: complete the spelling of each word and use it in a sentence."
+      - "Questions 2–3: sort 'ie' words by their sound and add more of your own."
+      - "Questions 4–5: do the same for 'ou' words."
+    tip: Read every word aloud before you decide which sound it makes.
+  - code: 1F
+    title: "Writing: A paragraph"
+    pages: "8–9"
+    steps:
+      - Plan your paragraph by writing a topic sentence, supporting sentences and a concluding sentence in full.
+      - Write your first draft on the lines.
+      - Read it again, check your spelling and punctuation, and improve it.
+    tip: Every sentence in a paragraph should be about the same main idea.
+  - code: 1G
+    title: "Let's Learn: Fables vs folktales"
+    pages: "10"
+    steps:
+      - Read the story carefully.
+      - "Question 1a: decide whether the story is a fable or a folktale."
+      - "Question 1b: give reasons for your answer."
+    tip: Ask yourself whether the main characters are animals or people, and whether there is a moral.
+  - code: 1H
+    title: "Language Focus: Commas to separate clauses"
+    pages: "11"
+    steps:
+      - "Question 1: underline the clause that adds extra information."
+      - "Question 2: complete the sentences and add the missing commas."
+      - "Question 3: explain why we use commas with clauses."
+    tip: Read the sentence without the part between the commas. It should still make sense.
+  - code: 1I
+    title: "Reading Comprehension: The Man Who Never Lied and The Fisherman and His Wife"
+    pages: "12"
+    steps:
+      - Reread both folktales first.
+      - "Question 1: find answers in 'The Man Who Never Lied' and quote from the text."
+      - "Question 2: answer the questions about 'The Fisherman and His Wife'."
+      - "Question 3: give your own opinion of the stories."
+    tip: Use 'because' to give a reason for your opinion.
+  - code: 1J
+    title: "Language Focus: Idioms"
+    pages: "13"
+    steps:
+      - Read each idiom in its sentence. They all come from different countries, and they are all about milk!
+      - "Questions 1–6: choose the figurative meaning of each idiom (A or B)."
+    tip: Think about what the speaker really means, not what the words literally say.
+  - code: 1K
+    title: "Writing: Your own fable or folktale"
+    pages: "14–15"
+    steps:
+      - Use the prompts to make notes about your characters, setting, problem and moral or theme.
+      - Complete the flowchart and table to plan your plot.
+      - Write your story, then edit it and write a neat final copy.
+    tip: Use complex sentences and commas to make your writing flow.
+  - code: 1L
+    title: What Have I Learnt?
+    pages: "16"
+    steps:
+      - "Question 1: fill the gaps in the text with descriptive words."
+      - "Question 2: find the independent and dependent clauses."
+      - "Question 3: find the connective and explain what it shows."
+      - "Question 4: find the idiom and explain what it means."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "17"
+    steps:
+      - Write about how you felt about this unit, what you enjoyed and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What are the three parts of a fable?
+    back: Opening (characters and setting), climax (the problem at its biggest) and resolution (the problem is solved and the moral is given).
+  - front: How is a folktale different from a fable?
+    back: Folktales are mostly about people and do not always have a moral. Fables are mostly about animals and always teach a lesson.
+  - front: What does the IDEAS strategy stand for?
+    back: Infer, Define, Example, Antonym and Synonym. These are five ways to use context to work out a new word.
+  - front: Why does Anansi end up with long, thin legs?
+    back: He tied a strand of web to each friend's pot, and all the food was ready at once, so his legs were pulled in every direction.
+  - front: What is the lesson of 'The Fisherman and His Wife'?
+    back: Greed has consequences. The wife kept wanting more and lost everything.
+  - front: How do you spot a complex sentence?
+    back: It has a main clause plus a dependent clause, often starting with a word like 'when', 'because', 'as' or 'if'.
+practice:
+  - q: Which of these is a feature of a fable?
+    options: ["It always has a happy ending", "It teaches a moral", "It is about real people", "It is set in space"]
+    answer: 1
+    explain: Fables teach a moral, which is a lesson about life.
+  - q: Which part of a story is the climax?
+    options: ["The first sentence", "The part where the characters are introduced", "The most exciting part, when the problem is biggest", "The very last word"]
+    answer: 2
+    explain: The climax is the turning point, when the problem reaches its most important moment.
+  - q: Which sentence is a complex sentence?
+    options: ["The spider was hungry.", "When the beans were ready, the rabbit tugged the web.", "Anansi walked.", "The monkey laughed loudly."]
+    answer: 1
+    explain: It has a main clause ('the rabbit tugged the web') and a dependent clause ('When the beans were ready').
+  - q: Where should the commas go? 'My cousin who lives in Doha loves folktales.'
+    options: ["My cousin, who lives in Doha, loves folktales.", "My, cousin who lives in Doha loves folktales.", "My cousin who lives, in Doha loves, folktales.", "No commas are needed."]
+    answer: 0
+    explain: The commas go around the extra information, 'who lives in Doha'.
+  - q: Which word has the 'ie' letter string making an 'ee' sound?
+    options: ["cried", "pie", "field", "tied"]
+    answer: 2
+    explain: In 'field', 'ie' sounds like 'ee'. In the other words, it sounds like 'igh'.
+  - q: "What does the idiom 'over the moon' mean?"
+    options: ["Very happy", "Very tired", "Lost in space", "Jumping high"]
+    answer: 0
+    explain: An idiom has a meaning that is different from its words. 'Over the moon' means delighted.
+  - q: In the IDEAS strategy, what does the 'A' stand for?
+    options: ["Adverb", "Antonym", "Answer", "Author"]
+    answer: 1
+    explain: An antonym is a word with the opposite meaning, and it can help you work out a new word.
+  - q: Folktales are usually...
+    options: ["true news reports", "stories passed down by word of mouth for many generations", "instructions for a game", "poems that must rhyme"]
+    answer: 1
+    explain: Folktales are traditional stories that people have told and retold for a very long time.
+basket:
+  - prompt: Catch the words that name parts or features of a fable
+    correct: [opening, climax, resolution, moral, animals, lesson, setting, characters]
+    wrong: [recipe, invoice, timetable, receipt, password, headline, chorus, footnote]
+  - prompt: Catch the words with the 'ie' or 'ou' letter string
+    correct: [piece, field, cried, believe, ground, pour, gourd, hour]
+    wrong: [green, steal, boat, rain, stone, rope, flight, coat]
+  - prompt: Catch the words that describe Anansi in the tales
+    correct: [greedy, cunning, clever, lazy, proud, boastful, selfish, tricky]
+    wrong: [humble, generous, shy, patient, honest, modest, careful, quiet]

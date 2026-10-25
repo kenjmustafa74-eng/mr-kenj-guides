@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+test-results/
+
+# ---- PRIVATE: never commit (answer keys, publisher material, credentials) ----
+# Everything in private/ stays on this computer: the publisher's Suggested Answers,
+# the corrected answer keys, the answer-fix scripts, service-account keys and passwords.
+private/
+*.answers.json
+answers-raw/
+ANSWER-FIXES.md
+*.pdf
+*.zip
+*.docx
+*.doc
+*.pptx
+TEACHER_PASSWORD*
+*PASSWORD*.txt
+*password*.txt
+service-account*.json
+*adminsdk*.json
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+emulator-data/
+
+# Screenshots can show unlocked answer keys
+screenshots/

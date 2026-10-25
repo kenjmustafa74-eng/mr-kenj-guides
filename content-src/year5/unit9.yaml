@@ -1,0 +1,313 @@
+id: 9
+title: The Art of Persuasion
+icon: "📣"
+colour: "#7a5c2e"
+sbStart: 219
+wbStart: 136
+sbPages: "219–245"
+wbPages: "136–153"
+parts:
+  - code: 9A
+    title: "It's Compelling!"
+  - code: 9B
+    title: Convince Me
+overview: >-
+  How do you change someone's mind? In this unit you will read persuasive commentaries about languages that are
+  disappearing, a persuasive article about plastic in our oceans, and letters written to convince people to act.
+  You will learn the tricks that persuasive writers use and write a persuasive letter of your own.
+objectives:
+  - Identify the features of a persuasive commentary and a persuasive letter.
+  - Use persuasive words and phrases to express opinions and give reasons.
+  - Use relative pronouns and relative clauses to add information.
+  - Choose between formal and informal register for different audiences.
+  - Add suffixes to root words to make new words.
+  - Use adverbs and adverbial phrases to link ideas, and write a persuasive letter.
+texts:
+  - title: Disappearing Languages
+    kind: Persuasive commentary
+    pages: "222–224"
+    summary: >-
+      About 7,000 languages are spoken in the world today, but around half of them could disappear. The writer
+      explains why this happens and why it matters: languages carry special knowledge about places, nature and
+      culture. The commentary asks questions, gives answers and suggests ways to save these languages.
+  - title: The Basque Language Revival
+    kind: Persuasive commentary
+    pages: "226–228"
+    summary: >-
+      Basque is a very old language spoken in a region of Spain and France. It was once discouraged, but people
+      kept it alive through conversation, songs and poems. Today it is taught from preschool to university, and
+      technology and games help young people to use it. The writer calls this work a shining example.
+  - title: Danger in Our Oceans
+    kind: Persuasive article
+    pages: "235–236"
+    summary: >-
+      Plastic is made of strong chains of molecules, so it takes a very long time to break down. Instead, it breaks
+      into tiny pieces called microplastics, which harm sea creatures and can even end up in our food. The writer
+      argues that we all need to take responsibility.
+  - title: Letters to Convince You
+    kind: A persuasive email and a persuasive letter
+    pages: "238–240"
+    summary: >-
+      Two young writers try to persuade others to cut down on single-use plastic. One writes a formal email asking
+      for reusable cups instead of plastic ones. The other writes a chatty, informal letter to a friend, suggesting
+      packed lunches in reusable containers instead of fast-food packaging.
+vocab:
+  - word: persuade
+    meaning: To make someone agree with you or do something by giving them good reasons.
+    example: She persuaded the class to recycle more.
+  - word: commentary
+    meaning: A piece of writing that gives the writer's opinion and explanation about an issue.
+    example: The commentary argued that we should save small languages.
+  - word: opinion
+    meaning: What someone thinks or believes about something.
+    example: In my opinion, every school should have recycling bins.
+  - word: register
+    meaning: How formal or informal language is, depending on who you are talking or writing to.
+    example: Use a formal register in a letter to the head teacher.
+  - word: dominant
+    meaning: The most powerful or important.
+    example: A dominant language can take over smaller ones.
+  - word: indigenous
+    meaning: Belonging to a place from the very beginning, before others arrived.
+    example: Basque is an indigenous language of the region.
+  - word: single-use
+    meaning: Made to be used only once and then thrown away.
+    example: Single-use plastic cups cause pollution.
+  - word: decompose
+    meaning: To break down naturally over time.
+    example: Leaves decompose, but plastic takes hundreds of years.
+  - word: microplastics
+    meaning: Tiny pieces of plastic that come from larger plastic breaking down.
+    example: Fish can swallow microplastics.
+  - word: debris
+    meaning: Scattered rubbish or broken pieces.
+    example: Plastic debris washed up on the beach.
+sb:
+  - part: 9A
+    lesson: Lesson 1
+    title: Be Curious and Getting Started
+    pages: "219–220"
+    tip: Talk about times when you have tried to persuade someone. What worked?
+  - part: 9A
+    lesson: Lesson 2
+    title: "Let's Learn: Features of a persuasive commentary"
+    pages: "220–221"
+    tip: A persuasive commentary highlights a problem, gives accurate information, suggests a solution and tries to convince the reader.
+  - part: 9A
+    lesson: Lesson 3
+    title: "Reading Part 1: Disappearing Languages"
+    pages: "222–224"
+    tip: Notice how the subheadings are written as questions. How does this draw you in?
+  - part: 9A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: More on relative pronouns and clauses"
+    pages: "225"
+    tip: '''Who'' and ''whom'' are for people, ''which'' and ''that'' are for things, and ''whose'' shows ownership.'
+  - part: 9A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: The Basque Language Revival and Reading Comprehension"
+    pages: "226–228"
+    tip: Compare the two texts. Which is more persuasive, and why?
+  - part: 9A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Persuasive words and phrases"
+    pages: "229"
+    tip: Phrases such as 'I strongly believe', 'Surely' and 'It is vital that' make your opinion sound confident.
+  - part: 9A
+    lesson: Lesson 8
+    title: "Word Structure: Adding suffixes to root words"
+    pages: "230"
+    tip: Watch the spelling rules. Sometimes you drop the 'e', double a letter or change 'y' to 'i'.
+  - part: 9A
+    lesson: Lesson 9
+    title: "Writing: A persuasive commentary"
+    pages: "231–232"
+    tip: Plan an introduction, three paragraphs each with a reason, and a strong conclusion.
+  - part: 9B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Features of a persuasive letter"
+    pages: "233–234"
+    tip: Persuasive letters use a suitable greeting, a clear structure, strong verbs and emotive words.
+  - part: 9B
+    lesson: Lesson 11
+    title: "Reading Part 1: Danger in Our Oceans"
+    pages: "235–236"
+    tip: Find the facts about plastic that the writer uses to make the argument stronger.
+  - part: 9B
+    lesson: Lesson 12
+    title: "Language Focus – Vocabulary: Register – Formal and informal language"
+    pages: "237"
+    tip: Formal language avoids contractions and slang. Informal language is chatty and friendly.
+  - part: 9B
+    lesson: Lesson 13
+    title: "Reading Part 2: Letters to Convince You and Reading Comprehension"
+    pages: "238–240"
+    tip: Compare the formal email with the informal letter. What makes each one formal or informal?
+  - part: 9B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: More about adverbs and adverbial phrases"
+    pages: "241"
+    tip: Adverbs such as 'firstly', 'in addition' and 'finally' help to organise your argument.
+  - part: 9B
+    lesson: Lesson 15
+    title: "Speaking: Give a presentation"
+    pages: "242"
+    tip: Think about your audience. Speak clearly, make eye contact and give strong reasons.
+  - part: 9B
+    lesson: Lessons 16–17
+    title: "Writing: A persuasive letter"
+    pages: "243–244"
+    tip: Choose the right register for your reader, give at least three reasons and end with a clear call to action.
+  - part: 9B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "245"
+    tip: Which persuasive technique do you think is the most powerful?
+wb:
+  - code: 9A
+    title: "Let's Learn: Features of a persuasive commentary"
+    pages: "136"
+    steps:
+      - "Question 1: match the labels (A–F) to the sections of the text. You can use a label more than once."
+      - "Question 2: underline the words that describe a persuasive commentary."
+    tip: Look back at the Let's Learn feature in your Student Book.
+  - code: 9B
+    title: "Language Focus: More on relative pronouns and clauses"
+    pages: "137"
+    steps:
+      - "Question 1: find the main clause, the relative clause and the relative pronoun."
+      - "Question 2: write your own relative clauses to complete the sentences."
+    tip: Use commas around a relative clause that adds extra information.
+  - code: 9C
+    title: "Reading Comprehension: Disappearing Languages and The Basque Language Revival"
+    pages: "138–139"
+    steps:
+      - "Question 1: answer the questions about Disappearing Languages."
+      - "Questions 2–3: answer the questions about The Basque Language Revival and give your opinion."
+    tip: Support your opinion with reasons from the text.
+  - code: 9D
+    title: "Language Focus: Persuasive words and phrases"
+    pages: "140"
+    steps:
+      - Choose a topic and write your opinion about it, using persuasive phrases from the table.
+    tip: Give a reason for every opinion.
+  - code: 9E
+    title: "Word Structure: Adding suffixes to root words"
+    pages: "141"
+    steps:
+      - "Question 1: add suffixes to the root words so that they make sense in the sentences."
+      - "Question 2: make as many words as you can by adding suffixes to each root word."
+    tip: Check your spellings in a dictionary.
+  - code: 9F
+    title: "Writing: A persuasive commentary"
+    pages: "142–143"
+    steps:
+      - Use the template to plan a title, an introduction, three paragraphs with reasons and a conclusion.
+      - Write your commentary from your plan.
+    tip: Make your first sentence grab the reader's attention.
+  - code: 9G
+    title: "Let's Learn: Features of persuasive letters"
+    pages: "144–145"
+    steps:
+      - "Question 1: label the paragraphs of the letter as the introduction, body or conclusion."
+      - "Question 2: answer the questions about the letter's arguments."
+    tip: Look for the writer's reasons and what the writer asks the reader to do.
+  - code: 9H
+    title: "Language Focus: Register – Formal and informal language"
+    pages: "146"
+    steps:
+      - "Question 1: decide whether each sentence is formal or informal."
+      - "Question 2: work out who might say each sentence and where."
+      - "Question 3: decide which register suits the situation."
+    tip: Think about who is speaking and who is listening.
+  - code: 9I
+    title: "Reading Comprehension: Danger in Our Oceans and Letters to Convince You"
+    pages: "147–148"
+    steps:
+      - "Question 1: answer the questions about Danger in Our Oceans."
+      - "Question 2: answer the multiple-choice questions about the letters."
+      - "Question 3: suggest the benefits of bringing packed lunches."
+    tip: Some answers are in the text and some need you to think beyond it.
+  - code: 9J
+    title: "Language Focus: More about adverbs and adverbial phrases"
+    pages: "149"
+    steps:
+      - "Question 1: fill the gaps with adverbs and adverbial phrases from the box."
+      - "Questions 2–3: decide what each adverb or adverbial phrase tells you (how, when, where, why or how long)."
+    tip: Ask the question words to check each adverb's job.
+  - code: 9K
+    title: "Writing: A persuasive letter"
+    pages: "150–151"
+    steps:
+      - Use the headings to make notes for your letter.
+      - Plan each part of your letter using the template.
+      - Write your letter in the right register, then edit it.
+    tip: Instead of only saying 'I don't like plastic', explain how it makes you feel and why it matters.
+  - code: 9L
+    title: What Have I Learnt?
+    pages: "152"
+    steps:
+      - Answer the review questions on persuasive texts and the language you have learnt.
+    tip: Look back at the Language Focus pages if you get stuck.
+  - code: J
+    title: My Journal
+    pages: "153"
+    steps:
+      - Write about which text you enjoyed most in this unit, and why.
+    tip: Think about how the writer persuaded you.
+cards:
+  - front: What does a persuasive commentary do?
+    back: It highlights a problem, gives accurate information, suggests a solution and tries to convince the reader.
+  - front: Formal or informal? 'Hi there, buddy! Want to try packed lunches with me?'
+    back: Informal. It uses a chatty greeting and a short, friendly question.
+  - front: Why do languages disappear?
+    back: For example, parents want children to learn a dominant language for jobs, and some societies have stopped people using their own languages.
+  - front: Why is plastic dangerous for sea creatures?
+    back: It does not decompose naturally. It breaks into microplastics that animals swallow and that can clog their digestive systems.
+  - front: Name three persuasive phrases.
+    back: For example, 'I strongly believe', 'It is vital that' and 'Surely everyone agrees'.
+  - front: Which relative pronoun shows ownership?
+    back: "'Whose', for example 'The student whose family is from Korea won the quiz.'"
+practice:
+  - q: What is the main purpose of a persuasive text?
+    options: ["To entertain with a story", "To convince the reader to agree or act", "To give instructions", "To describe a person's life"]
+    answer: 1
+    explain: Persuasive texts try to change what the reader thinks or does.
+  - q: Which sentence is formal?
+    options: ["Hey, wanna come?", "That's gr8!", "I am writing to express my concern.", "No way, mate!"]
+    answer: 2
+    explain: Formal language uses full words and no slang.
+  - q: Which is a persuasive phrase?
+    options: ["Once upon a time", "It is vital that we act now", "First, mix the flour", "The end"]
+    answer: 1
+    explain: "'It is vital that' sounds urgent and confident."
+  - q: Choose the correct relative pronoun. 'The app ___ helps you learn Japanese is fun.'
+    options: ["who", "that", "whose", "whom"]
+    answer: 1
+    explain: "We use 'that' or 'which' for things."
+  - q: What does 'single-use' mean?
+    options: ["Used only once and then thrown away", "Used by one person", "Very strong", "Made of metal"]
+    answer: 0
+    explain: Single-use items are thrown away after one use.
+  - q: Add a suffix to 'hope' to mean 'without hope'.
+    options: ["hopeful", "hoping", "hopeless", "hoped"]
+    answer: 2
+    explain: "The suffix '-less' means 'without'."
+  - q: Which word helps to organise an argument in order?
+    options: ["Firstly", "Quickly", "Loudly", "Yesterday"]
+    answer: 0
+    explain: "'Firstly' introduces the first point in a sequence."
+  - q: In 'Danger in Our Oceans', what are microplastics?
+    options: ["Very small fish", "Tiny pieces of broken-down plastic", "A type of seaweed", "Plastic bottles"]
+    answer: 1
+    explain: Microplastics are tiny pieces that come from larger plastic breaking down.
+basket:
+  - prompt: Catch the persuasive words and phrases
+    correct: [surely, I strongly believe, it is vital, must, everyone agrees, clearly, we should, imagine]
+    wrong: [once upon a time, stage left, zoom in, chapter one, the end, ingredients, stanza, caption]
+  - prompt: Catch the words that sound formal
+    correct: [furthermore, therefore, sincerely, request, concern, however, regards, consequently]
+    wrong: [gr8, hiya, wanna, cool, gonna, mate, yeah, awesome]
+  - prompt: Catch the words made by adding a suffix
+    correct: [helpful, hopeless, movement, persuasive, readable, friendship, teaching, government]
+    wrong: [help, hope, move, read, friend, teach, govern, care]

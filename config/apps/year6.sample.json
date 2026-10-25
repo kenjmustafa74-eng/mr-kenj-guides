@@ -1,0 +1,23 @@
+{
+  "id": "year6",
+  "appName": "Mr. Kenj's Guide to Year Six",
+  "shortName": "Kenj Year 6",
+  "yearLabel": "Year 6",
+  "stage": "Stage 6",
+  "teacherName": "Mr Kenj",
+  "school": "Brighton International Academy",
+  "course": "Cambridge Primary English",
+  "books": {
+    "sb": { "name": "Student Book 6", "short": "Student Book" },
+    "wb": { "name": "Workbook 6", "short": "Workbook" }
+  },
+  "publisher": "Marshall Cavendish Education",
+  "bookUrl": "https://www.mceduhub.com",
+  "bookSiteName": "MC EduHub",
+  "themeColour": "#3b3f7a",
+  "backgroundColour": "#f6f5f1",
+  "contentFile": "content/year6.json",
+  "answersFile": "private/year6/answers.json",
+  "timezone": "Asia/Qatar",
+  "overallQuizLength": 20
+}
