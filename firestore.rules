@@ -1,0 +1,94 @@
+rules_version = '2';
+// Security rules for Mr Kenj's Guides (Cloud Firestore).
+// Data layout: see src/firebase-backend.js. In short:
+//   roles/{uid}                         teacher role (set by tools/firebase/seed.js only)
+//   years/{app}/students/{uid}          one student's profile and all their progress
+//   years/{app}/staff/{uid}             the teacher's own progress
+//   years/{app}/meta/unlocks            which answer keys are open  { open: { '1_sb': timestamp } }
+//   years/{app}/meta/classCode          { code }  (optional; nobody can read it from the app)
+//   years/{app}/answers/{unit_book}     answer keys (uploaded by the seed script only)
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isSelf(uid) { return signedIn() && request.auth.uid == uid; }
+    function rolePath() { return /databases/$(database)/documents/roles/$(request.auth.uid); }
+    function isTeacher() { return signedIn() && exists(rolePath()) && get(rolePath()).data.role == 'teacher'; }
+
+    // Only the seed script (Firebase Admin, which bypasses these rules) can make someone a teacher.
+    match /roles/{uid} {
+      allow read: if isSelf(uid);
+      allow write: if false;
+    }
+
+    match /years/{app} {
+      function codePath() { return /databases/$(database)/documents/years/$(app)/meta/classCode; }
+      function unlocksPath() { return /databases/$(database)/documents/years/$(app)/meta/unlocks; }
+      function isMember() { return signedIn() && exists(/databases/$(database)/documents/years/$(app)/students/$(request.auth.uid)); }
+
+      // The fields a progress document may have, and sensible limits for them.
+      function progressFieldsOk(d) {
+        return d.progress is map && d.progress.size() <= 1000
+          && d.cards is map && d.cards.size() <= 1000
+          && d.quiz is list && d.quiz.size() <= 300
+          && d.games is map && d.games.size() <= 30
+          && d.summaries is map && d.summaries.size() <= 30
+          && d.days is list && d.days.size() <= 4000
+          && d.lastActive is timestamp;
+      }
+      function newProfileOk(d, uid) {
+        return d.keys().hasOnly(['name', 'email', 'createdAt', 'lastActive', 'classCode', 'progress', 'cards', 'quiz', 'games', 'summaries', 'days'])
+          && d.keys().hasAll(['name', 'email', 'createdAt', 'lastActive', 'progress', 'cards', 'quiz', 'games', 'summaries', 'days'])
+          && d.name is string && d.name.size() >= 2 && d.name.size() <= 60
+          && d.email == request.auth.token.email
+          && d.createdAt == request.time && d.lastActive == request.time
+          && d.progress.size() == 0 && d.quiz.size() == 0 && d.days.size() == 0
+          && progressFieldsOk(d);
+      }
+      // A study update may change progress fields only; name, email, join date and class code are fixed.
+      function progressUpdateOk() {
+        return request.resource.data.diff(resource.data).affectedKeys()
+            .hasOnly(['progress', 'cards', 'quiz', 'games', 'summaries', 'days', 'lastActive'])
+          && progressFieldsOk(request.resource.data);
+      }
+
+      match /students/{uid} {
+        allow read: if isSelf(uid) || isTeacher();
+        // When the teacher has set a class code, a student can only join with the right code.
+        allow create: if isSelf(uid) && newProfileOk(request.resource.data, uid)
+          && (!exists(codePath()) || request.resource.data.get('classCode', '') == get(codePath()).data.code);
+        allow update: if isSelf(uid) && progressUpdateOk();
+        allow delete: if isSelf(uid);
+      }
+
+      match /staff/{uid} {
+        allow read, delete: if isSelf(uid) && isTeacher();
+        allow create: if isSelf(uid) && isTeacher() && newProfileOk(request.resource.data, uid);
+        allow update: if isSelf(uid) && isTeacher() && progressUpdateOk();
+      }
+
+      match /meta/unlocks {
+        allow read: if signedIn();
+        allow write: if isTeacher()
+          && request.resource.data.keys().hasOnly(['open', 'updatedAt', 'updatedBy'])
+          && request.resource.data.open is map && request.resource.data.open.size() <= 60
+          && request.resource.data.updatedBy == request.auth.uid;
+      }
+      match /meta/classCode {
+        allow read, write: if false;
+      }
+
+      // Answer keys: the teacher can always read them; a student (who has joined this year) only once
+      // that unit's book is unlocked. Nobody can write them from the app.
+      match /answers/{key} {
+        allow read: if isTeacher() || (isMember() && key in get(unlocksPath()).data.open);
+        allow write: if false;
+      }
+    }
+
+    // Anything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

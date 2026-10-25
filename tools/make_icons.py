@@ -1,10 +1,12 @@
-"""Generates the app icons (PWA + store artwork). Usage: python3 tools/make_icons.py [label]   e.g. 5 or 6"""
+"""Generates the app icons (PWA + store artwork).
+Usage: python3 tools/make_icons.py [label] [out-dir]   e.g. 5  (writes public/icons)  or  6 public/icons-year6"""
 import os, sys
 from PIL import Image, ImageDraw, ImageFont
 
 LABEL = sys.argv[1] if len(sys.argv) > 1 else '5'
 BG = (31, 78, 95); CREAM = (247, 244, 238); PAGE2 = (234, 228, 216); GOLD = (214, 163, 74)
-OUT = os.path.join(os.path.dirname(__file__), '..', 'public', 'icons')
+OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), '..', 'public', 'icons')
+os.makedirs(OUT, exist_ok=True)
 
 def font(sz):
     for f in ['/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf']:

@@ -78,7 +78,8 @@ app.get('/api/config', (req, res) => {
   res.json({
     id: a.id, appName: a.appName, shortName: a.shortName, yearLabel: a.yearLabel, stage: a.stage, teacherName: a.teacherName,
     school: a.school, course: a.course, books: a.books, publisher: a.publisher, bookUrl: a.bookUrl, bookSiteName: a.bookSiteName,
-    themeColour: a.themeColour, overallQuizLength: a.overallQuizLength, classCodeRequired: !!config.classCode,
+    themeColour: a.themeColour, overallQuizLength: a.overallQuizLength, timezone: a.timezone, classCodeRequired: !!config.classCode,
+    features: { resetByEmail: false },
   });
 });
 app.get('/manifest.webmanifest', (req, res) => {
@@ -287,7 +288,8 @@ app.use(express.static(PUBLIC, {
 }));
 const indexHtml = fs.readFileSync(path.join(PUBLIC, 'index.html'), 'utf8')
   .replaceAll('{{APP_NAME}}', config.app.appName.replace(/'/g, '&#39;'))
-  .replaceAll('{{THEME}}', config.app.themeColour);
+  .replaceAll('{{THEME}}', config.app.themeColour)
+  .replace('{{BACKEND_SCRIPTS}}\n', '');
 app.get('*', (req, res) => res.type('html').set('Cache-Control', 'no-cache').send(indexHtml));
 
 app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars

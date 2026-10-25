@@ -20,7 +20,10 @@
     return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Qatar' });
   };
 
+  // All data goes through api(). The Node server answers /api/... over HTTP; the static (GitHub Pages) build
+  // loads js/backend-firebase.js, which answers the same routes using Firebase (see src/firebase-backend.js).
   async function api(path, opts = {}) {
+    if (window.KenjBackend) return window.KenjBackend.request(opts.method || 'GET', path, opts.body);
     const res = await fetch(path, {
       method: opts.method || 'GET',
       headers: opts.body ? { 'Content-Type': 'application/json' } : {},
@@ -87,7 +90,7 @@
     app.innerHTML = `
       <div class="auth"><div class="auth-box">
         <div class="auth-head">
-          <img src="/icons/icon-192.png" alt="" width="72" height="72">
+          <img src="icons/icon-192.png" alt="" width="72" height="72">
           <h1>${esc(c.appName)}</h1>
           <p>${esc(c.course)} · ${esc(c.yearLabel)} · ${esc(c.school)}</p>
         </div>
@@ -98,7 +101,7 @@
           ${signup ? `<label class="field"><span>Your name</span><input name="name" autocomplete="name" required maxlength="60" placeholder="First name and surname"></label>` : ''}
           <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" inputmode="email" required placeholder="name@example.com"></label>
           <label class="field"><span>Password</span><input name="password" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" required minlength="${signup ? 8 : 1}">
-            ${signup ? '<small class="hint">At least 8 characters.</small>' : ''}</label>
+            ${signup ? '<small class="hint">At least 8 characters.</small>' : '<small class="hint"><a href="#/forgot">Forgotten your password?</a></small>'}</label>
           ${signup && c.classCodeRequired ? `<label class="field"><span>Class code</span><input name="classCode" autocomplete="off" required><small class="hint">Your teacher will give you this code.</small></label>` : ''}
           <button class="btn block" type="submit">${signup ? 'Create account' : 'Sign in'}</button>
           <p class="switch-link small">${signup ? 'Already have an account? <a href="#/signin">Sign in</a>' : 'New here? <a href="#/signup">Create an account</a>'}</p>
@@ -126,6 +129,50 @@
       } finally { btn.disabled = false; }
     });
     setTimeout(() => form.elements[0] && form.elements[0].focus(), 50);
+  }
+
+  function forgotView() {
+    const c = S.config;
+    const byEmail = c.features && c.features.resetByEmail;
+    document.title = `Reset your password – ${c.appName}`;
+    app.innerHTML = `
+      <div class="auth"><div class="auth-box">
+        <div class="auth-head">
+          <img src="icons/icon-192.png" alt="" width="72" height="72">
+          <h1>${esc(c.appName)}</h1>
+          <p>${esc(c.course)} · ${esc(c.yearLabel)} · ${esc(c.school)}</p>
+        </div>
+        ${byEmail ? `<form class="card" id="forgotForm" novalidate>
+          <h2>Reset your password</h2>
+          <p class="muted small">Type the email you used for your account. We will send you a link to choose a new password.</p>
+          <div class="form-error" hidden></div>
+          <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" inputmode="email" required placeholder="name@example.com"></label>
+          <button class="btn block" type="submit">${icon('mail')}Send the reset link</button>
+          <p class="switch-link small"><a href="#/signin">Back to sign in</a></p>
+        </form>` : `<div class="card">
+          <h2>Forgotten your password?</h2>
+          <p>Ask ${esc(c.teacherName)} to make you a temporary password. Sign in with it, then choose a new password in <b>Account</b>.</p>
+          <a class="btn block" href="#/signin">Back to sign in</a>
+        </div>`}
+      </div></div>`;
+    const form = $('#forgotForm');
+    if (!form) return;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const box = $('.form-error', form);
+      const btn = $('button[type=submit]', form);
+      btn.disabled = true;
+      try {
+        await api('/api/auth/reset', { method: 'POST', body: Object.fromEntries(new FormData(form)) });
+        form.innerHTML = `<h2>Check your email</h2><div class="notice ok">${icon('mail')}<span>If there is an account for that email, a link to reset your password is on its way. Check your inbox and your junk folder.</span></div>
+          <p class="switch-link small"><a href="#/signin">Back to sign in</a></p>`;
+      } catch (err) {
+        box.hidden = false;
+        box.innerHTML = `<div class="notice bad" role="alert">${icon('circle-x')}<span>${esc(err.message)}</span></div>`;
+        btn.disabled = false;
+      }
+    });
+    setTimeout(() => form.elements[0].focus(), 50);
   }
 
   // ---------- home ----------
@@ -661,7 +708,7 @@
     if (S.user.role !== 'teacher') return notFound();
     shell({ active: 'teacher', back: '#/teacher', title: 'Student', sub: 'Teacher dashboard', body: '<div class="card empty"><div class="spinner" style="margin:0 auto"></div></div>' });
     let d;
-    try { d = await api(`/api/teacher/students/${id}`); } catch (e) { $('main').innerHTML = `<div class="notice bad">${esc(e.message)}</div>`; return; }
+    try { d = await api(`/api/teacher/students/${encodeURIComponent(id)}`); } catch (e) { $('main').innerHTML = `<div class="notice bad">${esc(e.message)}</div>`; return; }
     const s = d.student, st = d.state, units = S.content.units;
     document.title = `${s.name} – Teacher dashboard – ${S.config.appName}`;
     $('.brand').innerHTML = `${esc(s.name)}<small>Teacher dashboard</small>`;
@@ -679,11 +726,23 @@
       <div class="card"><h2 class="row">${icon('trophy')} Quiz history</h2>
         ${quizRows.length ? `<div class="history">${quizRows.map((a) => `<div class="history-row"><span class="small"><b>${a.scope === 'overall' ? 'Big Quiz' : `Unit ${a.scope.slice(1)}`}</b><br><span class="muted">${fmtDate(a.created_at)}</span></span><div class="bar"><span style="width:${Math.round((100 * a.score) / a.total)}%"></span></div><b>${a.score}/${a.total}</b></div>`).join('')}</div>` : '<p class="muted">No quizzes taken yet.</p>'}
       </div>
-      <div class="card"><h2 class="row">${icon('key-round')} Password help</h2><p class="small muted">If ${esc(s.name.split(' ')[0])} forgets their password, create a temporary one here and share it privately. They can change it in Account.</p>
-        <button class="btn secondary" id="resetPw">${icon('refresh-cw')}Create a temporary password</button><div id="pwOut" style="margin-top:.7rem"></div></div>`;
+      ${S.config.features && S.config.features.resetByEmail
+        ? `<div class="card"><h2 class="row">${icon('key-round')} Password help</h2><p class="small muted">If ${esc(s.name.split(' ')[0])} forgets their password, send them an email with a link to choose a new one. They can also do this themselves from the sign-in page.</p>
+        <button class="btn secondary" id="resetPw">${icon('mail')}Send a password reset email</button><div id="pwOut" style="margin-top:.7rem"></div></div>`
+        : `<div class="card"><h2 class="row">${icon('key-round')} Password help</h2><p class="small muted">If ${esc(s.name.split(' ')[0])} forgets their password, create a temporary one here and share it privately. They can change it in Account.</p>
+        <button class="btn secondary" id="resetPw">${icon('refresh-cw')}Create a temporary password</button><div id="pwOut" style="margin-top:.7rem"></div></div>`}`;
     $('#resetPw').addEventListener('click', async () => {
-      if (!confirm(`Create a new temporary password for ${s.name}? Their old password will stop working.`)) return;
-      try { const r = await api(`/api/teacher/students/${s.id}/reset-password`, { method: 'POST' }); $('#pwOut').innerHTML = `<div class="notice ok">${icon('key-round')}<span>Temporary password: <b>${esc(r.temporaryPassword)}</b></span></div>`; } catch (e) { toast(e.message); }
+      const byEmail = S.config.features && S.config.features.resetByEmail;
+      if (!confirm(byEmail ? `Send a password reset email to ${s.email}?` : `Create a new temporary password for ${s.name}? Their old password will stop working.`)) return;
+      try {
+        if (byEmail) {
+          const r = await api(`/api/teacher/students/${encodeURIComponent(s.id)}/reset-email`, { method: 'POST' });
+          $('#pwOut').innerHTML = `<div class="notice ok">${icon('mail')}<span>Password reset email sent to <b>${esc(r.email)}</b>.</span></div>`;
+        } else {
+          const r = await api(`/api/teacher/students/${s.id}/reset-password`, { method: 'POST' });
+          $('#pwOut').innerHTML = `<div class="notice ok">${icon('key-round')}<span>Temporary password: <b>${esc(r.temporaryPassword)}</b></span></div>`;
+        }
+      } catch (e) { toast(e.message); }
     });
   }
 
@@ -698,13 +757,14 @@
     const parts = hash.split('/').filter(Boolean);
     if (!S.user) {
       if (parts[0] === 'signup') return authView('signup');
+      if (parts[0] === 'forgot') return forgotView();
       return authView('signin');
     }
     if (!S.content) await loadAll();
     window.scrollTo(0, 0);
     switch (parts[0]) {
       case undefined: return homeView();
-      case 'signin': case 'signup': location.replace('#/'); return homeView();
+      case 'signin': case 'signup': case 'forgot': location.replace('#/'); return homeView();
       case 'unit': return unitView(parts[1], parts[2]);
       case 'quiz': return bigQuizView();
       case 'progress': return progressView();
@@ -713,6 +773,15 @@
       default: return notFound();
     }
   }
+
+  // The "Skip to content" link must not change the hash (the hash is the page address in this app).
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('a.skip');
+    if (!a) return;
+    e.preventDefault();
+    const m = $('#main') || $('main');
+    if (m) m.focus();
+  });
 
   let deferredInstall = null;
   window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredInstall = e; });
@@ -728,7 +797,7 @@
       $('#reloadBtn').addEventListener('click', () => location.reload());
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('/sw.js').catch(() => {});
+      navigator.serviceWorker.register('sw.js').catch(() => {});
     }
   }
   boot();

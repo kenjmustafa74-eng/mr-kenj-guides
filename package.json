@@ -2,17 +2,23 @@
   "name": "kenj-guides",
   "version": "1.0.0",
   "private": true,
-  "description": "Mr. Kenj's Guide – study companion apps for Year 5 and Year 6 (Cambridge Primary English).",
+  "description": "Mr. Kenj's Guide – study companion apps for Year 5 and Year 6 (Cambridge Primary English). Static site + Firebase, or Node server.",
   "main": "server/index.js",
   "scripts": {
-    "build:answers": "python3 tools/fix_answers.py year5",
+    "build:answers": "python3 private/tools/fix_answers.py year5",
     "build:content": "node tools/build-content.js year5",
     "build:icons": "node tools/build-icons.js && python3 tools/make_icons.py 5",
     "build": "npm run build:answers && npm run build:content",
+    "build:site": "node tools/build-all-content.js && node tools/build-static.js",
+    "build:site:emulators": "node tools/build-all-content.js && node tools/build-static.js --emulators",
     "start": "node server/index.js",
     "seed:teacher": "node server/seed-teacher.js",
+    "firebase:seed": "node tools/firebase/seed.js",
+    "firebase:deploy-rules": "firebase deploy --only firestore:rules --project mr-kenj-guide",
     "test": "node tools/smoke-test.js",
-    "screenshots": "node tools/screenshots.js"
+    "test:firebase": "bash tools/firebase/test-all.sh",
+    "screenshots": "node tools/screenshots.js",
+    "serve:site": "node tools/serve-static.js 5050"
   },
   "engines": {
     "node": ">=20"
@@ -20,7 +26,9 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@firebase/rules-unit-testing": "^6.0.0",
+    "@google-cloud/firestore": "^9.4.0",
     "esbuild": "^0.28.2",
+    "firebase": "^13.1.0",
     "firebase-admin": "^14.5.0",
     "js-yaml": "^5.5.0",
     "lucide-static": "^1.61.0",
@@ -32,7 +40,6 @@
     "cookie-parser": "^1.4.7",
     "express": "^4.22.3",
     "express-rate-limit": "^8.7.1",
-    "firebase": "^13.1.0",
     "helmet": "^8.3.0",
     "jsonwebtoken": "^9.0.3"
   },

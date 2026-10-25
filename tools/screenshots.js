@@ -1,12 +1,16 @@
 // UI walkthrough + screenshots at mobile and desktop sizes. Also reports console errors, failed requests and sideways overflow.
-// Usage: BASE=http://localhost:3100 TEACHER_FILE=/path/to/TEACHER_PASSWORD.txt node tools/screenshots.js
+// Usage (Node server):   BASE=http://localhost:3100 TEACHER_FILE=/path/to/TEACHER_PASSWORD.txt node tools/screenshots.js
+// Usage (static build with Firebase emulators):
+//   BASE=http://localhost:5050/mr-kenj-guides/year-five TEACHER_FILE=/tmp/kenj-emu-teacher.txt OUT_DIR=screenshots/firebase node tools/screenshots.js
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright-core');
 
 const BASE = process.env.BASE || 'http://localhost:3000';
-const OUT = path.join(__dirname, '..', 'screenshots');
+const OUT = path.resolve(process.env.OUT_DIR || path.join(__dirname, '..', 'screenshots'));
 const TFILE = process.env.TEACHER_FILE || path.join(__dirname, '..', 'TEACHER_PASSWORD.year5.txt');
+const TEACHER = fs.readFileSync(TFILE, 'utf8');
+const CLASS_CODE = (TEACHER.match(/class code: (.+)/i) || [])[1] || process.env.CLASS_CODE || '';
 fs.mkdirSync(OUT, { recursive: true });
 const problems = [];
 const shots = [];
@@ -35,11 +39,17 @@ async function studentRun(browser, kind, opts) {
   await page.goto(BASE + '/#/signin');
   await page.waitForSelector('#authForm');
   await shot(page, n('01-sign-in'));
+  await page.click('text=Forgotten your password?');
+  await page.waitForSelector('.auth .card h2');
+  await shot(page, n('01b-forgot-password'));
+  await page.goto(BASE + '/#/signin');
+  await page.waitForSelector('#authForm');
   await page.click('text=Create an account');
   await page.waitForSelector('input[name=name]');
   await page.fill('input[name=name]', kind === 'mobile' ? 'Layla Haddad' : 'Omar Siddiqui');
   await page.fill('input[name=email]', `${kind}.${Date.now()}@example.com`);
   await page.fill('input[name=password]', 'reading-rocks-5');
+  if (await page.$('input[name=classCode]')) await page.fill('input[name=classCode]', CLASS_CODE.trim());
   await shot(page, n('02-sign-up'));
   await page.click('button[type=submit]');
   await page.waitForSelector('.unit-card');
@@ -141,10 +151,10 @@ async function teacherRun(browser, kind, opts, student) {
   const page = await ctx.newPage();
   await watch(page, `${kind}-teacher`);
   const n = (s) => `${kind}-${s}`;
-  const file = fs.readFileSync(TFILE, 'utf8');
   await page.goto(BASE + '/#/signin');
-  await page.fill('input[name=email]', file.match(/Email: (.+)/)[1].trim());
-  await page.fill('input[name=password]', file.match(/Password: (.+)/)[1].trim());
+  await page.waitForSelector('#authForm');
+  await page.fill('input[name=email]', TEACHER.match(/email: (.+)/i)[1].trim());
+  await page.fill('input[name=password]', TEACHER.match(/password: (.+)/i)[1].trim());
   await page.click('button[type=submit]');
   await page.waitForSelector('.unit-card');
   await page.goto(BASE + '/#/teacher');
@@ -178,16 +188,22 @@ async function teacherRun(browser, kind, opts, student) {
 }
 
 // A few demo students so the teacher dashboard shows realistic data.
-async function seedDemo() {
+async function seedDemo(browser) {
   const people = [['Aisha Rahman', 0.8], ['Yusuf Karim', 0.45], ['Mariam Al-Thani', 0.2]];
   for (const [name, level] of people) {
     let cookie = '';
+    const ctx = await browser.newContext();
+    const page = await ctx.newPage();
+    await page.goto(BASE + '/#/signin');
+    await page.waitForSelector('#authForm');
+    const firebase = await page.evaluate(() => !!window.KenjBackend);
     const call = async (method, p, body) => {
+      if (firebase) return page.evaluate(([m, x, b]) => window.KenjBackend.request(m, x, b).catch((e) => e.data), [method, p, body]);
       const r = await fetch(BASE + p, { method, headers: { 'Content-Type': 'application/json', ...(cookie ? { Cookie: cookie } : {}) }, body: body ? JSON.stringify(body) : undefined });
       const set = r.headers.get('set-cookie'); if (set) cookie = set.split(';')[0];
       return r.json().catch(() => null);
     };
-    await call('POST', '/api/auth/signup', { name, email: `${name.split(' ')[0].toLowerCase()}.${Date.now()}@example.com`, password: 'demo-password-1' });
+    await call('POST', '/api/auth/signup', { name, email: `${name.split(' ')[0].toLowerCase()}.${Date.now()}@example.com`, password: 'demo-password-1', classCode: CLASS_CODE.trim() });
     const c = await call('GET', '/api/content');
     for (const u of c.units.slice(0, Math.ceil(9 * level))) {
       for (const it of [...u.sb, ...u.wb].slice(0, Math.round(29 * level))) await call('PUT', `/api/progress/${it.id}`, { done: true });
@@ -196,12 +212,13 @@ async function seedDemo() {
       await call('POST', '/api/game', { unit: u.id, score: Math.round(300 * level), level: 1 + Math.round(3 * level) });
       if (level > 0.4) await call('PUT', `/api/summary/${u.id}`, { mainIdea: `This unit was about ${u.title.toLowerCase()} and the texts we read.`, learnt: `I learnt new words such as ${u.vocab[0].word} and ${u.vocab[1].word}.`, favourite: '', wonder: '' });
     }
+    await ctx.close();
   }
 }
 
 (async () => {
-  if (process.env.SEED_DEMO) await seedDemo();
   const browser = await chromium.launch({ executablePath: process.env.CHROME || '/usr/bin/google-chrome', args: ['--no-sandbox'] });
+  if (process.env.SEED_DEMO) await seedDemo(browser);
   const mobile = { viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' };
   const desktop = { viewport: { width: 1280, height: 860 }, deviceScaleFactor: 1 };
   for (const [kind, opts] of [['mobile', mobile], ['desktop', desktop]]) {
