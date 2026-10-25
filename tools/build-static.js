@@ -85,6 +85,7 @@ for (const a of apps) {
   fs.copyFileSync(path.join(ROOT, a.contentFile), path.join(dir, 'content.json'));
   const html = fs.readFileSync(path.join(PUBLIC, 'index.html'), 'utf8')
     .replace('<meta charset="utf-8">', `<meta charset="utf-8">\n  <meta http-equiv="Content-Security-Policy" content="${CSP}">\n  <meta name="referrer" content="strict-origin-when-cross-origin">`)
+    .replace('<meta name="referrer"', `${a.site.url ? `<link rel="canonical" href="${escHtml(a.site.url)}">\n  ` : ''}<meta name="referrer"`)
     .replaceAll('{{APP_NAME}}', escHtml(a.appName))
     .replaceAll('{{THEME}}', a.themeColour)
     .replace('{{BACKEND_SCRIPTS}}', '  <script src="js/config.js" defer></script>\n  <script src="js/backend-firebase.js" defer></script>');

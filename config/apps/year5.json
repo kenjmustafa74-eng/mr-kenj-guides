@@ -28,6 +28,7 @@
   "overallQuizLength": 20,
   "site": {
     "path": "year-five",
-    "classCodeRequired": true
+    "classCodeRequired": true,
+    "url": "https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/"
   }
 }

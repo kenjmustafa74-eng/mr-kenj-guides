@@ -1,5 +1,5 @@
 # Builds the static guides and publishes them on GitHub Pages.
-# Year Five → https://<user>.github.io/<repo>/year-five/   Year Six → …/year-six/ (once its content exists)
+# Year Five → https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/   Year Six → …/year-six/ (once its content exists)
 # No answer keys are involved: they live only in Firestore (uploaded from the teacher's computer).
 name: Deploy to GitHub Pages
 

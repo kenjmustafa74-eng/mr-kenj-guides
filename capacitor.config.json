@@ -1,5 +1,9 @@
 {
   "appId": "com.brightonacademy.kenjguide.year5",
   "appName": "Mr. Kenj's Guide to Year Five",
-  "webDir": "dist/year-five"
+  "webDir": "dist/year-five",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": ["kenjmustafa74-eng.github.io"]
+  }
 }

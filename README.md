@@ -44,11 +44,12 @@ fails if answer-key text appears in the public study content.
 
 ## Publish: static site on GitHub Pages + Firebase
 One repository holds both years; GitHub Pages serves them side by side:
-`https://<github-user>.github.io/<repo>/year-five/` and later `…/year-six/` (plus a small page at `…/<repo>/` linking both).
+`https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/` and later `…/year-six/` (plus a small page at `https://kenjmustafa74-eng.github.io/mr-kenj-guides/` linking both).
+Repository: https://github.com/kenjmustafa74-eng/mr-kenj-guides
 
 **Once, in the Firebase console (project `mr-kenj-guide`):**
 1. *Build › Authentication › Sign-in method*: enable **Email/Password** (leave "Email link" off).
-2. *Authentication › Settings › Authorised domains*: add `<github-user>.github.io`.
+2. *Authentication › Settings › Authorised domains*: add `kenjmustafa74-eng.github.io` (done).
 3. *Build › Firestore Database*: create the database (production mode; pick a location near Qatar, e.g. `me-central1` Doha, or `europe-west1`).
 4. *Authentication › Templates*: optionally set the template language to English (UK) and the sender name to "Mr Kenj".
 5. Publish the security rules: paste `firestore.rules` into *Firestore › Rules* and press **Publish**
@@ -132,7 +133,10 @@ private/                NOT COMMITTED – answer keys, publisher material, crede
 Wrap the static build with Capacitor (`capacitor.config.json`, `webDir: dist/year-five`): `npm run build:site`, then
 `npx cap add android` / `npx cap add ios`. Needs a Google Play developer account and an Apple Developer Program membership,
 a privacy policy URL, store artwork (`public/icons/icon-1024.png`), and the stores' rules for children's apps.
-Account deletion is already in the app.
+Account deletion is already in the app. The app bundles the website (`webDir`) instead of loading
+`https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/` through `server.url`: it starts offline and is less
+likely to be rejected as a "web wrapper" (Apple guideline 4.2). To load the live site instead, add
+`"url": "https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/"` under `server`.
 
 ## Credits
 Book content © Marshall Cavendish Education. This guide contains original study notes, questions and summaries;
