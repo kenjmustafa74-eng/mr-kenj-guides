@@ -24,7 +24,7 @@ import {
 } from 'firebase/auth';
 import {
   initializeFirestore, connectFirestoreEmulator, doc, getDoc, setDoc, updateDoc, deleteDoc, collection, getDocs,
-  runTransaction, serverTimestamp, arrayUnion, FieldPath, deleteField, Timestamp,
+  runTransaction, serverTimestamp, arrayUnion, FieldPath, deleteField, Timestamp, setLogLevel,
 } from 'firebase/firestore/lite';
 
 const CFG = window.KENJ_CONFIG;
@@ -35,6 +35,8 @@ const QUIZ_KEEP = 300; // quiz attempts kept per student (oldest are dropped)
 const fbApp = initializeApp(CFG.firebase);
 const auth = initializeAuth(fbApp, { persistence: [indexedDBLocalPersistence, browserLocalPersistence] });
 const db = initializeFirestore(fbApp, {});
+// Refused requests (e.g. a wrong class code) are normal here and shown to the user; keep the SDK from logging them.
+setLogLevel('error');
 if (CFG.emulators) {
   connectAuthEmulator(auth, CFG.emulators.auth, { disableWarnings: true });
   connectFirestoreEmulator(db, CFG.emulators.firestoreHost, CFG.emulators.firestorePort);
