@@ -311,3 +311,124 @@ basket:
   - prompt: Catch the characters and places from Oliver Twist
     correct: [Oliver, Artful Dodger, Mr Bumble, Mr Limbkins, workhouse, London, the master, gruel]
     wrong: [Anansi, Mowgli, Jumbo, Shere Khan, Madan, Baloo, Sigo, Bagheera]
+grammar:
+  - title: Direct and reported speech
+    lesson: "Lessons 4 and 7 · Language Focus – Grammar and Punctuation"
+    pages: "141–143, 146"
+    wb: "86, 88"
+    intro: >-
+      Characters come alive when they speak. Direct speech gives us their exact words, and reported speech tells
+      us what they said in the narrator's words. In 'Oliver Twist', you can hear both. Let's learn how to write each one correctly.
+    points:
+      - "**Direct speech** uses the speaker's exact words inside **inverted commas**: \"I want some more,\" said Oliver."
+      - "Start each new speaker on a **new line**. Put the comma, full stop, question mark or exclamation mark **inside** the closing inverted commas."
+      - "**Reported speech** has no inverted commas. It often uses **that**, and the verb usually moves one step back into the past: 'Oliver said that he **wanted** some more.'"
+      - "Pronouns and time words change too: 'I' becomes 'he' or 'she', and 'today' often becomes 'that day'."
+    examples:
+      - text: "\"Please, sir, I want some more,\" said Oliver."
+        note: "Direct speech: the comma sits inside the inverted commas."
+      - text: "Oliver said that he wanted some more."
+        note: "Reported speech: no inverted commas, 'want' becomes 'wanted' and 'I' becomes 'he'."
+      - text: "\"Where are you going?\" asked the Dodger."
+        note: "The question mark goes inside the inverted commas."
+    practice:
+      - q: "Which sentence is direct speech?"
+        options: ["Oliver said that he was hungry.", "\"I am hungry,\" said Oliver.", "Oliver was hungry.", "Oliver told them he was hungry."]
+        answer: 1
+        explain: "It shows Oliver's exact words inside inverted commas."
+      - q: "Which is punctuated correctly?"
+        options: ["\"Come with me\", said the Dodger.", "\"Come with me,\" said the Dodger.", "\"Come with me\" said the Dodger,", "Come with me, \"said the Dodger.\""]
+        answer: 1
+        explain: "The comma goes inside the closing inverted commas."
+      - q: "Change to reported speech: \"I am tired,\" said Oliver."
+        options: ["Oliver said that he was tired.", "Oliver said that I am tired.", "Oliver said, \"he was tired.\"", "Oliver says that I was tired."]
+        answer: 0
+        explain: "'I am' becomes 'he was', and there are no inverted commas."
+      - q: "When do you start a new line in a conversation?"
+        options: ["After every comma", "When a new person speaks", "Only at the end of a chapter", "Never"]
+        answer: 1
+        explain: "Each new speaker starts on a new line, so the reader knows who is talking."
+      - q: "Which sentence is reported speech?"
+        options: ["\"Stop, thief!\" shouted the crowd.", "The crowd shouted that someone should stop the thief.", "\"Is it Oliver?\" asked Mr Brownlow.", "\"Yes,\" said the boy."]
+        answer: 1
+        explain: "It reports what the crowd said without using their exact words."
+  - title: Personal and possessive pronouns
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "153–154"
+    wb: "93"
+    intro: >-
+      Pronouns stop our writing from sounding repetitive. Instead of 'Oliver ate Oliver's gruel', we can write
+      'He ate his gruel'. Let's make sure every pronoun points clearly to the right person.
+    points:
+      - "**Personal pronouns** replace nouns: I, you, he, she, it, we, they (subjects) and me, you, him, her, it, us, them (objects)."
+      - "**Possessive pronouns** show who owns something and stand alone: mine, yours, his, hers, ours, theirs."
+      - "**Possessive determiners** come before a noun: my, your, his, her, its, our, their ('**their** caps')."
+      - "Possessive pronouns never have an apostrophe: 'The hat is **hers**', not 'her's'. And '**its**' (belonging to it) has no apostrophe."
+    examples:
+      - text: "Mr Brownlow was kind to Oliver. **He** gave **him** a home."
+        note: "'He' replaces Mr Brownlow; 'him' replaces Oliver."
+      - text: "\"That handkerchief is **mine**!\" cried the gentleman."
+        note: "'mine' is a possessive pronoun standing alone."
+      - text: "The boys ate **their** supper quickly."
+        note: "'their' comes before the noun 'supper'."
+    practice:
+      - q: "Which word is a possessive pronoun?"
+        options: ["them", "theirs", "they", "the"]
+        answer: 1
+        explain: "'theirs' shows ownership and stands alone: 'The caps are theirs.'"
+      - q: "Choose the correct pronoun: 'Nancy and ___ walked to the market.'"
+        options: ["me", "him", "I", "us"]
+        answer: 2
+        explain: "It is part of the subject, so we use 'I'. Test it: 'I walked to the market'."
+      - q: "Which sentence is correct?"
+        options: ["The cat licked it's paw.", "The cat licked its paw.", "The cat licked its' paw.", "The cat licked it paw."]
+        answer: 1
+        explain: "'its' (belonging to it) has no apostrophe. 'It's' means 'it is'."
+      - q: "Which word is an object pronoun?"
+        options: ["she", "we", "us", "they"]
+        answer: 2
+        explain: "'us' is used as the object: 'The Dodger showed us the way.'"
+      - q: "Choose the correct word: 'Is this book yours or ___?'"
+        options: ["my", "mine", "me", "I"]
+        answer: 1
+        explain: "We need a possessive pronoun that stands alone: 'mine'."
+  - title: Apostrophes
+    lesson: "Lesson 14 · Language Focus – Punctuation"
+    pages: "158"
+    wb: "96"
+    intro: >-
+      The apostrophe is a tiny mark with two big jobs. It shows that letters are missing, and it shows that
+      something belongs to someone. Put it in the right place and your writing will shine.
+    points:
+      - "**Contraction:** the apostrophe shows where letters are missing: do not → **don't**, it is → **it's**, I will → **I'll**."
+      - "**Possession (one owner):** add **'s**: the boy's cap, Oliver's bowl."
+      - "**Possession (plural owner ending in s):** add just the apostrophe: the boys' caps (many boys)."
+      - "**Plural owner not ending in s:** add **'s**: the children's food, the men's hats. Never use an apostrophe just to make a plural."
+    examples:
+      - text: "The **workhouse's** walls were cold and grey."
+        note: "One workhouse owns the walls: 's."
+      - text: "The **boys'** bowls were empty."
+        note: "Many boys own the bowls, so the apostrophe goes after the s."
+      - text: "\"**Don't** run!\" shouted the policeman."
+        note: "A contraction of 'do not'."
+    practice:
+      - q: "Which is correct for 'the hat that belongs to the Dodger'?"
+        options: ["the Dodgers hat", "the Dodger's hat", "the Dodgers' hat", "the Dodger hat's"]
+        answer: 1
+        explain: "One owner, so add 's: 'the Dodger's hat'."
+      - q: "What is the contraction of 'they are'?"
+        options: ["their", "there", "they're", "theyr'e"]
+        answer: 2
+        explain: "The apostrophe replaces the missing 'a': 'they're'."
+      - q: "Which shows the toys of many girls?"
+        options: ["the girl's toys", "the girls' toys", "the girls toy's", "the girl'ss toys"]
+        answer: 1
+        explain: "'girls' is a plural ending in s, so the apostrophe goes after the s."
+      - q: "Which is correct?"
+        options: ["the childrens' books", "the children's books", "the childrens books", "the children books'"]
+        answer: 1
+        explain: "'children' is a plural that does not end in s, so we add 's."
+      - q: "Which sentence uses the apostrophe correctly?"
+        options: ["I bought three apple's.", "I bought three apples.", "I bought three apples'.", "I bought three appl'es."]
+        answer: 1
+        explain: "Plurals do not need an apostrophe: 'apples'."

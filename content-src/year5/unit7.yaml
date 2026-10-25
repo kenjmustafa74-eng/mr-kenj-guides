@@ -299,3 +299,84 @@ basket:
   - prompt: Catch the words built from the root 'graph' or 'tele'
     correct: [autograph, biography, paragraph, photograph, telephone, telescope, television, geography]
     wrong: [biology, vivid, actor, curtain, stage, music, theatre, audience]
+grammar:
+  - title: Relative pronouns and relative clauses
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "168–169"
+    wb: "103"
+    intro: >-
+      A relative clause lets you add information about a noun without starting a new sentence. It begins with a
+      relative pronoun. Play scripts and stage directions use them to describe characters quickly and clearly.
+    points:
+      - "The relative pronouns are **who** (people), **which** (things and animals), **that** (people or things), **whose** (belonging to) and **where** (places)."
+      - "A **relative clause** gives more information about the noun just before it: 'the boy **who asked for more**'."
+      - "If the information is extra, put **commas** around the clause: 'Mooin, **who lived with the bears**, was brave.'"
+      - "If the information tells us exactly which one we mean, do **not** use commas: 'The girl **who found the cave** was Mooin.'"
+    examples:
+      - text: "Oliver, **who was very hungry**, walked up to the master."
+        note: "Extra information about Oliver, so commas go around it."
+      - text: "This is the stage **where the play takes place**."
+        note: "'where' introduces a clause about a place."
+      - text: "The actor **whose costume was torn** had to change quickly."
+        note: "'whose' shows that the costume belonged to the actor."
+    practice:
+      - q: "Choose the correct relative pronoun: 'The bear ___ looked after Mooin was gentle.'"
+        options: ["who", "which", "where", "whose"]
+        answer: 1
+        explain: "We use 'which' (or 'that') for animals and things."
+      - q: "Which relative pronoun shows belonging?"
+        options: ["who", "that", "whose", "where"]
+        answer: 2
+        explain: "'whose' shows that something belongs to someone."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["Mr Bumble who was the beadle, shouted.", "Mr Bumble, who was the beadle, shouted.", "Mr Bumble, who was the beadle shouted.", "Mr Bumble who, was the beadle shouted."]
+        answer: 1
+        explain: "The extra information 'who was the beadle' needs a comma on each side."
+      - q: "Find the relative clause: 'The village where Mooin lived was near the forest.'"
+        options: ["The village", "where Mooin lived", "was near", "near the forest"]
+        answer: 1
+        explain: "'where Mooin lived' tells us more about the village."
+      - q: "Choose the correct word: 'The girl ___ played Nancy was excellent.'"
+        options: ["which", "who", "where", "whose"]
+        answer: 1
+        explain: "We use 'who' for people."
+  - title: More about modal verbs
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "185"
+    wb: "114"
+    intro: >-
+      You already know that modal verbs show possibility and ability. In plays, characters also use them to give
+      advice, ask permission and make polite requests. Choosing the right modal tells the audience a lot about a character.
+    points:
+      - "To give **advice**, use **should** or **ought to**: 'You **should** rest.'"
+      - "To ask for **permission** politely, use **may**, **could** or **can**: '**May** I come in?'"
+      - "To make a **polite request**, use **could** or **would**: '**Would** you help me, please?'"
+      - "To show something is **necessary**, use **must** or **have to**; to show it is **not necessary**, use **don't have to**; to forbid it, use **mustn't**."
+    examples:
+      - text: "\"**Could** I have some more, please?\""
+        note: "A polite request."
+      - text: "\"You **mustn't** go into the forest alone,\" said the chief."
+        note: "'mustn't' means it is not allowed."
+      - text: "\"You **don't have to** come, but you are welcome.\""
+        note: "It is not necessary, but it is allowed."
+    practice:
+      - q: "Which modal verb gives advice?"
+        options: ["should", "may", "will", "can't"]
+        answer: 0
+        explain: "'should' is used to give advice: 'You should learn your lines.'"
+      - q: "Which is the most polite way to ask?"
+        options: ["Give me the script.", "Could you give me the script, please?", "You must give me the script.", "I will take the script."]
+        answer: 1
+        explain: "'Could you … please?' is a polite request."
+      - q: "What does 'You mustn't touch the props' mean?"
+        options: ["It is not necessary to touch them.", "You are not allowed to touch them.", "You should touch them.", "You might touch them."]
+        answer: 1
+        explain: "'mustn't' means it is forbidden."
+      - q: "Choose the best modal: '___ I leave the room, please?'"
+        options: ["Must", "May", "Should", "Would"]
+        answer: 1
+        explain: "'May I …?' is a polite way to ask for permission."
+      - q: "What does 'You don't have to wear a costume' mean?"
+        options: ["You are not allowed to wear one.", "It is not necessary to wear one.", "You must wear one.", "You will wear one."]
+        answer: 1
+        explain: "'don't have to' means it is not necessary, but you may if you want."

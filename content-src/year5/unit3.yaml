@@ -315,3 +315,84 @@ basket:
   - prompt: Catch the words that describe features of poems
     correct: [rhyme, rhythm, stanza, verse, repetition, simile, metaphor, line]
     wrong: [invoice, diagram, recipe, map, receipt, ticket, timetable, menu]
+grammar:
+  - title: Degrees of comparison
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "61"
+    wb: "36"
+    intro: >-
+      Poets choose their describing words very carefully, and sometimes they need to show how much more of
+      something there is. Adjectives have three degrees: positive, comparative and superlative. Let's climb the ladder together!
+    points:
+      - "The **positive** degree simply describes: 'a **long** poem'."
+      - "The **comparative** degree compares two things: 'a **longer** poem', 'a **more beautiful** poem'."
+      - "The **superlative** degree shows the top of the group: 'the **longest** poem', 'the **most beautiful** poem'."
+      - "Remember the irregular ones: good, better, best; bad, worse, worst; many, more, most; little, less, least."
+    examples:
+      - text: "The fly was **small**, the spider was **smaller**, and the ant was the **smallest** of all."
+        note: "Positive, comparative and superlative in one sentence."
+      - text: "That was the **most delicious** soup in the village."
+        note: "Superlative with 'most' for a longer adjective."
+      - text: "My second try was **worse** than my first!"
+        note: "Irregular comparative of 'bad'."
+    practice:
+      - q: "Which degree is 'tallest'?"
+        options: ["Positive", "Comparative", "Superlative", "None of these"]
+        answer: 2
+        explain: "'tallest' is the top of the group, so it is superlative."
+      - q: "What is the comparative of 'bad'?"
+        options: ["badder", "worse", "worst", "more bad"]
+        answer: 1
+        explain: "'bad' is irregular: bad, worse, worst."
+      - q: "Choose the correct word: 'Of the three poems, this one is the ___.'"
+        options: ["funnier", "more funny", "funniest", "funnyest"]
+        answer: 2
+        explain: "There are three poems, so we need the superlative: 'funniest'."
+      - q: "Which is the positive degree?"
+        options: ["wise", "wiser", "wisest", "most wise"]
+        answer: 0
+        explain: "The positive degree is the plain describing word: 'wise'."
+      - q: "Which sentence is correct?"
+        options: ["The soup was more tastier than before.", "The soup was tastier than before.", "The soup was tastiest than before.", "The soup was more tastiest than before."]
+        answer: 1
+        explain: "Use either -er or 'more', never both. 'tastier' is correct."
+  - title: More about degrees of comparison
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "77"
+    wb: "46"
+    intro: >-
+      Now you know the three degrees, let's use them like a writer. Adverbs can be compared too, and we can
+      also compare things that are equal, or say that something is less than something else.
+    points:
+      - "Adverbs have degrees too: 'quickly, **more quickly**, **most quickly**'; 'fast, **faster**, **fastest**'."
+      - "Use **as … as** to show two things are equal: 'The fly was **as clever as** the spider.'"
+      - "Use **less** and **least** to show a smaller amount: 'less dangerous', 'the least dangerous'."
+      - "Never use two comparatives together: say 'more careful', not 'more carefuller'."
+    examples:
+      - text: "The spider spoke **more sweetly** than before."
+        note: "Comparative adverb: it tells us how the spider spoke."
+      - text: "The second web was **as strong as** the first."
+        note: "'as … as' shows the two webs are equal."
+      - text: "This was the **least difficult** poem to learn."
+        note: "'least' shows the smallest amount of difficulty."
+    practice:
+      - q: "Which is the superlative of the adverb 'carefully'?"
+        options: ["carefullest", "more carefully", "most carefully", "carefuller"]
+        answer: 2
+        explain: "Long adverbs use 'most': 'most carefully'."
+      - q: "Which sentence shows that two things are equal?"
+        options: ["The fly was faster than the spider.", "The fly was as fast as the spider.", "The fly was the fastest.", "The fly was less fast."]
+        answer: 1
+        explain: "'as fast as' shows that they are equal."
+      - q: "Choose the correct word: 'Walking is ___ tiring than running.'"
+        options: ["less", "least", "lesser", "littlest"]
+        answer: 0
+        explain: "We compare two things, so we use 'less'."
+      - q: "Which sentence is correct?"
+        options: ["She sang more louder than her brother.", "She sang louder than her brother.", "She sang loudest than her brother.", "She sang more loudest."]
+        answer: 1
+        explain: "'louder' is already comparative, so we do not add 'more'."
+      - q: "What is the comparative of the adverb 'fast'?"
+        options: ["faster", "more fast", "fastly", "fastest"]
+        answer: 0
+        explain: "'fast' is a short adverb, so it takes -er: 'faster'."

@@ -308,3 +308,84 @@ basket:
   - prompt: Catch the features of an explanation text
     correct: [heading, subheading, diagram, label, flowchart, caption, present tense, connective]
     wrong: [once upon a time, moral, rhyme, villain, dragon, stanza, happy ending, dialogue]
+grammar:
+  - title: Nouns and quantifiers
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "87–88"
+    wb: "53"
+    intro: >-
+      Some nouns can be counted (one radio, two radios) and some cannot (electricity, music). The little words
+      that tell us how much or how many are called quantifiers. Choosing the right one makes your writing precise, like a good engineer!
+    points:
+      - "**Countable nouns** have a singular and a plural: a wire, three wires."
+      - "**Uncountable nouns** have no plural: information, electricity, water, music."
+      - "Use **many** and **few/fewer** with countable nouns: 'many batteries', 'fewer buttons'."
+      - "Use **much** and **little/less** with uncountable nouns: 'much noise', 'less power'. **Some**, **any**, **a lot of** and **enough** work with both."
+    examples:
+      - text: "How **many** speakers does the radio have?"
+        note: "'speakers' can be counted, so we use 'many'."
+      - text: "There was too **much** static on the radio."
+        note: "'static' cannot be counted, so we use 'much'."
+      - text: "This model uses **less** electricity and has **fewer** parts."
+        note: "'less' with an uncountable noun; 'fewer' with a countable noun."
+    practice:
+      - q: "Which noun is uncountable?"
+        options: ["battery", "information", "button", "aerial"]
+        answer: 1
+        explain: "We cannot say 'two informations', so 'information' is uncountable."
+      - q: "Choose the correct quantifier: 'There are not ___ stations on this old radio.'"
+        options: ["much", "many", "a little", "less"]
+        answer: 1
+        explain: "'stations' can be counted, so we use 'many'."
+      - q: "Choose the correct sentence."
+        options: ["We need less wires.", "We need fewer wires.", "We need much wires.", "We need a little wires."]
+        answer: 1
+        explain: "'wires' are countable, so we use 'fewer'."
+      - q: "Which quantifier can be used with both countable and uncountable nouns?"
+        options: ["many", "much", "a lot of", "few"]
+        answer: 2
+        explain: "'a lot of' works with both: 'a lot of wires', 'a lot of power'."
+      - q: "Choose the correct word: 'How ___ time do we have left?'"
+        options: ["many", "much", "few", "fewer"]
+        answer: 1
+        explain: "'time' is uncountable here, so we use 'much'."
+  - title: Reordering clauses in multi-clause sentences
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "100"
+    wb: "60"
+    intro: >-
+      A sentence with more than one clause is like a radio with parts you can move around. If you change the order
+      of the clauses, you can change what the reader notices first. Clever writers do this all the time.
+    points:
+      - "A **multi-clause sentence** has a main clause and one or more other clauses."
+      - "You can often move the dependent clause to the **start** or the **end** of the sentence without changing the meaning."
+      - "When the dependent clause comes **first**, put a comma after it."
+      - "Put the most important idea **first** if you want the reader to notice it straight away."
+    examples:
+      - text: "The radio crackled __when the storm began__."
+        note: "Main clause first, so no comma."
+      - text: "__When the storm began__, the radio crackled."
+        note: "Dependent clause first, so a comma follows it."
+      - text: "Because sound travels as waves, we can hear voices from far away."
+        note: "Moving the reason to the front makes it stand out."
+    practice:
+      - q: "Reorder the clauses: 'The lights went out because the battery was flat.'"
+        options: ["Because the battery was flat, the lights went out.", "Because the battery was flat the lights, went out.", "The battery was flat the lights went out.", "Went out the lights, because the battery was flat."]
+        answer: 0
+        explain: "Move the 'because' clause to the front and add a comma after it."
+      - q: "When does a multi-clause sentence need a comma between its clauses?"
+        options: ["Always", "When the dependent clause comes first", "Never", "Only in questions"]
+        answer: 1
+        explain: "A comma follows a dependent clause that starts the sentence."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["After we tuned the radio we heard music.", "After we tuned the radio, we heard music.", "After, we tuned the radio we heard music.", "After we tuned, the radio we heard music."]
+        answer: 1
+        explain: "The dependent clause comes first, so the comma goes after 'radio'."
+      - q: "Why might a writer put the dependent clause first?"
+        options: ["To make the sentence wrong", "To make the reader notice that idea first", "Because it is always required", "To avoid using a verb"]
+        answer: 1
+        explain: "Whatever comes first catches the reader's attention."
+      - q: "Which sentence means the same as 'If you press this button, the radio turns on'?"
+        options: ["The radio turns on if you press this button.", "If the radio turns on, you press this button.", "You press the radio if this button turns on.", "The button turns on the radio if you press."]
+        answer: 0
+        explain: "The clauses have swapped places, but the meaning is the same."

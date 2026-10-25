@@ -1,0 +1,454 @@
+id: 4
+title: Innovators and Inventors
+colour: "#9a5b13"
+sbStart: 77
+wbStart: 52
+sbPages: "77–101"
+wbPages: "52–68"
+parts:
+  - code: 4A
+    title: Innovators
+  - code: 4B
+    title: Inventors
+overview: >-
+  What does it take to change the world? In this unit you will meet remarkable people who did just that: a writer at the
+  Japanese imperial court more than a thousand years ago, a brilliant mathematician who helped astronauts reach the Moon,
+  and an American inventor who was also a printer, a writer and a statesman. You will learn how biographies are
+  organised, how to use sentences for different effects, and then you will write a biography of your own.
+objectives:
+  - Explain the structure and features of a biography, including chronological order and the third person.
+  - Use short, long, compound and complex sentences for different effects.
+  - Use context clues to work out the meanings of unfamiliar words.
+  - Tell the difference between homographs and homophones.
+  - Use subordinate clauses and connectives for emphasis, such as 'not only … but also'.
+  - Use adverbs and adverbial phrases of time to show when events happened.
+  - Listen to a talk about an inventor, then plan and write a biography.
+texts:
+  - title: Murasaki Shikibu – Life at the Imperial Court
+    kind: Biography
+    pages: "80–81"
+    summary: >-
+      Murasaki Shikibu was born in Japan in about 978. As a child, she learnt to write Chinese, which only men were
+      usually taught at the time. She served at the imperial court, and her experiences there helped her to write The
+      Tale of Genji, which is often called the world's first novel.
+  - title: Katherine Johnson – Racing to the Moon
+    kind: Biography
+    pages: "83–86"
+    summary: >-
+      Katherine Johnson was born in 1918 and showed a gift for numbers from an early age. She grew up in a segregated
+      society with few schools for black children, but she became a brilliant mathematician. Her calculations helped to
+      plot the flight paths of American spacecraft, including missions to the Moon.
+  - title: Benjamin Franklin – Statesman, Businessman and Inventor
+    kind: Biography
+    pages: "91–96"
+    summary: >-
+      Benjamin Franklin was born in Boston in 1706 into a large family. He worked in his father's candle and soap
+      business and then in his brother's print shop, reading every book he could. He learnt that nothing dishonest is
+      truly useful. He invented the lightning rod, swim fins, a library chair and an extension arm, and he helped to
+      draft the Declaration of Independence. He believed inventions should be shared freely.
+  - title: Elon Musk's Amazing Inventions
+    kind: Listening text
+    pages: "98"
+    summary: >-
+      A talk about the life and ideas of a modern inventor and businessman who was born in South Africa and who looks
+      for new ways to solve problems.
+vocab:
+  - word: biography
+    meaning: The true story of a person's life, written by someone else.
+    example: I read a biography of a famous scientist.
+  - word: autobiography
+    meaning: The story of a person's life, written by that person.
+    example: Franklin wrote his autobiography for his son.
+  - word: chronological order
+    meaning: The order in which events happened, from first to last.
+    example: A timeline shows events in chronological order.
+  - word: innovator
+    meaning: A person who introduces new ideas or new ways of doing things.
+    example: She was an innovator who changed the way we travel.
+  - word: imperial
+    meaning: To do with an empire or an emperor.
+    example: Murasaki served at the imperial court.
+  - word: segregated
+    meaning: Kept apart because of race or another group difference.
+    example: Katherine Johnson grew up in a segregated society.
+  - word: calculation
+    meaning: Working out an answer using mathematics.
+    example: Her calculations had to be exactly right.
+  - word: homograph
+    meaning: A word spelt the same as another word but with a different meaning, and sometimes a different sound.
+    example: "'Wind' (moving air) and 'wind' (to turn) are homographs."
+  - word: homophone
+    meaning: A word that sounds the same as another word but has a different spelling and meaning.
+    example: "'Whale' and 'wail' are homophones."
+  - word: context clues
+    meaning: The words and sentences around a new word that help you to work out its meaning.
+    example: I used context clues to understand 'abundant'.
+sb:
+  - part: 4A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "77"
+    tip: Look at the old sundial. How did people tell the time before clocks?
+  - part: 4A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "78"
+    tip: Think about what makes someone an innovator. What new thing did they do?
+  - part: 4A
+    lesson: Lesson 2
+    title: "Let's Learn: The structure and features of a biography"
+    pages: "79–80"
+    tip: Look for the introduction, the main events in time order, and why the person is important.
+  - part: 4A
+    lesson: Lesson 3
+    title: "Reading Part 1: Murasaki Shikibu – Life at the Imperial Court"
+    pages: "80–81"
+    tip: Note what made Murasaki unusual for a woman of her time.
+  - part: 4A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Using sentences for different effects"
+    pages: "82"
+    tip: Short sentences add punch. Longer sentences give detail. Good writers use both.
+  - part: 4A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Katherine Johnson – Racing to the Moon and Reading Comprehension"
+    pages: "83–86"
+    tip: Compare Katherine Johnson and Murasaki Shikibu. What do they have in common?
+  - part: 4A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Context clues"
+    pages: "87"
+    tip: Read the whole sentence, and the one before and after, to work out a new word.
+  - part: 4A
+    lesson: Lesson 8
+    title: "Word Structure: Homographs and homophones"
+    pages: "88"
+    tip: Homographs look the same. Homophones sound the same.
+  - part: 4A
+    lesson: Lesson 9
+    title: "Writing: A plan for a short biography"
+    pages: "89"
+    tip: Choose your person, research the key events and put them in chronological order.
+  - part: 4B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Chronological order and point of view"
+    pages: "90"
+    tip: A biography is written in the third person, but it may include quotations in the person's own words.
+  - part: 4B
+    lesson: Lesson 11
+    title: "Reading Part 1: Benjamin Franklin – Statesman, Businessman and Inventor"
+    pages: "91–92"
+    tip: What lessons did young Ben learn as a child?
+  - part: 4B
+    lesson: Lesson 12
+    title: "Language Focus: Subordinate clauses; Connectives for emphasis"
+    pages: "93–94"
+    tip: Try 'not only … but also', 'neither … nor' and 'no sooner … than' to add emphasis.
+  - part: 4B
+    lesson: Lesson 13
+    title: "Reading Part 2: Benjamin Franklin – Statesman, Businessman and Inventor and Reading Comprehension"
+    pages: "95–96"
+    tip: Make a timeline of Franklin's life as you read.
+  - part: 4B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: Adverbs and adverbial phrases of time"
+    pages: "97"
+    tip: Phrases such as 'As a boy,' and 'In 1790,' show when things happened. Put a comma after them.
+  - part: 4B
+    lesson: Lesson 15
+    title: "Listening: Elon Musk's Amazing Inventions"
+    pages: "98"
+    tip: Read the questions first, then listen carefully for the facts.
+  - part: 4B
+    lesson: Lessons 16–17
+    title: "Writing: A biography"
+    pages: "99–100"
+    tip: Use your plan, write in the past tense and the third person, and keep events in order.
+  - part: 4B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "101"
+    tip: Which person in this unit inspired you most, and why?
+wb:
+  - code: 4A
+    title: "Let's Learn: Structure and features of a biography"
+    pages: "52"
+    steps:
+      - Read the short biography of an astronaut.
+      - "Question 2: match the paragraphs to their headings."
+      - "Question 3: find examples of the past tense and the passive voice."
+    tip: Biographies are usually written in the past tense.
+  - code: 4B
+    title: "Language Focus: Using sentences for different effects"
+    pages: "53–54"
+    steps:
+      - "Question 1: find the main clause in each sentence."
+      - "Questions 2–4: look at how different sentence lengths are used and why."
+      - "Question 5: rewrite a paragraph, joining some sentences and keeping some short."
+    tip: Keep one or two short sentences for important moments.
+  - code: 4C
+    title: "Reading Comprehension: Murasaki Shikibu and Katherine Johnson"
+    pages: "55–56"
+    steps:
+      - Reread both biographies in your Student's Book.
+      - "Questions 1–2: answer the questions and decide whether statements are true or false."
+      - "Questions 3–6: use new words in sentences and give your own responses."
+      - "Question 7: find examples of the features of a biography."
+    tip: Correct any false statements using information from the text.
+  - code: 4D
+    title: "Language Focus: Context clues"
+    pages: "57"
+    steps:
+      - Read the paragraph about solar energy.
+      - "Question 1: use context clues to explain what each word or phrase means."
+    tip: Explain which clue helped you.
+  - code: 4E
+    title: "Word Structure: Homographs and homophones"
+    pages: "58"
+    steps:
+      - "Question 1: choose the correct homophones."
+      - "Question 2: write sentences that show different meanings."
+      - "Question 3: explain the two meanings of each homograph."
+    tip: Use a dictionary when you are not sure which spelling to use.
+  - code: 4F
+    title: "Writing: Plan a short biography"
+    pages: "59"
+    steps:
+      - Choose a person to write about and research their life.
+      - Note the key events in chronological order.
+      - Plan your introduction, paragraphs and conclusion.
+    tip: Use reliable sources for your research.
+  - code: 4G
+    title: "Let's Learn: More about biographies – Chronological order and point of view"
+    pages: "60"
+    steps:
+      - Read the biography of a ski champion.
+      - "Question 2: make a timeline of the main events."
+      - "Question 3: answer the questions about facts, point of view and tense."
+    tip: Look out for quotations. They are in the person's own words.
+  - code: 4H
+    title: "Language Focus: Subordinate clauses; Connectives for emphasis"
+    pages: "61"
+    steps:
+      - "Question 1: complete sentences with subordinate clauses."
+      - "Question 2: add emphasis to sentences using connectives."
+    tip: Use a comma after a subordinate clause that starts a sentence.
+  - code: 4I
+    title: "Reading Comprehension: Benjamin Franklin – Statesman, Businessman and Inventor"
+    pages: "62–63"
+    steps:
+      - Reread the biography of Benjamin Franklin in your Student's Book.
+      - "Questions 1–3: answer the questions, complete a timeline and label his inventions."
+      - "Questions 4–5: compare an invention with a modern one, and write a sentence with a connective for emphasis."
+    tip: A timeline must be in chronological order.
+  - code: 4J
+    title: "Language Focus: Adverbs and adverbial phrases of time"
+    pages: "64"
+    steps:
+      - "Question 1: start sentences with adverbs or adverbial phrases of time."
+      - "Question 2: write your own sentences that begin with adverbials of time."
+    tip: Remember the comma after a fronted adverbial.
+  - code: 4K
+    title: "Writing: A biography"
+    pages: "65"
+    steps:
+      - Use your plan to write your biography.
+      - Revise and edit your work.
+      - Write your final version.
+    tip: Use headings to organise the main stages of the person's life.
+  - code: 4L
+    title: What Have I Learnt?
+    pages: "66–67"
+    steps:
+      - Read the biography of an inventor carefully.
+      - "Questions 2–10: answer the questions about the text, its language and its features."
+      - "Question 11: explain why the person's achievements matter."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "68"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What is the difference between a biography and an autobiography?
+    back: A biography is written by someone else. An autobiography is written by the person themselves.
+  - front: Why is Murasaki Shikibu famous?
+    back: She wrote The Tale of Genji, often called the world's first novel.
+  - front: How did Katherine Johnson help space travel?
+    back: Her calculations helped to plot the flight paths of spacecraft, including missions to the Moon.
+  - front: Name two of Benjamin Franklin's inventions.
+    back: The lightning rod, swim fins, a library chair and an extension arm (any two).
+  - front: What is the difference between a homograph and a homophone?
+    back: Homographs are spelt the same. Homophones sound the same but are spelt differently.
+  - front: Give an example of a connective for emphasis.
+    back: "'Not only … but also', 'neither … nor' or 'no sooner … than'."
+  - front: Which person and tense are biographies usually written in?
+    back: The third person and the past tense.
+practice:
+  - q: In what order are events in a biography usually told?
+    options: ["Random order", "Alphabetical order", "Chronological order", "Reverse order"]
+    answer: 2
+    explain: Biographies usually tell events in the order they happened.
+  - q: Which pair are homophones?
+    options: ["whale / wail", "wind / wind", "read / reading", "rose / roses"]
+    answer: 0
+    explain: "'whale' and 'wail' sound the same but are spelt differently."
+  - q: What did Murasaki Shikibu learn as a child that was unusual for girls at the time?
+    options: ["To sail", "To write Chinese", "To paint", "To ride horses"]
+    answer: 1
+    explain: Only men usually learnt to write Chinese, the official language at the time.
+  - q: Why was Katherine Johnson's work important?
+    options: ["She designed rockets' paint", "Her calculations helped plot spacecraft flight paths", "She was an astronaut", "She built computers"]
+    answer: 1
+    explain: Her calculations helped American spacecraft reach their targets safely.
+  - q: Which sentence uses a connective for emphasis?
+    options: ["Ben read books.", "Ben not only read books but also wrote articles.", "Ben read books and slept.", "Ben was born in Boston."]
+    answer: 1
+    explain: "'not only … but also' adds emphasis."
+  - q: Which is an adverbial phrase of time?
+    options: ["in the print shop", "very carefully", "at the age of 17", "with great skill"]
+    answer: 2
+    explain: "'at the age of 17' tells us when."
+  - q: What lesson did young Ben learn from building the wharf?
+    options: ["Nothing dishonest is truly useful", "Always build near water", "Work alone", "Never read books"]
+    answer: 0
+    explain: His father taught him that nothing is useful if it is not honest.
+  - q: Why might a writer use a very short sentence?
+    options: ["To confuse the reader", "To add impact or drama", "To make a list", "To ask a question"]
+    answer: 1
+    explain: A short sentence can give a strong, dramatic effect.
+basket:
+  - prompt: Catch the features of a biography
+    correct: [third person, past tense, chronological order, dates, headings, facts, quotations, introduction]
+    wrong: [rhyme, chorus, stage directions, punchline, verse, spells, talking animals, rhythm]
+  - prompt: Catch Benjamin Franklin's inventions
+    correct: [lightning rod, swim fins, library chair, extension arm, Franklin stove, bifocal glasses]
+    wrong: [telephone, light bulb, aeroplane, television, computer, bicycle, camera, radio]
+  - prompt: Catch the adverbials of time
+    correct: [as a boy, later, in 1790, when he was 17, one day, after school, at last, years later]
+    wrong: [in the river, carefully, under the table, near Boston, quietly, at the shop, with a smile, over the wall]
+grammar:
+  - title: Using sentences for different effects
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "82"
+    wb: "53–54"
+    intro: >-
+      Writing is a bit like music. If every note is the same length, it becomes dull. When you mix short and long
+      sentences, your writing has rhythm, and your reader stays with you all the way.
+    points:
+      - "**Short sentences** create impact, drama or tension: 'She did it.'"
+      - "**Long sentences** (compound or complex) add detail and explain ideas."
+      - "Joining short sentences with **conjunctions** or **relative clauses** helps writing to flow."
+      - "Varying sentence length changes the **pace** and keeps the reader interested."
+    examples:
+      - text: "The calculations were checked again and again, because one tiny mistake could put the astronauts in danger. They were perfect."
+        note: "A long sentence explains; the short one adds impact."
+      - text: "The numbers were checked. Then they were checked again. Nothing could go wrong."
+        note: "Short sentences build tension and emphasis."
+      - text: "Franklin, who loved books, built a chair that turned into steps."
+        note: "A relative clause joins two ideas smoothly."
+    tip: "Read your work aloud. If it sounds choppy, join some sentences. If it sounds breathless, split some up."
+    practice:
+      - q: "What effect does a very short sentence usually have?"
+        options: ["It adds impact or drama", "It explains a process in detail", "It makes a list", "It always asks a question"]
+        answer: 0
+        explain: "Short sentences stand out and create drama."
+      - q: "Which is the best way to join these? 'Ben loved books. He built a library chair.'"
+        options: ["Ben loved books he built a library chair.", "Because Ben loved books, he built a library chair.", "Ben loved books, he built a library chair.", "Ben. loved books built a library chair."]
+        answer: 1
+        explain: "A subordinate clause with 'because' joins the ideas correctly."
+      - q: "Why do writers vary sentence length?"
+        options: ["To change the pace and keep readers interested", "To use fewer words", "To avoid full stops", "To make writing harder to read"]
+        answer: 0
+        explain: "Varied sentences give writing rhythm and pace."
+      - q: "Which sentence is a long complex sentence?"
+        options: ["She smiled.", "The rocket launched.", "When the numbers were finally checked, the team knew the mission was safe.", "It worked."]
+        answer: 2
+        explain: "It has a subordinate clause and a main clause, so it is complex."
+      - q: "Which would make the most dramatic ending to a paragraph?"
+        options: ["Then, after a while, everything carried on as normal.", "Silence.", "They went home later that evening after the meeting.", "It was quite a long day for everyone."]
+        answer: 1
+        explain: "A one-word sentence can create a powerful, dramatic ending."
+  - title: Subordinate clauses and connectives for emphasis
+    lesson: "Lesson 12 · Language Focus"
+    pages: "93–94"
+    wb: "61"
+    intro: >-
+      Want your reader to notice something important? Subordinate clauses add detail, and special connectives put a
+      spotlight on your ideas. Let's add some power to your sentences!
+    points:
+      - "A **subordinate clause** adds information to a main clause and cannot stand alone."
+      - "Subordinate clauses can begin with words such as **although**, **while**, **when**, **before** and **because**."
+      - "**Connectives for emphasis** make a point stronger: **not only … but also**, **neither … nor**, **no sooner … than**, **especially**, **particularly**."
+      - "When a sentence starts with 'Not only', the order of the words changes: 'Not only **did he** read, but he also wrote.'"
+    examples:
+      - text: "Although he left school at the age of ten, Ben never stopped learning."
+        note: "The subordinate clause comes first, followed by a comma."
+      - text: "Ben was **not only** a printer **but also** an inventor."
+        note: "The connective emphasises both roles."
+      - text: "**No sooner** had he finished one book **than** he started another."
+        note: "This shows that something happened straight after something else."
+    tip: "Use connectives for emphasis carefully. One or two in a paragraph is plenty."
+    practice:
+      - q: "Which is the subordinate clause? 'While he worked in the shop, Ben read every night.'"
+        options: ["Ben read every night", "While he worked in the shop", "every night", "Ben read"]
+        answer: 1
+        explain: "'While he worked in the shop' cannot stand alone."
+      - q: "Complete the connective: 'Neither Ben ___ his friends thought it was wrong.'"
+        options: ["or", "but", "nor", "and"]
+        answer: 2
+        explain: "'Neither' is paired with 'nor'."
+      - q: "Complete: 'Not only did she solve the problem, ___ she also explained it.'"
+        options: ["but", "so", "or", "because"]
+        answer: 0
+        explain: "'Not only' is paired with 'but also'."
+      - q: "Which sentence is correct?"
+        options: ["No sooner had the storm started than the lights went out.", "No sooner the storm started than the lights went out.", "No sooner had the storm started when the lights went out.", "No sooner had the storm started but the lights went out."]
+        answer: 0
+        explain: "We say 'No sooner had … than …'."
+      - q: "Which word adds emphasis? 'Ben loved swimming, ___ in the river.'"
+        options: ["especially", "although", "because", "unless"]
+        answer: 0
+        explain: "'especially' emphasises where he loved swimming most."
+  - title: Adverbs and adverbial phrases of time
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "97"
+    wb: "64"
+    intro: >-
+      A biography is a journey through someone's life. Adverbials of time are the signposts that show your reader
+      where they are on that journey.
+    points:
+      - "**Adverbs of time** tell us when: later, soon, then, finally, afterwards."
+      - "**Adverbial phrases of time** do the same job with more words: 'as a boy', 'in 1790', 'two centuries later', 'when he was 17'."
+      - "They are often used at the start of a sentence (a **fronted adverbial**), followed by a comma."
+      - "They help to keep events in **chronological order**."
+    examples:
+      - text: "**As a boy,** Franklin loved to swim."
+        note: "A fronted adverbial phrase of time, followed by a comma."
+      - text: "**Later,** he moved to Philadelphia."
+        note: "A single adverb of time."
+      - text: "She retired from NASA **in 1986**."
+        note: "The adverbial can also come at the end."
+    tip: "Do not start every sentence the same way. Vary your adverbials: 'Soon', 'Years later', 'By then'."
+    practice:
+      - q: "Which is an adverbial phrase of time?"
+        options: ["in the garden", "two years later", "very quickly", "under the bridge"]
+        answer: 1
+        explain: "'two years later' tells us when."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["In 1706 Benjamin was born.", "In 1706, Benjamin was born.", "In, 1706 Benjamin was born.", "In 1706 Benjamin, was born."]
+        answer: 1
+        explain: "Put a comma after a fronted adverbial."
+      - q: "Which word is an adverb of time?"
+        options: ["afterwards", "carefully", "here", "loudly"]
+        answer: 0
+        explain: "'afterwards' tells us when."
+      - q: "Why are adverbials of time useful in a biography?"
+        options: ["They show the order of events", "They describe colours", "They replace nouns", "They make questions"]
+        answer: 0
+        explain: "They help to keep events in chronological order."
+      - q: "Find the adverbial of time: 'When she was ten, Katherine started high school.'"
+        options: ["Katherine started", "high school", "When she was ten", "started high school"]
+        answer: 2
+        explain: "'When she was ten' tells us when it happened."

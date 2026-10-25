@@ -33,22 +33,24 @@ service cloud.firestore {
           && d.quiz is list && d.quiz.size() <= 300
           && d.games is map && d.games.size() <= 30
           && d.summaries is map && d.summaries.size() <= 30
+          && d.get('grammar', {}) is map && d.get('grammar', {}).size() <= 200
           && d.days is list && d.days.size() <= 4000
           && d.lastActive is timestamp;
       }
       function newProfileOk(d, uid) {
-        return d.keys().hasOnly(['name', 'email', 'createdAt', 'lastActive', 'classCode', 'progress', 'cards', 'quiz', 'games', 'summaries', 'days'])
+        return d.keys().hasOnly(['name', 'email', 'createdAt', 'lastActive', 'classCode', 'progress', 'cards', 'quiz', 'games', 'summaries', 'grammar', 'days'])
           && d.keys().hasAll(['name', 'email', 'createdAt', 'lastActive', 'progress', 'cards', 'quiz', 'games', 'summaries', 'days'])
           && d.name is string && d.name.size() >= 2 && d.name.size() <= 60
           && d.email == request.auth.token.email
           && d.createdAt == request.time && d.lastActive == request.time
           && d.progress.size() == 0 && d.quiz.size() == 0 && d.days.size() == 0
+          && d.cards.size() == 0 && d.games.size() == 0 && d.summaries.size() == 0 && d.get('grammar', {}).size() == 0
           && progressFieldsOk(d);
       }
       // A study update may change progress fields only; name, email, join date and class code are fixed.
       function progressUpdateOk() {
         return request.resource.data.diff(resource.data).affectedKeys()
-            .hasOnly(['progress', 'cards', 'quiz', 'games', 'summaries', 'days', 'lastActive'])
+            .hasOnly(['progress', 'cards', 'quiz', 'games', 'summaries', 'grammar', 'days', 'lastActive'])
           && progressFieldsOk(request.resource.data);
       }
 

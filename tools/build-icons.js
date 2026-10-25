@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const dir = path.join(__dirname, '..', 'node_modules', 'lucide-static', 'icons');
-const names = 'scroll-text book-user feather cog snail book-open-text drama clapperboard megaphone layers shopping-basket pen-line trophy flame lock lock-open check house log-out users graduation-cap chevron-left chevron-right shuffle rotate-ccw star key-round eye sparkles target clipboard-list list-checks notebook-pen circle-help book-open external-link circle-check circle-x heart pause play user arrow-left arrow-right info x refresh-cw save mail download'.split(' ');
+const names = 'scroll-text book-user feather cog snail book-open-text drama clapperboard megaphone layers shopping-basket pen-line trophy flame lock lock-open check house log-out users graduation-cap chevron-left chevron-right shuffle rotate-ccw star key-round eye sparkles target clipboard-list list-checks notebook-pen circle-help book-open external-link circle-check circle-x heart pause play user arrow-left arrow-right info x refresh-cw save mail download rocket fish sailboat lightbulb leaf wind book-marked user-round theater spell-check'.split(' ');
 const out = {};
 for (const n of names) {
   const svg = fs.readFileSync(path.join(dir, `${n}.svg`), 'utf8');

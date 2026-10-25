@@ -33,6 +33,9 @@ const profile = (email, extra = {}) => ({
     await setDoc(doc(db, 'years/year5/meta/classCode'), { code: 'KENJ5' });
     await setDoc(doc(db, 'years/year5/meta/unlocks'), { open: {}, updatedBy: 'seed' });
     for (const k of ['1_sb', '1_wb', '2_sb']) await setDoc(doc(db, `years/year5/answers/${k}`), { json: '[]' });
+    await setDoc(doc(db, 'years/year6/meta/classCode'), { code: 'KENJ6' });
+    await setDoc(doc(db, 'years/year6/meta/unlocks'), { open: {}, updatedBy: 'seed' });
+    await setDoc(doc(db, 'years/year6/answers/1_sb'), { json: '[]' });
     await setDoc(doc(db, 'years/year5/students/bob'), { name: 'Bob', email: 'bob@example.com', progress: {}, cards: {}, quiz: [], games: {}, summaries: {}, days: [] });
   });
   const amy = env.authenticatedContext('amy', { email: 'amy@example.com' }).firestore();
@@ -53,6 +56,8 @@ const profile = (email, extra = {}) => ({
   console.log('A student\'s own data');
   await check('reads own profile', assertSucceeds(getDoc(amyDoc)));
   await check('ticks an activity', assertSucceeds(updateDoc(amyDoc, new FieldPath('progress', 'u1-sb-1'), true, 'lastActive', serverTimestamp(), 'days', arrayUnion('2026-10-25'))));
+  await check('saves a grammar practice score', assertSucceeds(updateDoc(amyDoc, new FieldPath('grammar', 'u1-g1'), { best: 4, total: 5, attempts: 1, at: '2026-10-25T10:00:00Z' }, 'lastActive', serverTimestamp())));
+  await check('grammar must be a map', assertFails(updateDoc(amyDoc, { grammar: 'all done', lastActive: serverTimestamp() })));
   await check('saves a summary', assertSucceeds(updateDoc(amyDoc, new FieldPath('summaries', '1'), { main_idea: 'x', learnt: 'y' }, 'lastActive', serverTimestamp())));
   await check('cannot change own name', assertFails(updateDoc(amyDoc, { name: 'Someone Else', lastActive: serverTimestamp() })));
   await check('cannot change own email', assertFails(updateDoc(amyDoc, { email: 'x@example.com', lastActive: serverTimestamp() })));
@@ -92,6 +97,17 @@ const profile = (email, extra = {}) => ({
   await check('student reads which units are unlocked', assertSucceeds(getDoc(doc(amy, 'years/year5/meta/unlocks'))));
   await check('teacher locks again', assertSucceeds(setDoc(doc(teacher, 'years/year5/meta/unlocks'), { open: { '1_sb': deleteField() }, updatedAt: serverTimestamp(), updatedBy: 'teacher1' }, { merge: true })));
   await check('student: refused again after locking', assertFails(getDoc(doc(amy, 'years/year5/answers/1_sb'))));
+
+  console.log('Year 6 is separate');
+  const amy6 = doc(amy, 'years/year6/students/amy');
+  await check('Year 5 class code refused for Year 6', assertFails(setDoc(amy6, profile('amy@example.com', { classCode: 'KENJ5' }))));
+  await check('Year 6 profile with grammar map allowed with the Year 6 code', assertSucceeds(setDoc(amy6, profile('amy@example.com', { classCode: 'KENJ6', grammar: {} }))));
+  await check('Year 6 grammar starting pre-filled refused', assertFails(setDoc(doc(eve, 'years/year6/students/eve'), profile('eve@example.com', { classCode: 'KENJ6', grammar: { 'u1-g1': { best: 5, total: 5 } } }))));
+  await check('Year 5 unlock does not open Year 6 answers', assertSucceeds(setDoc(doc(teacher, 'years/year5/meta/unlocks'), { open: { '1_sb': serverTimestamp() }, updatedAt: serverTimestamp(), updatedBy: 'teacher1' }, { merge: true })));
+  await check('Year 6 answers still refused', assertFails(getDoc(doc(amy, 'years/year6/answers/1_sb'))));
+  await check('same teacher reads Year 6 answers', assertSucceeds(getDoc(doc(teacher, 'years/year6/answers/1_sb'))));
+  await check('teacher lists Year 6 students', assertSucceeds(getDocs(collection(teacher, 'years/year6/students'))));
+  await check('student deletes own Year 6 data', assertSucceeds(deleteDoc(amy6)));
 
   console.log('Class code and other paths');
   await check('student cannot read the class code', assertFails(getDoc(doc(amy, 'years/year5/meta/classCode'))));

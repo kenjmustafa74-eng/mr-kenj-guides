@@ -1,0 +1,451 @@
+id: 2
+title: Saving Our Oceans
+colour: "#1f6f8b"
+sbStart: 27
+wbStart: 18
+sbPages: "27–51"
+wbPages: "18–34"
+parts:
+  - code: 2A
+    title: Protecting Marine Animals
+  - code: 2B
+    title: Marine Life Endangered
+overview: >-
+  Our oceans cover most of our planet, and the creatures in them need our help. In this unit you will read two
+  arguments about marine life: one that argues strongly for protecting whales, and one that weighs up whether ships
+  are the biggest threat to sea creatures. You will learn how writers build an argument, how to use formal language and
+  the passive voice, and then you will write a powerful argument of your own.
+objectives:
+  - Identify the features of one-sided and balanced arguments.
+  - Use active and passive verbs, and explain why writers choose the passive voice in formal writing.
+  - Use linking adverbials and opening phrases to connect ideas in an argument.
+  - Add prefixes and suffixes to root words, and work out what new words mean.
+  - Choose the correct quantifiers for countable and uncountable nouns.
+  - Listen to a balanced argument and identify the facts and the writer's final point of view.
+  - Plan and write a one-sided argument and an argumentative essay.
+texts:
+  - title: Whales are Good for Our Planet!
+    kind: One-sided argument
+    pages: "30–36"
+    summary: >-
+      This argument tells us that whales are our friends in the fight against climate change. Over its long life, a
+      whale stores a huge amount of carbon in its body, far more than a tree. Whales also help tiny phytoplankton to
+      grow, and phytoplankton take in carbon dioxide too. The writer adds that whale watching helps coastal
+      communities to earn a living, and concludes that we must protect whales.
+  - title: Are Ships the Main Threat to Marine Life?
+    kind: Balanced argument
+    pages: "41–46"
+    summary: >-
+      This argument looks at both sides. Ships can strike marine animals, their noise confuses creatures that use
+      echolocation, and oil spills and overfishing cause great harm. However, ships are important for trade and
+      food. The writer concludes that ships are only one of the threats to marine life, and that ships can be made
+      kinder to the ocean, for example by travelling more slowly.
+  - title: Is Climate Change the Main Cause of the Decline in Whale Populations?
+    kind: Listening text (balanced argument)
+    pages: "48"
+    summary: >-
+      A balanced argument about whether climate change is the main reason why whale numbers have fallen. It explains
+      how warming oceans affect the whales' food, and it considers other human activities that may also play a part.
+vocab:
+  - word: argument
+    meaning: A piece of writing that gives reasons to persuade the reader to agree with a point of view.
+    example: Her argument was full of facts and strong reasons.
+  - word: one-sided argument
+    meaning: An argument that gives the reasons for only one point of view.
+    example: The article about whales is a one-sided argument.
+  - word: balanced argument
+    meaning: An argument that gives both sides before the writer gives a final opinion.
+    example: A balanced argument helps readers to make up their own minds.
+  - word: carbon dioxide
+    meaning: A gas released when fuels are burnt. Too much of it in the air warms our planet.
+    example: Trees and phytoplankton take in carbon dioxide.
+  - word: phytoplankton
+    meaning: Tiny, plant-like living things that float near the surface of the sea.
+    example: Phytoplankton are so small that you need a microscope to see them.
+  - word: climate change
+    meaning: Long-term changes in the Earth's temperature and weather patterns.
+    example: Climate change is making some oceans warmer.
+  - word: bycatch
+    meaning: Sea creatures that are caught in fishing nets by accident.
+    example: Dolphins and turtles are sometimes caught as bycatch.
+  - word: echolocation
+    meaning: A way some animals find their way by sending out sounds and listening to the echoes.
+    example: Loud ships can confuse whales that use echolocation.
+  - word: passive voice
+    meaning: A way of writing in which the thing that receives the action becomes the subject of the sentence.
+    example: "'Carbon is stored by whales' is written in the passive voice."
+  - word: quantifier
+    meaning: A word that tells us how much or how many, such as many, much, few, less or some.
+    example: There are fewer whales than there once were.
+sb:
+  - part: 2A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "27"
+    tip: Look closely at the photograph. What lives on the sea bed, and how can people protect it?
+  - part: 2A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "28"
+    tip: Share what you already know about whales and why the oceans matter to everyone.
+  - part: 2A
+    lesson: Lesson 2
+    title: "Let's Learn: Features of one-sided arguments"
+    pages: "28–29"
+    tip: Look for the title, the introduction, the reasons in the body and the conclusion. Notice the formal tone.
+  - part: 2A
+    lesson: Lesson 3
+    title: "Reading Part 1: Whales are Good for Our Planet!"
+    pages: "30–32"
+    tip: As you read, list each reason the writer gives for protecting whales.
+  - part: 2A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Active and passive verbs"
+    pages: "33"
+    tip: Ask who or what is doing the action. In the passive voice, the doer comes after 'by', or is not mentioned at all.
+  - part: 2A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Whales are Good for Our Planet! and Reading Comprehension"
+    pages: "34–36"
+    tip: Find the facts and figures the writer uses as evidence. How do they make the argument stronger?
+  - part: 2A
+    lesson: Lesson 7
+    title: "Language Focus – Grammar: Linking adverbials"
+    pages: "37"
+    tip: Words such as 'Furthermore', 'In addition' and 'Similarly' help you to add one idea to another.
+  - part: 2A
+    lesson: Lesson 8
+    title: "Word Structure: Adding prefixes and suffixes to root words"
+    pages: "38"
+    tip: Find the root word first. Then think about how the prefix or suffix changes its meaning or word class.
+  - part: 2A
+    lesson: Lesson 9
+    title: "Writing: A one-sided argument"
+    pages: "39"
+    tip: State your point of view clearly, give strong reasons with evidence, and finish with a confident conclusion.
+  - part: 2B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Features of balanced arguments"
+    pages: "40"
+    tip: A balanced argument gives both sides before the writer shares a final opinion.
+  - part: 2B
+    lesson: Lesson 11
+    title: "Reading Part 1: Are Ships the Main Threat to Marine Life?"
+    pages: "41–42"
+    tip: Make two lists as you read, one for each side of the argument.
+  - part: 2B
+    lesson: Lesson 12
+    title: "Language Focus – Vocabulary: Opening phrases for arguments"
+    pages: "43"
+    tip: Phrases such as 'It is often argued that …' and 'While some people believe …' sound formal and balanced.
+  - part: 2B
+    lesson: Lesson 13
+    title: "Reading Part 2: Are Ships the Main Threat to Marine Life? and Reading Comprehension"
+    pages: "44–46"
+    tip: Read the conclusion carefully. Does the writer think ships are the main threat?
+  - part: 2B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: Quantifiers"
+    pages: "47"
+    tip: Use 'fewer' and 'many' with things you can count, and 'less' and 'much' with things you cannot count.
+  - part: 2B
+    lesson: Lesson 15
+    title: "Listening and Speaking: A balanced argument"
+    pages: "48"
+    tip: Listen for the facts on each side, then for the speaker's final point of view at the end.
+  - part: 2B
+    lesson: Lessons 16–17
+    title: "Writing: An argumentative essay"
+    pages: "49–50"
+    tip: Plan both sides, use formal language and linking adverbials, and give your opinion in the conclusion.
+  - part: 2B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "51"
+    tip: Think about which part of argument writing you feel most confident about.
+wb:
+  - code: 2A
+    title: "Let's Learn: Features of one-sided arguments"
+    pages: "18"
+    steps:
+      - "Question 1: label the parts of the argument."
+      - "Questions 2–3: find the writer's reasons and the main point of view."
+      - "Questions 4–6: find connectives, the passive voice and the writer's conclusion."
+    tip: Look back at Student's Book pages 28–29 for the features of a one-sided argument.
+  - code: 2B
+    title: "Language Focus: Active and passive verbs"
+    pages: "19"
+    steps:
+      - "Question 1: decide whether each sentence is active or passive."
+      - "Question 2: find the subject and the object in each sentence."
+      - "Question 3: rewrite passive sentences in the active voice."
+      - "Questions 4–6: complete passive sentences, then write passive sentences of your own."
+    tip: In an active sentence, the subject does the action. In a passive sentence, the subject has the action done to it.
+  - code: 2C
+    title: "Reading Comprehension: Whales are Good for Our Planet!"
+    pages: "20–21"
+    steps:
+      - Reread 'Whales are Good for Our Planet!' in your Student's Book.
+      - "Questions 1–6: answer the questions and decide whether statements are true or false."
+      - "Question 7: give your own opinion with reasons."
+      - "Question 8: complete the sentences about whales."
+    tip: For true or false questions, find the exact place in the text that proves your answer.
+  - code: 2D
+    title: "Language Focus: Linking adverbials"
+    pages: "22"
+    steps:
+      - "Question 1: choose the linking adverbial for each sentence."
+      - "Question 2: join pairs of sentences with linking adverbials."
+    tip: Put a comma after a linking adverbial that starts a sentence.
+  - code: 2E
+    title: "Word Structure: Adding prefixes and suffixes to root words"
+    pages: "23"
+    steps:
+      - "Questions 1–2: find the suffixes and the prefixes, and say what the prefixes mean."
+      - "Questions 3–4: complete the sentences with words that have prefixes or suffixes."
+    tip: A prefix goes at the start of a root word. A suffix goes at the end.
+  - code: 2F
+    title: "Writing: A one-sided argument"
+    pages: "24"
+    steps:
+      - Choose your point of view and list your reasons and evidence.
+      - Write your one-sided argument with a title, introduction, body and conclusion.
+      - Check your work for formal language and linking adverbials.
+    tip: Every reason is stronger when you support it with a fact.
+  - code: 2G
+    title: "Let's Learn: Features of balanced arguments"
+    pages: "25"
+    steps:
+      - "Question 1: list the features of a balanced argument."
+      - "Question 2: choose the correct connectives."
+      - "Question 3: sort the arguments into 'for' and 'against'."
+    tip: Words such as 'however' and 'on the other hand' show that you are moving to the other side of the argument.
+  - code: 2H
+    title: "Language Focus – Vocabulary: Opening phrases for arguments"
+    pages: "26"
+    steps:
+      - "Questions 1–2: choose the correct opening phrases."
+      - "Question 3: write a paragraph that uses opening phrases."
+    tip: Opening phrases make your writing sound thoughtful and formal.
+  - code: 2I
+    title: "Reading Comprehension: Are Ships the Main Threat to Marine Life?"
+    pages: "27–28"
+    steps:
+      - Reread 'Are Ships the Main Threat to Marine Life?' in your Student's Book.
+      - "Question 1: find words in the text that match the meanings."
+      - "Questions 2–5: answer the questions about the threats to marine life and the writer's conclusion."
+    tip: Look for the paragraph that gives the writer's final message.
+  - code: 2J
+    title: "Language Focus – Grammar: Quantifiers"
+    pages: "29"
+    steps:
+      - "Question 1: choose the correct quantifier for each sentence."
+      - "Question 2: choose between 'many' and 'much'."
+      - "Question 3: choose between 'less' and 'fewer'."
+    tip: Ask yourself whether you can count the noun. That tells you which quantifier to use.
+  - code: 2K
+    title: "Writing: An argumentative essay"
+    pages: "30–31"
+    steps:
+      - Plan the points for both sides of your argument.
+      - Write your first draft with an introduction, body paragraphs and a conclusion.
+      - Revise and edit, then write your final version.
+    tip: Keep the body formal. Save your own opinion for the conclusion.
+  - code: 2L
+    title: What Have I Learnt?
+    pages: "32–33"
+    steps:
+      - Read the argument carefully.
+      - "Question 1: answer the questions about the argument and its features."
+      - "Questions 2–5: work with word meanings, prefixes and suffixes, and quantifiers."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "34"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What is the difference between a one-sided and a balanced argument?
+    back: A one-sided argument gives reasons for one point of view only. A balanced argument gives both sides before the writer's opinion.
+  - front: How do whales help in the fight against climate change?
+    back: They store a large amount of carbon in their bodies and help phytoplankton to grow, which take in carbon dioxide.
+  - front: Why do writers use the passive voice in formal writing?
+    back: It sounds more formal and puts the focus on the action or the thing affected, not the person doing it.
+  - front: Name three threats to marine life from the second argument.
+    back: Ship strikes, noise from ships, oil spills and overfishing (any three).
+  - front: When do we use 'fewer' and when do we use 'less'?
+    back: Use 'fewer' with things you can count (fewer whales) and 'less' with things you cannot count (less water).
+  - front: Give two linking adverbials that add information.
+    back: Furthermore, moreover, in addition, besides (any two).
+  - front: What should the conclusion of an argument do?
+    back: Sum up the main points and clearly state the writer's point of view.
+practice:
+  - q: Which sentence is in the passive voice?
+    options: ["Whales store carbon.", "Carbon is stored by whales.", "Whales eat krill.", "Tourists watch whales."]
+    answer: 1
+    explain: The subject, 'carbon', receives the action, so the sentence is passive.
+  - q: What does a balanced argument do?
+    options: ["Gives only one point of view", "Gives both sides before a final opinion", "Tells a story", "Gives instructions"]
+    answer: 1
+    explain: A balanced argument looks at both sides of the issue.
+  - q: Which linking adverbial adds another point?
+    options: ["However", "Furthermore", "Although", "Instead"]
+    answer: 1
+    explain: "'Furthermore' adds a further point to the argument."
+  - q: "Choose the correct quantifier: 'There are ___ whales in the bay this year.'"
+    options: ["less", "much", "fewer", "little"]
+    answer: 2
+    explain: Whales can be counted, so we use 'fewer'.
+  - q: According to 'Whales are Good for Our Planet!', why should we protect whales?
+    options: ["They help to fight climate change", "They are good to eat", "They keep ships safe", "They make the sea warmer"]
+    answer: 0
+    explain: The writer argues that whales help us to fight climate change.
+  - q: What is bycatch?
+    options: ["A type of whale", "Sea creatures caught in nets by accident", "A ship's engine", "A fishing competition"]
+    answer: 1
+    explain: Bycatch means creatures that are caught by accident.
+  - q: Which opening phrase is best for a formal argument?
+    options: ["Everyone knows that", "It is often argued that", "I just think", "Obviously"]
+    answer: 1
+    explain: "'It is often argued that' sounds formal and fair."
+  - q: Which prefix means 'not' or 'the opposite of'?
+    options: ["dis-", "multi-", "inter-", "ex-"]
+    answer: 0
+    explain: "'dis-' means not, as in 'disagree'."
+basket:
+  - prompt: Catch the linking adverbials
+    correct: [furthermore, moreover, in addition, similarly, likewise, besides, however, consequently]
+    wrong: [whale, ocean, quickly, blue, plankton, carbon, swim, enormous]
+  - prompt: Catch the threats to marine life
+    correct: [oil spills, overfishing, plastic, ship strikes, noise, bycatch, pollution, warming seas]
+    wrong: [sanctuaries, clean beaches, fishing bans, slower ships, recycling, research, kelp forests, protection]
+  - prompt: Catch the nouns you can count (use 'fewer' with them)
+    correct: [whale, ship, wave, beach, net, dolphin, island, shell]
+    wrong: [water, pollution, salt, oil, sand, advice, information, snow]
+grammar:
+  - title: Active and passive verbs
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "33"
+    wb: "19"
+    intro: >-
+      Have you noticed how formal writing sometimes sounds a bit like a science report? That is often because of the
+      passive voice. Learning to switch between active and passive gives you real control over your writing.
+    points:
+      - "In the **active voice**, the subject does the action: 'Whales **store** carbon.'"
+      - "In the **passive voice**, the subject has the action done to it: 'Carbon **is stored** by whales.'"
+      - "The passive is made with a form of **be** (is, are, was, were, will be) plus the **past participle** (stored, written, caught)."
+      - "Writers use the passive in formal writing, or when the doer is unknown or not important."
+    examples:
+      - text: "Scientists **studied** the whales."
+        note: "Active: the scientists did the studying."
+      - text: "The whales **were studied** by scientists."
+        note: "Passive: the whales had the action done to them."
+      - text: "The nets **were removed** from the reef."
+        note: "Passive without 'by': we do not need to know who did it."
+    tip: "If you can add 'by …' after the verb and it makes sense, the sentence is probably passive."
+    practice:
+      - q: "Which sentence is active?"
+        options: ["The net was cut by the diver.", "The diver cut the net.", "The net is cut.", "The net was cut."]
+        answer: 1
+        explain: "The subject, 'the diver', does the action."
+      - q: "Which sentence is passive?"
+        options: ["Krill feed the whales.", "The whale sang.", "The beach was cleaned by volunteers.", "Volunteers cleaned the beach."]
+        answer: 2
+        explain: "'was cleaned' is a form of 'be' plus a past participle, so it is passive."
+      - q: "Change to the passive: 'The children planted the trees.'"
+        options: ["The trees planted the children.", "The trees were planted by the children.", "The children were planted.", "The trees are planting."]
+        answer: 1
+        explain: "The object, 'the trees', becomes the subject, and we use 'were planted'."
+      - q: "Change to the active: 'The article was written by Maya.'"
+        options: ["Maya wrote the article.", "Maya was written.", "The article wrote Maya.", "The article is writing."]
+        answer: 0
+        explain: "Maya did the writing, so she becomes the subject."
+      - q: "Why might a writer choose the passive voice?"
+        options: ["To sound informal", "To focus on the action when the doer is not important", "To ask a question", "To make a list"]
+        answer: 1
+        explain: "The passive puts the focus on the action or the thing affected."
+  - title: Linking adverbials
+    lesson: "Lesson 7 · Language Focus – Grammar"
+    pages: "37"
+    wb: "22"
+    intro: >-
+      An argument is like a bridge made of ideas. Linking adverbials are the bolts that hold it together, guiding
+      your reader smoothly from one point to the next.
+    points:
+      - "**Linking adverbials** connect ideas across sentences and paragraphs."
+      - "To **add** a point: furthermore, moreover, in addition, besides."
+      - "To **compare**: similarly, likewise. To **contrast**: however, on the other hand."
+      - "To show a **result**: consequently, therefore, as a result."
+      - "When a linking adverbial starts a sentence, put a comma after it."
+    examples:
+      - text: "Whales store carbon. **Furthermore**, they help phytoplankton to grow."
+        note: "Adds a second point."
+      - text: "Plastic harms turtles. **Similarly**, it harms seabirds."
+        note: "Shows that two ideas are alike."
+      - text: "Ships carry our food. **However**, they can harm sea creatures."
+        note: "Shows the other side."
+    tip: "Do not use 'and' or 'but' to start every sentence. Swap in a linking adverbial instead."
+    practice:
+      - q: "Which linking adverbial shows a contrast?"
+        options: ["Furthermore", "However", "In addition", "Moreover"]
+        answer: 1
+        explain: "'However' introduces a different or opposite idea."
+      - q: "Which linking adverbial shows that two things are alike?"
+        options: ["Similarly", "Consequently", "Besides", "However"]
+        answer: 0
+        explain: "'Similarly' compares two ideas."
+      - q: "Choose the best word: 'Whales attract tourists. ___, tourism creates jobs.'"
+        options: ["However", "In addition", "Instead", "Otherwise"]
+        answer: 1
+        explain: "We are adding a further point, so 'In addition' fits."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["Moreover whales are beautiful.", "Moreover, whales are beautiful.", "Moreover whales, are beautiful.", "Moreover; whales are beautiful."]
+        answer: 1
+        explain: "Put a comma after a linking adverbial at the start of a sentence."
+      - q: "Which linking adverbial shows a result?"
+        options: ["Likewise", "Besides", "Consequently", "Similarly"]
+        answer: 2
+        explain: "'Consequently' means 'as a result'."
+  - title: Quantifiers
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "47"
+    wb: "29"
+    intro: >-
+      How many fish are in the sea? How much plastic is in the ocean? Quantifiers help you to answer questions like
+      these precisely, and choosing the right one is a sign of a careful writer.
+    points:
+      - "A **quantifier** tells us how much or how many."
+      - "**Countable nouns** can be counted (whales, nets): use **many**, **few**, **fewer**."
+      - "**Uncountable nouns** cannot be counted (water, pollution): use **much**, **little**, **less**."
+      - "**Some**, **any**, **a lot of** and **plenty of** work with both."
+      - "We usually use **any** in questions and negative sentences: 'Are there any sharks?'"
+    examples:
+      - text: "There are **fewer** whales than there were a hundred years ago."
+        note: "Whales can be counted."
+      - text: "We should use **less** plastic."
+        note: "Plastic (as a material) is uncountable."
+      - text: "How **much** oil was spilt? How **many** birds were affected?"
+        note: "'much' for uncountable, 'many' for countable."
+    tip: "Try putting a number in front of the noun. If 'three whales' works, use many or fewer."
+    practice:
+      - q: "Choose the correct word: 'There is ___ rubbish on the beach today.'"
+        options: ["fewer", "less", "many", "a few"]
+        answer: 1
+        explain: "Rubbish is uncountable, so we use 'less'."
+      - q: "Choose the correct word: 'How ___ dolphins did you see?'"
+        options: ["much", "many", "less", "little"]
+        answer: 1
+        explain: "Dolphins can be counted, so we use 'many'."
+      - q: "Which noun is uncountable?"
+        options: ["ship", "net", "water", "whale"]
+        answer: 2
+        explain: "We cannot count water, so it is uncountable."
+      - q: "Choose the correct sentence."
+        options: ["There are less fish this year.", "There are fewer fish this year.", "There are much fish this year.", "There is many fish this year."]
+        answer: 1
+        explain: "Fish can be counted here, so 'fewer' is correct."
+      - q: "Which quantifier fits a question? 'Are there ___ turtles in this bay?'"
+        options: ["any", "much", "less", "little"]
+        answer: 0
+        explain: "We usually use 'any' in questions."

@@ -1,0 +1,407 @@
+id: 9
+title: All the World's a Stage
+colour: "#5e3c99"
+sbStart: 203
+wbStart: 137
+sbPages: "203–228"
+wbPages: "137–152"
+parts:
+  - code: 9A
+    title: Shakespeare's World
+  - code: 9B
+    title: Modern Worlds
+overview: >-
+  Lights up, curtain up! In our final unit you will read two play scripts. The first is an adapted scene from
+  Shakespeare's King Lear, in which an ageing king asks his daughters to say how much they love him, with dramatic
+  results. The second is a modern play about a brave young climber called Yusuf. You will learn the features of play
+  scripts, use active and passive verb forms, explore Shakespeare's famous phrases, and finally write a play script of
+  your own.
+objectives:
+  - Identify the features of play scripts, including the cast list, stage directions, acts, scenes, asides and monologues.
+  - Use active and passive verb forms, and explain how the passive changes the focus of a sentence.
+  - Explain the meanings of figurative phrases that Shakespeare made famous.
+  - Apply spelling rules, and use prefixes that create antonyms (un-, dis-, mis-, im-, il-, ir-).
+  - Compare and contrast two play scripts, including their themes and conflicts.
+  - Recognise hyperbole, euphemism and puns.
+  - Listen to a play, and write character and setting descriptions, stage directions and a play script.
+texts:
+  - title: King Lear (adapted)
+    kind: Play script by William Shakespeare (adapted)
+    pages: "206–213"
+    summary: >-
+      King Lear decides to divide his kingdom among his three daughters and asks each one to say how much she loves him.
+      Goneril and Regan flatter him with grand speeches, but his youngest daughter, Cordelia, refuses to exaggerate and
+      simply tells the truth. Furious, Lear gives her nothing, and when the loyal Earl of Kent speaks up for her, Lear
+      banishes him too. The scene explores truth and flattery, and wise and unwise decisions.
+  - title: A Boy Called Everest
+    kind: Modern play script
+    pages: "218–223"
+    summary: >-
+      Yusuf, a talented young climber nicknamed Everest, and his friend Salman set out to climb a rockface on the
+      mountain Jabal Sawda, where Yusuf's father died in a climbing accident. Yusuf has not told his mother, who does not
+      want him to climb. On the mountain, the boys find an injured man and must decide how to help him, and Yusuf has to
+      face his fears.
+  - title: A Boy Called Everest (Act 2 Scene 2)
+    kind: Listening text (play script)
+    pages: "225"
+    summary: >-
+      The final part of the play, in which the boys look for help on the mountain and the conflicts in the story are
+      resolved.
+vocab:
+  - word: play script
+    meaning: The written text of a play, with the characters' lines and stage directions.
+    example: We read the play script aloud in groups.
+  - word: cast list
+    meaning: The list of characters at the start of a play script.
+    example: The cast list shows that Cordelia is Lear's youngest daughter.
+  - word: stage directions
+    meaning: Instructions in a play script that tell the actors how to move, speak or act.
+    example: "The stage direction said: (walking slowly to centre stage)."
+  - word: aside
+    meaning: Words a character says to the audience that the other characters cannot hear.
+    example: Cordelia's aside shows us her true feelings.
+  - word: monologue
+    meaning: A long speech by one character.
+    example: Cordelia's monologue explains why she will not flatter her father.
+  - word: banish
+    meaning: To send someone away from a place as a punishment.
+    example: Lear banished Kent from the kingdom.
+  - word: flattery
+    meaning: Praise that is too much and not sincere, often given to win favour.
+    example: Goneril's speech was full of flattery.
+  - word: hyperbole
+    meaning: Extreme exaggeration used for effect.
+    example: "'I've told you a million times!' is hyperbole."
+  - word: euphemism
+    meaning: A gentle or polite way of saying something unpleasant.
+    example: "'Passed away' is a euphemism for 'died'."
+  - word: pun
+    meaning: A joke that plays on a word with two meanings or words that sound alike.
+    example: "Climbers love rock-solid friends! That is a pun."
+sb:
+  - part: 9A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "203"
+    tip: Look at the theatre. Who works together to put on a play?
+  - part: 9A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "204"
+    tip: Look at the actors' costumes. When do you think the play is set?
+  - part: 9A
+    lesson: Lesson 2
+    title: "Let's Learn: Features of play scripts"
+    pages: "204–205"
+    tip: Find the cast list, the stage directions and the dialogue. How is a play script different from a story?
+  - part: 9A
+    lesson: Lesson 3
+    title: "Reading Part 1: King Lear"
+    pages: "206–208"
+    tip: Compare what Goneril and Regan say with what Cordelia says in her asides.
+  - part: 9A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Active and passive verb forms"
+    pages: "209–210"
+    tip: In the passive, the object of the action becomes the subject of the sentence.
+  - part: 9A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: King Lear and Reading Comprehension"
+    pages: "211–213"
+    tip: Why does Kent speak up, and how does Lear react?
+  - part: 9A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Figurative language in Shakespeare's plays"
+    pages: "214"
+    tip: Many everyday phrases, such as 'a wild goose chase', were made popular by Shakespeare.
+  - part: 9A
+    lesson: Lesson 8
+    title: "Word Structure: More spelling rules"
+    pages: "215"
+    tip: Learn a few rules at a time, and practise them with words you use often.
+  - part: 9A
+    lesson: Lesson 9
+    title: "Writing: Character and setting descriptions, and stage directions"
+    pages: "216"
+    tip: Stage directions are short, written in the present tense, and placed in brackets.
+  - part: 9B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Compare and contrast play scripts"
+    pages: "217"
+    tip: To compare, look for what is similar. To contrast, look for what is different.
+  - part: 9B
+    lesson: Lesson 11
+    title: "Reading Part 1: A Boy Called Everest"
+    pages: "218–219"
+    tip: Why is Yusuf called Everest, and why is this climb so important to him?
+  - part: 9B
+    lesson: Lesson 12
+    title: "Language Focus: Prefixes that create antonyms"
+    pages: "220"
+    tip: Use il- before l, im- before m or p, and ir- before r, as in illegal, impossible and irregular.
+  - part: 9B
+    lesson: Lesson 13
+    title: "Reading Part 2: A Boy Called Everest and Reading Comprehension"
+    pages: "221–223"
+    tip: Notice how the stage directions build suspense.
+  - part: 9B
+    lesson: Lesson 14
+    title: "Language Focus: Figurative language and imaginative detail"
+    pages: "224"
+    tip: Hyperbole exaggerates, a euphemism softens and a pun plays with meaning.
+  - part: 9B
+    lesson: Lesson 15
+    title: "Listening: A Boy Called Everest"
+    pages: "225"
+    tip: Listen for how the conflicts are resolved at the end.
+  - part: 9B
+    lesson: Lessons 16–17
+    title: "Writing: A play script"
+    pages: "226–227"
+    tip: Include a cast list, a setting, stage directions and dialogue that shows your characters' personalities.
+  - part: 9B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "228"
+    tip: Look back over Year 6. What are you proudest of?
+wb:
+  - code: 9A
+    title: "Let's Learn: Features of play scripts"
+    pages: "137–138"
+    steps:
+      - "Questions 1–2: explain the purpose of an aside and a monologue."
+      - "Question 3: write an example."
+      - "Questions 4–5: answer the questions about the structure of a play and internal conflict."
+    tip: Look back at Student's Book pages 204–205 for the features of play scripts.
+  - code: 9B
+    title: "Language Focus – Grammar: Active and passive verb forms"
+    pages: "138"
+    steps:
+      - "Question 1: rewrite the sentences in the passive voice."
+      - "Question 2: write a short summary that uses active and passive verbs, and explain your choices."
+    tip: Keep the same tense when you change a sentence from active to passive.
+  - code: 9C
+    title: "Reading Comprehension: King Lear"
+    pages: "139–140"
+    steps:
+      - Reread 'King Lear' in your Student's Book.
+      - "Questions 1–2: choose the correct answers and explain the meanings of words."
+      - "Question 3: explain how Shakespeare uses words, sentence types and figurative language."
+      - "Questions 4–5: choose answers and explain Kent's view and the themes."
+    tip: Support your answers with lines from the play.
+  - code: 9D
+    title: "Language Focus – Vocabulary: Figurative language in Shakespeare's plays"
+    pages: "141"
+    steps:
+      - "Question 1: complete the table of phrases and their meanings."
+      - "Question 2: use the phrases in sentences about King Lear."
+    tip: Explain what each phrase means in everyday language.
+  - code: 9E
+    title: "Word Structure: More spelling rules"
+    pages: "142"
+    steps:
+      - "Question 2: sort the words by spelling rule."
+      - "Questions 3–4: write the meanings of the words and use them in sentences."
+    tip: Use a dictionary to check meanings.
+  - code: 9F
+    title: "Writing: Character and setting descriptions, and stage directions"
+    pages: "143"
+    steps:
+      - Describe your characters and your setting.
+      - Write stage directions for a short scene.
+      - Check your work with a partner.
+    tip: Good stage directions tell actors exactly what to do and how to say their lines.
+  - code: 9G
+    title: "Let's Learn: Compare and contrast play scripts"
+    pages: "144"
+    steps:
+      - "Questions 1–2: explain what it means to compare and to contrast."
+      - "Question 3: compare and contrast two play scripts."
+    tip: Use a table to organise similarities and differences.
+  - code: 9I
+    title: "Language Focus: Prefixes that create antonyms"
+    pages: "145"
+    steps:
+      - "Question 1: find out where each prefix comes from."
+      - "Questions 2–4: add prefixes to make antonyms and explain what the new words mean."
+    tip: Check the first letter of the root word before you choose il-, im- or ir-.
+  - code: 9J
+    title: "Reading Comprehension: A Boy Called Everest"
+    pages: "146–147"
+    steps:
+      - Reread 'A Boy Called Everest' in your Student's Book.
+      - "Questions 1–4: summarise the play and answer the questions about the characters, problems and themes."
+      - "Questions 5–6: compare the two plays and give your opinion."
+    tip: Keep your summary short and include only the main events.
+  - code: 9J
+    key: 9J2
+    title: "Language Focus: Figurative language and imaginative detail"
+    pages: "148"
+    steps:
+      - Read the short scene.
+      - "Questions 2–4: find the puns and hyperbole and explain what they mean."
+    tip: Explain why a pun is funny by giving both of its meanings.
+  - code: 9K
+    title: "Writing: A play script"
+    pages: "149"
+    steps:
+      - Plan your characters, setting, problem and resolution.
+      - Write your play script with a cast list, stage directions and dialogue.
+      - Revise and edit, then perform it with your group.
+    tip: Read your script aloud to check that the dialogue sounds natural.
+  - code: 9L
+    title: What Have I Learnt?
+    pages: "150–151"
+    steps:
+      - Read the play script extract carefully.
+      - "Questions 1–2: answer the questions about the characters, figurative language, verb forms and prefixes."
+      - "Question 3: explain the meanings of phrases from Shakespeare."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "152"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What does King Lear ask his daughters to do?
+    back: To say how much they love him, so that he can divide his kingdom among them.
+  - front: Why is Cordelia given nothing?
+    back: She refuses to flatter her father and simply tells the truth, which makes Lear furious.
+  - front: What happens to the Earl of Kent?
+    back: He speaks up for Cordelia, and Lear banishes him.
+  - front: What is an aside?
+    back: Words a character says to the audience that the other characters on stage cannot hear.
+  - front: Why is Yusuf's climb on Jabal Sawda so important to him?
+    back: His father died in a climbing accident there, and Yusuf has to face his fears and his feelings about it.
+  - front: Which prefix goes before roots starting with l, m or p, and r?
+    back: il- before l (illegal), im- before m or p (immortal, impossible), ir- before r (irregular).
+  - front: What is the difference between hyperbole and a euphemism?
+    back: Hyperbole exaggerates. A euphemism says something unpleasant in a gentle way.
+practice:
+  - q: What are stage directions?
+    options: ["The lines characters say", "Instructions for how actors move and speak", "The title of the play", "The list of characters"]
+    answer: 1
+    explain: Stage directions tell actors what to do and how to do it.
+  - q: Which sentence is passive?
+    options: ["Lear banished Kent.", "Kent was banished by Lear.", "Kent spoke bravely.", "Cordelia told the truth."]
+    answer: 1
+    explain: "'was banished' is a form of 'be' plus a past participle."
+  - q: Which daughter refuses to flatter King Lear?
+    options: ["Goneril", "Regan", "Cordelia", "All three"]
+    answer: 2
+    explain: Cordelia tells the truth instead of flattering him.
+  - q: Which word means 'not legal'?
+    options: ["unlegal", "illegal", "dislegal", "irlegal"]
+    answer: 1
+    explain: We use il- before words that start with l.
+  - q: "What does 'a wild goose chase' mean?"
+    options: ["A race between birds", "A hopeless search for something you will not find", "A farm job", "A fast game"]
+    answer: 1
+    explain: It means a long, useless search.
+  - q: Which is a euphemism?
+    options: ["He passed away.", "It weighs a ton!", "I'm so hungry I could eat a horse.", "That's a rock-solid plan."]
+    answer: 0
+    explain: "'Passed away' is a gentle way of saying 'died'."
+  - q: Why does Yusuf feel bad at the start of the climb?
+    options: ["He has lost his rope", "He has not told his mother about the climb", "He is late for school", "He does not like Salman"]
+    answer: 1
+    explain: Yusuf feels bad about not telling his mother.
+  - q: What is an aside?
+    options: ["A long speech to other characters", "Words spoken to the audience that other characters cannot hear", "A scene change", "A song"]
+    answer: 1
+    explain: An aside shares a character's private thoughts with the audience.
+basket:
+  - prompt: Catch the features of a play script
+    correct: [cast list, stage directions, dialogue, acts, scenes, aside, monologue, setting]
+    wrong: [chapters, footnotes, headline, index, glossary, bullet points, rhyme scheme, caption]
+  - prompt: Catch the antonyms made with prefixes
+    correct: [unhappy, dislike, misunderstand, impossible, illegal, irregular, immortal, dishonest]
+    wrong: [happiness, likeable, understanding, possibly, legally, regularly, mortality, honesty]
+  - prompt: Catch the characters from King Lear
+    correct: [King Lear, Cordelia, Goneril, Regan, Kent, Gloucester]
+    wrong: [Yusuf, Salman, Mrs Ayad, Mr Faez, Mary Lennox, Tom Sawyer, Gulliver, Helen Keller]
+grammar:
+  - title: Active and passive verb forms
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "209–210"
+    wb: "138"
+    intro: >-
+      You met the passive voice back in Unit 2. Now let's take it further. Playwrights and writers switch between active
+      and passive to decide what the audience should notice first. You can do the same!
+    points:
+      - "In the **active voice**, the subject does the action: 'Lear **banished** Kent.'"
+      - "In the **passive voice**, the subject receives the action: 'Kent **was banished** by Lear.'"
+      - "Form the passive with **be** in the right tense + the **past participle**: is made, was made, will be made."
+      - "The passive puts the **focus** on the person or thing affected, or hides who did the action."
+    examples:
+      - text: "The courtiers **entertained** the king. → The king **was entertained** by the courtiers."
+        note: "The focus moves to the king."
+      - text: "The seamstresses **make** the robes. → The robes **are made** by the seamstresses."
+        note: "Present tense in both."
+      - text: "The rope **is pulled** firmly to test the knot."
+        note: "The focus is on the rope; we do not need to say who pulled it."
+    tip: "When you change a sentence, keep the tense the same: 'will banish' becomes 'will be banished'."
+    practice:
+      - q: "Change to the passive: 'Lear will banish Kent.'"
+        options: ["Kent banished Lear.", "Kent will be banished by Lear.", "Kent is banishing Lear.", "Kent was banish by Lear."]
+        answer: 1
+        explain: "Future passive: will be + past participle."
+      - q: "Change to the active: 'The play was watched by many people.'"
+        options: ["Many people watched the play.", "The play watched many people.", "Many people were watched.", "The play is watching."]
+        answer: 0
+        explain: "The doers, 'many people', become the subject."
+      - q: "Which sentence is active?"
+        options: ["Cordelia was punished.", "The kingdom was divided.", "Kent spoke the truth.", "The crown is worn by Lear."]
+        answer: 2
+        explain: "Kent is the subject and does the action."
+      - q: "Which is the correct passive form? 'The robes ___ by the seamstresses last year.'"
+        options: ["are made", "were made", "will be made", "make"]
+        answer: 1
+        explain: "'Last year' needs the past: were made."
+      - q: "Why might a writer use the passive?"
+        options: ["To focus on the person or thing affected by the action", "To add a rhyme", "To ask a question", "To show the future only"]
+        answer: 0
+        explain: "The passive moves the focus to the receiver of the action."
+  - title: Prefixes that create antonyms
+    lesson: "Lesson 12 · Language Focus"
+    pages: "220"
+    wb: "145"
+    intro: >-
+      Here is a quick way to double your vocabulary: add a prefix and you have an opposite! Learn a few simple rules and
+      you will choose the right prefix every time.
+    points:
+      - "**un-**, **dis-** and **mis-** create opposites: unhappy, dishonest, misunderstand."
+      - "**il-** is used before words beginning with **l**: illegal, illogical."
+      - "**im-** is used before words beginning with **m** or **p**: immortal, impossible."
+      - "**ir-** is used before words beginning with **r**: irregular, irrelevant."
+      - "**mis-** often means 'wrongly' or 'badly': misbehave, misprint."
+    examples:
+      - text: "Lear thought Cordelia was **un**grateful."
+        note: "un- + grateful."
+      - text: "Climbing alone at night would be **ir**responsible."
+        note: "ir- before r."
+      - text: "Kent **dis**obeyed the king's order to stay silent."
+        note: "dis- + obey."
+    tip: "Keep both letters when a prefix meets the same letter: il + legal = illegal, mis + spell = misspell."
+    practice:
+      - q: "Which is the antonym of 'possible'?"
+        options: ["unpossible", "impossible", "dispossible", "irpossible"]
+        answer: 1
+        explain: "We use im- before p."
+      - q: "Which is the antonym of 'regular'?"
+        options: ["irregular", "unregular", "disregular", "imregular"]
+        answer: 0
+        explain: "We use ir- before r."
+      - q: "Which is the antonym of 'logical'?"
+        options: ["unlogical", "illogical", "dislogical", "mislogical"]
+        answer: 1
+        explain: "We use il- before l."
+      - q: "What does 'misquote' mean?"
+        options: ["to quote correctly", "to quote wrongly", "to refuse to quote", "to quote twice"]
+        answer: 1
+        explain: "mis- means wrongly."
+      - q: "Which word is spelt correctly?"
+        options: ["mispell", "misspell", "missspell", "misppell"]
+        answer: 1
+        explain: "mis + spell = misspell. Keep the s from mis- and the s from spell."

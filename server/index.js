@@ -19,6 +19,7 @@ const UNIT_IDS = content.units.map((u) => u.id);
 const ITEM_IDS = new Set(content.units.flatMap((u) => [...u.sb, ...u.wb].map((x) => x.id)));
 const CARD_IDS = new Set(content.units.flatMap((u) => u.cards.map((c) => c.id)));
 const QUESTIONS = new Map(content.units.flatMap((u) => u.practice.map((q) => [q.id, { ...q, unit: u.id }])));
+const GRAMMAR = new Map(content.units.flatMap((u) => (u.grammar || []).map((t) => [t.id, t])));
 
 const app = express();
 app.disable('x-powered-by');
@@ -152,11 +153,11 @@ app.get('/api/session', (req, res, next) => {
 app.get('/api/content', requireAuth, (req, res) => res.json(content));
 
 async function stateFor(userId) {
-  const [progress, quiz, cards, games, summaries, unlocks, days] = await Promise.all([
+  const [progress, quiz, cards, games, summaries, grammar, unlocks, days] = await Promise.all([
     repo.getProgress(userId), repo.getQuizAttempts(userId), repo.getCardStatuses(userId), repo.getGames(userId),
-    repo.getSummaries(userId), repo.getUnlocks(), repo.getActivityDays(userId),
+    repo.getSummaries(userId), repo.getGrammar(userId), repo.getUnlocks(), repo.getActivityDays(userId),
   ]);
-  return { progress, quiz, cards, games, summaries, unlocks, streak: P.streak(days, today()), today: today() };
+  return { progress, quiz, cards, games, summaries, grammar, unlocks, streak: P.streak(days, today()), today: today() };
 }
 app.get('/api/state', requireAuth, wrap(async (req, res) => res.json(await stateFor(req.user.id))));
 
@@ -186,6 +187,26 @@ app.post('/api/quiz', requireAuth, wrap(async (req, res) => {
   await repo.addQuizAttempt(req.user.id, scope, score, details.length, details);
   await studied(req.user.id);
   res.json({ score, total: details.length, details });
+}));
+
+app.post('/api/grammar', requireAuth, wrap(async (req, res) => {
+  const topic = GRAMMAR.get(String(req.body.topic || ''));
+  if (!topic) return res.status(400).json({ error: 'Unknown grammar topic.' });
+  const list = Array.isArray(req.body.answers) ? req.body.answers.slice(0, 20) : [];
+  if (!list.length) return res.status(400).json({ error: 'No answers were sent.' });
+  const Q = new Map(topic.practice.map((q) => [q.id, q]));
+  const seen = new Set();
+  const details = [];
+  for (const a of list) {
+    const q = Q.get(a.qid);
+    if (!q || seen.has(a.qid)) return res.status(400).json({ error: 'Unknown question.' });
+    seen.add(a.qid);
+    details.push({ qid: a.qid, correct: a.choice === q.options[q.answer] });
+  }
+  const score = details.filter((d) => d.correct).length;
+  const best = await repo.recordGrammar(req.user.id, topic.id, score, details.length);
+  await studied(req.user.id);
+  res.json({ score, total: details.length, details, best: best.best, bestTotal: best.total });
 }));
 
 app.put('/api/cards/:cardId', requireAuth, wrap(async (req, res) => {

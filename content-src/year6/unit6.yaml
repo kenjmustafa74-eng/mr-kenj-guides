@@ -1,0 +1,447 @@
+id: 6
+title: Looking After Our Planet
+colour: "#2f6b4f"
+sbStart: 127
+wbStart: 86
+sbPages: "127–151"
+wbPages: "86–102"
+parts:
+  - code: 6A
+    title: Sources of Energy
+  - code: 6B
+    title: Renewable Resources
+overview: >-
+  How should we power our homes, schools and cities without harming the Earth? In this unit you will read persuasive
+  articles about wind, sun, water and other sources of energy. Some writers love wind farms, and some do not! You will
+  learn the tricks persuasive writers use, practise indirect speech, word classes and verb forms, and then write a
+  persuasive news article of your own.
+objectives:
+  - Identify persuasive devices, such as rhetorical questions, short emphatic statements and emotive language.
+  - Tell the difference between facts and opinions, and between persuasive and argumentative texts.
+  - Change direct speech into indirect (reported) speech, including questions.
+  - Spell words with the suffixes -tion, -cian, -sion, -ssion, -ence and -ance.
+  - Identify word classes, including determiners, prepositions and conjunctions.
+  - Use different verb forms, including participles.
+  - Give a short presentation, and write a persuasive paragraph and a persuasive news article.
+texts:
+  - title: "The Wind: A Clean and Abundant Energy Source"
+    kind: Persuasive article
+    pages: "130–131"
+    summary: >-
+      This article persuades us that wind is a wonderful source of energy. People have used the wind for a very long time
+      to sail boats, pump water and grind grain. Today, wind turbines turn it into electricity without polluting the
+      air, and because the wind will never run out, it is renewable.
+  - title: Please – No More Wind Farms!
+    kind: Persuasive article
+    pages: "133–135"
+    summary: >-
+      This writer takes the opposite view. Wind turbines can harm birds and bats, spoil the landscape, and only work when
+      the wind blows, so they are not always reliable. The writer uses strong, emotive words to persuade us that no more
+      wind farms should be built.
+  - title: Renewable Sources of Energy – The Way Forward
+    kind: Persuasive article
+    pages: "141–146"
+    summary: >-
+      This article looks at several renewable sources of energy, including geothermal, biomass, hydroelectric and solar
+      power, and weighs up their advantages and disadvantages. The writer's aim is to persuade us that solar energy is the
+      best choice, because it is clean, increasingly affordable, portable and available to people almost everywhere.
+vocab:
+  - word: renewable
+    meaning: Able to be replaced naturally, so it will not run out.
+    example: Wind and sunlight are renewable sources of energy.
+  - word: fossil fuels
+    meaning: Fuels such as coal, oil and gas, formed underground over millions of years. They will run out.
+    example: Burning fossil fuels releases carbon dioxide.
+  - word: wind turbine
+    meaning: A tall machine with large blades that turns the energy of the wind into electricity.
+    example: The wind turbine's blades turned slowly in the breeze.
+  - word: persuasive
+    meaning: Trying to make someone agree with an opinion or do something.
+    example: Her persuasive speech made everyone want to recycle.
+  - word: rhetorical question
+    meaning: A question asked for effect, not because the writer expects an answer.
+    example: "'Who wouldn't want clean air?' is a rhetorical question."
+  - word: emotive language
+    meaning: Words chosen to make the reader feel strong emotions.
+    example: "Calling turbines 'monstrosities' is emotive language."
+  - word: geothermal
+    meaning: Heat from deep inside the Earth.
+    example: Iceland uses geothermal energy to heat many homes.
+  - word: hydroelectric
+    meaning: Electricity made from the power of moving water.
+    example: The dam powers a hydroelectric power station.
+  - word: indirect speech
+    meaning: Reporting what someone said or asked without using their exact words.
+    example: She asked whether the wind farm was finished.
+  - word: determiner
+    meaning: A word that comes before a noun to show which one or how many, such as the, a, some or this.
+    example: "In 'some panels', 'some' is a determiner."
+sb:
+  - part: 6A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "127"
+    tip: Look at the photograph. How are the solar panels and wind turbines being used?
+  - part: 6A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "128"
+    tip: Think of all the ways people have used the power of the wind.
+  - part: 6A
+    lesson: Lesson 2
+    title: "Let's Learn: Persuasive devices in texts"
+    pages: "128–129"
+    tip: Look for rhetorical questions, short statements and strong words that try to win you over.
+  - part: 6A
+    lesson: Lesson 3
+    title: "Reading Part 1: The Wind: A Clean and Abundant Energy Source"
+    pages: "130–131"
+    tip: List the reasons the writer gives for using wind power.
+  - part: 6A
+    lesson: Lesson 4
+    title: "Language Focus – Punctuation: More about indirect speech"
+    pages: "132"
+    tip: In indirect questions, use 'if', 'whether' or a question word, and end with a full stop, not a question mark.
+  - part: 6A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Please – No More Wind Farms! and Reading Comprehension"
+    pages: "133–135"
+    tip: Compare this writer's view with the first article. Which devices does each writer use?
+  - part: 6A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Language of persuasive texts"
+    pages: "136"
+    tip: Ask whether each sentence is a fact that can be checked or an opinion with strong words.
+  - part: 6A
+    lesson: Lesson 8
+    title: "Word Structure: Suffixes -tion, -cian, -sion, -ssion"
+    pages: "137"
+    tip: The suffix -cian is often used for jobs that people do, such as electrician and musician.
+  - part: 6A
+    lesson: Lesson 9
+    title: "Writing: A persuasive paragraph"
+    pages: "138"
+    tip: State your opinion clearly and use at least two persuasive devices.
+  - part: 6B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: The structure of a persuasive article"
+    pages: "139–140"
+    tip: A persuasive text mixes facts and opinions. An argumentative text relies more on facts and logic.
+  - part: 6B
+    lesson: Lesson 11
+    title: "Reading Part 1: Renewable Sources of Energy – The Way Forward"
+    pages: "141–142"
+    tip: Make a table of each energy source with its advantages and disadvantages.
+  - part: 6B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Word classes"
+    pages: "143"
+    tip: Look at the job each word is doing in the sentence to decide its word class.
+  - part: 6B
+    lesson: Lesson 13
+    title: "Reading Part 2: Renewable Sources of Energy – The Way Forward and Reading Comprehension"
+    pages: "144–146"
+    tip: Which energy source does the writer want you to choose, and how do they persuade you?
+  - part: 6B
+    lesson: Lesson 14
+    title: "Language Focus – Grammar: Verb forms"
+    pages: "147"
+    tip: Know the five forms of a verb, for example generate, generates, generating, generated and generated.
+  - part: 6B
+    lesson: Lesson 15
+    title: "Speaking: A presentation on renewable energy"
+    pages: "148"
+    tip: Speak clearly, look at your audience and use persuasive language.
+  - part: 6B
+    lesson: Lessons 16–17
+    title: "Writing: A persuasive news article"
+    pages: "149–150"
+    tip: Use a catchy headline, a strong introduction, persuasive devices and a powerful conclusion.
+  - part: 6B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "151"
+    tip: Which persuasive device do you use best? Which would you like to practise?
+wb:
+  - code: 6A
+    title: "Let's Learn: Persuasive devices in texts"
+    pages: "86–87"
+    steps:
+      - Read the persuasive text about fossil fuels.
+      - "Questions 2–5: find the features, the devices, the writer's position and the evidence."
+      - "Question 6: write a new persuasive title."
+    tip: Look back at Student's Book pages 128–129 for the list of persuasive devices.
+  - code: 6B
+    title: "Language Focus: More about indirect speech"
+    pages: "88"
+    steps:
+      - "Question 1: change direct speech into indirect speech."
+      - "Question 2: change indirect speech into direct speech."
+    tip: Remember to change the tense and the pronouns when you report speech.
+  - code: 6C
+    title: "Reading Comprehension: The two wind articles"
+    pages: "89–90"
+    steps:
+      - Reread both articles about wind power in your Student's Book.
+      - "Questions 1–3: answer the questions and choose the correct answers."
+      - "Questions 4–6: summarise each writer's view and give your own opinion."
+    tip: Summarise each article in your own words.
+  - code: 6D
+    title: "Language Focus: Language of persuasive texts"
+    pages: "91"
+    steps:
+      - "Question 1: complete sentences with the correct words."
+      - "Question 2: find strong synonyms for words."
+      - "Question 3: rewrite sentences to make them more persuasive."
+    tip: Strong adjectives and adverbs make writing more persuasive.
+  - code: 6E
+    title: "Word Structure: Suffixes -tion, -cian, -sion, -ssion, -ence, -ance"
+    pages: "92"
+    steps:
+      - "Question 1: add the correct suffix to each word."
+      - "Question 2: complete the sentences with words that have these suffixes."
+    tip: Check the spelling of the root word before you add a suffix.
+  - code: 6F
+    title: "Writing: A persuasive paragraph"
+    pages: "93"
+    steps:
+      - Choose your topic and your opinion.
+      - Write your persuasive paragraph.
+      - Use the checklist to revise and edit your work.
+    tip: Finish with a sentence that tells your reader what to do.
+  - code: 6G
+    title: "Let's Learn: The structure of a persuasive news article"
+    pages: "94"
+    steps:
+      - "Questions 1–2: name a persuasive device and write an example."
+      - "Question 3: sort the features into argumentative and persuasive texts."
+    tip: Some features belong to both kinds of text.
+  - code: 6H
+    title: "Language Focus: Word classes"
+    pages: "95"
+    steps:
+      - "Question 1: sort the words into their word classes."
+      - "Question 2: identify the word classes of words in a paragraph."
+    tip: The same word can belong to different word classes in different sentences.
+  - code: 6I
+    title: "Reading Comprehension: Renewable Sources of Energy – The Way Forward"
+    pages: "96–97"
+    steps:
+      - Reread the article in your Student's Book.
+      - "Questions 1–3: find words from the text and choose the correct answers."
+      - "Questions 4–5: explain persuasive devices and write your own opinion persuasively."
+    tip: Use at least two persuasive devices in your own answer.
+  - code: 6J
+    title: "Language Focus: Verb forms"
+    pages: "98"
+    steps:
+      - "Question 1: name the form of each verb."
+      - "Question 2: write the correct form of each verb."
+    tip: Participles often work with helping verbs such as 'is' and 'has'.
+  - code: 6K
+    title: "Writing: A persuasive news article"
+    pages: "99"
+    steps:
+      - Plan your headline, introduction, body and conclusion.
+      - Write your first draft using persuasive devices.
+      - Revise and edit, then write your final version.
+    tip: A good headline grabs attention in just a few words.
+  - code: 6L
+    title: What Have I Learnt?
+    pages: "100–101"
+    steps:
+      - Read the persuasive article carefully.
+      - "Question 1: answer the questions about the writer's view and devices."
+      - "Questions 2–5: work with word classes, suffixes and speech."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "102"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What is a rhetorical question?
+    back: A question asked for effect, to make the reader think or agree, not to get an answer.
+  - front: Give two reasons for using wind power from the first article.
+    back: It is clean and does not pollute the air, and it is renewable, so it will never run out.
+  - front: Give two reasons against wind farms from the second article.
+    back: They can harm birds and bats, spoil the landscape, and only work when the wind blows (any two).
+  - front: Which renewable energy source does the third article argue is best?
+    back: Solar energy.
+  - front: How do you change a question into indirect speech?
+    back: "Use 'if', 'whether' or a question word, change the tense and pronouns, and end with a full stop: She asked if I had seen it."
+  - front: What is the difference between a fact and an opinion?
+    back: A fact can be checked and proved. An opinion is what someone thinks or believes.
+  - front: Name the five forms of the verb 'generate'.
+    back: generate, generates, generating, generated (simple past) and generated (past participle).
+practice:
+  - q: Which is a rhetorical question?
+    options: ["What time is it?", "Who wouldn't want free, clean energy?", "Where is my bag?", "How old are you?"]
+    answer: 1
+    explain: It is asked to persuade, not to get an answer.
+  - q: Which sentence is an opinion?
+    options: ["Wind turbines turn kinetic energy into electricity.", "Wind energy is definitely the best option.", "Coal is a fossil fuel.", "The sun rises in the east."]
+    answer: 1
+    explain: "'Definitely the best' is what the writer believes. It cannot be proved."
+  - q: "Change to indirect speech: 'Where is the wind farm?' she asked."
+    options: ["She asked where is the wind farm?", "She asked where the wind farm was.", "She asked, where was the wind farm.", "She asked where the wind farm is?"]
+    answer: 1
+    explain: The word order changes, the tense moves back, and there is no question mark.
+  - q: Which suffix completes 'electri___' (a person who fixes wiring)?
+    options: ["-tion", "-sion", "-cian", "-ssion"]
+    answer: 2
+    explain: "electrician – -cian is used for many jobs."
+  - q: "What word class is 'cleanly' in 'Wind powers homes cleanly'?"
+    options: ["noun", "adjective", "adverb", "verb"]
+    answer: 2
+    explain: "'Cleanly' tells us how, so it is an adverb."
+  - q: Why might wind farms be unreliable, according to their critics?
+    options: ["They only work when the wind blows", "They use too much coal", "They are too small", "They work only at night"]
+    answer: 0
+    explain: No wind means no electricity from turbines.
+  - q: What does 'geothermal' mean?
+    options: ["Heat from deep inside the Earth", "Energy from waves", "Light from the Sun", "Power from coal"]
+    answer: 0
+    explain: "'geo' means Earth and 'thermal' means heat."
+  - q: Which is a renewable source of energy?
+    options: ["coal", "oil", "sunlight", "natural gas"]
+    answer: 2
+    explain: Sunlight will not run out, so it is renewable.
+basket:
+  - prompt: Catch the renewable sources of energy
+    correct: [wind, sunlight, moving water, geothermal heat, biomass, waves, tides, biogas]
+    wrong: [coal, oil, natural gas, petrol, diesel, peat, paraffin, uranium]
+  - prompt: Catch the persuasive devices
+    correct: [rhetorical question, emotive language, short statement, exaggeration, strong adjectives, repetition, personal pronouns, expert quotation]
+    wrong: [index, glossary, caption, table of contents, footnote, page number, bibliography, appendix]
+  - prompt: Catch the words with the -cian suffix for jobs
+    correct: [electrician, musician, magician, optician, politician, technician, mathematician, beautician]
+    wrong: [station, mission, decision, invention, discussion, erosion, generation, permission]
+grammar:
+  - title: More about indirect speech
+    lesson: "Lesson 4 · Language Focus – Punctuation"
+    pages: "132"
+    wb: "88"
+    intro: >-
+      Reporters, scientists and storytellers all need to tell us what other people said. Indirect speech lets you do
+      that smoothly. Today we will focus on reporting questions, which is a real Year 6 skill.
+    points:
+      - "**Indirect (reported) speech** tells us what someone said without using their exact words or inverted commas."
+      - "The tense usually moves **back**: is → was; can → could; will → would."
+      - "**Pronouns** and time words change: 'I' → he or she; 'today' → that day."
+      - "To report a yes/no question, use **if** or **whether**: She asked **if** I had seen it."
+      - "To report a wh- question, keep the question word but use **statement word order**, and end with a full stop: He asked where the turbines **were**."
+    examples:
+      - text: "“Is wind power free?” asked Leo. → Leo asked if wind power was free."
+        note: "A yes/no question reported with 'if'."
+      - text: "“Why do we burn coal?” the writer asked. → The writer asked why we burned coal."
+        note: "The question word stays, but the word order changes."
+      - text: "“I will plant trees,” said Mina. → Mina said that she would plant trees."
+        note: "The tense and the pronoun change."
+    tip: "No question marks in indirect questions! They are statements about a question."
+    practice:
+      - q: "Report this: “Can we use solar panels?” asked Sam."
+        options: ["Sam asked if they could use solar panels.", "Sam asked can we use solar panels?", "Sam asked, “if they could use solar panels.”", "Sam asked could they use solar panels."]
+        answer: 0
+        explain: "Use 'if', change 'can' to 'could' and 'we' to 'they', and end with a full stop."
+      - q: "Which indirect question is correct?"
+        options: ["She asked where was the dam.", "She asked where the dam was.", "She asked where the dam was?", "She asked, where the dam was."]
+        answer: 1
+        explain: "Statement word order and a full stop."
+      - q: "Report this: “I am tired,” said Ali."
+        options: ["Ali said that I am tired.", "Ali said that he was tired.", "Ali said he is tired?", "Ali said, he was tired."]
+        answer: 1
+        explain: "'I' becomes 'he' and 'am' becomes 'was'."
+      - q: "Which word can report a yes/no question?"
+        options: ["whether", "because", "although", "unless"]
+        answer: 0
+        explain: "'If' or 'whether' report yes/no questions."
+      - q: "What punctuation ends an indirect question?"
+        options: ["a question mark", "a full stop", "inverted commas", "a colon"]
+        answer: 1
+        explain: "An indirect question is a statement, so it ends with a full stop."
+  - title: Word classes
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "143"
+    wb: "95"
+    intro: >-
+      Every word in a sentence has a job, like players in a team. When you know each word's job, you can build
+      sentences that are clear, correct and powerful.
+    points:
+      - "**Nouns** name things (energy, panels). **Pronouns** replace nouns (they, it)."
+      - "**Verbs** show actions or states (generate, is). **Adjectives** describe nouns (clean, solar)."
+      - "**Adverbs** describe verbs, adjectives or other adverbs (cleanly, very)."
+      - "**Prepositions** show position or time (in, on, of). **Conjunctions** join words or clauses (and, but, because)."
+      - "**Determiners** come before nouns to show which or how many (the, a, some, this, its)."
+    examples:
+      - text: "**The** (determiner) **wind** (noun) **turns** (verb) **huge** (adjective) **blades** (noun) **quickly** (adverb)."
+        note: "Each word has its own job."
+      - text: "They built **a** farm **on** the hill **and** it worked."
+        note: "A determiner, a preposition and a conjunction."
+      - text: "We **paint** walls. / We bought some **paint**."
+        note: "The same word can be a verb or a noun, depending on its job."
+    tip: "Do not guess from the word alone. Look at how it is used in the sentence."
+    practice:
+      - q: "What word class is 'solar' in 'solar panels'?"
+        options: ["noun", "verb", "adjective", "adverb"]
+        answer: 2
+        explain: "'Solar' describes the panels, so it is an adjective."
+      - q: "Which word is a preposition? 'The panels sit on the roof.'"
+        options: ["panels", "sit", "on", "roof"]
+        answer: 2
+        explain: "'On' shows position."
+      - q: "Which word is a determiner? 'Some farms use biogas.'"
+        options: ["Some", "farms", "use", "biogas"]
+        answer: 0
+        explain: "'Some' comes before the noun and tells us how many."
+      - q: "What word class is 'they' in 'They built a dam'?"
+        options: ["noun", "pronoun", "conjunction", "determiner"]
+        answer: 1
+        explain: "'They' replaces a noun, so it is a pronoun."
+      - q: "Which word is a conjunction? 'It is cheap and it is clean.'"
+        options: ["cheap", "and", "is", "clean"]
+        answer: 1
+        explain: "'And' joins the two clauses."
+  - title: Verb forms
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "147"
+    wb: "98"
+    intro: >-
+      Verbs are shape-shifters! The same verb can take several forms, and each one helps you to show exactly when and
+      how something happens.
+    points:
+      - "The **base form**: generate, spin, capture."
+      - "The **third person singular present**: generates, spins, captures."
+      - "The **present participle** (-ing form): generating, spinning, capturing. It is used with 'is', 'are' or 'was'."
+      - "The **simple past**: generated, spun, captured."
+      - "The **past participle**: generated, spun, captured. It is used with 'has', 'have' or 'had', and in the passive."
+    examples:
+      - text: "The turbine **spins**."
+        note: "Third person singular present."
+      - text: "The turbines **are spinning**."
+        note: "Present participle with 'are'."
+      - text: "The panels **have captured** sunlight all day."
+        note: "Past participle with 'have'."
+    tip: "Irregular verbs change in surprising ways: write, wrote, written. Learn them in sets of three."
+    practice:
+      - q: "Which is the present participle of 'generate'?"
+        options: ["generates", "generated", "generating", "generate"]
+        answer: 2
+        explain: "The present participle ends in -ing."
+      - q: "Choose the correct form: 'Solar power ___ more popular every year.'"
+        options: ["become", "becomes", "becoming", "become's"]
+        answer: 1
+        explain: "Third person singular present: becomes."
+      - q: "Choose the correct form: 'They have ___ a new dam.'"
+        options: ["build", "builded", "built", "building"]
+        answer: 2
+        explain: "After 'have', use the past participle: built."
+      - q: "Which is the simple past of 'spin'?"
+        options: ["spinned", "spun", "spinning", "spins"]
+        answer: 1
+        explain: "'Spin' is irregular: spin, spun, spun."
+      - q: "Which sentence uses a past participle?"
+        options: ["The sun shines.", "The panel has stored energy.", "The panel stores energy.", "The panel is storing energy."]
+        answer: 1
+        explain: "'stored' after 'has' is a past participle."

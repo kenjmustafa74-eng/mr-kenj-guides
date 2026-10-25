@@ -313,3 +313,84 @@ basket:
   - prompt: Catch the words that use a prefix or suffix to make an opposite
     correct: [unfair, invisible, impossible, disagree, fearless, careless, unusual, hopeless]
     wrong: [happy, careful, visible, agree, possible, usual, hopeful, fair]
+grammar:
+  - title: Modal verbs
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "36–37"
+    wb: "19"
+    intro: >-
+      Modal verbs are small helping verbs with a big job. They tell us how likely something is, whether we are
+      able to do it, or whether we must do it. P.T. Barnum used them all the time to make people curious about his shows!
+    points:
+      - "The modal verbs are **can, could, may, might, must, shall, should, will** and **would**."
+      - "A modal verb goes **before the main verb**, and the main verb stays in its basic form: 'You **must see** this show!'"
+      - "Modals show **ability** (can, could), **possibility** (may, might, could), **certainty** (will, must) and **obligation or advice** (must, should)."
+      - "Modal verbs never add -s: we say 'she **can** sing', not 'she cans sing'."
+    examples:
+      - text: "You **must** buy a ticket before you go in."
+        note: "'must' shows that it is necessary."
+      - text: "The weather **might** change, so bring a coat."
+        note: "'might' shows that something is possible but not certain."
+      - text: "When she was young, she **could** read three languages."
+        note: "'could' shows ability in the past."
+    practice:
+      - q: "Which word is a modal verb?"
+        options: ["circus", "should", "quickly", "amazing"]
+        answer: 1
+        explain: "'should' is a modal verb. It gives advice, as in 'You should practise every day.'"
+      - q: "Which sentence is correct?"
+        options: ["She can sings beautifully.", "She cans sing beautifully.", "She can sing beautifully.", "She can to sing beautifully."]
+        answer: 2
+        explain: "After a modal verb, the main verb stays in its basic form: 'can sing'."
+      - q: "Which modal verb shows that something is **certain**?"
+        options: ["might", "may", "could", "will"]
+        answer: 3
+        explain: "'will' shows certainty: 'The show will start at seven.'"
+      - q: "Choose the best modal verb: 'You ___ wear a helmet when you ride a bike. It is the rule.'"
+        options: ["must", "might", "could", "may"]
+        answer: 0
+        explain: "It is a rule, so it is an obligation. 'must' is the strongest choice."
+      - q: "What does 'might' show in 'It might snow tomorrow'?"
+        options: ["Certainty", "Possibility", "An order", "Past ability"]
+        answer: 1
+        explain: "'might' tells us that snow is possible, but not certain."
+  - title: Comparative and superlative adjectives and adverbs
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "47"
+    wb: "28"
+    intro: >-
+      When we compare people, places or actions, we need special forms of adjectives and adverbs. The comparative
+      compares two things, and the superlative picks out the very top one. Let's compare like champions!
+    points:
+      - "**Comparative** forms compare two things. Add **-er** to short words (taller, faster) or use **more** with longer words (more famous, more carefully)."
+      - "**Superlative** forms compare three or more. Add **-est** to short words (tallest, fastest) or use **most** (most famous, most carefully). Use 'the' before them."
+      - "For words ending in -y, change y to i: happy → happier → happiest."
+      - "Some words are irregular: good → better → best; bad → worse → worst; well → better → best."
+    examples:
+      - text: "The elephant was **bigger** than the horse."
+        note: "Comparative adjective: two things are compared."
+      - text: "Jenny Lind was the **most popular** singer of her time."
+        note: "Superlative adjective with 'most' because 'popular' is a long word."
+      - text: "She worked **harder** than anyone else in her class."
+        note: "Comparative adverb: it describes how she worked."
+    practice:
+      - q: "Which is the comparative form of 'brave'?"
+        options: ["bravest", "braver", "more brave", "most brave"]
+        answer: 1
+        explain: "'brave' is a short word, so we add -r: 'braver'."
+      - q: "Choose the correct sentence."
+        options: ["This is the most good show.", "This is the goodest show.", "This is the best show.", "This is the better show of all."]
+        answer: 2
+        explain: "'good' is irregular: good, better, best."
+      - q: "Which word completes the sentence? 'She was the ___ scientist in the whole country.'"
+        options: ["most famous", "famouser", "more famous", "famousest"]
+        answer: 0
+        explain: "We are comparing her with everyone in the country, so we need the superlative 'most famous'."
+      - q: "What is the superlative form of 'happy'?"
+        options: ["happyest", "most happy", "happier", "happiest"]
+        answer: 3
+        explain: "Change the y to i and add -est: 'happiest'."
+      - q: "Which sentence uses a comparative adverb?"
+        options: ["He ran quickly.", "He ran more quickly than his brother.", "He is quick.", "He is the quickest."]
+        answer: 1
+        explain: "'more quickly' compares how two people ran, so it is a comparative adverb."

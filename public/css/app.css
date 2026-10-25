@@ -294,3 +294,20 @@ table.students tr.link { cursor: pointer; }
   table.students.stackable td[data-label]::before { content: attr(data-label); display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); font-weight: 600; }
   table.students.stackable td.wide { grid-column: 1 / -1; }
 }
+
+/* Grammar tab (inside every unit) */
+.grammar-index { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .8rem; }
+.grammar-index a { display: inline-block; padding: .35rem .7rem; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--ink); font-size: .88rem; text-decoration: none; }
+.grammar-index a:hover, .grammar-index a:focus-visible { border-color: var(--unit, var(--brand)); color: var(--brand); }
+.grammar-topic { border-top: 4px solid var(--unit, var(--brand)); scroll-margin-top: calc(var(--nav-h) + .5rem); }
+.grammar-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem; }
+.grammar-head h2 { margin: 0; }
+.grammar-topic h3 { margin: 1rem 0 .4rem; font-size: 1rem; }
+.grammar-examples { display: grid; gap: .5rem; }
+.grammar-examples .example { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--unit, var(--brand)); border-radius: 10px; padding: .55rem .8rem; }
+.grammar-examples .example p { margin: 0 0 .15rem; }
+.grammar-examples .example u { text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* Links between the years' guides */
+.other-guide { display: flex; align-items: center; justify-content: center; gap: .35rem; flex-wrap: wrap; }
+.other-guide .icon { width: 1.05em; height: 1.05em; }

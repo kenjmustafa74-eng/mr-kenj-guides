@@ -303,3 +303,124 @@ basket:
   - prompt: Catch the words that show an opinion
     correct: [amazing, wonderful, terrifying, beautiful, the best, fantastic, horrible, incredible]
     wrong: [venom, ocean, scales, tentacles, species, prey, shell, desert]
+grammar:
+  - title: Adverbs and adverbial phrases of time and frequency
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "113"
+    wb: "70"
+    intro: >-
+      Adverbs add detail to verbs. Some tell us **when** something happens, and some tell us **how often**.
+      They are very useful when you write about animals: when they hunt, and how often they bite or sting!
+    points:
+      - "Adverbs of **time** tell us when: now, later, yesterday, soon, tonight."
+      - "Adverbs of **frequency** tell us how often: always, usually, often, sometimes, rarely, never."
+      - "An **adverbial phrase** is a group of words that does the same job: 'at night', 'every morning', 'once a year'."
+      - "Adverbs of frequency usually go **before the main verb** ('Scorpions **often** hide') but **after** 'is', 'are' and 'was' ('They are **rarely** seen')."
+    examples:
+      - text: "Box jellyfish **usually** drift near the surface."
+        note: "'usually' tells us how often."
+      - text: "**At night**, the scorpion comes out to hunt."
+        note: "An adverbial phrase of time at the start, followed by a comma."
+      - text: "We will visit the reptile house **tomorrow**."
+        note: "'tomorrow' tells us when."
+    practice:
+      - q: "Which word is an adverb of frequency?"
+        options: ["yesterday", "sometimes", "quickly", "here"]
+        answer: 1
+        explain: "'sometimes' tells us how often something happens."
+      - q: "Which is an adverbial phrase of time?"
+        options: ["under the rock", "very slowly", "every evening", "a green snake"]
+        answer: 2
+        explain: "'every evening' tells us when."
+      - q: "Where should the adverb go? 'Snakes ___ shed their skin.' (regularly)"
+        options: ["Snakes shed regularly their skin.", "Snakes regularly shed their skin.", "Regularly snakes their skin shed.", "Snakes shed their regularly skin."]
+        answer: 1
+        explain: "Adverbs of frequency usually go before the main verb: 'regularly shed'."
+      - q: "Which sentence is correct?"
+        options: ["Stonefish are seen rarely by divers.", "Stonefish rarely are seen by divers.", "Stonefish are rarely seen by divers.", "Rarely stonefish are seen by divers."]
+        answer: 2
+        explain: "With 'are', the adverb of frequency comes after it: 'are rarely seen'."
+      - q: "What does 'never' tell us?"
+        options: ["How often", "Where", "How", "How much"]
+        answer: 0
+        explain: "'never' is an adverb of frequency: it tells us how often (not at all!)."
+  - title: Modal verbs of possibility
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "125–126"
+    wb: "76"
+    intro: >-
+      Scientists are careful about what they say. When they are not completely sure, they use modal verbs of
+      possibility. These verbs show how certain we are, from 'it will happen' all the way down to 'it can't be true'.
+    points:
+      - "**will** and **must** show we are almost certain: 'That **must** be a sea snake.'"
+      - "**should** and **would** show that something is likely or expected."
+      - "**may**, **might** and **could** show that something is possible: 'It **might** be venomous.'"
+      - "**can't** shows we are sure something is **not** true: 'It **can't** be a shark; it is far too small.'"
+    examples:
+      - text: "That spider **could** be dangerous, so don't touch it."
+        note: "Possible, but not certain."
+      - text: "The tracks are fresh. The animal **must** be nearby."
+        note: "The writer is almost certain because of the evidence."
+      - text: "It **can't** be a cobra. Cobras don't live here."
+        note: "The writer is sure it is not true."
+    practice:
+      - q: "Which modal verb shows the strongest certainty?"
+        options: ["might", "could", "may", "must"]
+        answer: 3
+        explain: "'must' shows that we are almost certain."
+      - q: "Choose the best word: 'Take a torch. It ___ be dark in the cave.'"
+        options: ["might", "can't", "mustn't", "shan't"]
+        answer: 0
+        explain: "It is possible that the cave is dark, so 'might' fits."
+      - q: "What does 'It can't be a jellyfish' mean?"
+        options: ["It is probably a jellyfish.", "We are sure it is not a jellyfish.", "It might be a jellyfish.", "It was a jellyfish."]
+        answer: 1
+        explain: "'can't' shows we are sure something is not true."
+      - q: "Which sentence shows possibility?"
+        options: ["The frog is poisonous.", "The frog may be poisonous.", "The frog was poisonous.", "The frog is not poisonous."]
+        answer: 1
+        explain: "'may' shows that it is possible, but not certain."
+      - q: "Which modal verb fits? 'The museum ___ be open by now; it opens at nine and it is ten o'clock.'"
+        options: ["can't", "should", "mightn't", "couldn't"]
+        answer: 1
+        explain: "We expect it to be open, so 'should' fits best."
+  - title: Adverbs and adverbial phrases of place and manner
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "130"
+    wb: "79"
+    intro: >-
+      Some adverbs tell us **where** something happens and some tell us **how** it happens. They help your reader
+      picture the scene, like a camera zooming in on a creature creeping through the grass.
+    points:
+      - "Adverbs of **place** tell us where: here, there, outside, nearby, everywhere."
+      - "Adverbs of **manner** tell us how: slowly, silently, carefully. Many end in **-ly**."
+      - "Adverbial phrases do the same job: 'under the leaves', 'in the shallow water', 'with great care'."
+      - "Moving an adverbial to the start of a sentence can build suspense: '**Silently**, the snake slid forward.'"
+    examples:
+      - text: "The stonefish waited **motionlessly** on the sea bed."
+        note: "'motionlessly' tells us how it waited."
+      - text: "**Under a flat rock**, a scorpion was hiding."
+        note: "An adverbial phrase of place at the start, followed by a comma."
+      - text: "Handle the specimen **with great care**."
+        note: "An adverbial phrase of manner."
+    practice:
+      - q: "Which word is an adverb of manner?"
+        options: ["nearby", "gently", "today", "often"]
+        answer: 1
+        explain: "'gently' tells us how something is done."
+      - q: "Which is an adverbial phrase of place?"
+        options: ["in the long grass", "very carefully", "last week", "twice a day"]
+        answer: 0
+        explain: "'in the long grass' tells us where."
+      - q: "What does the adverb tell us? 'The snake moved silently.'"
+        options: ["When", "Where", "How", "How often"]
+        answer: 2
+        explain: "'silently' tells us how the snake moved."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["Slowly the spider, climbed the wall.", "Slowly, the spider climbed the wall.", "Slowly the, spider climbed the wall.", "Slowly the spider climbed, the wall."]
+        answer: 1
+        explain: "When an adverb starts the sentence, put a comma after it."
+      - q: "Which word is an adverb of place?"
+        options: ["outside", "quietly", "never", "soon"]
+        answer: 0
+        explain: "'outside' tells us where."

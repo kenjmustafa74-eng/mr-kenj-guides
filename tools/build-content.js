@@ -18,7 +18,11 @@ const OUT = path.join(ROOT, 'content', `${YEAR}.json`);
 const ANSWERS = path.join(ROOT, 'private', YEAR, 'answers.json');
 
 // Inline Lucide icon names per unit (no emoji: they render differently on every device).
-const ICONS = { 1: 'scroll-text', 2: 'book-user', 3: 'feather', 4: 'cog', 5: 'snail', 6: 'book-open-text', 7: 'drama', 8: 'clapperboard', 9: 'megaphone' };
+const ICONS_BY_YEAR = {
+  year5: { 1: 'scroll-text', 2: 'book-user', 3: 'feather', 4: 'cog', 5: 'snail', 6: 'book-open-text', 7: 'drama', 8: 'clapperboard', 9: 'megaphone' },
+  year6: { 1: 'rocket', 2: 'fish', 3: 'sailboat', 4: 'lightbulb', 5: 'leaf', 6: 'wind', 7: 'book-marked', 8: 'user-round', 9: 'theater' },
+};
+const ICONS = ICONS_BY_YEAR[YEAR] || ICONS_BY_YEAR.year5;
 const BANNED = /rainbow|\bpig(s|let|lets|gy|gies)?\b|\bhogs?\b|\bswine\b|\bpork\b|\boink\b|\u{1F308}|\u{1F437}|\u{1F416}|\u{1F43D}|\u{1F417}/iu;
 const NO_SMART = new Set(['colour', 'icon', 'id', 'code', 'part']);
 
@@ -63,13 +67,21 @@ for (let n = 1; n <= 9; n++) {
     need(!overlap.length, `${where}: basket overlap ${overlap}`);
   }
   for (const q of u.practice || []) need(new Set(q.options).size === 4, `${where}: duplicate options in "${q.q}"`);
+  // Grammar: every unit has its own grammar topics, each with an explanation, examples and a short practice.
+  const qOk = (q) => q.q && q.options?.length === 4 && new Set(q.options).size === 4 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4 && q.explain;
+  need(u.grammar?.length >= 2, `${where}: grammar topics`);
+  for (const [i, g] of (u.grammar || []).entries()) {
+    need(g.title && g.lesson && g.pages && g.intro && g.points?.length >= 2 && g.examples?.length >= 2
+      && g.examples.every((e) => e.text) && g.practice?.length >= 4 && g.practice.every(qOk), `${where}: grammar topic ${i + 1} (${g.title})`);
+  }
   delete u.icon;
   u.icon = ICONS[n];
   // stable ids for progress tracking
   u.sb = u.sb.map((s, i) => ({ id: `u${n}-sb-${i}`, ...s }));
-  u.wb = u.wb.map((w) => ({ id: `u${n}-wb-${w.code === 'J' ? 'journal' : w.code}`, ...w }));
+  u.wb = u.wb.map((w) => ({ id: `u${n}-wb-${w.code === 'J' ? 'journal' : (w.key || w.code)}`, ...w }));
   u.cards = u.cards.map((c, i) => ({ id: `u${n}-c${i}`, ...c }));
   u.practice = u.practice.map((q, i) => ({ id: `u${n}-q${i}`, ...q }));
+  u.grammar = (u.grammar || []).map((g, i) => ({ id: `u${n}-g${i + 1}`, ...g, practice: g.practice.map((q, k) => ({ id: `u${n}-g${i + 1}-q${k}`, ...q })) }));
   units.push(u);
 }
 const ids = units.flatMap((u) => [...u.sb, ...u.wb].map((x) => x.id));
@@ -96,4 +108,4 @@ else console.log(`Note: ${path.relative(ROOT, ANSWERS)} not found – skipping t
 if (errors.length) { console.error('Content build FAILED:\n - ' + errors.join('\n - ')); process.exit(1); }
 fs.writeFileSync(OUT, json);
 const c = (k) => units.reduce((s, u) => s + u[k].length, 0);
-console.log(`Built ${OUT}: ${units.length} units, ${c('sb')} Student Book sections, ${c('wb')} Workbook activities, ${c('vocab')} words, ${c('cards')} cards, ${c('practice')} questions, ${c('basket')} basket rounds.`);
+console.log(`Built ${OUT}: ${units.length} units, ${c('sb')} Student Book sections, ${c('wb')} Workbook activities, ${c('vocab')} words, ${c('cards')} cards, ${c('practice')} questions, ${c('basket')} basket rounds, ${c('grammar')} grammar topics.`);

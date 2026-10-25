@@ -1,0 +1,441 @@
+id: 3
+title: Stories From The Sea
+colour: "#0f5c5c"
+sbStart: 52
+wbStart: 35
+sbPages: "52–76"
+wbPages: "35–51"
+parts:
+  - code: 3A
+    title: Dangers at Sea
+  - code: 3B
+    title: Sea Adventures
+overview: >-
+  Hoist the sails! This unit is full of salty sea air and daring adventures. You will read about a clever boy who
+  outwits egg pirates, and about a girl whose best friend is a one-legged seagull. Both stories use flashbacks, so you
+  will learn how a memory from the past can change what happens next. Then you will write your own adventure story
+  with a flashback.
+objectives:
+  - Explain what a flashback is and how it affects the plot of an adventure story.
+  - Use adverbs and adverbial phrases of time, place and manner.
+  - Recognise similes, metaphors, personification, onomatopoeia, alliteration and idioms.
+  - Use suffixes to change the word class of a word.
+  - Use relative pronouns and relative clauses to add information.
+  - Punctuate direct speech correctly and change it into reported speech.
+  - Speak confidently and fluently, and write an adventure story with a flashback.
+texts:
+  - title: Yao Bai and the Egg Pirates
+    kind: Adventure story
+    pages: "54–60"
+    summary: >-
+      Long ago, at the time of the California gold rush, Yao Bai sails out with his father and uncle to collect
+      seabird eggs from the islands near San Francisco to sell in the city. The family is poor and needs the money,
+      but the sea is home to egg pirates. When the pirates come, Yao remembers something from a fishing trip the week
+      before, and his clever idea saves the family's eggs.
+  - title: Katie and Gulliver
+    kind: Adventure story with flashbacks
+    pages: "66–72"
+    summary: >-
+      Every holiday, Katie stays with her uncle near the harbour, where a big one-legged seagull called Gulliver seems
+      to watch over her. Flashbacks show how Gulliver has raised the alarm whenever Katie was in danger. When Katie
+      ends up stranded on a rock, and Gulliver has gone missing, the story asks whether her loyal friend could still
+      be looking after her.
+vocab:
+  - word: flashback
+    meaning: A part of a story that goes back in time to show something that happened earlier.
+    example: The flashback explains why Katie is afraid of the rocks.
+  - word: adverbial phrase
+    meaning: A group of words that tells us how, when, where or how often something happens.
+    example: They sailed home in the evening light.
+  - word: pirate
+    meaning: Someone who attacks ships or boats at sea and steals from them.
+    example: The pirates searched every boat for eggs.
+  - word: wharf
+    meaning: A platform by the water where boats tie up to load and unload.
+    example: The boat tied up at a busy wharf in the city.
+  - word: raucous
+    meaning: Very loud and harsh.
+    example: The gulls made a raucous noise over the harbour.
+  - word: dinghy
+    meaning: A small open boat.
+    example: Katie climbed into the dinghy and pretended to be a sailor.
+  - word: personification
+    meaning: Giving human qualities to something that is not human.
+    example: The waves whispered secrets to the shore.
+  - word: idiom
+    meaning: A phrase whose meaning is different from the meanings of its separate words.
+    example: "'Under the weather' means feeling ill."
+  - word: relative clause
+    meaning: A clause that gives more information about a noun. It begins with who, whom, whose, which or that.
+    example: The seagull, which had only one leg, landed on the post.
+  - word: reported speech
+    meaning: Telling what someone said without using their exact words.
+    example: Katie said that she missed Gulliver.
+sb:
+  - part: 3A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "52–53"
+    tip: Look at the photograph. What dangers could the sailors face, and how are they keeping safe?
+  - part: 3A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "53"
+    tip: Use the book cover and the title to predict what the stories will be about.
+  - part: 3A
+    lesson: Lesson 2
+    title: "Let's Learn: Flashbacks in adventure stories"
+    pages: "53"
+    tip: Ask what the character remembers and how the memory helps them to decide what to do now.
+  - part: 3A
+    lesson: Lesson 3
+    title: "Reading Part 1: Yao Bai and the Egg Pirates"
+    pages: "54–56"
+    tip: Notice how Yao feels about the pirates. Which words and actions show his feelings?
+  - part: 3A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Adverbs and adverbial phrases"
+    pages: "57"
+    tip: Ask 'How?', 'When?' or 'Where?' about the verb. The answer is the adverb or adverbial phrase.
+  - part: 3A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Yao Bai and the Egg Pirates and Reading Comprehension"
+    pages: "58–60"
+    tip: Think about how the flashbacks help Yao to solve the problem.
+  - part: 3A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Figurative language"
+    pages: "61"
+    tip: Like or as means a simile. If something is said to BE something else, it is a metaphor.
+  - part: 3A
+    lesson: Lesson 8
+    title: "Word Structure: Suffixes and word classes"
+    pages: "62"
+    tip: Suffixes such as -ly, -ion, -ory and -ance can turn a word into an adverb, a noun or an adjective.
+  - part: 3A
+    lesson: Lesson 9
+    title: "Writing: Plan a short adventure story"
+    pages: "63–64"
+    tip: Plan a problem, a flashback that helps your character, and an exciting climax.
+  - part: 3B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Structure of stories with flashbacks"
+    pages: "65"
+    tip: Think of a film or story with a flashback. Where in the plot did it happen, and why?
+  - part: 3B
+    lesson: Lesson 11
+    title: "Reading Part 1: Katie and Gulliver"
+    pages: "66–68"
+    tip: Spot the flashbacks. What do they tell you about Gulliver and Katie?
+  - part: 3B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Relative pronouns and clauses"
+    pages: "69"
+    tip: Use 'who' and 'whom' for people, 'which' for things and 'that' for people or things.
+  - part: 3B
+    lesson: Lesson 13
+    title: "Reading Part 2: Katie and Gulliver and Reading Comprehension"
+    pages: "70–72"
+    tip: Think about how Katie feels at the end and why the family wants to remember Gulliver.
+  - part: 3B
+    lesson: Lesson 14
+    title: "Language Focus – Punctuation: Direct speech"
+    pages: "73"
+    tip: Put the spoken words inside inverted commas, with the comma, full stop or question mark inside too.
+  - part: 3B
+    lesson: Lesson 15
+    title: "Speaking and Listening: Confidence and fluency"
+    pages: "74"
+    tip: Practise reading aloud. Look up, vary your voice and pause at punctuation.
+  - part: 3B
+    lesson: Lessons 16–17
+    title: "Writing: A short adventure story with flashbacks"
+    pages: "75"
+    tip: Use your plan, write in the past tense, and make sure your flashback helps your character.
+  - part: 3B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "76"
+    tip: Which story did you enjoy more, and what did you learn about writing flashbacks?
+wb:
+  - code: 3A
+    title: "Let's Learn: Flashbacks in adventure stories"
+    pages: "35"
+    steps:
+      - "Question 1: read the extract about Mara and answer the questions about her flashback."
+      - "Question 2: label the pictures in the order of the story."
+    tip: A flashback goes back in time, then the story returns to 'now'.
+  - code: 3B
+    title: "Language Focus: Adverbs and adverbial phrases"
+    pages: "36"
+    steps:
+      - "Question 1: match the adverbs to their meanings."
+      - "Question 2: complete the paragraph with suitable adverbs."
+      - "Questions 3–4: find adverbial phrases and add your own to sentences."
+    tip: "Say what type each adverbial phrase is: time, place or manner."
+  - code: 3C
+    title: "Reading Comprehension: Yao Bai and the Egg Pirates"
+    pages: "37–38"
+    steps:
+      - Reread 'Yao Bai and the Egg Pirates' in your Student's Book.
+      - "Questions 1–2: put the events in order and match them to the parts of the plot."
+      - "Questions 3–4: answer the questions about the characters, the setting and the theme."
+    tip: Check the order of events by finding each one in the story.
+  - code: 3D
+    title: "Language Focus: Figurative language"
+    pages: "39"
+    steps:
+      - "Question 1: name the type of figurative language in each sentence."
+      - "Question 2: find the figurative language and explain why the writer used it."
+    tip: Explain the effect. What does the figurative language help the reader to imagine?
+  - code: 3E
+    title: "Word Structure: Suffixes and word classes"
+    pages: "40"
+    steps:
+      - "Questions 1–2: add suffixes to complete the words."
+      - "Question 3: find out what the words mean."
+    tip: Check whether the new word is a noun, an adjective or an adverb.
+  - code: 3F
+    title: "Writing: Plan a short adventure story"
+    pages: "41–42"
+    steps:
+      - Choose your characters, your setting and the danger they face.
+      - Plan the exposition, rising action, climax, falling action and resolution.
+      - Decide where your flashback will go and how it will help.
+    tip: A good flashback gives your character the idea or courage to solve the problem.
+  - code: 3G
+    title: "Let's Learn: Structure of stories with flashbacks"
+    pages: "43"
+    steps:
+      - "Question 1: choose the correct answer."
+      - "Questions 2–3: write paragraphs that include a flashback."
+      - "Question 4: think about flashbacks in films or shows you know."
+    tip: Write your flashback in the past tense.
+  - code: 3H
+    title: "Language Focus: Relative pronouns and clauses"
+    pages: "44"
+    steps:
+      - "Questions 1 and 3: find the relative clauses."
+      - "Questions 2 and 4: complete or write sentences with relative clauses."
+    tip: Use commas around a relative clause that adds extra, non-essential information.
+  - code: 3I
+    title: "Reading Comprehension: Katie and Gulliver"
+    pages: "45–46"
+    steps:
+      - Reread 'Katie and Gulliver' in your Student's Book.
+      - "Questions 1–4: answer the questions about the setting, the flashbacks and the characters."
+      - "Question 5: write sentences with relative clauses about the story."
+      - "Question 6: give your own response to the story."
+    tip: Use quotations from the story to support your answers.
+  - code: 3J
+    title: "Language Focus: Direct speech"
+    pages: "47"
+    steps:
+      - "Question 1: find the direct speech and explain its purpose."
+      - "Question 2: write a short scene of your own with direct speech."
+    tip: Start a new line each time a new person speaks.
+  - code: 3K
+    title: "Writing: A short adventure story with flashbacks"
+    pages: "48"
+    steps:
+      - Think about your purpose, your audience, technology and layout.
+      - Write your adventure story from your plan.
+      - Revise and edit your story.
+    tip: Short sentences build excitement at the climax.
+  - code: 3L
+    title: What Have I Learnt?
+    pages: "49–50"
+    steps:
+      - Read the adventure story extract carefully.
+      - "Questions 1–9: answer the questions about the setting, the language and the characters."
+      - "Question 10: write a flashback of your own."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "51"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What is a flashback?
+    back: A part of a story that goes back in time to show an earlier event.
+  - front: How does Yao save his family's eggs from the pirates?
+    back: He remembers the nets from a shrimping trip the week before, and the family uses them to trick the pirates.
+  - front: Who is Gulliver?
+    back: A big one-legged seagull who seems to watch over Katie and raises the alarm when she is in danger.
+  - front: What is the difference between a simile and a metaphor?
+    back: A simile compares using 'like' or 'as'. A metaphor says one thing is another.
+  - front: Which relative pronouns do we use for people and for things?
+    back: Who, whom and that for people; which and that for things; whose shows belonging.
+  - front: What three questions can adverbs and adverbial phrases answer?
+    back: How? (manner), When? (time) and Where? (place).
+  - front: Where does the comma go in direct speech?
+    back: "Inside the inverted commas: “I can see the boat,” said Yao."
+practice:
+  - q: What is a flashback?
+    options: ["A part of the story that jumps to the future", "A part of the story that goes back to an earlier time", "The title of a story", "The last line of a story"]
+    answer: 1
+    explain: A flashback goes back in time to show something that happened earlier.
+  - q: Which is an adverbial phrase of place?
+    options: ["very carefully", "early that morning", "over the side of the boat", "every day"]
+    answer: 2
+    explain: "'over the side of the boat' tells us where."
+  - q: "Which type of figurative language is this? 'The sea was a hungry monster.'"
+    options: ["simile", "metaphor", "onomatopoeia", "alliteration"]
+    answer: 1
+    explain: The sea is said to be a monster, without 'like' or 'as', so it is a metaphor.
+  - q: Why does the family in 'Yao Bai and the Egg Pirates' go out in their boat?
+    options: ["To catch whales", "To collect eggs to sell", "To find gold", "To race the pirates"]
+    answer: 1
+    explain: They collect seabird eggs to sell in the city.
+  - q: "Which sentence is punctuated correctly?"
+    options: ["“Where is Gulliver”? asked Katie.", "“Where is Gulliver?” asked Katie.", "“Where is Gulliver? asked Katie.”", "Where is Gulliver? “asked Katie.”"]
+    answer: 1
+    explain: The question mark goes inside the inverted commas.
+  - q: Which suffix turns 'imagine' into a noun?
+    options: ["-ly", "-ation", "-ful", "-ory"]
+    answer: 1
+    explain: "imagine → imagination."
+  - q: Which relative pronoun completes the sentence? 'The gull, ___ had one leg, sat on the post.'
+    options: ["who", "which", "whose", "whom"]
+    answer: 1
+    explain: The gull is an animal, so 'which' is used here.
+  - q: How does Gulliver help Katie in the flashbacks?
+    options: ["He brings her food", "He screams to get help when she is in danger", "He steers the boat", "He finds lost eggs"]
+    answer: 1
+    explain: Gulliver's loud cries bring Katie's father or uncle to help.
+basket:
+  - prompt: Catch the adverbs
+    correct: [carefully, quickly, fearfully, grimly, eagerly, reluctantly, gradually, cautiously]
+    wrong: [seagull, harbour, slippery, pirate, wharf, raucous, island, dinghy]
+  - prompt: Catch the words to do with the sea and sailing
+    correct: [harbour, dinghy, wharf, sail, tide, waves, deck, anchor]
+    wrong: [desert, cactus, camel, sand dune, oasis, volcano, glacier, canyon]
+  - prompt: Catch the relative pronouns
+    correct: [who, whom, whose, which, that]
+    wrong: [quickly, sea, boat, and, but, because, very, often]
+grammar:
+  - title: Adverbs and adverbial phrases
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "57"
+    wb: "36"
+    intro: >-
+      Adverbs are the storyteller's secret ingredient. They tell your reader exactly how, when and where things
+      happen, so a plain sentence becomes a vivid scene.
+    points:
+      - "An **adverb** gives more information about a verb. Many adverbs end in **-ly**: grimly, quickly, fearfully."
+      - "An **adverbial phrase** is a group of words that does the same job: 'at last', 'over the side', 'early that morning'."
+      - "Adverbs and adverbials can tell us about **manner** (how), **time** (when) and **place** (where)."
+      - "You can move an adverbial to the front of a sentence for effect. Put a comma after it: 'At dawn, they set sail.'"
+    examples:
+      - text: "Yao whispered **fearfully**."
+        note: "Manner: how he whispered."
+      - text: "**Early that morning**, they rowed to the island."
+        note: "Time: when they rowed. The fronted adverbial is followed by a comma."
+      - text: "They lowered the nets **over the side of the boat**."
+        note: "Place: where they lowered the nets."
+    tip: "Ask the verb a question: how? when? where? The answer is your adverb or adverbial."
+    practice:
+      - q: "Which word is an adverb? 'The pirates rowed silently towards the boat.'"
+        options: ["pirates", "rowed", "silently", "boat"]
+        answer: 2
+        explain: "'silently' tells us how they rowed."
+      - q: "What does the adverbial phrase tell us? 'They sailed home at sunset.'"
+        options: ["how", "when", "where", "how often"]
+        answer: 1
+        explain: "'at sunset' tells us when."
+      - q: "Which is an adverbial phrase of place?"
+        options: ["with great care", "after lunch", "under the nets", "very slowly"]
+        answer: 2
+        explain: "'under the nets' tells us where."
+      - q: "Which sentence uses a fronted adverbial correctly?"
+        options: ["In the morning the boat left.", "In the morning, the boat left.", "In, the morning the boat left.", "In the morning the, boat left."]
+        answer: 1
+        explain: "Put a comma after a fronted adverbial."
+      - q: "Which adverb tells us how?"
+        options: ["yesterday", "here", "carefully", "soon"]
+        answer: 2
+        explain: "'carefully' describes the manner of an action."
+  - title: Relative pronouns and clauses
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "69"
+    wb: "44"
+    intro: >-
+      Relative clauses let you slip extra detail about a person or thing into your sentence without starting a new
+      one. They make your writing flow like the tide.
+    points:
+      - "A **relative clause** gives more information about a noun. It starts with a **relative pronoun**."
+      - "Use **who** for people, **which** for things and animals, **that** for people or things, **whose** for belonging and **whom** for people when they are the object."
+      - "If the information is extra and not essential, put **commas** around the relative clause."
+      - "If the information is essential to know which one we mean, do not use commas: 'The boat **that we borrowed** was blue.'"
+    examples:
+      - text: "Katie, **who loved the harbour**, visited every holiday."
+        note: "Extra information about Katie, so commas are used."
+      - text: "The gull **that only had one leg** was Gulliver."
+        note: "Essential information that tells us which gull, so no commas."
+      - text: "The sailor **whose boat was damaged** asked for help."
+        note: "'whose' shows that the boat belonged to the sailor."
+    tip: "Take out a relative clause in commas. If the sentence still makes sense, the commas are right."
+    practice:
+      - q: "Choose the correct pronoun: 'Uncle Ralph, ___ lived near the harbour, carved a bird.'"
+        options: ["which", "who", "whose", "whom"]
+        answer: 1
+        explain: "Uncle Ralph is a person and the subject of 'lived', so we use 'who'."
+      - q: "Choose the correct pronoun: 'The net, ___ was full of shrimp, was heavy.'"
+        options: ["who", "whom", "which", "whose"]
+        answer: 2
+        explain: "A net is a thing, so we use 'which'."
+      - q: "Which is the relative clause? 'The boy whose idea saved the eggs was Yao.'"
+        options: ["The boy", "whose idea saved the eggs", "was Yao", "saved the eggs was"]
+        answer: 1
+        explain: "The relative clause begins with 'whose' and tells us more about the boy."
+      - q: "Which pronoun shows belonging?"
+        options: ["who", "which", "that", "whose"]
+        answer: 3
+        explain: "'whose' shows that something belongs to someone."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["Gulliver which was a seagull, had one leg.", "Gulliver, which was a seagull, had one leg.", "Gulliver, which was a seagull had one leg.", "Gulliver which, was a seagull had one leg."]
+        answer: 1
+        explain: "The extra information needs a comma on each side."
+  - title: Direct speech
+    lesson: "Lesson 14 · Language Focus – Punctuation"
+    pages: "73"
+    wb: "47"
+    intro: >-
+      Dialogue brings characters to life. When your reader can 'hear' them speak, your story feels real. Let's make
+      sure every word they say is punctuated perfectly.
+    points:
+      - "**Direct speech** shows the exact words a character says, inside **inverted commas** (“ ”)."
+      - "Punctuation that belongs to the spoken words goes **inside** the inverted commas: “Look!” cried Katie."
+      - "If the speech comes first, end it with a comma, question mark or exclamation mark, not a full stop, before 'said'."
+      - "Start a **new line** each time a different person speaks."
+      - "**Reported speech** tells us what someone said without inverted commas: Katie said that she was cold."
+    examples:
+      - text: "“The tide is coming in,” said Dad."
+        note: "The comma goes inside the inverted commas."
+      - text: "Uncle Ralph asked, “Have you seen Gulliver?”"
+        note: "A comma after 'asked', and the question mark inside."
+      - text: "Katie said that she had heard a seagull."
+        note: "Reported speech: no inverted commas."
+    tip: "Read your dialogue aloud. If it sounds like natural talking, you have probably got it right."
+    practice:
+      - q: "Which sentence is punctuated correctly?"
+        options: ["“We must hurry” said Dad.", "“We must hurry,” said Dad.", "“We must hurry”, said Dad.", "We must hurry, “said Dad.”"]
+        answer: 1
+        explain: "The comma goes inside the closing inverted commas."
+      - q: "Which is reported speech?"
+        options: ["“I am cold,” said Katie.", "Katie said, “I am cold.”", "Katie said that she was cold.", "“Cold!” said Katie."]
+        answer: 2
+        explain: "Reported speech has no inverted commas and usually uses 'that'."
+      - q: "When should you start a new line in dialogue?"
+        options: ["After every comma", "When a different person speaks", "Only at the end of a chapter", "Never"]
+        answer: 1
+        explain: "Each new speaker starts on a new line."
+      - q: "Which is correct?"
+        options: ["Yao asked, “Are they pirates?”", "Yao asked, “Are they pirates”?", "Yao asked “Are they pirates.”", "Yao asked, Are they pirates?"]
+        answer: 0
+        explain: "A comma after 'asked', and the question mark inside the inverted commas."
+      - q: "What are inverted commas used for?"
+        options: ["To show the exact words someone says", "To end a sentence", "To join two clauses", "To show a list"]
+        answer: 0
+        explain: "Inverted commas go around the exact words spoken."

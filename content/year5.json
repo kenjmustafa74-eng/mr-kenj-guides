@@ -1,6 +1,6 @@
 {
  "year": "year5",
- "builtAt": "2026-10-25T14:47:21.058Z",
+ "builtAt": "2026-10-25T15:50:02.326Z",
  "units": [
   {
    "id": 1,
@@ -598,6 +598,189 @@
      ]
     }
    ],
+   "grammar": [
+    {
+     "id": "u1-g1",
+     "title": "Simple and complex sentences",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "7",
+     "wb": "3",
+     "intro": "Every sentence is built from clauses. A clause is a group of words with a subject and a verb. When you know how to join clauses, your stories start to sound grown-up and exciting, just like the tales of Anansi.",
+     "points": [
+      "A **simple sentence** has one main clause. It makes sense on its own: ‘Anansi was hungry.’",
+      "A **complex sentence** has a main clause and at least one **dependent clause**. The dependent clause does not make sense on its own.",
+      "Dependent clauses often begin with words such as **when**, **because**, **as**, **if**, **although** and **after**.",
+      "The dependent clause can come first or second. If it comes first, put a comma after it."
+     ],
+     "examples": [
+      {
+       "text": "Anansi climbed the tree.",
+       "note": "Simple: one main clause."
+      },
+      {
+       "text": "__Because he was greedy__, Anansi tied a web to every pot.",
+       "note": "Complex: the underlined dependent clause comes first, so it is followed by a comma."
+      },
+      {
+       "text": "The rabbit pulled the web __when the beans were ready__.",
+       "note": "Complex: the dependent clause comes second, so no comma is needed."
+      }
+     ],
+     "tip": "Cover the dependent clause with your finger. What is left should still make sense. That is your main clause.",
+     "practice": [
+      {
+       "id": "u1-g1-q0",
+       "q": "Which of these is a simple sentence?",
+       "options": [
+        "When the sun rose, the spider woke up.",
+        "The spider woke up.",
+        "The spider woke up because it was hungry.",
+        "If you listen, you will learn."
+       ],
+       "answer": 1,
+       "explain": "‘The spider woke up.’ has just one main clause, so it is a simple sentence."
+      },
+      {
+       "id": "u1-g1-q1",
+       "q": "Which part of this sentence is the dependent clause? ‘Although he was tired, the fisherman went back to the sea.’",
+       "options": [
+        "the fisherman went back",
+        "to the sea",
+        "Although he was tired",
+        "went back to the sea"
+       ],
+       "answer": 2,
+       "explain": "‘Although he was tired’ does not make sense on its own, so it is the dependent clause."
+      },
+      {
+       "id": "u1-g1-q2",
+       "q": "Which word could begin a dependent clause?",
+       "options": [
+        "because",
+        "spider",
+        "quickly",
+        "the"
+       ],
+       "answer": 0,
+       "explain": "‘Because’ is a joining word that starts a dependent clause, as in ‘because he was greedy’."
+      },
+      {
+       "id": "u1-g1-q3",
+       "q": "Which complex sentence is punctuated correctly?",
+       "options": [
+        "When the pots were ready the rabbit pulled.",
+        "When the pots were ready, the rabbit pulled.",
+        "When, the pots were ready the rabbit pulled.",
+        "When the pots, were ready the rabbit pulled."
+       ],
+       "answer": 1,
+       "explain": "The dependent clause comes first, so a comma goes straight after it."
+      },
+      {
+       "id": "u1-g1-q4",
+       "q": "Which sentence is complex?",
+       "options": [
+        "Madan told the truth.",
+        "The king laughed loudly.",
+        "Madan told the truth because he never lied.",
+        "The king was clever."
+       ],
+       "answer": 2,
+       "explain": "It has a main clause (‘Madan told the truth’) and a dependent clause (‘because he never lied’)."
+      }
+     ]
+    },
+    {
+     "id": "u1-g2",
+     "title": "Commas to separate clauses",
+     "lesson": "Lesson 12 · Language Focus – Punctuation",
+     "pages": "20",
+     "wb": "11",
+     "intro": "Commas are like little pauses that help your reader. When a sentence has more than one clause, a comma in the right place shows where one idea ends and the next begins. Let’s make your sentences easy to follow!",
+     "points": [
+      "Put a comma **after a dependent clause** that starts a sentence: ‘If you are honest, people trust you.’",
+      "Put commas **around extra information** in the middle of a sentence: ‘Madan, who never lied, went to the palace.’",
+      "Use a comma before joining words such as **but**, **so** and **or** when they join two longer clauses.",
+      "Test it: if you take away the words between two commas, the sentence should still make sense."
+     ],
+     "examples": [
+      {
+       "text": "As the wife grew greedier, the sea grew darker.",
+       "note": "The comma comes after the dependent clause at the start."
+      },
+      {
+       "text": "The fisherman, who was a kind man, set the fish free.",
+       "note": "The commas go around the extra information about the fisherman."
+      },
+      {
+       "text": "The king tried to trick Madan, but Madan only told the truth.",
+       "note": "A comma comes before ‘but’, which joins two clauses."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u1-g2-q0",
+       "q": "Where should the commas go? ‘The fish which could talk granted the wish.’",
+       "options": [
+        "The fish, which could talk, granted the wish.",
+        "The fish which, could talk granted the wish.",
+        "The, fish which could talk granted the wish.",
+        "The fish which could talk granted, the wish."
+       ],
+       "answer": 0,
+       "explain": "‘which could talk’ is extra information, so commas go around it."
+      },
+      {
+       "id": "u1-g2-q1",
+       "q": "Which sentence uses a comma correctly?",
+       "options": [
+        "After the storm the, boat sank.",
+        "After the storm, the boat sank.",
+        "After, the storm the boat sank.",
+        "After the storm the boat, sank."
+       ],
+       "answer": 1,
+       "explain": "‘After the storm’ comes at the start, so the comma goes straight after it."
+      },
+      {
+       "id": "u1-g2-q2",
+       "q": "Which sentence still makes sense if you remove the words between the commas? ‘My uncle, a brilliant storyteller, visited us.’",
+       "options": [
+        "My uncle visited us.",
+        "A brilliant storyteller.",
+        "My uncle a brilliant.",
+        "Visited us storyteller."
+       ],
+       "answer": 0,
+       "explain": "Take away ‘a brilliant storyteller’ and you are left with ‘My uncle visited us’, which makes sense."
+      },
+      {
+       "id": "u1-g2-q3",
+       "q": "Which sentence needs a comma before the joining word?",
+       "options": [
+        "I like cats and dogs.",
+        "The wife wanted a palace, so the fisherman went back to the sea.",
+        "Tea or coffee?",
+        "Slow and steady."
+       ],
+       "answer": 1,
+       "explain": "‘so’ joins two full clauses here, so a comma goes before it."
+      },
+      {
+       "id": "u1-g2-q4",
+       "q": "Why do we use commas between clauses?",
+       "options": [
+        "To make the sentence longer",
+        "To show the reader where one idea ends and the next begins",
+        "Because every sentence needs three commas",
+        "To replace full stops"
+       ],
+       "answer": 1,
+       "explain": "Commas help the reader by separating the parts of a sentence."
+      }
+     ]
+    }
+   ],
    "icon": "scroll-text"
   },
   {
@@ -1182,6 +1365,188 @@
       "usual",
       "hopeful",
       "fair"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "id": "u2-g1",
+     "title": "Modal verbs",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "36–37",
+     "wb": "19",
+     "intro": "Modal verbs are small helping verbs with a big job. They tell us how likely something is, whether we are able to do it, or whether we must do it. P.T. Barnum used them all the time to make people curious about his shows!",
+     "points": [
+      "The modal verbs are **can, could, may, might, must, shall, should, will** and **would**.",
+      "A modal verb goes **before the main verb**, and the main verb stays in its basic form: ‘You **must see** this show!’",
+      "Modals show **ability** (can, could), **possibility** (may, might, could), **certainty** (will, must) and **obligation or advice** (must, should).",
+      "Modal verbs never add -s: we say ‘she **can** sing’, not ‘she cans sing’."
+     ],
+     "examples": [
+      {
+       "text": "You **must** buy a ticket before you go in.",
+       "note": "‘must’ shows that it is necessary."
+      },
+      {
+       "text": "The weather **might** change, so bring a coat.",
+       "note": "‘might’ shows that something is possible but not certain."
+      },
+      {
+       "text": "When she was young, she **could** read three languages.",
+       "note": "‘could’ shows ability in the past."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u2-g1-q0",
+       "q": "Which word is a modal verb?",
+       "options": [
+        "circus",
+        "should",
+        "quickly",
+        "amazing"
+       ],
+       "answer": 1,
+       "explain": "‘should’ is a modal verb. It gives advice, as in ‘You should practise every day.’"
+      },
+      {
+       "id": "u2-g1-q1",
+       "q": "Which sentence is correct?",
+       "options": [
+        "She can sings beautifully.",
+        "She cans sing beautifully.",
+        "She can sing beautifully.",
+        "She can to sing beautifully."
+       ],
+       "answer": 2,
+       "explain": "After a modal verb, the main verb stays in its basic form: ‘can sing’."
+      },
+      {
+       "id": "u2-g1-q2",
+       "q": "Which modal verb shows that something is **certain**?",
+       "options": [
+        "might",
+        "may",
+        "could",
+        "will"
+       ],
+       "answer": 3,
+       "explain": "‘will’ shows certainty: ‘The show will start at seven.’"
+      },
+      {
+       "id": "u2-g1-q3",
+       "q": "Choose the best modal verb: ‘You ___ wear a helmet when you ride a bike. It is the rule.’",
+       "options": [
+        "must",
+        "might",
+        "could",
+        "may"
+       ],
+       "answer": 0,
+       "explain": "It is a rule, so it is an obligation. ‘must’ is the strongest choice."
+      },
+      {
+       "id": "u2-g1-q4",
+       "q": "What does ‘might’ show in ‘It might snow tomorrow’?",
+       "options": [
+        "Certainty",
+        "Possibility",
+        "An order",
+        "Past ability"
+       ],
+       "answer": 1,
+       "explain": "‘might’ tells us that snow is possible, but not certain."
+      }
+     ]
+    },
+    {
+     "id": "u2-g2",
+     "title": "Comparative and superlative adjectives and adverbs",
+     "lesson": "Lesson 12 · Language Focus – Grammar",
+     "pages": "47",
+     "wb": "28",
+     "intro": "When we compare people, places or actions, we need special forms of adjectives and adverbs. The comparative compares two things, and the superlative picks out the very top one. Let’s compare like champions!",
+     "points": [
+      "**Comparative** forms compare two things. Add **-er** to short words (taller, faster) or use **more** with longer words (more famous, more carefully).",
+      "**Superlative** forms compare three or more. Add **-est** to short words (tallest, fastest) or use **most** (most famous, most carefully). Use ‘the’ before them.",
+      "For words ending in -y, change y to i: happy → happier → happiest.",
+      "Some words are irregular: good → better → best; bad → worse → worst; well → better → best."
+     ],
+     "examples": [
+      {
+       "text": "The elephant was **bigger** than the horse.",
+       "note": "Comparative adjective: two things are compared."
+      },
+      {
+       "text": "Jenny Lind was the **most popular** singer of her time.",
+       "note": "Superlative adjective with ‘most’ because ‘popular’ is a long word."
+      },
+      {
+       "text": "She worked **harder** than anyone else in her class.",
+       "note": "Comparative adverb: it describes how she worked."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u2-g2-q0",
+       "q": "Which is the comparative form of ‘brave’?",
+       "options": [
+        "bravest",
+        "braver",
+        "more brave",
+        "most brave"
+       ],
+       "answer": 1,
+       "explain": "‘brave’ is a short word, so we add -r: ‘braver’."
+      },
+      {
+       "id": "u2-g2-q1",
+       "q": "Choose the correct sentence.",
+       "options": [
+        "This is the most good show.",
+        "This is the goodest show.",
+        "This is the best show.",
+        "This is the better show of all."
+       ],
+       "answer": 2,
+       "explain": "‘good’ is irregular: good, better, best."
+      },
+      {
+       "id": "u2-g2-q2",
+       "q": "Which word completes the sentence? ‘She was the ___ scientist in the whole country.’",
+       "options": [
+        "most famous",
+        "famouser",
+        "more famous",
+        "famousest"
+       ],
+       "answer": 0,
+       "explain": "We are comparing her with everyone in the country, so we need the superlative ‘most famous’."
+      },
+      {
+       "id": "u2-g2-q3",
+       "q": "What is the superlative form of ‘happy’?",
+       "options": [
+        "happyest",
+        "most happy",
+        "happier",
+        "happiest"
+       ],
+       "answer": 3,
+       "explain": "Change the y to i and add -est: ‘happiest’."
+      },
+      {
+       "id": "u2-g2-q4",
+       "q": "Which sentence uses a comparative adverb?",
+       "options": [
+        "He ran quickly.",
+        "He ran more quickly than his brother.",
+        "He is quick.",
+        "He is the quickest."
+       ],
+       "answer": 1,
+       "explain": "‘more quickly’ compares how two people ran, so it is a comparative adverb."
+      }
      ]
     }
    ],
@@ -1772,6 +2137,188 @@
      ]
     }
    ],
+   "grammar": [
+    {
+     "id": "u3-g1",
+     "title": "Degrees of comparison",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "61",
+     "wb": "36",
+     "intro": "Poets choose their describing words very carefully, and sometimes they need to show how much more of something there is. Adjectives have three degrees: positive, comparative and superlative. Let’s climb the ladder together!",
+     "points": [
+      "The **positive** degree simply describes: ‘a **long** poem’.",
+      "The **comparative** degree compares two things: ‘a **longer** poem’, ‘a **more beautiful** poem’.",
+      "The **superlative** degree shows the top of the group: ‘the **longest** poem’, ‘the **most beautiful** poem’.",
+      "Remember the irregular ones: good, better, best; bad, worse, worst; many, more, most; little, less, least."
+     ],
+     "examples": [
+      {
+       "text": "The fly was **small**, the spider was **smaller**, and the ant was the **smallest** of all.",
+       "note": "Positive, comparative and superlative in one sentence."
+      },
+      {
+       "text": "That was the **most delicious** soup in the village.",
+       "note": "Superlative with ‘most’ for a longer adjective."
+      },
+      {
+       "text": "My second try was **worse** than my first!",
+       "note": "Irregular comparative of ‘bad’."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u3-g1-q0",
+       "q": "Which degree is ‘tallest’?",
+       "options": [
+        "Positive",
+        "Comparative",
+        "Superlative",
+        "None of these"
+       ],
+       "answer": 2,
+       "explain": "‘tallest’ is the top of the group, so it is superlative."
+      },
+      {
+       "id": "u3-g1-q1",
+       "q": "What is the comparative of ‘bad’?",
+       "options": [
+        "badder",
+        "worse",
+        "worst",
+        "more bad"
+       ],
+       "answer": 1,
+       "explain": "‘bad’ is irregular: bad, worse, worst."
+      },
+      {
+       "id": "u3-g1-q2",
+       "q": "Choose the correct word: ‘Of the three poems, this one is the ___.’",
+       "options": [
+        "funnier",
+        "more funny",
+        "funniest",
+        "funnyest"
+       ],
+       "answer": 2,
+       "explain": "There are three poems, so we need the superlative: ‘funniest’."
+      },
+      {
+       "id": "u3-g1-q3",
+       "q": "Which is the positive degree?",
+       "options": [
+        "wise",
+        "wiser",
+        "wisest",
+        "most wise"
+       ],
+       "answer": 0,
+       "explain": "The positive degree is the plain describing word: ‘wise’."
+      },
+      {
+       "id": "u3-g1-q4",
+       "q": "Which sentence is correct?",
+       "options": [
+        "The soup was more tastier than before.",
+        "The soup was tastier than before.",
+        "The soup was tastiest than before.",
+        "The soup was more tastiest than before."
+       ],
+       "answer": 1,
+       "explain": "Use either -er or ‘more’, never both. ‘tastier’ is correct."
+      }
+     ]
+    },
+    {
+     "id": "u3-g2",
+     "title": "More about degrees of comparison",
+     "lesson": "Lesson 14 · Language Focus – Grammar",
+     "pages": "77",
+     "wb": "46",
+     "intro": "Now you know the three degrees, let’s use them like a writer. Adverbs can be compared too, and we can also compare things that are equal, or say that something is less than something else.",
+     "points": [
+      "Adverbs have degrees too: ‘quickly, **more quickly**, **most quickly**’; ‘fast, **faster**, **fastest**’.",
+      "Use **as … as** to show two things are equal: ‘The fly was **as clever as** the spider.’",
+      "Use **less** and **least** to show a smaller amount: ‘less dangerous’, ‘the least dangerous’.",
+      "Never use two comparatives together: say ‘more careful’, not ‘more carefuller’."
+     ],
+     "examples": [
+      {
+       "text": "The spider spoke **more sweetly** than before.",
+       "note": "Comparative adverb: it tells us how the spider spoke."
+      },
+      {
+       "text": "The second web was **as strong as** the first.",
+       "note": "‘as … as’ shows the two webs are equal."
+      },
+      {
+       "text": "This was the **least difficult** poem to learn.",
+       "note": "‘least’ shows the smallest amount of difficulty."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u3-g2-q0",
+       "q": "Which is the superlative of the adverb ‘carefully’?",
+       "options": [
+        "carefullest",
+        "more carefully",
+        "most carefully",
+        "carefuller"
+       ],
+       "answer": 2,
+       "explain": "Long adverbs use ‘most’: ‘most carefully’."
+      },
+      {
+       "id": "u3-g2-q1",
+       "q": "Which sentence shows that two things are equal?",
+       "options": [
+        "The fly was faster than the spider.",
+        "The fly was as fast as the spider.",
+        "The fly was the fastest.",
+        "The fly was less fast."
+       ],
+       "answer": 1,
+       "explain": "‘as fast as’ shows that they are equal."
+      },
+      {
+       "id": "u3-g2-q2",
+       "q": "Choose the correct word: ‘Walking is ___ tiring than running.’",
+       "options": [
+        "less",
+        "least",
+        "lesser",
+        "littlest"
+       ],
+       "answer": 0,
+       "explain": "We compare two things, so we use ‘less’."
+      },
+      {
+       "id": "u3-g2-q3",
+       "q": "Which sentence is correct?",
+       "options": [
+        "She sang more louder than her brother.",
+        "She sang louder than her brother.",
+        "She sang loudest than her brother.",
+        "She sang more loudest."
+       ],
+       "answer": 1,
+       "explain": "‘louder’ is already comparative, so we do not add ‘more’."
+      },
+      {
+       "id": "u3-g2-q4",
+       "q": "What is the comparative of the adverb ‘fast’?",
+       "options": [
+        "faster",
+        "more fast",
+        "fastly",
+        "fastest"
+       ],
+       "answer": 0,
+       "explain": "‘fast’ is a short adverb, so it takes -er: ‘faster’."
+      }
+     ]
+    }
+   ],
    "icon": "feather"
   },
   {
@@ -2354,6 +2901,188 @@
      ]
     }
    ],
+   "grammar": [
+    {
+     "id": "u4-g1",
+     "title": "Nouns and quantifiers",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "87–88",
+     "wb": "53",
+     "intro": "Some nouns can be counted (one radio, two radios) and some cannot (electricity, music). The little words that tell us how much or how many are called quantifiers. Choosing the right one makes your writing precise, like a good engineer!",
+     "points": [
+      "**Countable nouns** have a singular and a plural: a wire, three wires.",
+      "**Uncountable nouns** have no plural: information, electricity, water, music.",
+      "Use **many** and **few/fewer** with countable nouns: ‘many batteries’, ‘fewer buttons’.",
+      "Use **much** and **little/less** with uncountable nouns: ‘much noise’, ‘less power’. **Some**, **any**, **a lot of** and **enough** work with both."
+     ],
+     "examples": [
+      {
+       "text": "How **many** speakers does the radio have?",
+       "note": "‘speakers’ can be counted, so we use ‘many’."
+      },
+      {
+       "text": "There was too **much** static on the radio.",
+       "note": "‘static’ cannot be counted, so we use ‘much’."
+      },
+      {
+       "text": "This model uses **less** electricity and has **fewer** parts.",
+       "note": "‘less’ with an uncountable noun; ‘fewer’ with a countable noun."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u4-g1-q0",
+       "q": "Which noun is uncountable?",
+       "options": [
+        "battery",
+        "information",
+        "button",
+        "aerial"
+       ],
+       "answer": 1,
+       "explain": "We cannot say ‘two informations’, so ‘information’ is uncountable."
+      },
+      {
+       "id": "u4-g1-q1",
+       "q": "Choose the correct quantifier: ‘There are not ___ stations on this old radio.’",
+       "options": [
+        "much",
+        "many",
+        "a little",
+        "less"
+       ],
+       "answer": 1,
+       "explain": "‘stations’ can be counted, so we use ‘many’."
+      },
+      {
+       "id": "u4-g1-q2",
+       "q": "Choose the correct sentence.",
+       "options": [
+        "We need less wires.",
+        "We need fewer wires.",
+        "We need much wires.",
+        "We need a little wires."
+       ],
+       "answer": 1,
+       "explain": "‘wires’ are countable, so we use ‘fewer’."
+      },
+      {
+       "id": "u4-g1-q3",
+       "q": "Which quantifier can be used with both countable and uncountable nouns?",
+       "options": [
+        "many",
+        "much",
+        "a lot of",
+        "few"
+       ],
+       "answer": 2,
+       "explain": "‘a lot of’ works with both: ‘a lot of wires’, ‘a lot of power’."
+      },
+      {
+       "id": "u4-g1-q4",
+       "q": "Choose the correct word: ‘How ___ time do we have left?’",
+       "options": [
+        "many",
+        "much",
+        "few",
+        "fewer"
+       ],
+       "answer": 1,
+       "explain": "‘time’ is uncountable here, so we use ‘much’."
+      }
+     ]
+    },
+    {
+     "id": "u4-g2",
+     "title": "Reordering clauses in multi-clause sentences",
+     "lesson": "Lesson 12 · Language Focus – Grammar",
+     "pages": "100",
+     "wb": "60",
+     "intro": "A sentence with more than one clause is like a radio with parts you can move around. If you change the order of the clauses, you can change what the reader notices first. Clever writers do this all the time.",
+     "points": [
+      "A **multi-clause sentence** has a main clause and one or more other clauses.",
+      "You can often move the dependent clause to the **start** or the **end** of the sentence without changing the meaning.",
+      "When the dependent clause comes **first**, put a comma after it.",
+      "Put the most important idea **first** if you want the reader to notice it straight away."
+     ],
+     "examples": [
+      {
+       "text": "The radio crackled __when the storm began__.",
+       "note": "Main clause first, so no comma."
+      },
+      {
+       "text": "__When the storm began__, the radio crackled.",
+       "note": "Dependent clause first, so a comma follows it."
+      },
+      {
+       "text": "Because sound travels as waves, we can hear voices from far away.",
+       "note": "Moving the reason to the front makes it stand out."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u4-g2-q0",
+       "q": "Reorder the clauses: ‘The lights went out because the battery was flat.’",
+       "options": [
+        "Because the battery was flat, the lights went out.",
+        "Because the battery was flat the lights, went out.",
+        "The battery was flat the lights went out.",
+        "Went out the lights, because the battery was flat."
+       ],
+       "answer": 0,
+       "explain": "Move the ‘because’ clause to the front and add a comma after it."
+      },
+      {
+       "id": "u4-g2-q1",
+       "q": "When does a multi-clause sentence need a comma between its clauses?",
+       "options": [
+        "Always",
+        "When the dependent clause comes first",
+        "Never",
+        "Only in questions"
+       ],
+       "answer": 1,
+       "explain": "A comma follows a dependent clause that starts the sentence."
+      },
+      {
+       "id": "u4-g2-q2",
+       "q": "Which sentence is punctuated correctly?",
+       "options": [
+        "After we tuned the radio we heard music.",
+        "After we tuned the radio, we heard music.",
+        "After, we tuned the radio we heard music.",
+        "After we tuned, the radio we heard music."
+       ],
+       "answer": 1,
+       "explain": "The dependent clause comes first, so the comma goes after ‘radio’."
+      },
+      {
+       "id": "u4-g2-q3",
+       "q": "Why might a writer put the dependent clause first?",
+       "options": [
+        "To make the sentence wrong",
+        "To make the reader notice that idea first",
+        "Because it is always required",
+        "To avoid using a verb"
+       ],
+       "answer": 1,
+       "explain": "Whatever comes first catches the reader’s attention."
+      },
+      {
+       "id": "u4-g2-q4",
+       "q": "Which sentence means the same as ‘If you press this button, the radio turns on’?",
+       "options": [
+        "The radio turns on if you press this button.",
+        "If the radio turns on, you press this button.",
+        "You press the radio if this button turns on.",
+        "The button turns on the radio if you press."
+       ],
+       "answer": 0,
+       "explain": "The clauses have swapped places, but the meaning is the same."
+      }
+     ]
+    }
+   ],
    "icon": "cog"
   },
   {
@@ -2927,6 +3656,278 @@
       "prey",
       "shell",
       "desert"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "id": "u5-g1",
+     "title": "Adverbs and adverbial phrases of time and frequency",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "113",
+     "wb": "70",
+     "intro": "Adverbs add detail to verbs. Some tell us **when** something happens, and some tell us **how often**. They are very useful when you write about animals: when they hunt, and how often they bite or sting!",
+     "points": [
+      "Adverbs of **time** tell us when: now, later, yesterday, soon, tonight.",
+      "Adverbs of **frequency** tell us how often: always, usually, often, sometimes, rarely, never.",
+      "An **adverbial phrase** is a group of words that does the same job: ‘at night’, ‘every morning’, ‘once a year’.",
+      "Adverbs of frequency usually go **before the main verb** (‘Scorpions **often** hide’) but **after** ‘is’, ‘are’ and ‘was’ (‘They are **rarely** seen’)."
+     ],
+     "examples": [
+      {
+       "text": "Box jellyfish **usually** drift near the surface.",
+       "note": "‘usually’ tells us how often."
+      },
+      {
+       "text": "**At night**, the scorpion comes out to hunt.",
+       "note": "An adverbial phrase of time at the start, followed by a comma."
+      },
+      {
+       "text": "We will visit the reptile house **tomorrow**.",
+       "note": "‘tomorrow’ tells us when."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u5-g1-q0",
+       "q": "Which word is an adverb of frequency?",
+       "options": [
+        "yesterday",
+        "sometimes",
+        "quickly",
+        "here"
+       ],
+       "answer": 1,
+       "explain": "‘sometimes’ tells us how often something happens."
+      },
+      {
+       "id": "u5-g1-q1",
+       "q": "Which is an adverbial phrase of time?",
+       "options": [
+        "under the rock",
+        "very slowly",
+        "every evening",
+        "a green snake"
+       ],
+       "answer": 2,
+       "explain": "‘every evening’ tells us when."
+      },
+      {
+       "id": "u5-g1-q2",
+       "q": "Where should the adverb go? ‘Snakes ___ shed their skin.’ (regularly)",
+       "options": [
+        "Snakes shed regularly their skin.",
+        "Snakes regularly shed their skin.",
+        "Regularly snakes their skin shed.",
+        "Snakes shed their regularly skin."
+       ],
+       "answer": 1,
+       "explain": "Adverbs of frequency usually go before the main verb: ‘regularly shed’."
+      },
+      {
+       "id": "u5-g1-q3",
+       "q": "Which sentence is correct?",
+       "options": [
+        "Stonefish are seen rarely by divers.",
+        "Stonefish rarely are seen by divers.",
+        "Stonefish are rarely seen by divers.",
+        "Rarely stonefish are seen by divers."
+       ],
+       "answer": 2,
+       "explain": "With ‘are’, the adverb of frequency comes after it: ‘are rarely seen’."
+      },
+      {
+       "id": "u5-g1-q4",
+       "q": "What does ‘never’ tell us?",
+       "options": [
+        "How often",
+        "Where",
+        "How",
+        "How much"
+       ],
+       "answer": 0,
+       "explain": "‘never’ is an adverb of frequency: it tells us how often (not at all!)."
+      }
+     ]
+    },
+    {
+     "id": "u5-g2",
+     "title": "Modal verbs of possibility",
+     "lesson": "Lesson 12 · Language Focus – Grammar",
+     "pages": "125–126",
+     "wb": "76",
+     "intro": "Scientists are careful about what they say. When they are not completely sure, they use modal verbs of possibility. These verbs show how certain we are, from ‘it will happen’ all the way down to ‘it can’t be true’.",
+     "points": [
+      "**will** and **must** show we are almost certain: ‘That **must** be a sea snake.’",
+      "**should** and **would** show that something is likely or expected.",
+      "**may**, **might** and **could** show that something is possible: ‘It **might** be venomous.’",
+      "**can’t** shows we are sure something is **not** true: ‘It **can’t** be a shark; it is far too small.’"
+     ],
+     "examples": [
+      {
+       "text": "That spider **could** be dangerous, so don’t touch it.",
+       "note": "Possible, but not certain."
+      },
+      {
+       "text": "The tracks are fresh. The animal **must** be nearby.",
+       "note": "The writer is almost certain because of the evidence."
+      },
+      {
+       "text": "It **can’t** be a cobra. Cobras don’t live here.",
+       "note": "The writer is sure it is not true."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u5-g2-q0",
+       "q": "Which modal verb shows the strongest certainty?",
+       "options": [
+        "might",
+        "could",
+        "may",
+        "must"
+       ],
+       "answer": 3,
+       "explain": "‘must’ shows that we are almost certain."
+      },
+      {
+       "id": "u5-g2-q1",
+       "q": "Choose the best word: ‘Take a torch. It ___ be dark in the cave.’",
+       "options": [
+        "might",
+        "can’t",
+        "mustn’t",
+        "shan’t"
+       ],
+       "answer": 0,
+       "explain": "It is possible that the cave is dark, so ‘might’ fits."
+      },
+      {
+       "id": "u5-g2-q2",
+       "q": "What does ‘It can’t be a jellyfish’ mean?",
+       "options": [
+        "It is probably a jellyfish.",
+        "We are sure it is not a jellyfish.",
+        "It might be a jellyfish.",
+        "It was a jellyfish."
+       ],
+       "answer": 1,
+       "explain": "‘can’t’ shows we are sure something is not true."
+      },
+      {
+       "id": "u5-g2-q3",
+       "q": "Which sentence shows possibility?",
+       "options": [
+        "The frog is poisonous.",
+        "The frog may be poisonous.",
+        "The frog was poisonous.",
+        "The frog is not poisonous."
+       ],
+       "answer": 1,
+       "explain": "‘may’ shows that it is possible, but not certain."
+      },
+      {
+       "id": "u5-g2-q4",
+       "q": "Which modal verb fits? ‘The museum ___ be open by now; it opens at nine and it is ten o’clock.’",
+       "options": [
+        "can’t",
+        "should",
+        "mightn’t",
+        "couldn’t"
+       ],
+       "answer": 1,
+       "explain": "We expect it to be open, so ‘should’ fits best."
+      }
+     ]
+    },
+    {
+     "id": "u5-g3",
+     "title": "Adverbs and adverbial phrases of place and manner",
+     "lesson": "Lesson 14 · Language Focus – Grammar",
+     "pages": "130",
+     "wb": "79",
+     "intro": "Some adverbs tell us **where** something happens and some tell us **how** it happens. They help your reader picture the scene, like a camera zooming in on a creature creeping through the grass.",
+     "points": [
+      "Adverbs of **place** tell us where: here, there, outside, nearby, everywhere.",
+      "Adverbs of **manner** tell us how: slowly, silently, carefully. Many end in **-ly**.",
+      "Adverbial phrases do the same job: ‘under the leaves’, ‘in the shallow water’, ‘with great care’.",
+      "Moving an adverbial to the start of a sentence can build suspense: ‘**Silently**, the snake slid forward.’"
+     ],
+     "examples": [
+      {
+       "text": "The stonefish waited **motionlessly** on the sea bed.",
+       "note": "‘motionlessly’ tells us how it waited."
+      },
+      {
+       "text": "**Under a flat rock**, a scorpion was hiding.",
+       "note": "An adverbial phrase of place at the start, followed by a comma."
+      },
+      {
+       "text": "Handle the specimen **with great care**.",
+       "note": "An adverbial phrase of manner."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u5-g3-q0",
+       "q": "Which word is an adverb of manner?",
+       "options": [
+        "nearby",
+        "gently",
+        "today",
+        "often"
+       ],
+       "answer": 1,
+       "explain": "‘gently’ tells us how something is done."
+      },
+      {
+       "id": "u5-g3-q1",
+       "q": "Which is an adverbial phrase of place?",
+       "options": [
+        "in the long grass",
+        "very carefully",
+        "last week",
+        "twice a day"
+       ],
+       "answer": 0,
+       "explain": "‘in the long grass’ tells us where."
+      },
+      {
+       "id": "u5-g3-q2",
+       "q": "What does the adverb tell us? ‘The snake moved silently.’",
+       "options": [
+        "When",
+        "Where",
+        "How",
+        "How often"
+       ],
+       "answer": 2,
+       "explain": "‘silently’ tells us how the snake moved."
+      },
+      {
+       "id": "u5-g3-q3",
+       "q": "Which sentence is punctuated correctly?",
+       "options": [
+        "Slowly the spider, climbed the wall.",
+        "Slowly, the spider climbed the wall.",
+        "Slowly the, spider climbed the wall.",
+        "Slowly the spider climbed, the wall."
+       ],
+       "answer": 1,
+       "explain": "When an adverb starts the sentence, put a comma after it."
+      },
+      {
+       "id": "u5-g3-q4",
+       "q": "Which word is an adverb of place?",
+       "options": [
+        "outside",
+        "quietly",
+        "never",
+        "soon"
+       ],
+       "answer": 0,
+       "explain": "‘outside’ tells us where."
+      }
      ]
     }
    ],
@@ -3514,6 +4515,278 @@
      ]
     }
    ],
+   "grammar": [
+    {
+     "id": "u6-g1",
+     "title": "Direct and reported speech",
+     "lesson": "Lessons 4 and 7 · Language Focus – Grammar and Punctuation",
+     "pages": "141–143, 146",
+     "wb": "86, 88",
+     "intro": "Characters come alive when they speak. Direct speech gives us their exact words, and reported speech tells us what they said in the narrator’s words. In ‘Oliver Twist’, you can hear both. Let’s learn how to write each one correctly.",
+     "points": [
+      "**Direct speech** uses the speaker’s exact words inside **inverted commas**: “I want some more,” said Oliver.",
+      "Start each new speaker on a **new line**. Put the comma, full stop, question mark or exclamation mark **inside** the closing inverted commas.",
+      "**Reported speech** has no inverted commas. It often uses **that**, and the verb usually moves one step back into the past: ‘Oliver said that he **wanted** some more.’",
+      "Pronouns and time words change too: ‘I’ becomes ‘he’ or ‘she’, and ‘today’ often becomes ‘that day’."
+     ],
+     "examples": [
+      {
+       "text": "“Please, sir, I want some more,” said Oliver.",
+       "note": "Direct speech: the comma sits inside the inverted commas."
+      },
+      {
+       "text": "Oliver said that he wanted some more.",
+       "note": "Reported speech: no inverted commas, ‘want’ becomes ‘wanted’ and ‘I’ becomes ‘he’."
+      },
+      {
+       "text": "“Where are you going?” asked the Dodger.",
+       "note": "The question mark goes inside the inverted commas."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u6-g1-q0",
+       "q": "Which sentence is direct speech?",
+       "options": [
+        "Oliver said that he was hungry.",
+        "“I am hungry,” said Oliver.",
+        "Oliver was hungry.",
+        "Oliver told them he was hungry."
+       ],
+       "answer": 1,
+       "explain": "It shows Oliver’s exact words inside inverted commas."
+      },
+      {
+       "id": "u6-g1-q1",
+       "q": "Which is punctuated correctly?",
+       "options": [
+        "“Come with me”, said the Dodger.",
+        "“Come with me,” said the Dodger.",
+        "“Come with me” said the Dodger,",
+        "Come with me, “said the Dodger.”"
+       ],
+       "answer": 1,
+       "explain": "The comma goes inside the closing inverted commas."
+      },
+      {
+       "id": "u6-g1-q2",
+       "q": "Change to reported speech: “I am tired,” said Oliver.",
+       "options": [
+        "Oliver said that he was tired.",
+        "Oliver said that I am tired.",
+        "Oliver said, “he was tired.”",
+        "Oliver says that I was tired."
+       ],
+       "answer": 0,
+       "explain": "‘I am’ becomes ‘he was’, and there are no inverted commas."
+      },
+      {
+       "id": "u6-g1-q3",
+       "q": "When do you start a new line in a conversation?",
+       "options": [
+        "After every comma",
+        "When a new person speaks",
+        "Only at the end of a chapter",
+        "Never"
+       ],
+       "answer": 1,
+       "explain": "Each new speaker starts on a new line, so the reader knows who is talking."
+      },
+      {
+       "id": "u6-g1-q4",
+       "q": "Which sentence is reported speech?",
+       "options": [
+        "“Stop, thief!” shouted the crowd.",
+        "The crowd shouted that someone should stop the thief.",
+        "“Is it Oliver?” asked Mr Brownlow.",
+        "“Yes,” said the boy."
+       ],
+       "answer": 1,
+       "explain": "It reports what the crowd said without using their exact words."
+      }
+     ]
+    },
+    {
+     "id": "u6-g2",
+     "title": "Personal and possessive pronouns",
+     "lesson": "Lesson 12 · Language Focus – Grammar",
+     "pages": "153–154",
+     "wb": "93",
+     "intro": "Pronouns stop our writing from sounding repetitive. Instead of ‘Oliver ate Oliver’s gruel’, we can write ‘He ate his gruel’. Let’s make sure every pronoun points clearly to the right person.",
+     "points": [
+      "**Personal pronouns** replace nouns: I, you, he, she, it, we, they (subjects) and me, you, him, her, it, us, them (objects).",
+      "**Possessive pronouns** show who owns something and stand alone: mine, yours, his, hers, ours, theirs.",
+      "**Possessive determiners** come before a noun: my, your, his, her, its, our, their (‘**their** caps’).",
+      "Possessive pronouns never have an apostrophe: ‘The hat is **hers**’, not ‘her’s’. And ‘**its**’ (belonging to it) has no apostrophe."
+     ],
+     "examples": [
+      {
+       "text": "Mr Brownlow was kind to Oliver. **He** gave **him** a home.",
+       "note": "‘He’ replaces Mr Brownlow; ‘him’ replaces Oliver."
+      },
+      {
+       "text": "“That handkerchief is **mine**!” cried the gentleman.",
+       "note": "‘mine’ is a possessive pronoun standing alone."
+      },
+      {
+       "text": "The boys ate **their** supper quickly.",
+       "note": "‘their’ comes before the noun ‘supper’."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u6-g2-q0",
+       "q": "Which word is a possessive pronoun?",
+       "options": [
+        "them",
+        "theirs",
+        "they",
+        "the"
+       ],
+       "answer": 1,
+       "explain": "‘theirs’ shows ownership and stands alone: ‘The caps are theirs.’"
+      },
+      {
+       "id": "u6-g2-q1",
+       "q": "Choose the correct pronoun: ‘Nancy and ___ walked to the market.’",
+       "options": [
+        "me",
+        "him",
+        "I",
+        "us"
+       ],
+       "answer": 2,
+       "explain": "It is part of the subject, so we use ‘I’. Test it: ‘I walked to the market’."
+      },
+      {
+       "id": "u6-g2-q2",
+       "q": "Which sentence is correct?",
+       "options": [
+        "The cat licked it’s paw.",
+        "The cat licked its paw.",
+        "The cat licked its’ paw.",
+        "The cat licked it paw."
+       ],
+       "answer": 1,
+       "explain": "‘its’ (belonging to it) has no apostrophe. ‘It’s’ means ‘it is’."
+      },
+      {
+       "id": "u6-g2-q3",
+       "q": "Which word is an object pronoun?",
+       "options": [
+        "she",
+        "we",
+        "us",
+        "they"
+       ],
+       "answer": 2,
+       "explain": "‘us’ is used as the object: ‘The Dodger showed us the way.’"
+      },
+      {
+       "id": "u6-g2-q4",
+       "q": "Choose the correct word: ‘Is this book yours or ___?’",
+       "options": [
+        "my",
+        "mine",
+        "me",
+        "I"
+       ],
+       "answer": 1,
+       "explain": "We need a possessive pronoun that stands alone: ‘mine’."
+      }
+     ]
+    },
+    {
+     "id": "u6-g3",
+     "title": "Apostrophes",
+     "lesson": "Lesson 14 · Language Focus – Punctuation",
+     "pages": "158",
+     "wb": "96",
+     "intro": "The apostrophe is a tiny mark with two big jobs. It shows that letters are missing, and it shows that something belongs to someone. Put it in the right place and your writing will shine.",
+     "points": [
+      "**Contraction:** the apostrophe shows where letters are missing: do not → **don’t**, it is → **it’s**, I will → **I’ll**.",
+      "**Possession (one owner):** add **’s**: the boy’s cap, Oliver’s bowl.",
+      "**Possession (plural owner ending in s):** add just the apostrophe: the boys’ caps (many boys).",
+      "**Plural owner not ending in s:** add **’s**: the children’s food, the men’s hats. Never use an apostrophe just to make a plural."
+     ],
+     "examples": [
+      {
+       "text": "The **workhouse’s** walls were cold and grey.",
+       "note": "One workhouse owns the walls: ’s."
+      },
+      {
+       "text": "The **boys’** bowls were empty.",
+       "note": "Many boys own the bowls, so the apostrophe goes after the s."
+      },
+      {
+       "text": "“**Don’t** run!” shouted the policeman.",
+       "note": "A contraction of ‘do not’."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u6-g3-q0",
+       "q": "Which is correct for ‘the hat that belongs to the Dodger’?",
+       "options": [
+        "the Dodgers hat",
+        "the Dodger’s hat",
+        "the Dodgers’ hat",
+        "the Dodger hat’s"
+       ],
+       "answer": 1,
+       "explain": "One owner, so add ’s: ‘the Dodger’s hat’."
+      },
+      {
+       "id": "u6-g3-q1",
+       "q": "What is the contraction of ‘they are’?",
+       "options": [
+        "their",
+        "there",
+        "they’re",
+        "theyr’e"
+       ],
+       "answer": 2,
+       "explain": "The apostrophe replaces the missing ‘a’: ‘they’re’."
+      },
+      {
+       "id": "u6-g3-q2",
+       "q": "Which shows the toys of many girls?",
+       "options": [
+        "the girl’s toys",
+        "the girls’ toys",
+        "the girls toy’s",
+        "the girl’ss toys"
+       ],
+       "answer": 1,
+       "explain": "‘girls’ is a plural ending in s, so the apostrophe goes after the s."
+      },
+      {
+       "id": "u6-g3-q3",
+       "q": "Which is correct?",
+       "options": [
+        "the childrens’ books",
+        "the children’s books",
+        "the childrens books",
+        "the children books’"
+       ],
+       "answer": 1,
+       "explain": "‘children’ is a plural that does not end in s, so we add ’s."
+      },
+      {
+       "id": "u6-g3-q4",
+       "q": "Which sentence uses the apostrophe correctly?",
+       "options": [
+        "I bought three apple’s.",
+        "I bought three apples.",
+        "I bought three apples’.",
+        "I bought three appl’es."
+       ],
+       "answer": 1,
+       "explain": "Plurals do not need an apostrophe: ‘apples’."
+      }
+     ]
+    }
+   ],
    "icon": "book-open-text"
   },
   {
@@ -4080,6 +5353,188 @@
       "music",
       "theatre",
       "audience"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "id": "u7-g1",
+     "title": "Relative pronouns and relative clauses",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "168–169",
+     "wb": "103",
+     "intro": "A relative clause lets you add information about a noun without starting a new sentence. It begins with a relative pronoun. Play scripts and stage directions use them to describe characters quickly and clearly.",
+     "points": [
+      "The relative pronouns are **who** (people), **which** (things and animals), **that** (people or things), **whose** (belonging to) and **where** (places).",
+      "A **relative clause** gives more information about the noun just before it: ‘the boy **who asked for more**’.",
+      "If the information is extra, put **commas** around the clause: ‘Mooin, **who lived with the bears**, was brave.’",
+      "If the information tells us exactly which one we mean, do **not** use commas: ‘The girl **who found the cave** was Mooin.’"
+     ],
+     "examples": [
+      {
+       "text": "Oliver, **who was very hungry**, walked up to the master.",
+       "note": "Extra information about Oliver, so commas go around it."
+      },
+      {
+       "text": "This is the stage **where the play takes place**.",
+       "note": "‘where’ introduces a clause about a place."
+      },
+      {
+       "text": "The actor **whose costume was torn** had to change quickly.",
+       "note": "‘whose’ shows that the costume belonged to the actor."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u7-g1-q0",
+       "q": "Choose the correct relative pronoun: ‘The bear ___ looked after Mooin was gentle.’",
+       "options": [
+        "who",
+        "which",
+        "where",
+        "whose"
+       ],
+       "answer": 1,
+       "explain": "We use ‘which’ (or ‘that’) for animals and things."
+      },
+      {
+       "id": "u7-g1-q1",
+       "q": "Which relative pronoun shows belonging?",
+       "options": [
+        "who",
+        "that",
+        "whose",
+        "where"
+       ],
+       "answer": 2,
+       "explain": "‘whose’ shows that something belongs to someone."
+      },
+      {
+       "id": "u7-g1-q2",
+       "q": "Which sentence is punctuated correctly?",
+       "options": [
+        "Mr Bumble who was the beadle, shouted.",
+        "Mr Bumble, who was the beadle, shouted.",
+        "Mr Bumble, who was the beadle shouted.",
+        "Mr Bumble who, was the beadle shouted."
+       ],
+       "answer": 1,
+       "explain": "The extra information ‘who was the beadle’ needs a comma on each side."
+      },
+      {
+       "id": "u7-g1-q3",
+       "q": "Find the relative clause: ‘The village where Mooin lived was near the forest.’",
+       "options": [
+        "The village",
+        "where Mooin lived",
+        "was near",
+        "near the forest"
+       ],
+       "answer": 1,
+       "explain": "‘where Mooin lived’ tells us more about the village."
+      },
+      {
+       "id": "u7-g1-q4",
+       "q": "Choose the correct word: ‘The girl ___ played Nancy was excellent.’",
+       "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+       ],
+       "answer": 1,
+       "explain": "We use ‘who’ for people."
+      }
+     ]
+    },
+    {
+     "id": "u7-g2",
+     "title": "More about modal verbs",
+     "lesson": "Lesson 14 · Language Focus – Grammar",
+     "pages": "185",
+     "wb": "114",
+     "intro": "You already know that modal verbs show possibility and ability. In plays, characters also use them to give advice, ask permission and make polite requests. Choosing the right modal tells the audience a lot about a character.",
+     "points": [
+      "To give **advice**, use **should** or **ought to**: ‘You **should** rest.’",
+      "To ask for **permission** politely, use **may**, **could** or **can**: ‘**May** I come in?’",
+      "To make a **polite request**, use **could** or **would**: ‘**Would** you help me, please?’",
+      "To show something is **necessary**, use **must** or **have to**; to show it is **not necessary**, use **don’t have to**; to forbid it, use **mustn’t**."
+     ],
+     "examples": [
+      {
+       "text": "“**Could** I have some more, please?”",
+       "note": "A polite request."
+      },
+      {
+       "text": "“You **mustn’t** go into the forest alone,” said the chief.",
+       "note": "‘mustn’t’ means it is not allowed."
+      },
+      {
+       "text": "“You **don’t have to** come, but you are welcome.”",
+       "note": "It is not necessary, but it is allowed."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u7-g2-q0",
+       "q": "Which modal verb gives advice?",
+       "options": [
+        "should",
+        "may",
+        "will",
+        "can’t"
+       ],
+       "answer": 0,
+       "explain": "‘should’ is used to give advice: ‘You should learn your lines.’"
+      },
+      {
+       "id": "u7-g2-q1",
+       "q": "Which is the most polite way to ask?",
+       "options": [
+        "Give me the script.",
+        "Could you give me the script, please?",
+        "You must give me the script.",
+        "I will take the script."
+       ],
+       "answer": 1,
+       "explain": "‘Could you … please?’ is a polite request."
+      },
+      {
+       "id": "u7-g2-q2",
+       "q": "What does ‘You mustn’t touch the props’ mean?",
+       "options": [
+        "It is not necessary to touch them.",
+        "You are not allowed to touch them.",
+        "You should touch them.",
+        "You might touch them."
+       ],
+       "answer": 1,
+       "explain": "‘mustn’t’ means it is forbidden."
+      },
+      {
+       "id": "u7-g2-q3",
+       "q": "Choose the best modal: ‘___ I leave the room, please?’",
+       "options": [
+        "Must",
+        "May",
+        "Should",
+        "Would"
+       ],
+       "answer": 1,
+       "explain": "‘May I …?’ is a polite way to ask for permission."
+      },
+      {
+       "id": "u7-g2-q4",
+       "q": "What does ‘You don’t have to wear a costume’ mean?",
+       "options": [
+        "You are not allowed to wear one.",
+        "It is not necessary to wear one.",
+        "You must wear one.",
+        "You will wear one."
+       ],
+       "answer": 1,
+       "explain": "‘don’t have to’ means it is not necessary, but you may if you want."
+      }
      ]
     }
    ],
@@ -4657,6 +6112,278 @@
       "reliible",
       "sensable",
       "reversable"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "id": "u8-g1",
+     "title": "Abstract nouns",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "196–197",
+     "wb": "121",
+     "intro": "Some nouns name things you can see and touch, like a wolf or a jungle. Others name ideas and feelings you cannot touch at all, like courage or friendship. These are abstract nouns, and they help us talk about what a story really means.",
+     "points": [
+      "A **concrete noun** names something you can sense: wolf, tree, cave.",
+      "An **abstract noun** names an idea, a quality or a feeling: bravery, loyalty, fear, freedom.",
+      "Many abstract nouns are made with suffixes: **-ness** (kindness), **-ship** (friendship), **-dom** (freedom), **-ity** (curiosity), **-ment** (excitement), **-ion** (decision).",
+      "Some abstract nouns come from adjectives (brave → bravery) and some from verbs (decide → decision)."
+     ],
+     "examples": [
+      {
+       "text": "Mowgli showed great **courage** when he faced Shere Khan.",
+       "note": "You cannot touch courage, so it is an abstract noun."
+      },
+      {
+       "text": "The wolves’ **loyalty** to Mowgli never changed.",
+       "note": "‘loyalty’ comes from the adjective ‘loyal’."
+      },
+      {
+       "text": "Mowgli felt the **excitement** of the hunt.",
+       "note": "Made with the suffix -ment."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u8-g1-q0",
+       "q": "Which word is an abstract noun?",
+       "options": [
+        "jungle",
+        "wolf",
+        "friendship",
+        "river"
+       ],
+       "answer": 2,
+       "explain": "You cannot see or touch friendship. It is an idea."
+      },
+      {
+       "id": "u8-g1-q1",
+       "q": "What is the abstract noun made from ‘happy’?",
+       "options": [
+        "happily",
+        "happiness",
+        "happier",
+        "happen"
+       ],
+       "answer": 1,
+       "explain": "Add -ness (and change y to i): ‘happiness’."
+      },
+      {
+       "id": "u8-g1-q2",
+       "q": "Which suffix turns ‘free’ into an abstract noun?",
+       "options": [
+        "-dom",
+        "-ly",
+        "-er",
+        "-ful"
+       ],
+       "answer": 0,
+       "explain": "free + dom = freedom."
+      },
+      {
+       "id": "u8-g1-q3",
+       "q": "Find the abstract noun: ‘Bagheera spoke with great wisdom.’",
+       "options": [
+        "Bagheera",
+        "spoke",
+        "great",
+        "wisdom"
+       ],
+       "answer": 3,
+       "explain": "‘wisdom’ names a quality you cannot touch."
+      },
+      {
+       "id": "u8-g1-q4",
+       "q": "Which is a concrete noun?",
+       "options": [
+        "anger",
+        "hope",
+        "claw",
+        "danger"
+       ],
+       "answer": 2,
+       "explain": "A claw is something you can see and touch."
+      }
+     ]
+    },
+    {
+     "id": "u8-g2",
+     "title": "Joining sentences",
+     "lesson": "Lesson 7 · Language Focus – Grammar",
+     "pages": "201–202",
+     "wb": "124",
+     "intro": "Lots of short sentences one after another can sound a bit jumpy. Joining them with conjunctions makes your writing flow and shows how your ideas connect. Let’s link our ideas like a film editor joins scenes!",
+     "points": [
+      "**Coordinating conjunctions** join two main clauses of equal importance: **and, but, or, so, yet**.",
+      "**Subordinating conjunctions** join a main clause to a dependent clause: **because, when, although, if, while, until, since, after**.",
+      "Choose the conjunction that shows the right link: **because** (reason), **so** (result), **but/although** (contrast), **when/after/until** (time).",
+      "Use a comma when the dependent clause comes first: ‘**Although** he was small, Mowgli was brave.’"
+     ],
+     "examples": [
+      {
+       "text": "Shere Khan was angry, **so** he roared at the wolves.",
+       "note": "‘so’ shows a result."
+      },
+      {
+       "text": "Mowgli stayed with the wolves **because** they protected him.",
+       "note": "‘because’ gives a reason."
+      },
+      {
+       "text": "**Although** the tiger was strong, the buffaloes were stronger.",
+       "note": "‘Although’ shows a contrast, and a comma follows the dependent clause."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u8-g2-q0",
+       "q": "Which conjunction shows a reason?",
+       "options": [
+        "but",
+        "because",
+        "or",
+        "yet"
+       ],
+       "answer": 1,
+       "explain": "‘because’ tells us why something happened."
+      },
+      {
+       "id": "u8-g2-q1",
+       "q": "Join the sentences: ‘Mowgli was tired. He kept running.’",
+       "options": [
+        "Mowgli was tired so he kept running.",
+        "Mowgli was tired, but he kept running.",
+        "Mowgli was tired because he kept running.",
+        "Mowgli was tired or he kept running."
+       ],
+       "answer": 1,
+       "explain": "‘but’ shows the contrast between being tired and running on."
+      },
+      {
+       "id": "u8-g2-q2",
+       "q": "Which is a subordinating conjunction?",
+       "options": [
+        "and",
+        "or",
+        "while",
+        "so"
+       ],
+       "answer": 2,
+       "explain": "‘while’ starts a dependent clause, as in ‘while the wolves slept’."
+      },
+      {
+       "id": "u8-g2-q3",
+       "q": "Which sentence is punctuated correctly?",
+       "options": [
+        "When the sun set the wolves gathered.",
+        "When the sun set, the wolves gathered.",
+        "When, the sun set the wolves gathered.",
+        "When the sun, set the wolves gathered."
+       ],
+       "answer": 1,
+       "explain": "The dependent clause comes first, so a comma follows it."
+      },
+      {
+       "id": "u8-g2-q4",
+       "q": "Which conjunction shows time?",
+       "options": [
+        "until",
+        "because",
+        "but",
+        "or"
+       ],
+       "answer": 0,
+       "explain": "‘until’ tells us when something stops: ‘Wait until I come back.’"
+      }
+     ]
+    },
+    {
+     "id": "u8-g3",
+     "title": "Present perfect and past perfect",
+     "lesson": "Lesson 12 · Language Focus – Grammar",
+     "pages": "211",
+     "wb": "128",
+     "intro": "The perfect tenses help us show how events are connected in time. They are very useful when you write a film review or retell a story, because you often need to show what had already happened before something else.",
+     "points": [
+      "**Present perfect** = **has/have** + past participle. It links the past to now: ‘I **have seen** this film twice.’",
+      "Use the present perfect for experiences and for actions with results now: ‘She **has finished** her review.’",
+      "**Past perfect** = **had** + past participle. It shows that one past action happened **before** another: ‘The tiger **had gone** when Mowgli arrived.’",
+      "Watch out for irregular past participles: seen, gone, taken, written, eaten, known."
+     ],
+     "examples": [
+      {
+       "text": "Millions of people **have watched** ‘The Jungle Book’.",
+       "note": "Present perfect: an experience linked to now."
+      },
+      {
+       "text": "By the time the buffaloes charged, Shere Khan **had fallen** asleep.",
+       "note": "Past perfect: he fell asleep before the buffaloes charged."
+      },
+      {
+       "text": "We **have** just **bought** our tickets.",
+       "note": "Present perfect with ‘just’ for a recent action."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u8-g3-q0",
+       "q": "Which sentence uses the present perfect?",
+       "options": [
+        "I saw the film yesterday.",
+        "I have seen the film.",
+        "I had seen the film.",
+        "I see the film."
+       ],
+       "answer": 1,
+       "explain": "‘have seen’ is has/have + past participle."
+      },
+      {
+       "id": "u8-g3-q1",
+       "q": "Which sentence uses the past perfect?",
+       "options": [
+        "The wolves had left before dawn.",
+        "The wolves leave before dawn.",
+        "The wolves have left.",
+        "The wolves are leaving."
+       ],
+       "answer": 0,
+       "explain": "‘had left’ is had + past participle."
+      },
+      {
+       "id": "u8-g3-q2",
+       "q": "Choose the correct form: ‘When we arrived, the film ___ already started.’",
+       "options": [
+        "has",
+        "had",
+        "have",
+        "was"
+       ],
+       "answer": 1,
+       "explain": "The film started before we arrived, so we need the past perfect: ‘had already started’."
+      },
+      {
+       "id": "u8-g3-q3",
+       "q": "What is the past participle of ‘write’?",
+       "options": [
+        "wrote",
+        "writed",
+        "written",
+        "writing"
+       ],
+       "answer": 2,
+       "explain": "‘write’ is irregular: write, wrote, written."
+      },
+      {
+       "id": "u8-g3-q4",
+       "q": "Choose the correct sentence.",
+       "options": [
+        "She has wrote a review.",
+        "She has written a review.",
+        "She have written a review.",
+        "She has writed a review."
+       ],
+       "answer": 1,
+       "explain": "‘has’ + the past participle ‘written’."
+      }
      ]
     }
    ],
@@ -5240,6 +6967,188 @@
       "teach",
       "govern",
       "care"
+     ]
+    }
+   ],
+   "grammar": [
+    {
+     "id": "u9-g1",
+     "title": "More on relative pronouns and clauses",
+     "lesson": "Lesson 4 · Language Focus – Grammar",
+     "pages": "225",
+     "wb": "137",
+     "intro": "Persuasive writers pack a lot of information into their sentences, and relative clauses help them do it. This time we will look closely at when to use commas and how relative clauses make an argument more convincing.",
+     "points": [
+      "Relative clauses begin with **who, which, that, whose** or **where**, and describe the noun before them.",
+      "A clause that gives **essential** information has **no commas**: ‘Languages **that nobody speaks** can disappear.’",
+      "A clause that gives **extra** information has **commas**: ‘Basque, **which is spoken in Spain and France**, is very old.’",
+      "Use **that** only for essential information. For extra information, use **which** or **who** with commas."
+     ],
+     "examples": [
+      {
+       "text": "People **who speak two languages** can often learn a third more easily.",
+       "note": "Essential: it tells us which people, so no commas."
+      },
+      {
+       "text": "The ocean, **which covers most of our planet**, is full of plastic.",
+       "note": "Extra information, so commas go around it."
+      },
+      {
+       "text": "We met a scientist **whose work protects sea turtles**.",
+       "note": "‘whose’ shows that the work belongs to the scientist."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u9-g1-q0",
+       "q": "Which sentence needs commas around the relative clause?",
+       "options": [
+        "The book that I borrowed is about oceans.",
+        "My grandmother who lives in Spain speaks Basque.",
+        "Children who read a lot learn new words.",
+        "The pen that writes in green is mine."
+       ],
+       "answer": 1,
+       "explain": "You only have one grandmother who lives in Spain, so this is extra information: ‘My grandmother, who lives in Spain, speaks Basque.’"
+      },
+      {
+       "id": "u9-g1-q1",
+       "q": "Choose the correct word: ‘Turtles, ___ eat jellyfish, sometimes swallow plastic bags.’",
+       "options": [
+        "that",
+        "which",
+        "where",
+        "whose"
+       ],
+       "answer": 1,
+       "explain": "Extra information about animals takes ‘which’ with commas."
+      },
+      {
+       "id": "u9-g1-q2",
+       "q": "Which relative pronoun is used for places?",
+       "options": [
+        "who",
+        "which",
+        "where",
+        "whose"
+       ],
+       "answer": 2,
+       "explain": "‘where’ introduces information about a place."
+      },
+      {
+       "id": "u9-g1-q3",
+       "q": "Find the relative clause: ‘The language that my grandfather spoke is now rare.’",
+       "options": [
+        "The language",
+        "that my grandfather spoke",
+        "is now rare",
+        "my grandfather"
+       ],
+       "answer": 1,
+       "explain": "‘that my grandfather spoke’ tells us which language."
+      },
+      {
+       "id": "u9-g1-q4",
+       "q": "Which sentence is correct?",
+       "options": [
+        "The ocean, that is very deep, is cold.",
+        "The ocean, which is very deep, is cold.",
+        "The ocean which, is very deep is cold.",
+        "The ocean, who is very deep, is cold."
+       ],
+       "answer": 1,
+       "explain": "Extra information with commas uses ‘which’, not ‘that’."
+      }
+     ]
+    },
+    {
+     "id": "u9-g2",
+     "title": "More about adverbs and adverbial phrases",
+     "lesson": "Lesson 14 · Language Focus – Grammar",
+     "pages": "241",
+     "wb": "149",
+     "intro": "Adverbs and adverbials can make a persuasive letter much stronger. They tell the reader how strongly you feel, when something must happen and how it should be done. Let’s use them to make every argument count.",
+     "points": [
+      "Adverbs can show **how certain** or **how strongly** you feel: definitely, certainly, clearly, surely, possibly.",
+      "Adverbials can **link ideas** in an argument: firstly, in addition, however, as a result, finally.",
+      "Fronted adverbials go at the **start** of a sentence and are followed by a **comma**: ‘**Without a doubt**, we must act.’",
+      "Use adverbs of manner to add detail: ‘We must act **quickly** and **carefully**.’"
+     ],
+     "examples": [
+      {
+       "text": "**Clearly**, our oceans need protecting.",
+       "note": "A fronted adverb that shows certainty, followed by a comma."
+      },
+      {
+       "text": "**As a result**, many sea creatures are in danger.",
+       "note": "An adverbial that links cause and effect."
+      },
+      {
+       "text": "We should **urgently** reduce the plastic we use.",
+       "note": "An adverb that shows how strongly the writer feels."
+      }
+     ],
+     "practice": [
+      {
+       "id": "u9-g2-q0",
+       "q": "Which adverb shows certainty?",
+       "options": [
+        "perhaps",
+        "definitely",
+        "slowly",
+        "nearby"
+       ],
+       "answer": 1,
+       "explain": "‘definitely’ shows the writer is sure."
+      },
+      {
+       "id": "u9-g2-q1",
+       "q": "Which adverbial is best for adding another point?",
+       "options": [
+        "In addition",
+        "However",
+        "Yesterday",
+        "Under the sea"
+       ],
+       "answer": 0,
+       "explain": "‘In addition’ adds another point to an argument."
+      },
+      {
+       "id": "u9-g2-q2",
+       "q": "Which sentence is punctuated correctly?",
+       "options": [
+        "Firstly we must recycle more.",
+        "Firstly, we must recycle more.",
+        "Firstly we, must recycle more.",
+        "Firstly we must, recycle more."
+       ],
+       "answer": 1,
+       "explain": "A fronted adverbial is followed by a comma."
+      },
+      {
+       "id": "u9-g2-q3",
+       "q": "Which adverbial shows a contrast?",
+       "options": [
+        "As a result",
+        "Furthermore",
+        "However",
+        "Finally"
+       ],
+       "answer": 2,
+       "explain": "‘However’ introduces an opposite or different idea."
+      },
+      {
+       "id": "u9-g2-q4",
+       "q": "Which word is an adverb of manner?",
+       "options": [
+        "carefully",
+        "tomorrow",
+        "everywhere",
+        "certainly"
+       ],
+       "answer": 0,
+       "explain": "‘carefully’ tells us how something is done."
+      }
      ]
     }
    ],

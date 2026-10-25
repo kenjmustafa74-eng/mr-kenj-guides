@@ -1,0 +1,405 @@
+id: 8
+title: Life Stories
+colour: "#a8482f"
+sbStart: 178
+wbStart: 120
+sbPages: "178–202"
+wbPages: "120–136"
+parts:
+  - code: 8A
+    title: Bravery and Hope
+  - code: 8B
+    title: Everyday Lives
+overview: >-
+  Everyone has a story to tell, including you! In this unit you will read part of Helen Keller's autobiography, in which
+  she describes the day her teacher arrived and the moment she understood that everything has a name. Then you will meet
+  two young people who describe their everyday lives in Thailand and Russia. You will learn the features of
+  autobiographies, how to use verb tenses and shift between them correctly, and you will write an autobiographical
+  essay about yourself.
+objectives:
+  - Identify the features of autobiographies and autobiographical essays.
+  - Identify verb tenses and explain why a writer uses them.
+  - Shift between tenses correctly and only when the meaning needs it.
+  - Choose the best synonym for the context.
+  - Spell words with ie and ei.
+  - Explore word origins and how words are borrowed from other languages.
+  - Interview a classmate, and write a paragraph in an autobiography and an autobiographical essay.
+texts:
+  - title: The Story of My Life
+    kind: Autobiography by Helen Keller
+    pages: "181–187"
+    summary: >-
+      Helen Keller was born in 1880 and lost her sight and hearing as a small child. In this part of her autobiography,
+      she remembers the day her teacher, Anne Sullivan, arrived, just before Helen turned seven. Her teacher spelt words
+      into her hand, and one day Helen understood that every thing has a name. Learning words opened up the world to her
+      and filled her with hope and joy.
+  - title: Growing Up in Thailand
+    kind: Autobiographical essay
+    pages: "192–193"
+    summary: >-
+      A thirteen-year-old boy from Thailand, whose nickname Bai-Tong means 'banana leaf', introduces himself, his
+      family and his school. He enjoys tennis, basketball and the piano, and maths is his favourite subject because he
+      likes solving problems.
+  - title: Beautiful St Petersburg
+    kind: Autobiographical essay
+    pages: "195–197"
+    summary: >-
+      Ilya, who is also thirteen, describes life in the Russian city of St Petersburg, with its historic buildings and
+      light summer nights. He writes about his family, his school, his friends and holidays at his grandmother's country
+      house, called a dacha.
+vocab:
+  - word: autobiography
+    meaning: The story of a person's life, written by that person.
+    example: Helen Keller wrote her autobiography in the first person.
+  - word: autobiographical essay
+    meaning: A short piece of writing about part of your own life.
+    example: My autobiographical essay is about my family and my hobbies.
+  - word: first person
+    meaning: Writing from the writer's own point of view, using I, me, my and we.
+    example: "'I was born in 1880' is written in the first person."
+  - word: Braille
+    meaning: A system of raised dots that blind people read by touch.
+    example: She read the Braille book with her fingertips.
+  - word: anticipate
+    meaning: To expect something to happen.
+    example: Helen anticipated something important that day.
+  - word: abstract
+    meaning: Something you cannot see or touch, such as love or an idea.
+    example: Love is an abstract idea.
+  - word: tense
+    meaning: The form of a verb that shows when something happens (past, present or future).
+    example: "'Walked' is in the past tense."
+  - word: tense shift
+    meaning: A change from one tense to another in a piece of writing.
+    example: A tense shift must have a good reason.
+  - word: derivation
+    meaning: Where a word comes from and how it was formed.
+    example: The derivation of 'pizza' is Italian.
+  - word: dacha
+    meaning: A country house in Russia.
+    example: Ilya spends holidays at his grandmother's dacha.
+sb:
+  - part: 8A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "178"
+    tip: Look at the photograph. How is the child reading?
+  - part: 8A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "179"
+    tip: Use the book cover to work out who wrote the book and what it is about.
+  - part: 8A
+    lesson: Lesson 2
+    title: "Let's Learn: Features of an autobiography"
+    pages: "179–181"
+    tip: Look for the first person, chronological order and the writer's personal feelings.
+  - part: 8A
+    lesson: Lesson 3
+    title: "Reading Part 1: The Story of My Life"
+    pages: "181–183"
+    tip: Notice how Helen describes the world through touch and smell.
+  - part: 8A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Verb tenses"
+    pages: "184"
+    tip: Name each tense and think about why the writer chose it.
+  - part: 8A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: The Story of My Life and Reading Comprehension"
+    pages: "185–187"
+    tip: Think about how learning words changed Helen's life.
+  - part: 8A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Synonyms"
+    pages: "188"
+    tip: Synonyms are not always exactly the same. Choose the one that fits the context best.
+  - part: 8A
+    lesson: Lesson 8
+    title: "Word Structure: Spelling – ie and ei"
+    pages: "189"
+    tip: Learn the rule 'i before e, except after c' and remember the exceptions, such as 'weird' and 'seize'.
+  - part: 8A
+    lesson: Lesson 9
+    title: "Writing: A paragraph in an autobiography"
+    pages: "190"
+    tip: Write about one important moment in your life, in the first person and the past tense.
+  - part: 8B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Features of autobiographical essays"
+    pages: "191"
+    tip: An autobiographical essay is short and friendly, with a strong opening sentence.
+  - part: 8B
+    lesson: Lesson 11
+    title: "Reading Part 1: Growing Up in Thailand"
+    pages: "192–193"
+    tip: Notice which tense the writer uses to describe his life now.
+  - part: 8B
+    lesson: Lesson 12
+    title: "Language Focus: Verb tense shifts"
+    pages: "194"
+    tip: Stay in one tense unless the time of the action really changes.
+  - part: 8B
+    lesson: Lesson 13
+    title: "Reading Part 2: Beautiful St Petersburg and Reading Comprehension"
+    pages: "195–197"
+    tip: Compare Ilya's life with Bai-Tong's. What is the same and what is different?
+  - part: 8B
+    lesson: Lesson 14
+    title: "Language Focus: Word origins and derivations"
+    pages: "198"
+    tip: A good dictionary tells you which language a word came from.
+  - part: 8B
+    lesson: Lesson 15
+    title: "Speaking: An interview with a classmate"
+    pages: "199"
+    tip: Prepare open questions that start with how, why or what, and listen carefully to the answers.
+  - part: 8B
+    lesson: Lessons 16–17
+    title: "Writing: An autobiographical essay"
+    pages: "200–201"
+    tip: Introduce yourself, share interesting details, and say what you hope to do in the future.
+  - part: 8B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "202"
+    tip: What did writing about yourself teach you?
+wb:
+  - code: 8A
+    title: "Let's Learn: Features of an autobiography"
+    pages: "120"
+    steps:
+      - "Question 1: decide which statements are not features of autobiographies."
+      - "Question 2: compare two texts and answer the questions."
+    tip: Autobiographies are written in the first person.
+  - code: 8B
+    title: "Language Focus: Verb tenses"
+    pages: "121"
+    steps:
+      - "Question 1: find the verbs in each sentence."
+      - "Question 2: complete a paragraph with verbs in the correct tense."
+    tip: Look for time clues such as 'yesterday', 'now' or 'before'.
+  - code: 8C
+    title: "Reading Comprehension: The Story of My Life"
+    pages: "122–123"
+    steps:
+      - Reread 'The Story of My Life' in your Student's Book.
+      - "Questions 1–7: answer the questions about the text and its language."
+      - "Question 8: identify a tense and rewrite a sentence."
+      - "Questions 9–10: share your own views about autobiographies."
+    tip: Explain the similes and metaphors in your own words.
+  - code: 8D
+    title: "Language Focus: Synonyms"
+    pages: "124"
+    steps:
+      - "Questions 1–2: find synonyms and use them in sentences."
+      - "Question 3: replace words with stronger synonyms."
+    tip: Read the sentence again with your synonym to check it fits.
+  - code: 8E
+    title: "Word Structure: Spelling – ie and ei"
+    pages: "125"
+    steps:
+      - "Question 1: write the spelling rule."
+      - "Questions 2–3: complete the words with ie or ei."
+    tip: Watch out for the exceptions to the rule.
+  - code: 8F
+    title: "Writing: A paragraph in an autobiography"
+    pages: "126"
+    steps:
+      - Choose an important moment in your life.
+      - Write your paragraph in the first person.
+      - Check your tenses and your spelling.
+    tip: Include how you felt, not just what happened.
+  - code: 8G
+    title: "Let's Learn: Features of autobiographical essays"
+    pages: "127"
+    steps:
+      - Read the extract from an autobiography.
+      - "Questions 2–5: answer the questions about its features and its message."
+    tip: Think about why the writer wanted to share this part of his life.
+  - code: 8H
+    title: "Language Focus: Verb tense shifts"
+    pages: "128"
+    steps:
+      - "Question 1: correct the tense shifts in the sentences."
+      - "Question 2: correct the tenses in a paragraph."
+      - "Question 3: complete sentences with the correct tense."
+    tip: A tense shift needs a reason, such as a fact that is still true today.
+  - code: 8I
+    title: "Reading Comprehension: Beautiful St Petersburg"
+    pages: "129–130"
+    steps:
+      - Reread both autobiographical essays in your Student's Book.
+      - "Question 1: complete the table comparing Bai-Tong and Ilya."
+      - "Questions 2–4: list the features of autobiographical essays and compare the two essays."
+    tip: Use the table to plan your comparison.
+  - code: 8J
+    title: "Language Focus – Vocabulary: Word origins and derivations"
+    pages: "131"
+    steps:
+      - "Question 1: match the food words to the languages they came from."
+      - "Question 2: answer the questions about word origins."
+    tip: Use a dictionary to check word origins.
+  - code: 8K
+    title: "Writing: An autobiographical essay"
+    pages: "132–133"
+    steps:
+      - Plan what you will share about yourself.
+      - Write your first draft with a strong opening sentence.
+      - Revise and edit, then ask a classmate for feedback.
+    tip: Keep it friendly, interesting and in the first person.
+  - code: 8L
+    title: What Have I Learnt?
+    pages: "134–135"
+    steps:
+      - Read the autobiographical text carefully.
+      - "Questions 1–10: answer the questions about the text, its vocabulary, its tenses and its features."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "136"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: Who was Helen Keller's teacher?
+    back: Anne Sullivan.
+  - front: How did Helen's teacher teach her words?
+    back: She spelt the words into Helen's hand with her fingers.
+  - front: What is the difference between a biography and an autobiography?
+    back: A biography is written by someone else. An autobiography is written by the person about their own life.
+  - front: What does Bai-Tong's nickname mean?
+    back: Banana leaf.
+  - front: What is a dacha?
+    back: A country house in Russia.
+  - front: What is a tense shift?
+    back: A change from one tense to another. It should only happen when the time of the action changes.
+  - front: "What is the ie/ei spelling rule?"
+    back: "'i' before 'e', except after 'c' (believe, receive), but there are exceptions, such as weird and seize."
+practice:
+  - q: In which person is an autobiography written?
+    options: ["First person", "Second person", "Third person", "No person"]
+    answer: 0
+    explain: The writer tells their own story using I, me and my.
+  - q: When was Helen Keller born?
+    options: ["1780", "1880", "1950", "2000"]
+    answer: 1
+    explain: Helen Keller was born in 1880.
+  - q: Which word is spelt correctly?
+    options: ["recieve", "receive", "receeve", "receve"]
+    answer: 1
+    explain: "'i' before 'e', except after 'c': receive."
+  - q: Which sentence has a correct tense?
+    options: ["Yesterday I go to the park.", "Yesterday I went to the park.", "Yesterday I will go to the park.", "Yesterday I am going to the park."]
+    answer: 1
+    explain: "'Yesterday' tells us to use the past tense."
+  - q: Which is the best synonym for 'happy' in 'a happy, peaceful life'?
+    options: ["contented", "ecstatic", "lucky", "hilarious"]
+    answer: 0
+    explain: "'Contented' suits a calm, peaceful kind of happiness."
+  - q: Which word comes from Italian?
+    options: ["pizza", "tapas", "roti", "ketchup"]
+    answer: 0
+    explain: Pizza is an Italian word.
+  - q: What did Helen suddenly understand at the water pump?
+    options: ["That every thing has a name", "How to swim", "How to cook", "How to see"]
+    answer: 0
+    explain: She realised that the letters spelt into her hand were the name of the water.
+  - q: What is a feature of an autobiographical essay?
+    options: ["It is written in the third person", "It has a strong opening and a friendly style", "It has stage directions", "It rhymes"]
+    answer: 1
+    explain: Autobiographical essays are short, friendly and in the first person.
+basket:
+  - prompt: Catch the ie and ei words that are spelt correctly
+    correct: [believe, receive, ceiling, piece, neighbour, weird, seize, achieve]
+    wrong: [beleive, recieve, cieling, peice, nieghbour, wierd, sieze, acheive]
+  - prompt: Catch the verbs in the past tense
+    correct: [walked, filled, guided, flowed, spelt, taught, understood, was drawing]
+    wrong: [walk, fills, guiding, flows, spell, teaches, understand, will draw]
+  - prompt: Catch the features of an autobiography
+    correct: [first person, true events, personal feelings, chronological order, past tense, memories, real people, the writer's own voice]
+    wrong: [rhyme scheme, stage directions, made-up planets, talking animals, rhyming couplets, a chorus, a cast list, a recipe]
+grammar:
+  - title: Verb tenses
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "184"
+    wb: "121"
+    intro: >-
+      Tenses are the clock inside every sentence. When you write about your life, you will travel between the past,
+      the present and the future, so let's make sure you always know what time it is!
+    points:
+      - "The **simple past** describes finished actions: 'She **walked** to the pump.'"
+      - "The **past continuous** describes an action in progress in the past: 'I **was drawing** water.'"
+      - "The **simple present** describes habits and facts: 'Children **learn** words quickly.'"
+      - "The **past perfect** describes an action before another past action: 'I **had learnt** a few words.'"
+      - "The **future** can be shown with **will** or **going to**: 'I **will be** an engineer.'"
+    examples:
+      - text: "My teacher **arrived** in March."
+        note: "Simple past: a finished event."
+      - text: "I **was stringing** beads when she came in."
+        note: "Past continuous: an action in progress."
+      - text: "I **live** in Bangkok and I **play** tennis."
+        note: "Simple present: facts and habits."
+    tip: "Autobiographies mostly use the past tense, but present facts about your life now are in the present tense."
+    practice:
+      - q: "Which tense is 'was drawing'?"
+        options: ["simple past", "past continuous", "simple present", "future"]
+        answer: 1
+        explain: "was + -ing form = past continuous."
+      - q: "Which tense is 'Children learn words quickly'?"
+        options: ["simple present", "simple past", "past perfect", "future"]
+        answer: 0
+        explain: "It states a general fact, so it is in the simple present."
+      - q: "Choose the simple past: 'Helen ___ the word in her hand.'"
+        options: ["feel", "felt", "feeling", "will feel"]
+        answer: 1
+        explain: "'Felt' is the simple past of 'feel'."
+      - q: "Which sentence is in the past perfect?"
+        options: ["I learn many words.", "I had learnt many words.", "I am learning many words.", "I will learn many words."]
+        answer: 1
+        explain: "had + past participle = past perfect."
+      - q: "Which sentence talks about the future?"
+        options: ["I was a pianist.", "I am going to be a pianist.", "I have been a pianist.", "I play the piano."]
+        answer: 1
+        explain: "'going to' shows the future."
+  - title: Verb tense shifts
+    lesson: "Lesson 12 · Language Focus"
+    pages: "194"
+    wb: "128"
+    intro: >-
+      Imagine a story that keeps jumping between yesterday and today for no reason. Confusing! Good writers only change
+      tense when the time really changes, and you are about to become one of them.
+    points:
+      - "Keep to **one main tense** in a paragraph unless the time of the action changes."
+      - "An **unnecessary tense shift** is a mistake: 'I **went** home and **eat** dinner.' ✗"
+      - "A **correct tense shift** has a reason: 'My name **means** \"little bee\" because my father **was** a beekeeper.'"
+      - "Facts that are still true use the **present tense**, even in a past-tense paragraph."
+    examples:
+      - text: "I returned the book and the librarian **was** happy."
+        note: "Both verbs stay in the past."
+      - text: "My parents named me Xoli, which **means** 'one who forgives'."
+        note: "Correct shift: the meaning is still true today."
+      - text: "Yesterday I did my homework and then I **went** out."
+        note: "'Yesterday' keeps both actions in the past."
+    tip: "Read your paragraph and underline each verb. Is every change of tense for a good reason?"
+    practice:
+      - q: "Which sentence has an unnecessary tense shift?"
+        options: ["I walked home and ate dinner.", "I walked home and eat dinner.", "I walk home and eat dinner.", "I will walk home and eat dinner."]
+        answer: 1
+        explain: "'walked' is past but 'eat' is present, with no reason to change."
+      - q: "Correct the sentence: 'She sprained her ankle and we help her.'"
+        options: ["She sprains her ankle and we helped her.", "She sprained her ankle and we helped her.", "She sprained her ankle and we will help her.", "She spraining her ankle and we help her."]
+        answer: 1
+        explain: "Both actions happened in the past."
+      - q: "Why is this shift correct? 'Ilya visited Moscow, which is the capital of Russia.'"
+        options: ["It is a mistake", "Moscow is still the capital today", "Ilya lives in the future", "It is a question"]
+        answer: 1
+        explain: "A fact that is still true uses the present tense."
+      - q: "Choose the correct verb: 'Last summer we ___ to my grandmother's dacha.'"
+        options: ["go", "goes", "went", "will go"]
+        answer: 2
+        explain: "'Last summer' needs the past tense."
+      - q: "Choose the correct verb: 'I am excited because my brother ___ home today.'"
+        options: ["came", "is coming", "had come", "come"]
+        answer: 1
+        explain: "The sentence is about now and today, so we use 'is coming'."

@@ -304,3 +304,124 @@ basket:
   - prompt: Catch the correctly spelt -able and -ible words
     correct: [comfortable, invisible, horrible, flexible, enjoyable, reliable, sensible, reversible]
     wrong: [comfortible, invisable, horrable, flexable, enjoyible, reliible, sensable, reversable]
+grammar:
+  - title: Abstract nouns
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "196–197"
+    wb: "121"
+    intro: >-
+      Some nouns name things you can see and touch, like a wolf or a jungle. Others name ideas and feelings you
+      cannot touch at all, like courage or friendship. These are abstract nouns, and they help us talk about what a story really means.
+    points:
+      - "A **concrete noun** names something you can sense: wolf, tree, cave."
+      - "An **abstract noun** names an idea, a quality or a feeling: bravery, loyalty, fear, freedom."
+      - "Many abstract nouns are made with suffixes: **-ness** (kindness), **-ship** (friendship), **-dom** (freedom), **-ity** (curiosity), **-ment** (excitement), **-ion** (decision)."
+      - "Some abstract nouns come from adjectives (brave → bravery) and some from verbs (decide → decision)."
+    examples:
+      - text: "Mowgli showed great **courage** when he faced Shere Khan."
+        note: "You cannot touch courage, so it is an abstract noun."
+      - text: "The wolves' **loyalty** to Mowgli never changed."
+        note: "'loyalty' comes from the adjective 'loyal'."
+      - text: "Mowgli felt the **excitement** of the hunt."
+        note: "Made with the suffix -ment."
+    practice:
+      - q: "Which word is an abstract noun?"
+        options: ["jungle", "wolf", "friendship", "river"]
+        answer: 2
+        explain: "You cannot see or touch friendship. It is an idea."
+      - q: "What is the abstract noun made from 'happy'?"
+        options: ["happily", "happiness", "happier", "happen"]
+        answer: 1
+        explain: "Add -ness (and change y to i): 'happiness'."
+      - q: "Which suffix turns 'free' into an abstract noun?"
+        options: ["-dom", "-ly", "-er", "-ful"]
+        answer: 0
+        explain: "free + dom = freedom."
+      - q: "Find the abstract noun: 'Bagheera spoke with great wisdom.'"
+        options: ["Bagheera", "spoke", "great", "wisdom"]
+        answer: 3
+        explain: "'wisdom' names a quality you cannot touch."
+      - q: "Which is a concrete noun?"
+        options: ["anger", "hope", "claw", "danger"]
+        answer: 2
+        explain: "A claw is something you can see and touch."
+  - title: Joining sentences
+    lesson: "Lesson 7 · Language Focus – Grammar"
+    pages: "201–202"
+    wb: "124"
+    intro: >-
+      Lots of short sentences one after another can sound a bit jumpy. Joining them with conjunctions makes your
+      writing flow and shows how your ideas connect. Let's link our ideas like a film editor joins scenes!
+    points:
+      - "**Coordinating conjunctions** join two main clauses of equal importance: **and, but, or, so, yet**."
+      - "**Subordinating conjunctions** join a main clause to a dependent clause: **because, when, although, if, while, until, since, after**."
+      - "Choose the conjunction that shows the right link: **because** (reason), **so** (result), **but/although** (contrast), **when/after/until** (time)."
+      - "Use a comma when the dependent clause comes first: '**Although** he was small, Mowgli was brave.'"
+    examples:
+      - text: "Shere Khan was angry, **so** he roared at the wolves."
+        note: "'so' shows a result."
+      - text: "Mowgli stayed with the wolves **because** they protected him."
+        note: "'because' gives a reason."
+      - text: "**Although** the tiger was strong, the buffaloes were stronger."
+        note: "'Although' shows a contrast, and a comma follows the dependent clause."
+    practice:
+      - q: "Which conjunction shows a reason?"
+        options: ["but", "because", "or", "yet"]
+        answer: 1
+        explain: "'because' tells us why something happened."
+      - q: "Join the sentences: 'Mowgli was tired. He kept running.'"
+        options: ["Mowgli was tired so he kept running.", "Mowgli was tired, but he kept running.", "Mowgli was tired because he kept running.", "Mowgli was tired or he kept running."]
+        answer: 1
+        explain: "'but' shows the contrast between being tired and running on."
+      - q: "Which is a subordinating conjunction?"
+        options: ["and", "or", "while", "so"]
+        answer: 2
+        explain: "'while' starts a dependent clause, as in 'while the wolves slept'."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["When the sun set the wolves gathered.", "When the sun set, the wolves gathered.", "When, the sun set the wolves gathered.", "When the sun, set the wolves gathered."]
+        answer: 1
+        explain: "The dependent clause comes first, so a comma follows it."
+      - q: "Which conjunction shows time?"
+        options: ["until", "because", "but", "or"]
+        answer: 0
+        explain: "'until' tells us when something stops: 'Wait until I come back.'"
+  - title: Present perfect and past perfect
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "211"
+    wb: "128"
+    intro: >-
+      The perfect tenses help us show how events are connected in time. They are very useful when you write a film
+      review or retell a story, because you often need to show what had already happened before something else.
+    points:
+      - "**Present perfect** = **has/have** + past participle. It links the past to now: 'I **have seen** this film twice.'"
+      - "Use the present perfect for experiences and for actions with results now: 'She **has finished** her review.'"
+      - "**Past perfect** = **had** + past participle. It shows that one past action happened **before** another: 'The tiger **had gone** when Mowgli arrived.'"
+      - "Watch out for irregular past participles: seen, gone, taken, written, eaten, known."
+    examples:
+      - text: "Millions of people **have watched** 'The Jungle Book'."
+        note: "Present perfect: an experience linked to now."
+      - text: "By the time the buffaloes charged, Shere Khan **had fallen** asleep."
+        note: "Past perfect: he fell asleep before the buffaloes charged."
+      - text: "We **have** just **bought** our tickets."
+        note: "Present perfect with 'just' for a recent action."
+    practice:
+      - q: "Which sentence uses the present perfect?"
+        options: ["I saw the film yesterday.", "I have seen the film.", "I had seen the film.", "I see the film."]
+        answer: 1
+        explain: "'have seen' is has/have + past participle."
+      - q: "Which sentence uses the past perfect?"
+        options: ["The wolves had left before dawn.", "The wolves leave before dawn.", "The wolves have left.", "The wolves are leaving."]
+        answer: 0
+        explain: "'had left' is had + past participle."
+      - q: "Choose the correct form: 'When we arrived, the film ___ already started.'"
+        options: ["has", "had", "have", "was"]
+        answer: 1
+        explain: "The film started before we arrived, so we need the past perfect: 'had already started'."
+      - q: "What is the past participle of 'write'?"
+        options: ["wrote", "writed", "written", "writing"]
+        answer: 2
+        explain: "'write' is irregular: write, wrote, written."
+      - q: "Choose the correct sentence."
+        options: ["She has wrote a review.", "She has written a review.", "She have written a review.", "She has writed a review."]
+        answer: 1
+        explain: "'has' + the past participle 'written'."

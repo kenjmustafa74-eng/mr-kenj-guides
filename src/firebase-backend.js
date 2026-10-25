@@ -109,7 +109,7 @@ async function isTeacher(uid) {
 function newProfile(user, name, extra = {}) {
   return {
     name, email: user.email, createdAt: serverTimestamp(), lastActive: serverTimestamp(),
-    progress: {}, cards: {}, quiz: [], games: {}, summaries: {}, days: [], ...extra,
+    progress: {}, cards: {}, quiz: [], games: {}, summaries: {}, grammar: {}, days: [], ...extra,
   };
 }
 async function resolveUser(user) {
@@ -168,8 +168,8 @@ async function signup(b) {
     return { user: me };
   } catch (e) {
     // Do not leave a half-made account behind (for example when the class code was wrong).
+    // An existing login may belong to the other year's guide (same website), so it stays signed in there.
     if (created) await deleteUser(cred.user).catch(() => {});
-    else await signOut(auth).catch(() => {});
     throw e;
   }
 }
@@ -182,7 +182,7 @@ async function signin(b) {
   let user = await resolveUser(cred.user);
   if (!user) {
     if (A.classCodeRequired) {
-      await signOut(auth);
+      // Stay signed in: the same login may be in use in the other year's guide on this website.
       throw fail(403, `You have not joined ${A.yearLabel} yet. Choose “Create an account”, then use the same email and password with the class code from your teacher.`);
     }
     user = await joinYear(cred.user, cleanName(cred.user.displayName) || email.split('@')[0], '');
@@ -198,7 +198,8 @@ async function session() {
   if (!u) { me = null; return { user: null }; }
   me = await resolveUser(u);
   if (!me && !A.classCodeRequired) me = await joinYear(u, cleanName(u.displayName) || u.email.split('@')[0], '');
-  if (!me) { await signOut(auth); return { user: null }; }
+  // Not a member of this year (yet): show the sign-in page, but do not sign out of the other year's guide.
+  if (!me) return { user: null };
   return { user: me };
 }
 
@@ -226,6 +227,7 @@ function toState(d, unlocks) {
     cards: { ...(d.cards || {}) },
     games: Object.entries(d.games || {}).map(([k, g]) => ({ unit_id: Number(k), best_score: g.best, best_level: g.bestLevel, plays: g.plays, updated_at: g.at })),
     summaries: Object.entries(d.summaries || {}).map(([k, s]) => ({ unit_id: Number(k), main_idea: s.main_idea || '', learnt: s.learnt || '', favourite: s.favourite || '', wonder: s.wonder || '', updated_at: s.at })),
+    grammar: Object.fromEntries(Object.entries(d.grammar || {}).map(([k, g]) => [k, { best: g.best, total: g.total, attempts: g.attempts, updated_at: g.at }])),
     unlocks,
     streak: P().streak([...new Set(d.days || [])].sort(), day),
     today: day,
@@ -280,6 +282,37 @@ async function quiz(b) {
     tx.update(myRef(), 'quiz', quizList, ...studied());
   });
   return { score, total: details.length, details };
+}
+
+async function grammar(b) {
+  requireMe();
+  const c = await content();
+  const topicId = String(b.topic || '');
+  const topic = c.units.flatMap((u) => u.grammar || []).find((t) => t.id === topicId);
+  if (!topic) throw fail(400, 'Unknown grammar topic.');
+  const list = Array.isArray(b.answers) ? b.answers.slice(0, 20) : [];
+  if (!list.length) throw fail(400, 'No answers were sent.');
+  const Q = new Map(topic.practice.map((q) => [q.id, q]));
+  const seen = new Set();
+  const details = list.map((a) => {
+    const q = Q.get(a.qid);
+    if (!q || seen.has(a.qid)) throw fail(400, 'Unknown question.');
+    seen.add(a.qid);
+    return { qid: a.qid, correct: a.choice === q.options[q.answer] };
+  });
+  const score = details.filter((d) => d.correct).length;
+  let out;
+  await runTransaction(db, async (tx) => {
+    const snap = await tx.get(myRef());
+    const before = ((snap.data() || {}).grammar || {})[topicId];
+    const beforePct = before ? before.best / before.total : -1;
+    const g = score / details.length >= beforePct
+      ? { best: score, total: details.length, attempts: (before ? before.attempts : 0) + 1, at: new Date().toISOString() }
+      : { ...before, attempts: before.attempts + 1, at: new Date().toISOString() };
+    tx.update(myRef(), new FieldPath('grammar', topicId), g, ...studied());
+    out = { score, total: details.length, details, best: g.best, bestTotal: g.total };
+  });
+  return out;
 }
 
 async function setCard(cardId, b) {
@@ -431,6 +464,7 @@ const routes = [
   ['GET', /^\/api\/state$/, state],
   ['PUT', /^\/api\/progress\/([^/]+)$/, (m, b) => setProgress(decodeURIComponent(m[1]), b)],
   ['POST', /^\/api\/quiz$/, (m, b) => quiz(b)],
+  ['POST', /^\/api\/grammar$/, (m, b) => grammar(b)],
   ['PUT', /^\/api\/cards\/([^/]+)$/, (m, b) => setCard(decodeURIComponent(m[1]), b)],
   ['POST', /^\/api\/game$/, (m, b) => game(b)],
   ['PUT', /^\/api\/summary\/(\d+)$/, (m, b) => summary(m[1], b)],

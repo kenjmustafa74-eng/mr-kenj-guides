@@ -4,7 +4,7 @@
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.ProgressCore = api;
 })(typeof self !== 'undefined' ? self : this, function () {
-  const WEIGHTS = { activities: 0.5, quiz: 0.2, cards: 0.15, summary: 0.1, game: 0.05 };
+  const WEIGHTS = { activities: 0.45, quiz: 0.15, grammar: 0.15, cards: 0.1, summary: 0.1, game: 0.05 };
 
   function bestPercent(attempts) {
     if (!attempts || !attempts.length) return null;
@@ -15,7 +15,10 @@
     return !!(sm && sm.main_idea && sm.main_idea.trim().length >= 10 && sm.learnt && sm.learnt.trim().length >= 10);
   }
 
-  // state: { progress:Set|Array, quiz:[attempts], cards:{id:status}, games:[...], summaries:[...] }
+  // Best score on one grammar topic's practice, as a fraction (0 when not tried yet).
+  function grammarBest(g) { return g && g.total ? g.best / g.total : 0; }
+
+  // state: { progress:Set|Array, quiz:[attempts], cards:{id:status}, games:[...], summaries:[...], grammar:{topicId:{best,total}} }
   function unitProgress(unit, state) {
     const done = state.progress instanceof Set ? state.progress : new Set(state.progress || []);
     const items = [...unit.sb, ...unit.wb];
@@ -25,18 +28,28 @@
     const known = unit.cards.filter((c) => (state.cards || {})[c.id] === 'known').length;
     const sm = (state.summaries || []).find((x) => x.unit_id === unit.id);
     const game = (state.games || []).find((g) => g.unit_id === unit.id);
+    const topics = unit.grammar || [];
+    const gs = state.grammar || {};
+    const grammarTried = topics.filter((t) => gs[t.id]).length;
+    const grammarMastered = topics.filter((t) => grammarBest(gs[t.id]) >= 0.75).length;
+    const grammarScore = topics.length ? topics.reduce((a, t) => a + grammarBest(gs[t.id]), 0) / topics.length : 0;
     const parts = {
       activities: items.length ? ticked / items.length : 0,
       quiz: best == null ? 0 : best / 100,
+      grammar: grammarScore,
       cards: unit.cards.length ? known / unit.cards.length : 0,
       summary: summaryWritten(sm) ? 1 : 0,
       game: game && game.plays > 0 ? 1 : 0,
     };
-    const pct = Math.round(100 * Object.entries(WEIGHTS).reduce((s, [k, w]) => s + w * parts[k], 0));
+    // A unit without grammar topics shares the grammar weight out over the other parts.
+    const weights = Object.entries(WEIGHTS).filter(([k]) => k !== 'grammar' || topics.length);
+    const sumW = weights.reduce((s, [, w]) => s + w, 0);
+    const pct = Math.round((100 * weights.reduce((s, [k, w]) => s + w * parts[k], 0)) / sumW);
     return {
       pct, ticked, totalItems: items.length, bestQuiz: best, quizAttempts: attempts.length,
       cardsKnown: known, cardsTotal: unit.cards.length, summary: summaryWritten(sm),
       gameBest: game ? game.best_score : null, gamePlays: game ? game.plays : 0,
+      grammarTotal: topics.length, grammarTried, grammarMastered, grammarPct: Math.round(100 * grammarScore),
     };
   }
 
@@ -65,5 +78,5 @@
     return { current, best, studiedToday: set.has(today), totalDays: set.size };
   }
 
-  return { WEIGHTS, unitProgress, overallProgress, streak, bestPercent, summaryWritten };
+  return { WEIGHTS, unitProgress, overallProgress, streak, bestPercent, summaryWritten, grammarBest };
 });

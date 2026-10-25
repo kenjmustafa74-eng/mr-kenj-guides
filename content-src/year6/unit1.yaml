@@ -1,0 +1,487 @@
+id: 1
+title: Time and Space
+colour: "#3b4a8c"
+sbStart: 1
+wbStart: 1
+sbPages: "1–26"
+wbPages: "1–17"
+parts:
+  - code: 1A
+    title: Time Travel
+  - code: 1B
+    title: Space Travel
+overview: >-
+  Welcome to Year 6! We begin with a journey through time and space. You will read two science fiction stories:
+  one about a boy who meets his older self, and one about a girl sailing a solar yacht home from the Moon all on her own.
+  You will learn how science fiction stories are built, how to use clauses and punctuation like a confident writer,
+  and then you will invent a science fiction story of your own.
+objectives:
+  - Explain the structure of a science fiction story (exposition, rising action, climax, falling action and resolution) and its typical features.
+  - Recognise simple, compound and complex sentences, and main and subordinate clauses.
+  - Use parenthesis with brackets, commas and dashes to add extra information.
+  - Use colons, semi-colons and ellipses correctly and for effect.
+  - Spell words with the different spellings of the /k/ sound.
+  - Listen to a science fiction story and answer questions about it.
+  - Plan, draft and improve your own science fiction story.
+texts:
+  - title: Time Travel
+    kind: Science fiction story by Jenny Hogan
+    pages: "4–10"
+    summary: >-
+      The narrator is a careful boy who lives by three rules, and one of them is never to have anything to do with
+      time travel. Then he is pulled forward in time into his own bedroom, where he meets his older self. His older
+      self needs him to win the school science fair, because winning leads to a science scholarship, and that is how
+      time travel will one day be invented. After an accident, the narrator has to rebuild his volcano project, and an
+      unexpected trip far back into the past adds to the adventure.
+  - title: Solo Solar Sailing
+    kind: Science fiction story by Zareh MacPherson
+    pages: "16–20"
+    summary: >-
+      A young girl is sailing her solar yacht, the Helios, home from the Moon on her own, the youngest girl ever to try.
+      Written as a series of log entries, the story follows her as alarms warn of a huge solar flare. She must adjust
+      the solar sail and the ion tiller to stay on course for Earth, remembering her father's advice that solar sailing
+      is more an art than a science.
+  - title: Galileo!
+    kind: Listening text (science fiction)
+    pages: "23"
+    summary: >-
+      Stella seems to be at school, but her school is in virtual reality. When she switches it off, we discover that she
+      is really aboard her mother's spaceship, exploring the galaxy, and that a wormhole is causing trouble.
+vocab:
+  - word: science fiction
+    meaning: Stories about imagined future science and technology, such as time travel, space travel or robots.
+    example: My favourite science fiction story is set on a space station orbiting Mars.
+  - word: exposition
+    meaning: The beginning of a story, which introduces the characters, the setting and the problem.
+    example: In the exposition, we meet the narrator and learn his three rules.
+  - word: parallel universe
+    meaning: An imagined universe that exists alongside ours but never meets it.
+    example: In a parallel universe, perhaps you are reading this on the Moon.
+  - word: theory
+    meaning: An idea that tries to explain something but has not yet been proved.
+    example: Her theory was that the plant grew faster in music.
+  - word: trajectory
+    meaning: The path an object follows as it moves through the air or space.
+    example: The engineers checked the rocket's trajectory carefully.
+  - word: solar flare
+    meaning: A sudden, powerful burst of energy from the surface of the Sun.
+    example: The solar flare set off every alarm on the yacht.
+  - word: parenthesis
+    meaning: Extra information added to a sentence using brackets, commas or dashes.
+    example: My cousin (the one who loves astronomy) visited the planetarium.
+  - word: subordinate clause
+    meaning: A clause that adds information to a main clause but does not make sense on its own.
+    example: Although the sail was damaged, the yacht kept moving.
+  - word: semi-colon
+    meaning: A punctuation mark (;) that joins two closely linked main clauses.
+    example: The alarm rang; the solar flare had arrived.
+  - word: independent
+    meaning: Able to do things for yourself without relying on others.
+    example: She was independent enough to sail home alone.
+sb:
+  - part: 1A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "1"
+    tip: Study the picture closely. Is it from a fiction or a non-fiction text? Practise your group roles, such as leader, scribe and spokesperson.
+  - part: 1A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "2"
+    tip: Share any science fiction stories or films you know. What makes them science fiction?
+  - part: 1A
+    lesson: Lesson 2
+    title: "Let's Learn: Structure of science fiction stories"
+    pages: "2–3"
+    tip: Learn the five parts of the plot (exposition, rising action, climax, falling action and resolution) and the features of science fiction.
+  - part: 1A
+    lesson: Lesson 3
+    title: "Reading Part 1: Time Travel"
+    pages: "4–6"
+    tip: As you read, ask what kind of person the narrator is. How does he feel about change and adventure?
+  - part: 1A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Simple, compound and complex sentences"
+    pages: "7"
+    tip: Count the clauses and look at how they are joined. Is there a joining word such as 'and', 'but' or 'so', or a word such as 'because' or 'when'?
+  - part: 1A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Time Travel and Reading Comprehension"
+    pages: "8–10"
+    tip: Track the problem and the resolution. Why does the narrator's older self need him to win the science fair?
+  - part: 1A
+    lesson: Lesson 7
+    title: "Language Focus – Punctuation: Parenthesis"
+    pages: "11"
+    tip: Read the sentence without the extra information. If it still makes sense, your brackets, commas or dashes are in the right place.
+  - part: 1A
+    lesson: Lesson 8
+    title: "Word Structure: Spelling patterns – the /k/ sound"
+    pages: "12"
+    tip: The /k/ sound can be spelt c, k, ck, ch or que. Say each word aloud and look carefully at how it is spelt.
+  - part: 1A
+    lesson: Lesson 9
+    title: "Writing: The exposition of a science fiction story"
+    pages: "13"
+    tip: Introduce your main character, an exciting setting and a hint of the problem. Use descriptive words to help your reader imagine the future.
+  - part: 1B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: More about the structure of science fiction stories"
+    pages: "14–15"
+    tip: Think about how language, pictures and the plot work together to make a science fiction story exciting.
+  - part: 1B
+    lesson: Lesson 11
+    title: "Reading Part 1: Solo Solar Sailing"
+    pages: "16–17"
+    tip: Notice that the story is told in log entries. What do we learn about the setting and the narrator in the exposition?
+  - part: 1B
+    lesson: Lesson 12
+    title: "Language Focus – Grammar: Main and subordinate clauses"
+    pages: "18"
+    tip: The main clause makes sense on its own. The subordinate clause often starts with a word such as 'if', 'until', 'because' or 'which'.
+  - part: 1B
+    lesson: Lesson 13
+    title: "Reading Part 2: Solo Solar Sailing and Reading Comprehension"
+    pages: "19–20"
+    tip: List the steps the narrator takes to deal with the solar flare. What do they tell you about her character?
+  - part: 1B
+    lesson: Lesson 14
+    title: "Language Focus – Punctuation: Colons, semi-colons and ellipses"
+    pages: "21–22"
+    tip: A colon introduces, a semi-colon joins two linked ideas, and an ellipsis (…) builds suspense or shows that words are missing.
+  - part: 1B
+    lesson: Lesson 15
+    title: "Listening: Galileo!"
+    pages: "23"
+    tip: Read the questions before you listen, then listen for the key details. Where is Stella really?
+  - part: 1B
+    lesson: Lessons 16–17
+    title: "Writing: A science fiction story"
+    pages: "24–25"
+    tip: Plan all five parts of your plot first. Then draft, revise and edit, and check your clauses and punctuation.
+  - part: 1B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "26"
+    tip: Be honest about what you found easy and what you would like to practise more.
+wb:
+  - code: 1A
+    title: "Let's Learn: Structure of science fiction stories"
+    pages: "1"
+    steps:
+      - Read the extract about Fran carefully and look up any difficult words.
+      - "Questions 2–3: name the part of the plot and the science fiction features you can find."
+      - "Questions 4–7: answer the questions about the main character, the setting and what might happen next."
+    tip: Look back at Student's Book pages 2–3 to remind yourself of the five parts of a plot.
+  - code: 1B
+    title: "Language Focus: Simple, compound and complex sentences"
+    pages: "2"
+    steps:
+      - "Question 1: find the main (independent) clause in each sentence."
+      - "Question 2: join pairs of simple sentences to make compound sentences."
+      - "Question 3: write simple sentences of your own using the words given."
+    tip: A compound sentence joins two main clauses. A complex sentence has a main clause and a subordinate clause.
+  - code: 1C
+    title: "Reading Comprehension: Time Travel"
+    pages: "3–4"
+    steps:
+      - Reread 'Time Travel' in your Student's Book.
+      - "Questions 1–10: choose the correct answer for each multiple-choice question."
+    tip: Read every option before you choose. Check your choice against the text.
+  - code: 1D
+    title: "Language Focus: Parenthesis"
+    pages: "5–6"
+    steps:
+      - "Question 1: add the extra information to each sentence using brackets, commas or dashes."
+      - "Question 2: add the missing commas to show the parenthesis."
+    tip: Check by reading the sentence without the extra words. It should still make sense.
+  - code: 1E
+    title: "Word Structure: Spelling patterns – the /k/ sound"
+    pages: "7"
+    steps:
+      - "Question 1: complete each word with the correct spelling of the /k/ sound."
+      - "Question 2: find the misspelt words, correct them and write what each word means."
+    tip: Use a dictionary to check any spelling you are unsure about.
+  - code: 1F
+    title: "Writing: The exposition of a science fiction story"
+    pages: "8"
+    steps:
+      - Plan your main character, your setting and the problem.
+      - Write the exposition of your science fiction story.
+      - Read it again and improve your word choices.
+    tip: Your first paragraph should make the reader want to keep reading.
+  - code: 1G
+    title: "Let's Learn: More about the structure of science fiction stories"
+    pages: "9"
+    steps:
+      - "Question 1: name each part of the plot."
+      - "Question 2: describe the rising action, falling action and resolution of 'Time Travel'."
+    tip: The climax is the turning point. The resolution shows how everything ends.
+  - code: 1H
+    title: "Language Focus: Main and subordinate clauses"
+    pages: "10"
+    steps:
+      - "Question 1: work with the main and subordinate clauses in each sentence."
+      - "Question 2: find the main clause in each complex sentence."
+    tip: Cover the subordinate clause. The main clause that is left should still make sense.
+  - code: 1I
+    title: "Reading Comprehension: Solo Solar Sailing"
+    pages: "11"
+    steps:
+      - Reread 'Solo Solar Sailing' in your Student's Book.
+      - "Questions 1–6: answer the questions about the genre, the narrator and the Helios."
+      - "Question 7: explain what the words from the story mean."
+    tip: Use the words around a new word to help you work out its meaning.
+  - code: 1J
+    title: "Language Focus: Colons, semi-colons and ellipses"
+    pages: "12"
+    steps:
+      - "Question 1: add colons where they are needed."
+      - "Question 2: join clauses correctly with semi-colons."
+      - "Question 3: use ellipses to build suspense."
+    tip: Only use a semi-colon if both parts would make sense as sentences on their own.
+  - code: 1K
+    title: "Writing: A science fiction story"
+    pages: "13–14"
+    steps:
+      - Plan the exposition, rising action, climax, falling action and resolution of your story.
+      - Write your first draft.
+      - Revise and edit your story, then write your final version.
+    tip: Use parenthesis, colons, semi-colons and an ellipsis to make your story shine.
+  - code: 1L
+    title: What Have I Learnt?
+    pages: "15–16"
+    steps:
+      - Read the science fiction extract carefully.
+      - "Questions 1–2: answer the questions about the story and explain the meanings of words."
+      - "Questions 3–4: find main clauses and use punctuation for effect."
+      - "Question 5: write a paragraph of your own."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "17"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What are the five parts of a story's plot?
+    back: Exposition, rising action, climax, falling action and resolution.
+  - front: What makes a story science fiction?
+    back: It is set in an imagined future or another world and includes imagined science or technology, such as time travel or spaceships.
+  - front: Why does the older self need the narrator to win the science fair?
+    back: Winning leads to a science scholarship, and that is how the narrator will grow up to invent time travel.
+  - front: What is parenthesis?
+    back: Extra information added to a sentence with brackets, commas or dashes. The sentence still makes sense without it.
+  - front: What does the narrator of 'Solo Solar Sailing' have to do when the solar flare arrives?
+    back: She adjusts the solar sail and the ion tiller so that the Helios stays on course for Earth.
+  - front: What is the difference between a colon and a semi-colon?
+    back: A colon introduces something, such as a list or an explanation. A semi-colon joins two closely linked main clauses.
+  - front: What is a subordinate clause?
+    back: A clause that adds information to the main clause but does not make sense on its own.
+practice:
+  - q: Which part of a plot introduces the characters, setting and problem?
+    options: ["The climax", "The exposition", "The falling action", "The resolution"]
+    answer: 1
+    explain: The exposition is the beginning of the story, where we meet the characters and the setting.
+  - q: Which sentence is compound?
+    options: ["The alarm rang.", "The alarm rang and the narrator woke up.", "When the alarm rang, the narrator woke up.", "The loud alarm."]
+    answer: 1
+    explain: It joins two main clauses with 'and', so it is compound.
+  - q: Which sentence uses parenthesis correctly?
+    options: ["My sister (who loves space) watched the launch.", "My sister who (loves space watched) the launch.", "(My sister) who loves space watched the launch.", "My sister who loves space (watched the launch."]
+    answer: 0
+    explain: The brackets go around the extra information, 'who loves space'.
+  - q: Why does the narrator of 'Time Travel' have a rule about never time travelling?
+    options: ["He thinks it is boring", "He is worried that changing the past could change the future", "His teacher told him to", "He does not like science"]
+    answer: 1
+    explain: He is scared that changing even a small detail in the past could affect the future.
+  - q: Which word spells the /k/ sound with 'que'?
+    options: ["kitten", "unique", "chorus", "pocket"]
+    answer: 1
+    explain: In 'unique', the /k/ sound at the end is spelt 'que'.
+  - q: "Where should the semi-colon go? 'The sail was damaged the yacht drifted towards Mars.'"
+    options: ["The sail; was damaged the yacht drifted towards Mars.", "The sail was damaged; the yacht drifted towards Mars.", "The sail was damaged the yacht; drifted towards Mars.", "The sail was damaged the yacht drifted; towards Mars."]
+    answer: 1
+    explain: The semi-colon joins the two linked main clauses.
+  - q: What is an ellipsis often used for in a story?
+    options: ["To end every sentence", "To build suspense", "To start a list", "To show a question"]
+    answer: 1
+    explain: An ellipsis (…) makes the reader pause and wonder what will happen next.
+  - q: How is 'Solo Solar Sailing' told?
+    options: ["As a play script", "As a series of log entries", "As a poem", "As a news report"]
+    answer: 1
+    explain: The narrator records her journey in log entries, like a ship's log.
+basket:
+  - prompt: Catch the words that name parts of a story's plot
+    correct: [exposition, climax, resolution, problem, setting, characters, conclusion, ending]
+    wrong: [recipe, invoice, timetable, receipt, password, headline, chorus, footnote]
+  - prompt: Catch the words with the /k/ sound
+    correct: [chorus, unique, rocket, kettle, castle, school, technical, antique]
+    wrong: [cereal, giant, circle, shoe, cent, chair, gentle, ceiling]
+  - prompt: Catch the words that belong in a science fiction story
+    correct: [spaceship, wormhole, robot, galaxy, astronaut, laser, satellite, hologram]
+    wrong: [palace, dragon, knight, wizard, carriage, candle, princess, tournament]
+grammar:
+  - title: Simple, compound and complex sentences
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "7"
+    wb: "2"
+    intro: >-
+      Good writers mix their sentences like a chef mixes flavours. Short ones create drama; longer ones explain and
+      describe. In Year 6, you will choose your sentence type on purpose, so let's make sure you know all three.
+    points:
+      - "A **simple sentence** has one main clause: 'The time machine hummed.'"
+      - "A **compound sentence** joins two main clauses with a coordinating conjunction such as **and**, **but**, **or** or **so**."
+      - "A **complex sentence** has a main clause and at least one **subordinate clause**, often starting with **because**, **when**, **if**, **although** or **while**."
+      - "Each main clause in a compound sentence makes sense on its own. A subordinate clause does not."
+    examples:
+      - text: "The volcano exploded."
+        note: "Simple: one main clause."
+      - text: "The volcano exploded, so I had to build another one."
+        note: "Compound: two main clauses joined by 'so'."
+      - text: "Because the volcano exploded, I had to build another one."
+        note: "Complex: the subordinate clause starts with 'because'."
+    tip: "Ask yourself: can each part stand on its own as a sentence? If both can, it is compound. If one cannot, it is complex."
+    practice:
+      - q: "Which sentence is simple?"
+        options: ["The rocket launched at dawn.", "The rocket launched and the crowd cheered.", "When the rocket launched, the crowd cheered.", "The rocket launched, but the crowd was silent."]
+        answer: 0
+        explain: "'The rocket launched at dawn.' has only one main clause."
+      - q: "Which sentence is compound?"
+        options: ["Although it was late, we watched the stars.", "We watched the stars.", "We watched the stars, but the clouds soon covered them.", "Because it was clear, we watched the stars."]
+        answer: 2
+        explain: "Two main clauses are joined by 'but', so the sentence is compound."
+      - q: "Which sentence is complex?"
+        options: ["I opened the door and walked in.", "I opened the door when I heard a strange humming.", "I opened the door.", "I opened the door, so the cat ran out."]
+        answer: 1
+        explain: "'when I heard a strange humming' is a subordinate clause, so the sentence is complex."
+      - q: "Which word would turn 'The alarm rang. We woke up.' into a complex sentence?"
+        options: ["and", "but", "so", "When"]
+        answer: 3
+        explain: "'When the alarm rang, we woke up.' 'When' starts a subordinate clause."
+      - q: "What type of sentence is this? 'You can travel to the past, or you can visit the future.'"
+        options: ["simple", "compound", "complex", "not a sentence"]
+        answer: 1
+        explain: "Two main clauses are joined by 'or', so it is compound."
+  - title: Parenthesis
+    lesson: "Lesson 7 · Language Focus – Punctuation"
+    pages: "11"
+    wb: "5–6"
+    intro: >-
+      Sometimes you want to whisper a little extra detail to your reader in the middle of a sentence. That is what
+      parenthesis does! It adds information without breaking the sentence.
+    points:
+      - "**Parenthesis** is a word, phrase or clause added to a sentence to give extra information."
+      - "You can mark it with a pair of **brackets** ( ), a pair of **commas** or a pair of **dashes** (–)."
+      - "Dashes make the extra information stand out more; brackets make it quieter."
+      - "If you take the parenthesis away, the sentence must still make sense."
+    examples:
+      - text: "My older self (who looked very confident) handed me a note."
+        note: "Brackets around the extra information."
+      - text: "The science fair, I was sure, would be a disaster."
+        note: "A pair of commas."
+      - text: "The volcano – my second attempt – finally worked."
+        note: "A pair of dashes makes the detail stand out."
+    tip: "Parenthesis always comes in pairs, unless it reaches the end of the sentence. Check that you have opened and closed it."
+    practice:
+      - q: "Which sentence uses brackets for parenthesis correctly?"
+        options: ["The comet (a ball of ice and dust) flew past.", "The comet a ball (of ice and dust flew) past.", "(The comet a ball) of ice and dust flew past.", "The comet a ball of ice and dust (flew past)."]
+        answer: 0
+        explain: "The brackets surround the extra information, 'a ball of ice and dust'."
+      - q: "Which words are the parenthesis? 'Mrs Patel, our science teacher, judged the fair.'"
+        options: ["Mrs Patel", "our science teacher", "judged the fair", "the fair"]
+        answer: 1
+        explain: "'our science teacher' is extra information, marked by a pair of commas."
+      - q: "Which sentence uses dashes correctly?"
+        options: ["The yacht – built in 2070 sailed home.", "The yacht – built in 2070 – sailed home.", "The yacht built – in 2070 – sailed home.", "– The yacht built in 2070 sailed home."]
+        answer: 1
+        explain: "A pair of dashes goes around the extra information."
+      - q: "What happens when you remove the parenthesis from a sentence?"
+        options: ["It no longer makes sense", "It still makes sense", "It becomes a question", "It becomes a list"]
+        answer: 1
+        explain: "Parenthesis is extra information, so the sentence still makes sense without it."
+      - q: "Which punctuation can NOT be used to mark parenthesis?"
+        options: ["brackets", "commas", "dashes", "question marks"]
+        answer: 3
+        explain: "Parenthesis is marked with brackets, commas or dashes."
+  - title: Main and subordinate clauses
+    lesson: "Lesson 12 · Language Focus – Grammar"
+    pages: "18"
+    wb: "10"
+    intro: >-
+      Think of the main clause as the captain of the sentence and the subordinate clause as the crew. The crew
+      adds useful information, but it cannot sail the ship alone!
+    points:
+      - "A **main clause** has a subject and a verb and makes sense on its own."
+      - "A **subordinate clause** also has a verb, but it depends on the main clause to make sense."
+      - "Subordinate clauses often begin with **subordinating conjunctions** (if, until, because, although, unless, since) or **relative pronouns** (who, which, that)."
+      - "When a subordinate clause comes first, put a comma after it."
+    examples:
+      - text: "**I will reach Earth** __if the sail holds__."
+        note: "The main clause is in bold; the subordinate clause is underlined."
+      - text: "__Unless I change direction__, **I will drift towards Mars**."
+        note: "The subordinate clause comes first, so it is followed by a comma."
+      - text: "**She checked the instruments**, __which were flashing red__."
+        note: "A relative pronoun begins this subordinate clause."
+    tip: "Read each clause aloud on its own. The one that sounds unfinished is the subordinate clause."
+    practice:
+      - q: "Which is the main clause? 'Although the flare was huge, the narrator stayed calm.'"
+        options: ["Although the flare was huge", "the narrator stayed calm", "Although the flare", "was huge"]
+        answer: 1
+        explain: "'the narrator stayed calm' makes sense on its own."
+      - q: "Which is the subordinate clause? 'We will wait here until the storm passes.'"
+        options: ["We will wait here", "We will wait", "until the storm passes", "wait here until"]
+        answer: 2
+        explain: "'until the storm passes' cannot stand on its own."
+      - q: "Which word often begins a subordinate clause?"
+        options: ["unless", "yacht", "and", "quickly"]
+        answer: 0
+        explain: "'Unless' is a subordinating conjunction."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["If the alarm rings we must act fast.", "If the alarm rings, we must act fast.", "If, the alarm rings we must act fast.", "If the alarm, rings we must act fast."]
+        answer: 1
+        explain: "The subordinate clause comes first, so a comma follows it."
+      - q: "Which of these is a main clause?"
+        options: ["because she was brave", "when the sun rose", "the astronaut smiled", "if we are lucky"]
+        answer: 2
+        explain: "'the astronaut smiled' has a subject and a verb and makes sense alone."
+  - title: Colons, semi-colons and ellipses
+    lesson: "Lesson 14 · Language Focus – Punctuation"
+    pages: "21–22"
+    wb: "12"
+    intro: >-
+      These three marks are a Year 6 writer's secret tools. Use them well, and your writing will look polished and
+      sound exciting. Let's learn what each one does.
+    points:
+      - "A **colon** (:) introduces something: a list, an explanation or a quotation. The words before it must make a complete sentence."
+      - "A **semi-colon** (;) joins two main clauses that are closely linked. Both parts must make sense on their own."
+      - "An **ellipsis** (…) shows a pause, builds suspense, or shows that words have been left out."
+    examples:
+      - text: "I packed three things: a torch, a map and a compass."
+        note: "The colon introduces a list."
+      - text: "The alarm stopped; the danger had passed."
+        note: "The semi-colon joins two linked main clauses."
+      - text: "The door creaked open … and then there was silence."
+        note: "The ellipsis builds suspense."
+    tip: "Test a semi-colon by replacing it with a full stop. If you get two proper sentences, the semi-colon is correct."
+    practice:
+      - q: "Which sentence uses a colon correctly?"
+        options: ["We need: three things.", "We need three things: food, water and fuel.", "We: need three things food, water and fuel.", "We need three: things food, water and fuel."]
+        answer: 1
+        explain: "The colon comes after a complete sentence and introduces the list."
+      - q: "Which sentence uses a semi-colon correctly?"
+        options: ["The sun rose; the sky turned gold.", "The sun; rose the sky turned gold.", "The sun rose the; sky turned gold.", "The; sun rose the sky turned gold."]
+        answer: 0
+        explain: "The semi-colon joins two linked main clauses."
+      - q: "What is an ellipsis often used for in a story?"
+        options: ["To start a list", "To build suspense", "To join two clauses", "To show possession"]
+        answer: 1
+        explain: "An ellipsis makes the reader pause and wonder what will happen next."
+      - q: "Which mark introduces an explanation? 'There was only one problem _ the engine had stopped.'"
+        options: ["a colon", "an apostrophe", "a question mark", "a hyphen"]
+        answer: 0
+        explain: "A colon introduces the explanation: 'the engine had stopped'."
+      - q: "Which of these is an ellipsis?"
+        options: [";", ":", "…", "–"]
+        answer: 2
+        explain: "An ellipsis is three dots."

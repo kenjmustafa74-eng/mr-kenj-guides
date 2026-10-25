@@ -12,6 +12,7 @@ const fs = require('fs');
 const { chromium } = require('playwright-core');
 
 const BASE = process.env.BASE || 'http://localhost:5050/mr-kenj-guides/year-five';
+const APP = process.env.APP || 'year5';
 const TFILE = process.env.TEACHER_FILE || '/tmp/kenj-emu-teacher.txt';
 const tf = fs.readFileSync(TFILE, 'utf8');
 const T_EMAIL = tf.match(/email: (.+)/i)[1].trim();
@@ -46,7 +47,7 @@ async function client(browser, label) {
 
   console.log('Sign up and sign in');
   let r = await s('GET', '/api/config');
-  check('config comes from the build (Firebase mode, class code required)', r.data.id === 'year5' && r.data.features.resetByEmail && r.data.classCodeRequired);
+  check('config comes from the build (Firebase mode, class code required)', r.data.id === APP && r.data.features.resetByEmail && r.data.classCodeRequired);
   r = await s('POST', '/api/auth/signup', { name: 'Test Student', email, password: 'short', classCode: CODE });
   check('short password refused', r.status === 400 && r.data.field === 'password');
   r = await s('POST', '/api/auth/signup', { name: 'Test Student', email, password: pw, classCode: '' });
@@ -108,11 +109,22 @@ async function client(browser, label) {
   check('best score kept', r.data && r.data.best === 120 && !r.data.newBest && r.data.plays === 3 && r.data.bestLevel === 3);
   r = await s('PUT', '/api/summary/1', { mainIdea: 'Traditional tales teach lessons.', learnt: 'A fable ends with a moral.', favourite: 'Anansi', wonder: '' });
   check('summary saved', r.status === 200);
+  const g1 = u1.grammar[0];
+  check('every unit has a grammar section (2+ topics, 4+ questions each)', content.units.every((u) => (u.grammar || []).length >= 2 && u.grammar.every((g) => g.practice.length >= 4)));
+  r = await s('POST', '/api/grammar', { topic: g1.id, answers: g1.practice.map((q, i) => ({ qid: q.id, choice: i === 0 ? 'wrong' : q.options[q.answer] })) });
+  check('grammar practice marked', r.data && r.data.score === g1.practice.length - 1 && r.data.total === g1.practice.length, JSON.stringify(r.data));
+  r = await s('POST', '/api/grammar', { topic: g1.id, answers: [{ qid: g1.practice[0].id, choice: 'wrong' }] });
+  check('worse grammar score keeps the best', r.data && r.data.best === g1.practice.length - 1);
+  r = await s('POST', '/api/grammar', { topic: 'u9-g99', answers: [{ qid: 'x', choice: 'x' }] });
+  check('unknown grammar topic refused', r.status === 400);
+  r = await s('POST', '/api/grammar', { topic: g1.id, answers: [{ qid: content.units[1].grammar[0].practice[0].id, choice: 'x' }] });
+  check('grammar question from another topic refused', r.status === 400);
   r = await s('GET', '/api/answers/1/sb');
   check('answers locked for student', r.status === 403 && r.data.locked);
   r = await s('GET', '/api/teacher/overview');
   check('student cannot open teacher dashboard', r.status === 403);
   const st = (await s('GET', '/api/state')).data;
+  check('state includes grammar best and attempts', st.grammar && st.grammar[g1.id] && st.grammar[g1.id].best === g1.practice.length - 1 && st.grammar[g1.id].attempts === 2, JSON.stringify(st.grammar));
   check('state: progress, quiz, cards, game, summary, streak', st.progress.length === 2 && st.quiz.length === 2 && st.cards[u1.cards[0].id] === 'known'
     && st.games[0].best_score === 120 && st.summaries.length === 1 && st.streak.current === 1 && st.streak.studiedToday, JSON.stringify(st.streak));
   check('progress maths: unit 1 shows progress', unitPct(content, st) > 0);
@@ -162,12 +174,12 @@ async function client(browser, label) {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email2, password: pw, returnSecureToken: true }),
   })).json()).idToken;
   const rest = async (p, token) => (await fetch(`http://127.0.0.1:8080/v1/projects/demo-kenj-guides/databases/(default)/documents/${p}`, { headers: token ? { Authorization: `Bearer ${token}` } : {} })).status;
-  check('direct read of another student\'s document refused', (await rest(`years/year5/students/${me.id}`, idToken)) === 403);
-  check('direct listing of all students refused', (await rest('years/year5/students', idToken)) === 403);
-  check('direct read of own document allowed', (await rest(`years/year5/students/${b2.id}`, idToken)) === 200);
-  check('direct read of a locked answer key refused', (await rest('years/year5/answers/1_wb', idToken)) === 403);
-  check('direct read of the class code refused', (await rest('years/year5/meta/classCode', idToken)) === 403);
-  check('signed-out direct read of answers refused', (await rest('years/year5/answers/1_sb')) === 403);
+  check('direct read of another student\'s document refused', (await rest(`years/${APP}/students/${me.id}`, idToken)) === 403);
+  check('direct listing of all students refused', (await rest(`years/${APP}/students`, idToken)) === 403);
+  check('direct read of own document allowed', (await rest(`years/${APP}/students/${b2.id}`, idToken)) === 200);
+  check('direct read of a locked answer key refused', (await rest(`years/${APP}/answers/1_wb`, idToken)) === 403);
+  check('direct read of the class code refused', (await rest(`years/${APP}/meta/classCode`, idToken)) === 403);
+  check('signed-out direct read of answers refused', (await rest(`years/${APP}/answers/1_sb`)) === 403);
 
   console.log('Account');
   r = await s('POST', '/api/auth/password', { current: 'wrong-password', next: 'new-password-9' });

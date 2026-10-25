@@ -77,6 +77,8 @@ for (const a of apps) {
     school: a.school, course: a.course, books: a.books, publisher: a.publisher, bookUrl: a.bookUrl, bookSiteName: a.bookSiteName,
     themeColour: a.themeColour, overallQuizLength: a.overallQuizLength, timezone: a.timezone,
     classCodeRequired: !!a.site.classCodeRequired, features: { resetByEmail: true },
+    // Links to the other years' guides on the same website (e.g. Year Five <-> Year Six).
+    otherGuides: apps.filter((x) => x.id !== a.id).map((x) => ({ id: x.id, appName: x.appName, yearLabel: x.yearLabel, href: `../${x.site.path}/` })),
   };
   const runtime = { app: pub, firebase, allAppIds: apps.map((x) => x.id),
     emulators: EMU ? { auth: 'http://127.0.0.1:9099', firestoreHost: '127.0.0.1', firestorePort: 8080 } : null };

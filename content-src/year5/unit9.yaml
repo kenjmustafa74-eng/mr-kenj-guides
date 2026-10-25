@@ -311,3 +311,84 @@ basket:
   - prompt: Catch the words made by adding a suffix
     correct: [helpful, hopeless, movement, persuasive, readable, friendship, teaching, government]
     wrong: [help, hope, move, read, friend, teach, govern, care]
+grammar:
+  - title: More on relative pronouns and clauses
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "225"
+    wb: "137"
+    intro: >-
+      Persuasive writers pack a lot of information into their sentences, and relative clauses help them do it.
+      This time we will look closely at when to use commas and how relative clauses make an argument more convincing.
+    points:
+      - "Relative clauses begin with **who, which, that, whose** or **where**, and describe the noun before them."
+      - "A clause that gives **essential** information has **no commas**: 'Languages **that nobody speaks** can disappear.'"
+      - "A clause that gives **extra** information has **commas**: 'Basque, **which is spoken in Spain and France**, is very old.'"
+      - "Use **that** only for essential information. For extra information, use **which** or **who** with commas."
+    examples:
+      - text: "People **who speak two languages** can often learn a third more easily."
+        note: "Essential: it tells us which people, so no commas."
+      - text: "The ocean, **which covers most of our planet**, is full of plastic."
+        note: "Extra information, so commas go around it."
+      - text: "We met a scientist **whose work protects sea turtles**."
+        note: "'whose' shows that the work belongs to the scientist."
+    practice:
+      - q: "Which sentence needs commas around the relative clause?"
+        options: ["The book that I borrowed is about oceans.", "My grandmother who lives in Spain speaks Basque.", "Children who read a lot learn new words.", "The pen that writes in green is mine."]
+        answer: 1
+        explain: "You only have one grandmother who lives in Spain, so this is extra information: 'My grandmother, who lives in Spain, speaks Basque.'"
+      - q: "Choose the correct word: 'Turtles, ___ eat jellyfish, sometimes swallow plastic bags.'"
+        options: ["that", "which", "where", "whose"]
+        answer: 1
+        explain: "Extra information about animals takes 'which' with commas."
+      - q: "Which relative pronoun is used for places?"
+        options: ["who", "which", "where", "whose"]
+        answer: 2
+        explain: "'where' introduces information about a place."
+      - q: "Find the relative clause: 'The language that my grandfather spoke is now rare.'"
+        options: ["The language", "that my grandfather spoke", "is now rare", "my grandfather"]
+        answer: 1
+        explain: "'that my grandfather spoke' tells us which language."
+      - q: "Which sentence is correct?"
+        options: ["The ocean, that is very deep, is cold.", "The ocean, which is very deep, is cold.", "The ocean which, is very deep is cold.", "The ocean, who is very deep, is cold."]
+        answer: 1
+        explain: "Extra information with commas uses 'which', not 'that'."
+  - title: More about adverbs and adverbial phrases
+    lesson: "Lesson 14 · Language Focus – Grammar"
+    pages: "241"
+    wb: "149"
+    intro: >-
+      Adverbs and adverbials can make a persuasive letter much stronger. They tell the reader how strongly you feel,
+      when something must happen and how it should be done. Let's use them to make every argument count.
+    points:
+      - "Adverbs can show **how certain** or **how strongly** you feel: definitely, certainly, clearly, surely, possibly."
+      - "Adverbials can **link ideas** in an argument: firstly, in addition, however, as a result, finally."
+      - "Fronted adverbials go at the **start** of a sentence and are followed by a **comma**: '**Without a doubt**, we must act.'"
+      - "Use adverbs of manner to add detail: 'We must act **quickly** and **carefully**.'"
+    examples:
+      - text: "**Clearly**, our oceans need protecting."
+        note: "A fronted adverb that shows certainty, followed by a comma."
+      - text: "**As a result**, many sea creatures are in danger."
+        note: "An adverbial that links cause and effect."
+      - text: "We should **urgently** reduce the plastic we use."
+        note: "An adverb that shows how strongly the writer feels."
+    practice:
+      - q: "Which adverb shows certainty?"
+        options: ["perhaps", "definitely", "slowly", "nearby"]
+        answer: 1
+        explain: "'definitely' shows the writer is sure."
+      - q: "Which adverbial is best for adding another point?"
+        options: ["In addition", "However", "Yesterday", "Under the sea"]
+        answer: 0
+        explain: "'In addition' adds another point to an argument."
+      - q: "Which sentence is punctuated correctly?"
+        options: ["Firstly we must recycle more.", "Firstly, we must recycle more.", "Firstly we, must recycle more.", "Firstly we must, recycle more."]
+        answer: 1
+        explain: "A fronted adverbial is followed by a comma."
+      - q: "Which adverbial shows a contrast?"
+        options: ["As a result", "Furthermore", "However", "Finally"]
+        answer: 2
+        explain: "'However' introduces an opposite or different idea."
+      - q: "Which word is an adverb of manner?"
+        options: ["carefully", "tomorrow", "everywhere", "certainly"]
+        answer: 0
+        explain: "'carefully' tells us how something is done."

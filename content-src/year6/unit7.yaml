@@ -1,0 +1,398 @@
+id: 7
+title: Classic Words
+colour: "#7b3f61"
+sbStart: 152
+wbStart: 103
+sbPages: "152–177"
+wbPages: "103–119"
+parts:
+  - code: 7A
+    title: Word Power!
+  - code: 7B
+    title: Different Voices
+overview: >-
+  Some stories are so good that people keep reading them for more than a hundred years. In this unit you will step into
+  two classic novels: Mark Twain's tale of Tom Sawyer and a very clever trick with a fence, and Frances Hodgson
+  Burnett's The Secret Garden, where a lonely girl discovers a hidden, forgotten garden. You will explore how writers
+  engage readers, compare written and spoken English, use the perfect tenses, and write a character description and a
+  story of your own.
+objectives:
+  - Identify techniques writers use to engage readers, such as vivid description, dialogue and a strong narrative voice.
+  - Explain the differences between written and spoken English, and change dialogue into reported speech.
+  - Understand and use idioms.
+  - Spell words with the /j/ sound written j, g and dge.
+  - Identify the voice of the narrator and the writer in a story.
+  - Use the present perfect, past perfect and future perfect tenses.
+  - Choose powerful words, perform a character, and write a character description and a story.
+texts:
+  - title: The Glorious Whitewasher (from The Adventures of Tom Sawyer)
+    kind: Classic novel extract by Mark Twain
+    pages: "155–161"
+    summary: >-
+      On a bright Saturday morning, Tom Sawyer has to whitewash Aunt Polly's long fence instead of playing. When his friend
+      Ben comes along, ready to tease him, Tom pretends that painting is a rare privilege that only a gifted boy could do.
+      Soon Ben is begging for a turn and paying for it, and by the end of the day Tom is sitting in the shade while
+      his friends do the work.
+  - title: The Secret Garden
+    kind: Classic novel extract by Frances Hodgson Burnett
+    pages: "167–172"
+    summary: >-
+      Mary Lennox, a lonely and cross girl who once lived in India, now lives at Misselthwaite Manor in Yorkshire. She
+      finds her way into a hidden garden that nobody has looked after for years. Its roses seem dead, but Mary discovers
+      that some plants are still alive, and caring for the garden begins to change her. Martha, a cheerful maid, speaks
+      in a Yorkshire dialect.
+vocab:
+  - word: classic
+    meaning: A book that has been admired for a long time and is still read today.
+    example: The Secret Garden is a classic.
+  - word: whitewash
+    meaning: To paint something with a white mixture, often on walls or fences.
+    example: Tom had to whitewash the fence.
+  - word: melancholy
+    meaning: A deep, quiet sadness.
+    example: A deep melancholy settled over Tom.
+  - word: reluctance
+    meaning: Not wanting to do something.
+    example: Tom handed over the brush with pretend reluctance.
+  - word: idiom
+    meaning: A phrase whose meaning is different from the meanings of its separate words.
+    example: "'Call it a day' means stop working for now."
+  - word: dialect
+    meaning: A form of a language spoken in a particular area, with its own words and grammar.
+    example: Martha speaks in a Yorkshire dialect.
+  - word: narrator
+    meaning: The voice that tells the story.
+    example: The narrator describes Mary's feelings.
+  - word: neglected
+    meaning: Not cared for over a long time.
+    example: The neglected garden was full of tangled roses.
+  - word: perfect tense
+    meaning: A verb form made with has, have, had or will have and a past participle.
+    example: "'She had found the key' is in the past perfect tense."
+  - word: engage
+    meaning: To catch and hold someone's interest.
+    example: A strong opening line engages the reader.
+sb:
+  - part: 7A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "152"
+    tip: Look at the picture of the open book. What do you think it says about stories?
+  - part: 7A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "153"
+    tip: Use the picture to predict what the story might be about and when it was written.
+  - part: 7A
+    lesson: Lesson 2
+    title: "Let's Learn: Techniques to engage readers"
+    pages: "153–154"
+    tip: Notice how the writer describes the character's appearance, mood and setting to draw you in.
+  - part: 7A
+    lesson: Lesson 3
+    title: "Reading Part 1: The Glorious Whitewasher"
+    pages: "155–157"
+    tip: Follow Tom's plan. How does he make Ben want to paint the fence?
+  - part: 7A
+    lesson: Lesson 4
+    title: "Language Focus – Grammar: Differences between written and spoken English"
+    pages: "158"
+    tip: Spoken English uses contractions and informal words. Written English is usually more formal and complete.
+  - part: 7A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: The Glorious Whitewasher and Reading Comprehension"
+    pages: "159–161"
+    tip: Think about the difference between work and play in the story.
+  - part: 7A
+    lesson: Lesson 7
+    title: "Language Focus – Figurative language: Idioms"
+    pages: "162"
+    tip: Do not take idioms literally. Use the context to work out what they really mean.
+  - part: 7A
+    lesson: Lesson 8
+    title: "Word Structure – Spelling patterns: Consonants j, g and dge"
+    pages: "163"
+    tip: After a short vowel at the end of a word, the /j/ sound is often spelt dge, as in badge and bridge.
+  - part: 7A
+    lesson: Lesson 9
+    title: "Writing: A character description"
+    pages: "164"
+    tip: Describe what your character looks like, how they behave and how they speak.
+  - part: 7B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: Voices in stories"
+    pages: "165–166"
+    tip: Look at the pronouns to tell whether the narrator is first person or third person.
+  - part: 7B
+    lesson: Lesson 11
+    title: "Reading Part 1: The Secret Garden"
+    pages: "167–168"
+    tip: Use the descriptions to imagine the garden as Mary first sees it.
+  - part: 7B
+    lesson: Lesson 12
+    title: "Language Focus: Perfect tenses"
+    pages: "169"
+    tip: The past perfect (had + past participle) shows that something happened before another past event.
+  - part: 7B
+    lesson: Lesson 13
+    title: "Reading Part 2: The Secret Garden and Reading Comprehension"
+    pages: "170–172"
+    tip: How does Mary change as she looks after the garden?
+  - part: 7B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Powerful word choices"
+    pages: "173"
+    tip: Ask why the writer chose each word and what it shows about the character.
+  - part: 7B
+    lesson: Lesson 15
+    title: "Speaking: Character personality"
+    pages: "174–175"
+    tip: Use your voice, face and body to show a character's personality.
+  - part: 7B
+    lesson: Lessons 16–17
+    title: "Writing: A story about an event in the life of a character"
+    pages: "176"
+    tip: Choose a character from this unit and imagine a new event. Keep their voice and personality.
+  - part: 7B
+    lesson: Lesson 18
+    title: What Have I Learnt?
+    pages: "177"
+    tip: Use what you have learnt about voice, tense and word choice to answer the questions.
+wb:
+  - code: 7A
+    title: "Let's Learn: Techniques to engage readers"
+    pages: "103"
+    steps:
+      - Read the extract about Mei Ling.
+      - "Questions 2–6: answer the questions about the character, the setting and the writer's word choices."
+    tip: Quote words from the text to support your answers.
+  - code: 7B
+    title: "Language Focus: Differences between written and spoken English"
+    pages: "104"
+    steps:
+      - "Question 1: find examples of spoken English in the dialogue."
+      - "Question 2: rewrite dialogue as reported speech and explain the effect of dialogue."
+      - "Question 3: write a short piece of dialogue."
+    tip: When you report speech, use standard written English.
+  - code: 7C
+    title: "Reading Comprehension: The Glorious Whitewasher"
+    pages: "105–106"
+    steps:
+      - Reread 'The Glorious Whitewasher' in your Student's Book.
+      - "Question 1: answer the questions about Tom, Ben and the fence."
+      - "Questions 2–4: work out word meanings and describe Tom's character."
+      - "Question 5: give your opinion with a quotation."
+    tip: Think about what Tom says and what he really means.
+  - code: 7D
+    title: "Language Focus: Figurative language – Idioms"
+    pages: "107"
+    steps:
+      - "Question 1: match the idioms to their meanings."
+      - "Question 2: use idioms in sentences about the story."
+    tip: Check that your sentence makes the idiom's meaning clear.
+  - code: 7E
+    title: "Word Structure – Spelling patterns: Consonants j, g and dge"
+    pages: "108"
+    steps:
+      - "Question 1: find the words with the /j/ sound."
+      - "Question 2: use the words in sentences."
+    tip: Say the words aloud to hear the /j/ sound.
+  - code: 7F
+    title: "Writing: A character description"
+    pages: "109"
+    steps:
+      - Choose your character and note their appearance, personality and way of speaking.
+      - Write your character description.
+      - Revise and edit your work.
+    tip: Show your character's personality through their actions as well as your description.
+  - code: 7G
+    title: "Let's Learn: Voices in stories"
+    pages: "110"
+    steps:
+      - "Question 1: identify the narrator's voice and the writer's voice."
+      - "Questions 3–6: read the extract about Mole and answer the questions about the narrator and the language."
+    tip: A third-person narrator uses 'he', 'she' and 'they'.
+  - code: 7H
+    title: "Language Focus: Perfect tenses"
+    pages: "111"
+    steps:
+      - "Question 1: find the perfect tenses in sentences."
+      - "Question 2: complete the sentences with the correct perfect tense."
+    tip: "Present perfect: has/have. Past perfect: had. Future perfect: will have."
+  - code: 7I
+    title: "Reading Comprehension: The Secret Garden"
+    pages: "112–113"
+    steps:
+      - Reread 'The Secret Garden' in your Student's Book.
+      - "Questions 1–5: choose answers, explain words and identify the tense of a verb."
+      - "Questions 6–8: describe how Mary changes and what Martha is like."
+    tip: Compare Mary at the beginning and at the end of the extract.
+  - code: 7J
+    title: "Language Focus – Vocabulary: Powerful word choices"
+    pages: "114"
+    steps:
+      - "Question 1: explain the effect of the writer's word choices."
+      - "Questions 2–3: describe a character and find powerful words in the text."
+    tip: A powerful word tells the reader more than a plain one.
+  - code: 7K
+    title: "Writing: A story about an event in the life of a character"
+    pages: "115–116"
+    steps:
+      - Plan your story about an event in your chosen character's life.
+      - Write your first draft.
+      - Revise and edit your story.
+    tip: Keep your character's voice the same as in the original story.
+  - code: 7L
+    title: What Have I Learnt?
+    pages: "117–118"
+    steps:
+      - Read the extract carefully.
+      - Answer the questions about the characters, the language and the tenses.
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "119"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: How does Tom Sawyer get his friends to paint the fence?
+    back: He pretends that painting is a special job that only a gifted boy could do, so they beg and pay to have a turn.
+  - front: Where did Mary Lennox live before Misselthwaite Manor?
+    back: In India.
+  - front: How does Mary change in The Secret Garden?
+    back: She begins as lonely and cross, but caring for the garden makes her happier and more interested in life.
+  - front: What is the past perfect tense?
+    back: had + past participle, for example 'she had found'. It shows an action that happened before another past action.
+  - front: What is a dialect?
+    back: A form of a language spoken in a particular area, like Martha's Yorkshire dialect.
+  - front: Give two differences between spoken and written English.
+    back: Spoken English often uses contractions, informal words and incomplete sentences. Written English is usually more formal and complete.
+  - front: "What does the idiom 'by the skin of my teeth' mean?"
+    back: Only just; very narrowly.
+practice:
+  - q: What does Tom have to do on Saturday?
+    options: ["Go swimming", "Whitewash the fence", "Feed the horses", "Go to school"]
+    answer: 1
+    explain: Aunt Polly makes Tom whitewash the fence.
+  - q: "What does the idiom 'let's call it a day' mean?"
+    options: ["Let's name the day", "Let's stop working for now", "Let's start early", "Let's phone someone"]
+    answer: 1
+    explain: It means to stop what you are doing for now.
+  - q: Which sentence is in the past perfect tense?
+    options: ["Mary finds the key.", "Mary had found the key.", "Mary will find the key.", "Mary is finding the key."]
+    answer: 1
+    explain: "'had found' is had + past participle."
+  - q: Which word has the /j/ sound spelt dge?
+    options: ["giant", "jungle", "bridge", "magic"]
+    answer: 2
+    explain: "In 'bridge', the /j/ sound is spelt dge."
+  - q: Which is an example of spoken English?
+    options: ["I would rather not.", "I'd rather not, y'know.", "He stated that he would rather not.", "It is preferable not to."]
+    answer: 1
+    explain: Contractions and fillers such as 'y'know' are features of spoken English.
+  - q: What does the narrator's use of 'he' and 'she' tell us?
+    options: ["It is a first-person narrator", "It is a third-person narrator", "It is a play", "It is a poem"]
+    answer: 1
+    explain: A third-person narrator uses he, she and they.
+  - q: What has happened to the garden before Mary finds it?
+    options: ["It has been looked after every day", "Nobody has looked after it for years", "It has been sold", "It has been built recently"]
+    answer: 1
+    explain: The garden has been neglected for a long time.
+  - q: How is Martha's speech different from Mary's?
+    options: ["It is more formal", "She speaks in a Yorkshire dialect", "She only whispers", "She speaks in rhyme"]
+    answer: 1
+    explain: Martha uses a Yorkshire dialect with informal words and contractions.
+basket:
+  - prompt: Catch the words with the /j/ sound
+    correct: [judge, giant, badge, village, jungle, magic, bridge, gentle]
+    wrong: [goat, goose, garden, guitar, bring, glove, gate, gold]
+  - prompt: Catch the idioms
+    correct: [call it a day, miss the boat, under the weather, pull my leg, hang in there, by the skin of my teeth]
+    wrong: [the garden gate, a red rose, a sunny day, a wooden fence, a big house, the old robin]
+  - prompt: Catch the verbs in a perfect tense
+    correct: [had spread, have seen, has found, had flown, will have done, had told, have read, has grown]
+    wrong: [spreads, saw, finding, flew, will do, tells, reading, grew]
+grammar:
+  - title: Differences between written and spoken English
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "158"
+    wb: "104"
+    intro: >-
+      We do not write the way we talk, and we do not talk the way we write! Clever writers use spoken English in dialogue
+      to bring characters to life, and standard written English everywhere else.
+    points:
+      - "**Spoken English** often uses **contractions** (ain't, don't), **informal words**, **fillers** (well, you know) and **incomplete sentences**."
+      - "**Written English** is usually more **formal**, with complete sentences and standard grammar."
+      - "Writers use spoken English in **dialogue** to show a character's personality, background and **dialect**."
+      - "When you change dialogue into **reported speech**, use standard written English."
+    examples:
+      - text: "“Hello, old chap, you got to work, hey?”"
+        note: "Spoken: informal and friendly."
+      - text: "Ben asked Tom whether he had to work."
+        note: "Written: formal reported speech."
+      - text: "“I'm not going, am I?” → She said that she was not going."
+        note: "The contraction and the question tag disappear in written reported speech."
+    tip: "Spoken English is not wrong. It just belongs in dialogue, not in formal writing."
+    practice:
+      - q: "Which is a feature of spoken English?"
+        options: ["Complete formal sentences", "Contractions such as 'ain't'", "Headings", "Footnotes"]
+        answer: 1
+        explain: "Contractions are common in speech."
+      - q: "Which sentence is formal written English?"
+        options: ["Gonna paint it later.", "I ain't doing it.", "Tom said that he would paint it later.", "Yeah, whatever."]
+        answer: 2
+        explain: "It is complete and uses standard grammar."
+      - q: "Why do writers use spoken English in dialogue?"
+        options: ["To show how characters really speak", "To make spelling mistakes", "To shorten the story", "To confuse readers"]
+        answer: 0
+        explain: "It brings characters and their backgrounds to life."
+      - q: "Report this in written English: “Can I try?” asked Ben."
+        options: ["Ben asked can he try.", "Ben asked if he could try.", "Ben asked, can I try?", "Ben asked could I try?"]
+        answer: 1
+        explain: "Use 'if', change 'I' to 'he' and 'can' to 'could'."
+      - q: "Which word is a filler often used in speech?"
+        options: ["therefore", "well", "however", "consequently"]
+        answer: 1
+        explain: "'Well' is often used as a filler when people talk."
+  - title: Perfect tenses
+    lesson: "Lesson 12 · Language Focus"
+    pages: "169"
+    wb: "111"
+    intro: >-
+      The perfect tenses are like bridges in time. They link one moment to another. Once you master them, you can show
+      your reader exactly how events connect.
+    points:
+      - "The **present perfect** (has/have + past participle) links the past to now: 'I **have read** this book.'"
+      - "The **past perfect** (had + past participle) shows an action that happened **before** another past action: 'The roses **had spread** before Mary arrived.'"
+      - "The **future perfect** (will have + past participle) shows that something will be finished by a time in the future: 'By spring, we **will have planted** seeds.'"
+      - "Learn irregular past participles: seen, flown, grown, written, done."
+    examples:
+      - text: "Mary **has found** a secret garden."
+        note: "Present perfect: the finding is linked to now."
+      - text: "Nobody **had opened** the door for ten years."
+        note: "Past perfect: before Mary came."
+      - text: "By summer, the roses **will have bloomed**."
+        note: "Future perfect: finished by a future time."
+    tip: "Look for has/have, had or will have. Then check that the verb after it is a past participle."
+    practice:
+      - q: "Which is the present perfect?"
+        options: ["She found", "She has found", "She had found", "She will find"]
+        answer: 1
+        explain: "has + past participle."
+      - q: "Complete with the past perfect: 'The robin ___ to the wall before Mary saw it.'"
+        options: ["flies", "has flown", "had flown", "will fly"]
+        answer: 2
+        explain: "The flying happened before the seeing, so we use 'had flown'."
+      - q: "Which sentence uses the future perfect?"
+        options: ["By June, I will have finished the book.", "I finished the book.", "I am finishing the book.", "I had finished the book."]
+        answer: 0
+        explain: "'will have finished' is the future perfect."
+      - q: "Choose the correct past participle: 'Have you ever ___ a rose garden?'"
+        options: ["saw", "seen", "seeing", "sees"]
+        answer: 1
+        explain: "The past participle of 'see' is 'seen'."
+      - q: "Choose the correct form: 'Mary ___ never ___ such a garden before.'"
+        options: ["had … seen", "has … saw", "had … saw", "will … seen"]
+        answer: 0
+        explain: "'had seen' is the past perfect."

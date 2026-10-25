@@ -55,6 +55,15 @@ CREATE TABLE IF NOT EXISTS summaries (
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   PRIMARY KEY (user_id, unit_id)
 );
+CREATE TABLE IF NOT EXISTS grammar_scores (
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  topic_id TEXT NOT NULL,
+  best INTEGER NOT NULL DEFAULT 0,
+  total INTEGER NOT NULL DEFAULT 1,
+  attempts INTEGER NOT NULL DEFAULT 0,
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  PRIMARY KEY (user_id, topic_id)
+);
 CREATE TABLE IF NOT EXISTS unlocks (
   unit_id INTEGER NOT NULL,
   section TEXT NOT NULL CHECK (section IN ('sb','wb')),
@@ -102,6 +111,10 @@ function create({ dir, name }) {
       ON CONFLICT(user_id, unit_id) DO UPDATE SET main_idea = excluded.main_idea, learnt = excluded.learnt,
         favourite = excluded.favourite, wonder = excluded.wonder, updated_at = datetime('now')`),
     getSummaries: q('SELECT unit_id, main_idea, learnt, favourite, wonder, updated_at FROM summaries WHERE user_id = ?'),
+    getGrammarOne: q('SELECT best, total, attempts FROM grammar_scores WHERE user_id = ? AND topic_id = ?'),
+    putGrammar: q(`INSERT INTO grammar_scores (user_id, topic_id, best, total, attempts) VALUES (?, ?, ?, ?, ?)
+      ON CONFLICT(user_id, topic_id) DO UPDATE SET best = excluded.best, total = excluded.total, attempts = excluded.attempts, updated_at = datetime('now')`),
+    getGrammar: q('SELECT topic_id, best, total, attempts, updated_at FROM grammar_scores WHERE user_id = ?'),
     unlock: q('INSERT OR REPLACE INTO unlocks (unit_id, section, unlocked_by) VALUES (?, ?, ?)'),
     lock: q('DELETE FROM unlocks WHERE unit_id = ? AND section = ?'),
     getUnlocks: q('SELECT unit_id, section, unlocked_at FROM unlocks ORDER BY unit_id, section'),
@@ -137,6 +150,15 @@ function create({ dir, name }) {
     getGames: (userId) => s.getGames.all(userId),
     saveSummary: (userId, unitId, f) => s.saveSummary.run(userId, unitId, f.mainIdea || '', f.learnt || '', f.favourite || '', f.wonder || ''),
     getSummaries: (userId) => s.getSummaries.all(userId),
+    // Keeps the best result (as a fraction of the questions) for each grammar topic.
+    recordGrammar(userId, topicId, score, total) {
+      const before = s.getGrammarOne.get(userId, topicId);
+      const better = !before || score / total >= before.best / before.total;
+      const best = better ? score : before.best, tot = better ? total : before.total;
+      s.putGrammar.run(userId, topicId, best, tot, (before ? before.attempts : 0) + 1);
+      return { best, total: tot };
+    },
+    getGrammar: (userId) => Object.fromEntries(s.getGrammar.all(userId).map((r) => [r.topic_id, { best: r.best, total: r.total, attempts: r.attempts, updated_at: r.updated_at }])),
     setUnlock: (unitId, section, unlocked, by) => (unlocked ? s.unlock.run(unitId, section, by) : s.lock.run(unitId, section)),
     getUnlocks: () => s.getUnlocks.all(),
     touchActivityDay: (userId, day) => s.touchDay.run(userId, day),

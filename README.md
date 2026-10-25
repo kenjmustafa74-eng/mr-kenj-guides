@@ -1,8 +1,10 @@
-# Mr. Kenj's Guides (Year Five, and Year Six to come)
+# Mr. Kenj's Guides (Year Five and Year Six)
 
 A mobile-first study companion (Progressive Web App) for Year 5 students at Brighton International Academy,
 following Cambridge Primary English Stage 5 (Marshall Cavendish Student Book 5 and Workbook 5).
-The same code makes **Mr. Kenj's Guide to Year Six**: only a config file and the content files change.
+The same code makes **Mr. Kenj's Guide to Year Six** (Stage 6, Student Book 6 and Workbook 6): only a config file and the content files change.
+Every unit in both years has a **Grammar** tab (the unit's main grammar points, each with an explanation, examples and a
+short marked practice that counts towards progress).
 
 There are two ways to run it, sharing one front end (`public/`):
 
@@ -44,7 +46,7 @@ fails if answer-key text appears in the public study content.
 
 ## Publish: static site on GitHub Pages + Firebase
 One repository holds both years; GitHub Pages serves them side by side:
-`https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/` and later `…/year-six/` (plus a small page at `https://kenjmustafa74-eng.github.io/mr-kenj-guides/` linking both).
+`https://kenjmustafa74-eng.github.io/mr-kenj-guides/year-five/` and `…/year-six/` (plus a small page at `https://kenjmustafa74-eng.github.io/mr-kenj-guides/` linking both).
 Repository: https://github.com/kenjmustafa74-eng/mr-kenj-guides
 
 **Once, in the Firebase console (project `mr-kenj-guide`):**
@@ -86,13 +88,13 @@ npm run screenshots             # Playwright walkthrough (BASE, TEACHER_FILE, OU
 ```
 Node server environment variables: see `.env.example` (`APP`, `PORT`, `CLASS_CODE`, `JWT_SECRET`, `DATA_DIR`, `DATA_BACKEND`).
 
-## Making the Year Six guide
+## Making the Year Six guide (done – kept as a record)
 1. Copy `config/apps/year6.sample.json` to `config/apps/year6.json` and adjust if needed (its `site.path` is `year-six`).
 2. Write `content-src/year6/unit1.yaml` … `unit9.yaml` (same structure as Year 5); put the publisher's answer text in
    `private/year6/answers-raw/ans1.txt` … (pdftotext -layout output) and add any Year 6 corrections to `private/tools/fix_answers.py`.
 3. `python3 private/tools/fix_answers.py year6 && node tools/build-content.js year6 && python3 tools/make_icons.py 6 public/icons-year6`
    (Year Six gets its own icons; the site build uses `public/icons-<year>/` when it exists).
-4. `npm run firebase:seed -- --app year6 …` uploads Year 6's answer keys; Year 6 data lives under `years/year6/` in the same Firebase project.
+4. `npm run firebase:seed -- --app year6 … --password-from private/credentials/<year5 file>` uploads Year 6's answer keys and class code (the same teacher login serves both years); Year 6 data lives under `years/year6/` in the same Firebase project.
 5. Push: `npm run build:site` builds every year that has a config and content, so the workflow then publishes `…/year-six/` as well.
 6. Capacitor: make a second `capacitor.config.json` for Year Six (`appId` ending `.year6`, `webDir: dist/year-six`).
 

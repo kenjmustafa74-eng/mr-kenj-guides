@@ -324,3 +324,85 @@ basket:
   - prompt: Catch the words that describe Anansi in the tales
     correct: [greedy, cunning, clever, lazy, proud, boastful, selfish, tricky]
     wrong: [humble, generous, shy, patient, honest, modest, careful, quiet]
+grammar:
+  - title: Simple and complex sentences
+    lesson: "Lesson 4 · Language Focus – Grammar"
+    pages: "7"
+    wb: "3"
+    intro: >-
+      Every sentence is built from clauses. A clause is a group of words with a subject and a verb. When you know
+      how to join clauses, your stories start to sound grown-up and exciting, just like the tales of Anansi.
+    points:
+      - "A **simple sentence** has one main clause. It makes sense on its own: 'Anansi was hungry.'"
+      - "A **complex sentence** has a main clause and at least one **dependent clause**. The dependent clause does not make sense on its own."
+      - "Dependent clauses often begin with words such as **when**, **because**, **as**, **if**, **although** and **after**."
+      - "The dependent clause can come first or second. If it comes first, put a comma after it."
+    examples:
+      - text: "Anansi climbed the tree."
+        note: "Simple: one main clause."
+      - text: "__Because he was greedy__, Anansi tied a web to every pot."
+        note: "Complex: the underlined dependent clause comes first, so it is followed by a comma."
+      - text: "The rabbit pulled the web __when the beans were ready__."
+        note: "Complex: the dependent clause comes second, so no comma is needed."
+    tip: "Cover the dependent clause with your finger. What is left should still make sense. That is your main clause."
+    practice:
+      - q: "Which of these is a simple sentence?"
+        options: ["When the sun rose, the spider woke up.", "The spider woke up.", "The spider woke up because it was hungry.", "If you listen, you will learn."]
+        answer: 1
+        explain: "'The spider woke up.' has just one main clause, so it is a simple sentence."
+      - q: "Which part of this sentence is the dependent clause? 'Although he was tired, the fisherman went back to the sea.'"
+        options: ["the fisherman went back", "to the sea", "Although he was tired", "went back to the sea"]
+        answer: 2
+        explain: "'Although he was tired' does not make sense on its own, so it is the dependent clause."
+      - q: "Which word could begin a dependent clause?"
+        options: ["because", "spider", "quickly", "the"]
+        answer: 0
+        explain: "'Because' is a joining word that starts a dependent clause, as in 'because he was greedy'."
+      - q: "Which complex sentence is punctuated correctly?"
+        options: ["When the pots were ready the rabbit pulled.", "When the pots were ready, the rabbit pulled.", "When, the pots were ready the rabbit pulled.", "When the pots, were ready the rabbit pulled."]
+        answer: 1
+        explain: "The dependent clause comes first, so a comma goes straight after it."
+      - q: "Which sentence is complex?"
+        options: ["Madan told the truth.", "The king laughed loudly.", "Madan told the truth because he never lied.", "The king was clever."]
+        answer: 2
+        explain: "It has a main clause ('Madan told the truth') and a dependent clause ('because he never lied')."
+  - title: Commas to separate clauses
+    lesson: "Lesson 12 · Language Focus – Punctuation"
+    pages: "20"
+    wb: "11"
+    intro: >-
+      Commas are like little pauses that help your reader. When a sentence has more than one clause, a comma in
+      the right place shows where one idea ends and the next begins. Let's make your sentences easy to follow!
+    points:
+      - "Put a comma **after a dependent clause** that starts a sentence: 'If you are honest, people trust you.'"
+      - "Put commas **around extra information** in the middle of a sentence: 'Madan, who never lied, went to the palace.'"
+      - "Use a comma before joining words such as **but**, **so** and **or** when they join two longer clauses."
+      - "Test it: if you take away the words between two commas, the sentence should still make sense."
+    examples:
+      - text: "As the wife grew greedier, the sea grew darker."
+        note: "The comma comes after the dependent clause at the start."
+      - text: "The fisherman, who was a kind man, set the fish free."
+        note: "The commas go around the extra information about the fisherman."
+      - text: "The king tried to trick Madan, but Madan only told the truth."
+        note: "A comma comes before 'but', which joins two clauses."
+    practice:
+      - q: "Where should the commas go? 'The fish which could talk granted the wish.'"
+        options: ["The fish, which could talk, granted the wish.", "The fish which, could talk granted the wish.", "The, fish which could talk granted the wish.", "The fish which could talk granted, the wish."]
+        answer: 0
+        explain: "'which could talk' is extra information, so commas go around it."
+      - q: "Which sentence uses a comma correctly?"
+        options: ["After the storm the, boat sank.", "After the storm, the boat sank.", "After, the storm the boat sank.", "After the storm the boat, sank."]
+        answer: 1
+        explain: "'After the storm' comes at the start, so the comma goes straight after it."
+      - q: "Which sentence still makes sense if you remove the words between the commas? 'My uncle, a brilliant storyteller, visited us.'"
+        options: ["My uncle visited us.", "A brilliant storyteller.", "My uncle a brilliant.", "Visited us storyteller."]
+        answer: 0
+        explain: "Take away 'a brilliant storyteller' and you are left with 'My uncle visited us', which makes sense."
+      - q: "Which sentence needs a comma before the joining word?"
+        options: ["I like cats and dogs.", "The wife wanted a palace, so the fisherman went back to the sea.", "Tea or coffee?", "Slow and steady."]
+        answer: 1
+        explain: "'so' joins two full clauses here, so a comma goes before it."
+      - q: "Why do we use commas between clauses?"
+        options: ["To make the sentence longer", "To show the reader where one idea ends and the next begins", "Because every sentence needs three commas", "To replace full stops"]
+        answer: 1
+        explain: "Commas help the reader by separating the parts of a sentence."

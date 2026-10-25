@@ -50,6 +50,15 @@
     toastTimer = setTimeout(() => { t.hidden = true; }, 2200);
   }
 
+  // Links to the other years' guides on the same website (empty in the Node version).
+  function otherGuidesCard() {
+    const list = (S.config && S.config.otherGuides) || [];
+    if (!list.length) return '';
+    return `<div class="card other-guides"><h2 class="row">${icon('graduation-cap')} Other guides</h2>
+      <p class="small muted">Use the same email and password. The first time you open another year’s guide, choose <b>Create an account</b> there and type that year’s class code.</p>
+      <div class="book-links">${list.map((g) => `<a class="btn secondary" href="${esc(g.href)}">${icon('arrow-right')}${esc(g.appName)}</a>`).join('')}</div></div>`;
+  }
+
   // ---------- state ----------
   const S = { config: null, user: null, content: null, state: null };
   const unitById = (id) => S.content.units.find((u) => u.id === Number(id));
@@ -106,6 +115,7 @@
           <button class="btn block" type="submit">${signup ? 'Create account' : 'Sign in'}</button>
           <p class="switch-link small">${signup ? 'Already have an account? <a href="#/signin">Sign in</a>' : 'New here? <a href="#/signup">Create an account</a>'}</p>
         </form>
+        ${(c.otherGuides || []).map((g) => `<p class="switch-link small other-guide">${icon('graduation-cap')} Looking for ${esc(g.yearLabel)}? <a href="${esc(g.href)}">Open ${esc(g.appName)}</a></p>`).join('')}
       </div></div>`;
     const form = $('#authForm');
     form.addEventListener('submit', async (e) => {
@@ -205,12 +215,14 @@
             <div class="bar" role="progressbar" aria-label="Unit ${u.id} progress" aria-valuenow="${p.pct}" aria-valuemin="0" aria-valuemax="100"><span style="width:${p.pct}%;background:${u.colour}"></span></div>
             <div class="row wrap small muted">
               ${p.bestQuiz != null ? `<span class="pill ok">${icon('circle-help')} Quiz ${p.bestQuiz}%</span>` : ''}
+              ${p.grammarTried ? `<span class="pill">${icon('spell-check')} Grammar ${p.grammarPct}%</span>` : ''}
               ${p.cardsKnown ? `<span class="pill">${icon('layers')} ${p.cardsKnown}/${p.cardsTotal} cards</span>` : ''}
               ${p.summary ? `<span class="pill gold">${icon('pen-line')} Summary</span>` : ''}
               ${p.gameBest != null ? `<span class="pill">${icon('shopping-basket')} Best ${p.gameBest}</span>` : ''}
             </div>
           </div></a>`;
-      }).join('')}</div>` });
+      }).join('')}</div>
+      ${otherGuidesCard()}` });
   }
 
   // ---------- progress (student) ----------
@@ -225,11 +237,11 @@
         <div class="stat">${icon('notebook-pen')}<b>${st.streak.totalDays}</b><span>${st.streak.totalDays === 1 ? 'day' : 'days'} studied</span></div>
       </div>
       <div class="card"><h2>Unit by unit</h2>
-        <div class="table-scroll"><table class="students stackable"><thead><tr><th>Unit</th><th>Progress</th><th>Activities</th><th>Best quiz</th><th>Cards known</th><th>Summary</th><th>Basket best</th></tr></thead><tbody>
+        <div class="table-scroll"><table class="students stackable"><thead><tr><th>Unit</th><th>Progress</th><th>Activities</th><th>Grammar</th><th>Best quiz</th><th>Cards known</th><th>Summary</th><th>Basket best</th></tr></thead><tbody>
         ${rows.map(({ u, p }) => `<tr class="link" data-href="#/unit/${u.id}"><td><b>${u.id}.</b> ${esc(u.title)}</td><td class="wide" data-label="Progress" style="min-width:110px"><div class="bar"><span style="width:${p.pct}%;background:${u.colour}"></span></div><span class="small">${p.pct}%</span></td>
-          <td data-label="Activities">${p.ticked}/${p.totalItems}</td><td data-label="Best quiz">${p.bestQuiz != null ? p.bestQuiz + '%' : '–'}</td><td data-label="Cards known">${p.cardsKnown}/${p.cardsTotal}</td><td data-label="Summary">${p.summary ? 'Written' : '–'}</td><td data-label="Basket best">${p.gameBest != null ? p.gameBest : '–'}</td></tr>`).join('')}
+          <td data-label="Activities">${p.ticked}/${p.totalItems}</td><td data-label="Grammar">${p.grammarTried ? `${p.grammarPct}% (${p.grammarTried}/${p.grammarTotal} topics)` : '–'}</td><td data-label="Best quiz">${p.bestQuiz != null ? p.bestQuiz + '%' : '–'}</td><td data-label="Cards known">${p.cardsKnown}/${p.cardsTotal}</td><td data-label="Summary">${p.summary ? 'Written' : '–'}</td><td data-label="Basket best">${p.gameBest != null ? p.gameBest : '–'}</td></tr>`).join('')}
         </tbody></table></div>
-        <p class="small muted" style="margin-top:.75rem">How progress is worked out: activities ticked 50%, best practice quiz 20%, memory cards known 15%, My Summary 10% and playing the basket game 5%.</p>
+        <p class="small muted" style="margin-top:.75rem">How progress is worked out: activities ticked 45%, best practice quiz 15%, grammar practice 15% (your best score on each grammar topic), memory cards known 10%, My Summary 10% and playing the basket game 5%.</p>
       </div>` });
     $$('tr.link').forEach((tr) => tr.addEventListener('click', () => { location.hash = tr.dataset.href; }));
   }
@@ -239,6 +251,7 @@
     ['overview', 'book-open', 'Overview'],
     ['sb', 'book-open-text', 'Student Book'],
     ['wb', 'notebook-pen', 'Workbook'],
+    ['grammar', 'spell-check', 'Grammar'],
     ['practice', 'circle-help', 'Practice'],
     ['cards', 'layers', 'Memory cards'],
     ['game', 'shopping-basket', 'Basket game'],
@@ -264,7 +277,7 @@
     const cur = $('.tabs a[aria-current]');
     if (cur) cur.scrollIntoView({ block: 'nearest', inline: 'center' });
     const el = $('#tab');
-    ({ overview: tabOverview, sb: tabSB, wb: tabWB, practice: tabPractice, cards: tabCards, game: tabGame, summary: tabSummary, answers: tabAnswers })[tab](u, el);
+    ({ overview: tabOverview, sb: tabSB, wb: tabWB, grammar: tabGrammar, practice: tabPractice, cards: tabCards, game: tabGame, summary: tabSummary, answers: tabAnswers })[tab](u, el);
   }
 
   function updateUnitPct(u) {
@@ -348,17 +361,24 @@
     }).join('')}</div>`;
   }
 
-  function runQuiz(el, { scope, questions, title, onDone }) {
+  // grammar: { topic } when the quiz is a grammar topic's practice (scored and saved per topic).
+  function runQuiz(el, { scope, questions, title, onDone, grammar, intro }) {
+    const gBest = () => { const g = grammar && S.state.grammar && S.state.grammar[grammar.topic]; return g ? Math.round((100 * g.best) / g.total) : null; };
+    const history = () => {
+      if (!grammar) return quizHistory(scope);
+      const g = S.state.grammar && S.state.grammar[grammar.topic];
+      return g ? `<p class="small">Best: <b>${g.best}/${g.total}</b> · ${g.attempts} ${g.attempts === 1 ? 'attempt' : 'attempts'} · last tried ${fmtDate(g.updated_at)}</p>` : '<p class="muted small">No attempts yet.</p>';
+    };
     const qs = questions.map((q) => ({ ...q, shown: shuffle(q.options) }));
     let i = 0;
     const picks = [];
     const start = () => {
-      const best = P().bestPercent(S.state.quiz.filter((a) => a.scope === scope));
-      el.innerHTML = `<div class="card"><h2 class="row">${icon('circle-help')} ${esc(title)}</h2>
+      const best = grammar ? gBest() : P().bestPercent(S.state.quiz.filter((a) => a.scope === scope));
+      el.innerHTML = `${intro || ''}<div class="card"><h2 class="row">${icon(grammar ? 'spell-check' : 'circle-help')} ${esc(title)}</h2>
         <p>${qs.length} questions. Choose an answer to see straight away whether you are right, with a short explanation.</p>
         ${best != null ? `<p class="small muted">Your best score so far: <b>${best}%</b></p>` : ''}
-        <button class="btn" id="qStart">${icon('play')}Start the quiz</button></div>
-        <div class="card"><h3>Your recent scores</h3>${quizHistory(scope)}</div>`;
+        <button class="btn" id="qStart">${icon('play')}${grammar ? 'Start the practice' : 'Start the quiz'}</button></div>
+        <div class="card"><h3>${grammar ? 'Your results' : 'Your recent scores'}</h3>${history()}</div>`;
       $('#qStart', el).addEventListener('click', () => show());
     };
     const show = () => {
@@ -392,19 +412,23 @@
     const finish = async () => {
       el.innerHTML = '<div class="card empty"><div class="spinner" style="margin:0 auto"></div></div>';
       try {
-        const r = await api('/api/quiz', { method: 'POST', body: { scope, answers: picks } });
+        const r = grammar
+          ? await api('/api/grammar', { method: 'POST', body: { topic: grammar.topic, answers: picks } })
+          : await api('/api/quiz', { method: 'POST', body: { scope, answers: picks } });
         await refreshState();
         const pct = Math.round((100 * r.score) / r.total);
         const msg = pct === 100 ? 'Perfect score – brilliant!' : pct >= 80 ? 'Excellent work!' : pct >= 60 ? 'Good effort! Check the ones you missed.' : 'Keep practising – look back at the guide and try again.';
         el.innerHTML = `<div class="card result">${icon('trophy')}<div class="big">${r.score}/${r.total}</div><p><b>${pct}%</b> · ${msg}</p>
-          <div class="row wrap" style="justify-content:center"><button class="btn" id="qAgain">${icon('rotate-ccw')}Try again</button></div></div>
+          <div class="row wrap" style="justify-content:center"><button class="btn" id="qAgain">${icon('rotate-ccw')}Try again</button>${grammar && grammar.back ? `<button class="btn secondary" id="qBack">${icon('arrow-left')}${esc(grammar.backLabel)}</button>` : ''}</div></div>
           <div class="card"><h3>Check your answers</h3>${qs.map((q, n) => {
             const d = r.details[n];
             return `<div class="review-item"><div class="row" style="align-items:flex-start">${icon(d.correct ? 'circle-check' : 'circle-x', d.correct ? 'ok' : 'bad')}<div><b>${esc(q.q)}</b><br>
               ${d.correct ? '' : `<span class="muted">You chose: ${esc(picks[n].choice)}</span><br>`}<span>Answer: <b>${esc(q.options[q.answer])}</b></span></div></div></div>`;
           }).join('')}</div>
-          <div class="card"><h3>Your recent scores</h3>${quizHistory(scope)}</div>`;
+          <div class="card"><h3>${grammar ? 'Your results' : 'Your recent scores'}</h3>${history()}</div>`;
         $('#qAgain', el).addEventListener('click', () => onDone && onDone());
+        if (grammar && grammar.back) $('#qBack', el).addEventListener('click', grammar.back);
+        el.scrollIntoView({ block: 'start', behavior: 'smooth' });
       } catch (e) {
         el.innerHTML = `<div class="notice bad">${icon('circle-x')}<span>${esc(e.message)}</span></div>`;
       }
@@ -414,6 +438,52 @@
 
   function tabPractice(u, el) {
     runQuiz(el, { scope: `u${u.id}`, title: `Unit ${u.id} practice quiz`, questions: shuffle(u.practice), onDone: () => { tabPractice(u, el); updateUnitPct(u); } });
+  }
+
+  // ---------- grammar (inside every unit) ----------
+  function tabGrammar(u, el) {
+    const topics = u.grammar || [];
+    const gs = S.state.grammar || {};
+    const p = P().unitProgress(u, S.state);
+    el.innerHTML = `
+      <div class="card"><h2 class="row">${icon('spell-check')} Grammar in Unit ${u.id}</h2>
+        <p>These are the main grammar points in this unit. Read each explanation, look at the examples, then try the short practice. Your best score on each topic counts towards your progress.</p>
+        <div class="row wrap small muted"><span class="pill">${topics.length} topics</span><span class="pill ok">${p.grammarTried} tried</span><span class="pill gold">${p.grammarMastered} with 75% or more</span></div>
+        <nav class="grammar-index" aria-label="Grammar topics">${topics.map((t, i) => `<a href="#g-${t.id}" data-jump="g-${t.id}">${i + 1}. ${esc(t.title)}</a>`).join('')}</nav></div>
+      ${topics.map((t, i) => {
+        const g = gs[t.id];
+        const pct = g ? Math.round((100 * g.best) / g.total) : null;
+        return `<article class="card grammar-topic" id="g-${t.id}">
+          <div class="grammar-head"><h2>${i + 1}. ${esc(t.title)}</h2>${pct != null ? `<span class="pill ${pct >= 75 ? 'ok' : ''}">${icon(pct >= 75 ? 'circle-check' : 'target')} Best ${g.best}/${g.total}</span>` : '<span class="pill">Not tried yet</span>'}</div>
+          <p class="small muted">${esc(t.lesson)} · ${bookLink('sb', t.pages)}${t.wb ? ` · ${bookLink('wb', t.wb)}` : ''}</p>
+          <p>${inline(t.intro)}</p>
+          <h3 class="row">${icon('list-checks')} Remember</h3>
+          <ul class="clean ticks">${t.points.map((x) => `<li>${inline(x)}</li>`).join('')}</ul>
+          <h3 class="row">${icon('sparkles')} Examples</h3>
+          <div class="grammar-examples">${t.examples.map((x) => `<div class="example"><p>${inline(x.text)}</p>${x.note ? `<span class="small muted">${inline(x.note)}</span>` : ''}</div>`).join('')}</div>
+          ${t.tip ? `<div class="notice" style="margin-top:.8rem">${icon('info')}<span>${inline(t.tip)}</span></div>` : ''}
+          <button class="btn" type="button" data-practise="${t.id}" style="margin-top:.9rem">${icon('play')}Practise: ${t.practice.length} questions</button>
+        </article>`;
+      }).join('')}`;
+    $$('[data-jump]', el).forEach((a) => a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const t = document.getElementById(a.dataset.jump);
+      if (t) t.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }));
+    $$('[data-practise]', el).forEach((b) => b.addEventListener('click', () => grammarPractice(u, el, topics.find((t) => t.id === b.dataset.practise))));
+  }
+  function grammarPractice(u, el, t) {
+    const back = () => { tabGrammar(u, el); updateUnitPct(u); const a = document.getElementById(`g-${t.id}`); if (a) a.scrollIntoView({ block: 'start' }); };
+    runQuiz(el, {
+      title: `Grammar practice: ${t.title}`,
+      questions: shuffle(t.practice),
+      grammar: { topic: t.id, back, backLabel: 'Back to the grammar topics' },
+      intro: `<button class="btn secondary" type="button" id="gBack" style="margin-bottom:.8rem">${icon('arrow-left')}All grammar topics</button>`,
+      onDone: () => { updateUnitPct(u); grammarPractice(u, el, t); },
+    });
+    const gb = $('#gBack', el);
+    if (gb) gb.addEventListener('click', back);
+    el.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }
 
   function bigQuizView() {
@@ -632,6 +702,7 @@
         <button class="btn secondary" type="submit">${icon('x')}Delete my account</button></form>` : ''}
       <div class="card"><h2>Install the app</h2><p class="small">On a phone or tablet, open your browser menu and choose <b>Add to Home Screen</b> (Safari: the Share button, then <b>Add to Home Screen</b>). The guide will open like an app.</p>
         <button class="btn secondary" id="installBtn" hidden>${icon('download')}Install now</button></div>
+      ${otherGuidesCard()}
       <p class="small muted">${esc(S.config.appName)} · ${esc(S.config.course)} ${esc(S.config.stage)} · ${esc(S.config.school)}. Book content © ${esc(S.config.publisher)}; this guide contains original study notes only. Icons by Lucide (ISC licence).</p>` });
     $('#signOut').addEventListener('click', async () => { await api('/api/auth/signout', { method: 'POST' }); S.user = null; S.content = null; S.state = null; location.hash = '#/signin'; route(); });
     const form = $('#pwForm');
@@ -716,8 +787,8 @@
     $('main').innerHTML = `
       <div class="card"><h1 style="margin-bottom:.2rem">${esc(s.name)}</h1><p class="muted small">${esc(s.email)} · joined ${fmtDay(s.createdAt)} · last active ${fmtDate(s.lastActive)}</p>
         <div class="row wrap"><span class="pill">${icon('target')} ${s.overallPct}% overall</span><span class="pill gold">${icon('flame')} ${s.streak.current}-day streak (best ${s.streak.best})</span><span class="pill">${icon('notebook-pen')} ${s.streak.totalDays} ${s.streak.totalDays === 1 ? 'day' : 'days'} studied</span></div></div>
-      <div class="card"><h2>Units</h2><div class="table-scroll"><table class="students stackable"><thead><tr><th>Unit</th><th>Progress</th><th>Activities</th><th>Best quiz</th><th>Cards known</th><th>Basket best</th></tr></thead><tbody>
-        ${s.units.map((x) => { const u = units.find((y) => y.id === x.id); return `<tr><td><b>${u.id}.</b> ${esc(u.title)}</td><td class="wide" data-label="Progress" style="min-width:110px"><div class="bar"><span style="width:${x.pct}%;background:${u.colour}"></span></div><span class="small">${x.pct}%</span></td><td data-label="Activities">${x.ticked}/${x.totalItems}</td><td data-label="Best quiz">${x.bestQuiz != null ? x.bestQuiz + '%' : '–'}</td><td data-label="Cards known">${x.cardsKnown}/${x.cardsTotal}</td><td data-label="Basket best">${x.gameBest != null ? `${x.gameBest} (${x.gamePlays} ${x.gamePlays === 1 ? 'play' : 'plays'})` : '–'}</td></tr>`; }).join('')}
+      <div class="card"><h2>Units</h2><div class="table-scroll"><table class="students stackable"><thead><tr><th>Unit</th><th>Progress</th><th>Activities</th><th>Grammar</th><th>Best quiz</th><th>Cards known</th><th>Basket best</th></tr></thead><tbody>
+        ${s.units.map((x) => { const u = units.find((y) => y.id === x.id); return `<tr><td><b>${u.id}.</b> ${esc(u.title)}</td><td class="wide" data-label="Progress" style="min-width:110px"><div class="bar"><span style="width:${x.pct}%;background:${u.colour}"></span></div><span class="small">${x.pct}%</span></td><td data-label="Activities">${x.ticked}/${x.totalItems}</td><td data-label="Grammar">${x.grammarTried ? `${x.grammarPct}% (${x.grammarTried}/${x.grammarTotal} topics)` : '–'}</td><td data-label="Best quiz">${x.bestQuiz != null ? x.bestQuiz + '%' : '–'}</td><td data-label="Cards known">${x.cardsKnown}/${x.cardsTotal}</td><td data-label="Basket best">${x.gameBest != null ? `${x.gameBest} (${x.gamePlays} ${x.gamePlays === 1 ? 'play' : 'plays'})` : '–'}</td></tr>`; }).join('')}
       </tbody></table></div></div>
       <div class="card"><h2 class="row">${icon('pen-line')} My Summary entries</h2>
         ${st.summaries.filter((x) => Object.values({ a: x.main_idea, b: x.learnt, c: x.favourite, d: x.wonder }).some((v) => v && v.trim())).sort((a, b) => a.unit_id - b.unit_id).map((x) => `<div class="summary-box" style="margin-bottom:.7rem"><b>Unit ${x.unit_id}: ${esc(units.find((u) => u.id === x.unit_id).title)}</b> <span class="small muted">· ${fmtDate(x.updated_at)}</span>

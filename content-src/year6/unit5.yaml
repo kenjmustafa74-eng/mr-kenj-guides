@@ -1,0 +1,450 @@
+id: 5
+title: Nature
+colour: "#3f7a3a"
+sbStart: 102
+wbStart: 69
+sbPages: "102–126"
+wbPages: "69–85"
+parts:
+  - code: 5A
+    title: Inspired by Nature
+  - code: 5B
+    title: Out and About in Nature
+overview: >-
+  Step outside and listen! In this unit you will read poems inspired by the natural world: an eagle on a cliff, a spider
+  spinning its web, a field of golden daffodils, a stormy night and a quiet snowy wood. You will explore the themes and
+  images in poems, choose words with exactly the right shade of meaning, and learn how rhyme schemes work. Then you
+  will write an acrostic poem and a poem with rhyming couplets.
+objectives:
+  - Identify the themes of poems and explain how poets show them.
+  - Choose words with the right shade of meaning to create atmosphere.
+  - Explain how imagery, such as similes, metaphors and personification, creates pictures in the reader's mind.
+  - Spell words with the consonant blends ch and tch.
+  - Identify rhyme schemes and rhyming couplets.
+  - Use synonyms and antonyms to make writing precise and interesting.
+  - Perform a poem aloud, and write an acrostic poem and a poem with rhyming couplets.
+texts:
+  - title: "Poetry Part 1: Nature, Hurt No Living Thing, The Rain and Windy Nights"
+    kind: Poems
+    pages: "105–106"
+    summary: >-
+      An acrostic poem whose first letters spell NATURE celebrates the sights and sounds of the natural world. Christina
+      Rossetti's 'Hurt No Living Thing' asks us to be kind to every creature, however small. 'The Rain' shows nature
+      helping nature, and Robert Louis Stevenson's 'Windy Nights' brings a loud, stormy night to life.
+  - title: "Poetry Part 2: The Eagle, A Noiseless Patient Spider and I Wandered Lonely as a Cloud"
+    kind: Poems
+    pages: "109–111"
+    summary: >-
+      Alfred Tennyson's eagle grips a rocky cliff and then swoops down to hunt. Walt Whitman watches a patient spider
+      spinning thread after thread. William Wordsworth remembers a field of daffodils by a lake that turned his lonely mood
+      into joy.
+  - title: Deep-Sea Diving and If
+    kind: Rhyming poems
+    pages: "117–118"
+    summary: >-
+      In 'Deep-Sea Diving', a girl in a busy school swimming pool imagines that she is diving in the deep, quiet sea,
+      far away from the noise above. An extract from Rudyard Kipling's 'If' gives advice about staying calm and doing what
+      is right.
+  - title: My Shadow, Stopping by Woods on a Snowy Evening and October Storm
+    kind: Rhyming poems
+    pages: "120–122"
+    summary: >-
+      Robert Louis Stevenson describes a child's playful shadow that grows and shrinks. Robert Frost's traveller pauses
+      to watch snow falling in a quiet wood but must travel on. 'October Storm' fills the air with wind, rain and
+      tumbling leaves.
+vocab:
+  - word: theme
+    meaning: The main idea or message of a poem or story.
+    example: The theme of the poem is kindness to all creatures.
+  - word: acrostic poem
+    meaning: A poem in which the first letters of the lines spell a word when read downwards.
+    example: The first letters of my acrostic poem spell FOREST.
+  - word: imagery
+    meaning: Language that creates pictures in the reader's mind.
+    example: The imagery helped me to see the stormy night.
+  - word: shades of meaning
+    meaning: Small differences in meaning between words that are similar.
+    example: "'Glowing' and 'blazing' have different shades of meaning."
+  - word: tranquil
+    meaning: Calm, quiet and peaceful.
+    example: The lake was tranquil in the early morning.
+  - word: rhyme scheme
+    meaning: The pattern of rhymes at the ends of the lines in a poem, shown with letters such as AABB.
+    example: This poem has the rhyme scheme ABAB.
+  - word: rhyming couplet
+    meaning: Two lines next to each other that rhyme.
+    example: The poem is written in rhyming couplets, so its rhyme scheme is AABB.
+  - word: synonym
+    meaning: A word that means the same or nearly the same as another word.
+    example: "'Huge' is a synonym of 'enormous'."
+  - word: antonym
+    meaning: A word that means the opposite of another word.
+    example: "'Calm' is an antonym of 'stormy'."
+  - word: stanza
+    meaning: A group of lines in a poem, like a paragraph in a story.
+    example: The Eagle has two stanzas.
+sb:
+  - part: 5A
+    lesson: Lesson 1
+    title: Be Curious
+    pages: "102"
+    tip: Look at the photograph. Which season is it, and how do the children feel?
+  - part: 5A
+    lesson: Lesson 1
+    title: Getting Started
+    pages: "103"
+    tip: Share any poems you know about nature. What kinds of poems are there?
+  - part: 5A
+    lesson: Lesson 2
+    title: "Let's Learn: Themes in poetry"
+    pages: "103–104"
+    tip: Ask what message the poet wants to share. That message is the theme.
+  - part: 5A
+    lesson: Lesson 3
+    title: "Reading Part 1: Poetry"
+    pages: "105–106"
+    tip: Read each poem aloud. Listen to the rhythm and notice how the words make you feel.
+  - part: 5A
+    lesson: Lesson 4
+    title: "Language Focus – Vocabulary: Shades of meaning"
+    pages: "107–108"
+    tip: Put similar words on a scale, from weakest to strongest.
+  - part: 5A
+    lesson: Lessons 5–6
+    title: "Reading Part 2: Poetry and Reading Comprehension"
+    pages: "109–111"
+    tip: For each poem, note the theme, the imagery and whether it rhymes.
+  - part: 5A
+    lesson: Lesson 7
+    title: "Language Focus – Vocabulary: Imagery in poetry"
+    pages: "112"
+    tip: Explain what you picture when you read each image, and how it makes you feel.
+  - part: 5A
+    lesson: Lesson 8
+    title: "Word Structure – Spelling patterns: Consonant blends ch and tch"
+    pages: "113"
+    tip: After a short vowel sound, we often use tch (match, fetch). After a long vowel sound or a consonant, we often use ch (reach, lunch).
+  - part: 5A
+    lesson: Lesson 9
+    title: "Writing: An acrostic poem about nature"
+    pages: "114"
+    tip: Choose a nature word, write it downwards, and use powerful words for each line.
+  - part: 5B
+    lesson: Lesson 10
+    title: "Getting Started and Let's Learn: The structure of rhyme schemes"
+    pages: "115–116"
+    tip: Give the first rhyme sound the letter A, the next new sound B, and so on.
+  - part: 5B
+    lesson: Lesson 11
+    title: "Reading Part 1: Deep-Sea Diving and If"
+    pages: "117–118"
+    tip: "Compare the two worlds in 'Deep-Sea Diving': above the water and below it."
+  - part: 5B
+    lesson: Lesson 12
+    title: "Language Focus – Vocabulary: Synonyms and antonyms"
+    pages: "119"
+    tip: Use a thesaurus to find synonyms and antonyms, then choose the one that fits best.
+  - part: 5B
+    lesson: Lesson 13
+    title: "Reading Part 2: Poetry and Reading Comprehension"
+    pages: "120–122"
+    tip: Work out the rhyme scheme of each poem and talk about how it affects the rhythm.
+  - part: 5B
+    lesson: Lesson 14
+    title: "Language Focus – Vocabulary: Rhyming couplets"
+    pages: "122"
+    tip: Words rhyme when their final sounds match, even if they are spelt differently, like 'wise' and 'lies'.
+  - part: 5B
+    lesson: Lesson 15
+    title: Speaking
+    pages: "124"
+    tip: Practise performing a poem. Use your voice to show the rhythm and the mood.
+  - part: 5B
+    lesson: Lessons 16–17
+    title: "Writing: A poem with rhyming couplets"
+    pages: "125"
+    tip: Plan your theme and your rhyming words first, then draft, revise and edit.
+  - part: 5B
+    lesson: Lesson 18
+    title: Unit Self-reflection
+    pages: "126"
+    tip: Which poem in this unit will you remember, and why?
+wb:
+  - code: 5A
+    title: "Let's Learn: Themes in poetry"
+    pages: "69"
+    steps:
+      - "Question 1: read the acrostic poem and answer the questions about its form and theme."
+      - "Question 2: find words in a poem that create its mood."
+    tip: Look at the first letters of each line in an acrostic poem.
+  - code: 5B
+    title: "Language Focus: Shades of meaning"
+    pages: "70"
+    steps:
+      - "Question 1: choose words with the best shade of meaning."
+      - "Question 2: write an acrostic poem using carefully chosen words."
+    tip: Be ready to explain why you chose each word.
+  - code: 5C
+    title: "Reading Comprehension: Poems"
+    pages: "71–73"
+    steps:
+      - Reread the poems from Reading Parts 1 and 2 in your Student's Book.
+      - "Questions 1–7: answer the questions about mood, theme and imagery."
+      - "Questions 8–14: answer the questions about sound, meaning and figurative language."
+    tip: Quote the words from the poem that support your answer.
+  - code: 5D
+    title: "Language Focus: Imagery in poetry"
+    pages: "74"
+    steps:
+      - "Question 1: name the poetic device in each line."
+      - "Question 2: write your own examples of each device."
+      - "Questions 3–4: find descriptive words and write sentences with alliteration."
+    tip: Similes use 'like' or 'as'. Metaphors say something IS something else.
+  - code: 5E
+    title: "Word Structure – Spelling patterns: Consonant blends ch and tch"
+    pages: "75"
+    steps:
+      - "Question 1: complete the words with ch or tch."
+      - "Questions 2–4: use ch and tch words in sentences."
+    tip: Say the word aloud and listen to the vowel sound before the ch sound.
+  - code: 5F
+    title: "Writing: An acrostic poem about nature"
+    pages: "76"
+    steps:
+      - Choose a word about nature and brainstorm ideas for each letter.
+      - Write your acrostic poem.
+      - Revise and edit, then write your final version.
+    tip: Each line should help to show your theme.
+  - code: 5G
+    title: "Let's Learn: The structure of rhyme schemes"
+    pages: "77"
+    steps:
+      - "Question 1: decide which poem has a rhyme scheme."
+      - "Questions 2–3: find the rhyming words and write the rhyme scheme."
+    tip: Use a new letter for every new rhyme sound.
+  - code: 5H
+    title: "Language Focus: Synonyms and antonyms"
+    pages: "78"
+    steps:
+      - "Question 1: find synonyms for each word."
+      - "Question 2: replace words with stronger synonyms."
+      - "Question 3: write the antonyms."
+    tip: Check that your new word still makes sense in the sentence.
+  - code: 5I
+    title: "Reading Comprehension: Poems"
+    pages: "79–80"
+    steps:
+      - Reread the poems from Part 5B in your Student's Book.
+      - "Questions 1–9: answer the questions about 'Deep-Sea Diving', 'If' and 'My Shadow'."
+      - "Questions 10–14: answer the questions about 'Stopping by Woods on a Snowy Evening' and its rhymes."
+    tip: Some questions have more than one possible answer. Give reasons for yours.
+  - code: 5J
+    title: "Language Focus: Rhyming couplets"
+    pages: "81"
+    steps:
+      - "Question 1: decide which lines are rhyming couplets."
+      - "Questions 2–3: find rhyming words and complete couplets."
+    tip: Try words with more than one syllable for interesting rhymes.
+  - code: 5K
+    title: "Writing: A poem with rhyming couplets"
+    pages: "82"
+    steps:
+      - "Prewrite: choose your topic and list rhyming words."
+      - Write your first draft in rhyming couplets.
+      - Revise, edit and publish your poem.
+    tip: Read your poem aloud to check the rhythm.
+  - code: 5L
+    title: What Have I Learnt?
+    pages: "83–84"
+    steps:
+      - Read the poem carefully.
+      - "Questions 2–11: answer the questions about rhyme, imagery, meaning and word choice."
+    tip: This shows you what to revise. Make a note of anything you found tricky.
+  - code: J
+    title: My Journal
+    pages: "85"
+    steps:
+      - Write about what you enjoyed in this unit and what you would like to get better at.
+    tip: There are no wrong answers in your journal.
+cards:
+  - front: What is the theme of a poem?
+    back: The main idea or message that the poet wants to share.
+  - front: What is an acrostic poem?
+    back: A poem in which the first letters of the lines spell a word when you read them downwards.
+  - front: What is the rhyme scheme of a poem written in rhyming couplets?
+    back: AABBCC and so on, because each pair of lines rhymes.
+  - front: What does the eagle do at the end of Tennyson's poem?
+    back: It swoops down, like a thunderbolt, to hunt.
+  - front: What does the girl in 'Deep-Sea Diving' imagine?
+    back: That the busy school pool is the deep, quiet sea.
+  - front: When do we usually spell the sound with tch?
+    back: After a short vowel sound, as in match, fetch and stretch.
+  - front: What is the difference between a synonym and an antonym?
+    back: A synonym means the same. An antonym means the opposite.
+practice:
+  - q: What is the theme of a poem?
+    options: ["Its title", "Its main message", "Its last line", "Its number of lines"]
+    answer: 1
+    explain: The theme is the main idea or message.
+  - q: Which word is the strongest? (glowing, flickering, blazing)
+    options: ["flickering", "glowing", "blazing", "They are all the same"]
+    answer: 2
+    explain: "'Blazing' describes the brightest, fiercest light."
+  - q: "What is the rhyme scheme? Line endings: cat, hat, sun, fun"
+    options: ["ABAB", "AABB", "ABCB", "ABBA"]
+    answer: 1
+    explain: The first two lines rhyme and the next two rhyme, so it is AABB.
+  - q: "Which is personification?"
+    options: ["The trees cried in the wind.", "The sky was as blue as the sea.", "Crash! went the thunder.", "Silver snakes slid silently."]
+    answer: 0
+    explain: Trees cannot really cry, so they are given a human action.
+  - q: Which word is spelt correctly?
+    options: ["strech", "stretch", "streatch", "stretsh"]
+    answer: 1
+    explain: After the short vowel sound, we use tch.
+  - q: Which is an antonym of 'calm'?
+    options: ["peaceful", "still", "stormy", "tranquil"]
+    answer: 2
+    explain: "'Stormy' means the opposite of 'calm'."
+  - q: What does the girl in 'Deep-Sea Diving' like about being underwater?
+    options: ["It is noisy", "It is calm and quiet", "It is crowded", "It is cold"]
+    answer: 1
+    explain: She enjoys the calm, quiet world away from the noise above.
+  - q: What is a rhyming couplet?
+    options: ["Two lines next to each other that rhyme", "A poem with no rhymes", "A list of synonyms", "A poem about two people"]
+    answer: 0
+    explain: A couplet is a pair of lines that rhyme.
+basket:
+  - prompt: Catch the words with the tch spelling
+    correct: [match, fetch, stretch, watch, itchy, kitchen, catch, ditch]
+    wrong: [lunch, beach, reach, bunch, pinch, much, rich, approach]
+  - prompt: Catch the words that describe a calm scene
+    correct: [still, hushed, tranquil, peaceful, gentle, quiet, serene, soothing]
+    wrong: [howling, crashing, roaring, blazing, thunderous, shrieking, wild, stormy]
+  - prompt: Catch the kinds of imagery and poetic devices
+    correct: [simile, metaphor, personification, alliteration, onomatopoeia, repetition]
+    wrong: [paragraph, headline, caption, index, glossary, footnote, bibliography, chapter]
+grammar:
+  - title: Shades of meaning
+    lesson: "Lesson 4 · Language Focus – Vocabulary"
+    pages: "107–108"
+    wb: "70"
+    intro: >-
+      Poets are word detectives. They hunt for the one word that fits exactly. Is a light flickering, glowing or blazing?
+      Each choice paints a different picture, and now you can choose like a poet too.
+    points:
+      - "Words with **similar meanings** can still have **different strengths** or feelings."
+      - "Put similar words on a **scale**: flickering → glowing → blazing; still → hushed → tranquil."
+      - "This works for **adjectives**, **verbs** and **adverbs**: walk → stride → march; quietly → silently."
+      - "Choose the shade that fits your **mood** and **theme**."
+    examples:
+      - text: "The candle **flickered** in the draught."
+        note: "A weak, unsteady light."
+      - text: "The fire **blazed** across the hillside."
+        note: "A strong, fierce light."
+      - text: "The wind **whispered** … the wind **howled**."
+        note: "The verbs create two very different moods."
+    tip: "Ask: is this word too strong, too weak or just right for the mood?"
+    practice:
+      - q: "Which verb shows the fastest movement?"
+        options: ["walked", "strolled", "dashed", "wandered"]
+        answer: 2
+        explain: "'Dashed' means moved very quickly."
+      - q: "Which word suits a peaceful poem best?"
+        options: ["roaring", "tranquil", "furious", "screeching"]
+        answer: 1
+        explain: "'Tranquil' means calm and peaceful."
+      - q: "Put these in order from weakest to strongest: hot, warm, scorching."
+        options: ["hot, warm, scorching", "warm, hot, scorching", "scorching, hot, warm", "warm, scorching, hot"]
+        answer: 1
+        explain: "Warm is weakest and scorching is strongest."
+      - q: "Which word is the most powerful way to say 'big'?"
+        options: ["large", "gigantic", "fairly big", "sizeable"]
+        answer: 1
+        explain: "'Gigantic' is the strongest choice."
+      - q: "Why do poets think about shades of meaning?"
+        options: ["To make poems longer", "To say exactly what they mean and create a mood", "To make spelling easier", "To avoid rhymes"]
+        answer: 1
+        explain: "The precise word creates the right picture and feeling."
+  - title: Imagery in poetry
+    lesson: "Lesson 7 · Language Focus – Vocabulary"
+    pages: "112"
+    wb: "74"
+    intro: >-
+      Close your eyes and listen to a good poem. Can you see it? That is imagery at work. These tools help your reader
+      see, hear and feel your words.
+    points:
+      - "A **simile** compares two things using **like** or **as**: 'as quick as a lightning bolt'."
+      - "A **metaphor** says one thing **is** another: 'The clouds were cotton balls.'"
+      - "**Personification** gives human qualities to things that are not human: 'The wind ran away with the papers.'"
+      - "**Alliteration** repeats the first sound of nearby words; **onomatopoeia** uses words that sound like their meaning."
+    examples:
+      - text: "The eagle fell **like a thunderbolt**."
+        note: "A simile."
+      - text: "The leaves **drank** the rain."
+        note: "Personification: leaves cannot really drink."
+      - text: "**S**ilver **s**treams **s**parkled."
+        note: "Alliteration with the /s/ sound."
+    tip: "When you spot an image, explain what it makes you picture AND how it makes you feel."
+    practice:
+      - q: "Which is a simile?"
+        options: ["The moon was a lantern.", "The moon smiled.", "The moon shone like a lantern.", "Moonlight melted."]
+        answer: 2
+        explain: "It compares using 'like'."
+      - q: "Which is a metaphor?"
+        options: ["The snow was a white blanket.", "The snow was as white as milk.", "The snow whispered.", "Crunch went the snow."]
+        answer: 0
+        explain: "It says the snow IS a blanket."
+      - q: "Which is onomatopoeia?"
+        options: ["gentle", "splash", "river", "quiet"]
+        answer: 1
+        explain: "'Splash' sounds like the noise it describes."
+      - q: "Which device is used? 'The thunder grumbled angrily.'"
+        options: ["simile", "personification", "alliteration", "rhyme"]
+        answer: 1
+        explain: "Thunder cannot really grumble angrily, so it is given human qualities."
+      - q: "Which sentence uses alliteration?"
+        options: ["Big brown bears bounced.", "The bear was big.", "The bear roared.", "The bear was like a mountain."]
+        answer: 0
+        explain: "The /b/ sound is repeated."
+  - title: Synonyms and antonyms
+    lesson: "Lesson 12 · Language Focus – Vocabulary"
+    pages: "119"
+    wb: "78"
+    intro: >-
+      Using the same word again and again is like eating the same lunch every day. Synonyms give your writing variety,
+      and antonyms help you to show contrast.
+    points:
+      - "A **synonym** has the same or nearly the same meaning: huge, enormous, gigantic."
+      - "An **antonym** has the opposite meaning: calm and stormy; trust and doubt."
+      - "Some antonyms are made with **prefixes**: happy and unhappy; possible and impossible."
+      - "A **thesaurus** helps you to find synonyms and antonyms."
+    examples:
+      - text: "The pool was noisy, but under the water it was **silent**."
+        note: "'Noisy' and 'silent' are antonyms that show contrast."
+      - text: "She was **exhausted** after the swim."
+        note: "A stronger synonym for 'tired'."
+      - text: "The leaves **tumbled** and **toppled** from the trees."
+        note: "Two synonyms that also create alliteration."
+    tip: "After using a thesaurus, always check that the new word fits the sentence."
+    practice:
+      - q: "Which is a synonym of 'angry'?"
+        options: ["furious", "calm", "joyful", "sleepy"]
+        answer: 0
+        explain: "'Furious' means very angry."
+      - q: "Which is an antonym of 'win'?"
+        options: ["gain", "lose", "succeed", "earn"]
+        answer: 1
+        explain: "'Lose' is the opposite of 'win'."
+      - q: "Which is a synonym of 'soaked'?"
+        options: ["dry", "drenched", "warm", "dusty"]
+        answer: 1
+        explain: "'Drenched' means soaked."
+      - q: "Which is an antonym of 'trust'?"
+        options: ["believe", "doubt", "rely", "hope"]
+        answer: 1
+        explain: "'Doubt' is the opposite of 'trust'."
+      - q: "Which is an antonym of 'open'?"
+        options: ["shut", "wide", "unlocked", "clear"]
+        answer: 0
+        explain: "'Shut' means the opposite of 'open'."

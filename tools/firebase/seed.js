@@ -12,6 +12,7 @@
  * Usage (real project – needs a service-account key from Firebase console > Project settings > Service accounts):
  *   node tools/firebase/seed.js --app year5 --service-account private/service-accounts/kenj-guides.json \
  *        --teacher-email mr.kenj@example.com [--class-code KENJ5] [--no-class-code] [--reset-teacher-password]
+ *        [--password-from private/credentials/<other year>.txt]  (same teacher login: copy its known password)
  * Usage (local emulators): FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099 \
  *   node tools/firebase/seed.js --app year5 --project demo-kenj-guides --teacher-email teacher@example.com
  */
@@ -124,10 +125,13 @@ const classCodeGen = () => `${words[crypto.randomInt(words.length)].toUpperCase(
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   const old = fs.existsSync(outFile) ? fs.readFileSync(outFile, 'utf8') : '';
   const keep = (label) => { const m = old.match(new RegExp(`^${label}: (.*)$`, 'm')); return m ? m[1] : ''; };
+  // The same teacher login serves every year: --password-from <other year's private file> copies the known password.
+  const fromFile = opt('password-from');
+  const fromOther = () => { if (!fromFile || !fs.existsSync(fromFile)) return ''; const m = fs.readFileSync(fromFile, 'utf8').match(/^Teacher password: (Kenj-\S+)$/m); return m ? m[1] : ''; };
   const lines = [
     `${appCfg.appName} – Firebase project ${projectId}${emulated ? ' (LOCAL EMULATOR)' : ''}`,
     `Teacher email: ${email}`,
-    `Teacher password: ${password || keep('Teacher password') || '(unchanged – not known to this script)'}`,
+    `Teacher password: ${password || (/^Kenj-/.test(keep('Teacher password')) ? keep('Teacher password') : '') || fromOther() || '(unchanged – not known to this script)'}`,
     `Class code: ${code || '(none)'}`,
     'Keep this file private. The teacher can change the password in the app (Account > Change password).',
     '',
